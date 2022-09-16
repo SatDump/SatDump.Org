@@ -2,7 +2,7 @@
 layout: post
 title:  "SatDump ReWork Release"
 date:   2022-09-14 20:28:21 +0200
-categories: release
+tags: release
 ---
 
 *First of all, why?*  
