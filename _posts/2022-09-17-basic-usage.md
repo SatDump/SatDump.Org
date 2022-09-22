@@ -59,7 +59,7 @@ Here you can control the FFT and waterfall displays. Using the sliders you can c
   ![](/assets/basic_usage/processing.png)
 
 ### Recording
-This is a menu where you can Record a baseband file. You have to select a baseband format. available formats are s8 (8 bit), s16 (16 bit), f32 (32bit float) and wav16 (wav compatible with other software like SDR++). Status of the recording is indicated by the colored text.
+This is a menu where you can Record a baseband file. You have to select a baseband format. available formats are s8 (8 bit), s16 (16 bit), f32 (32bit float), wav16 (wav compatible with other software like SDR++) and ZIQ (custom format using ZSTD compression. Can be added with a CMAKE flag on compilation). Status of the recording is indicated by the colored text.
 
 ### FFT and Waterfall
 This is self explanatory, it's the FFT and waterfall of the current signal. However it is worth nothing that the waterfall can be disabled to improve performance.
@@ -98,8 +98,20 @@ This section gives you controll over the RGB composites. You can select from ava
 ### Products
 This Tab will contain information about calibration and other higher level products we introduce. So far very few instruments are calibrated.
 
+### Map Overlay
+![](/assets/basic_usage/viewer/products/overlay.png)
 
-# CLI (Aang23)
+This is where you can choose to overlay your image with a map and/or add city labels. You can change the colors as well as the size of the labels.
+
+### Projection
+This menu lets you add the data to a projection list. If the data is added it will be indicated with a yellow highlight in the tree view. The 'Old Algorithm" checkbox lets you select a second projection algirithm for this data. It can be better for projecting bad quality data. It is selected by default on systems that do not support OpenCL.
+
+## Projections (Viewer)
+
+Here you will find yet another new menu. It controls the projection tool, which lets you apply projections to your data.
+
+
+# CLI (this part was made by the Aang23 gang)
 
 The Command-Line Interface (CLI) was also entirely reworked, and some major new features were added... That also clearly did cause some confusion so I thought it was also better to cover it here!   
 First advice : forget how it *used* to work!
