@@ -54,7 +54,7 @@ This menu lets you select what source to use (SDR or a file) and has all the opt
 Here you can control the FFT and waterfall displays. Using the sliders you can change the displayed range. The sliders change the lower and upper cutoff (so the difference between these is the displayed range). You may also notice the 'Avg Rate' slider. This controls the level of averaging applied to the FFT. Lower values give a smoother FFT.
 
 ### Processing
-**In this menu you can initiate live decoding.** It is simmilar in a way to the Offline Decoding section. You can find a pipeline selector and pipeline options in both of them. You may start the processing with the 'Start' button. Some new widgets will appear. *The output will be saved in a directory specified in the Settings!*
+**In this menu you can initiate live decoding.** It is simillar in a way to the Offline Decoding section. You can find a pipeline selector and pipeline options in both of them. You may start the processing with the 'Start' button. Some new widgets will appear. *The output will be saved in a directory specified in the Settings!*
 
   ![](/assets/basic_usage/processing.png)
 
@@ -62,7 +62,7 @@ Here you can control the FFT and waterfall displays. Using the sliders you can c
 This is a menu where you can Record a baseband file. You have to select a baseband format. available formats are s8 (8 bit), s16 (16 bit), f32 (32bit float), wav16 (wav compatible with other software like SDR++) and ZIQ (custom format using ZSTD compression. Can be added with a CMAKE flag on compilation). Status of the recording is indicated by the colored text.
 
 ### FFT and Waterfall
-This is self explanatory, it's the FFT and waterfall of the current signal. However it is worth nothing that the waterfall can be disabled to improve performance.
+This is self explanatory, it's the FFT and waterfall of the current signal. **However it is worth nothing that the waterfall is somewhat intensive! If your PC/Device appears to be struggling/dropping, this may help quite a bit!**
 
 ## The Viewer
 This is probably the biggest new feature in SatDump after the rewrite. This menu lets you view, tune and project your data. There are two main tools you can change between using the tabs: Products and Projections. There is too many options to fit into one screenshot so I will have to divide them into several.
@@ -104,7 +104,7 @@ This Tab will contain information about calibration and other higher level produ
 This is where you can choose to overlay your image with a map and/or add city labels. You can change the colors as well as the size of the labels.
 
 ### Projection
-This menu lets you add the data to a projection list. If the data is added it will be indicated with a yellow highlight in the tree view. The 'Old Algorithm" checkbox lets you select a second projection algirithm for this data. It can be better for projecting bad quality data. It is selected by default on systems that do not support OpenCL.
+This menu lets you add the data to a projection list. If the data is added it will be indicated with a yellow highlight in the tree view. The 'Old Algorithm" checkbox lets you select a second projection algorithm for this data. It can be better for projecting bad quality data. It is selected by default on systems that do not support OpenCL (for speed reasons. OpenCL = Graphics Card Computing for short).
 
 ## Projections (Viewer)
 
@@ -119,7 +119,7 @@ Here you will find yet another new menu. It controls the projection tool, which 
 ### Projection Menu
 
 This is the heart of this whole tool. It houses all the projection settings. In the first line you can select the output image size. Under that you select the target projection. You can use any of the ones listed! Available projections are **Equirectangular, Stereographic, Mercator and TPERS**. *Note: do not use 90 degree latitude in TPERS, it will break! (use something like 89.999)*
-Every projection has its own settings which are displayed under the selection. On the bottom of the menu are two buttons, which oyu can use to render and save the projected image.
+Every projection has its own settings which are displayed under the selection. On the bottom of the menu are two buttons, which you can use to render and save the projected image.
 
 ### Layers Menu
 
@@ -136,7 +136,7 @@ Lastly, there is a map overlay menu. It is exactly the same as the one found in 
 
 ## Settings
 
-This is where you can edit the msot basic SatDump settings. **This section is worth checking out as it contains all the paths and properties!**
+This is where you can edit the most basic SatDump settings. **This section is worth checking out as it contains all the paths and properties!**
 ![](/assets/basic_usage/settings.png)
 
 # CLI (this part was made by Aang23)
