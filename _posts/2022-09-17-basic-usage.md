@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "SatDump Basic Usage"
-date:   2022-09-17 19:48:00 +0200
+date:   2022-09-22 21:15:00 +0200
 tags: tutorial
 author: zbychu
 ---
@@ -81,7 +81,7 @@ Here you can edit and view your decoded images. There are a few menus that house
 ### General
   ![](/assets/basic_usage/viewer/products/general.png)
 
-In this menu are the most basic functions. There is a tree view of opened datasets and products and options for laoding new datasets and products. (products are automatically loaded after decoding) **When you open the viewer with no products loaded you will be greeted with only this tab and loading options.** Note: the product and dataset names are highlighted yellow when they are added to the projection list, more on that later.
+In this menu are the most basic functions. There is a tree view of opened datasets and products and options for laoding new datasets and products. (products are automatically loaded after decoding) **When you open the viewer with no products loaded you will be greeted with only this tab and loading options.** Note: the product and dataset names are highlighted yellow when they are added to the projection list, more on that later. You can close datasets and products using an `x` buttonon the right of the name (it can be hidden if the panel is small).
 
 ### Image
 ![](/assets/basic_usage/viewer/products/image.png)
@@ -108,10 +108,38 @@ This menu lets you add the data to a projection list. If the data is added it wi
 
 ## Projections (Viewer)
 
-Here you will find yet another new menu. It controls the projection tool, which lets you apply projections to your data.
+Here you will find yet another new menu. It controls the projection tool, which lets you apply projections to your data. You can also load backgrounds such as the tile map or images in equirectangular projection. You may find 4 main parts here:
++ Projection Menu [1]
++ Layers Menu [2]
++ Map Overlay Menu [3]
++ The Image View [4]
 
+![](/assets/basic_usage/viewer/projection.png)
 
-# CLI (this part was made by the Aang23 gang)
+### Projection Menu
+
+This is the heart of this whole tool. It houses all the projection settings. In the first line you can select the output image size. Under that you select the target projection. You can use any of the ones listed! Available projections are **Equirectangular, Stereographic, Mercator and TPERS**. *Note: do not use 90 degree latitude in TPERS, it will break! (use something like 89.999)*
+Every projection has its own settings which are displayed under the selection. On the bottom of the menu are two buttons, which oyu can use to render and save the projected image.
+
+### Layers Menu
+
+This is the part I am (personally) most excited about. We have implemented a layer system for the projections. This means you can combine multiple passes into one image easily! On the very top is a mode selector. You can choose between blend and overlay. I tihnk these are self explanatory!
+
+Under that the layer list is located. There is an `Add Layer` button on the left. This will bring you to a separate window where you can laod custom layers such as Tile Maps, equirectangular images and **[gesotationary satellite images](https://github.com/altillimity/SatDump/issues/129)**. You can load basically any image if you provide it with an appropriate configuration file (more on that in another post, TODO). As proof that you can load *anything* here is an Obama Sphere.
+![](/assets/basic_usage/viewer/obama.png)
+
+Lastly there is the star of the show: the layer list! Each layer has a thumbnail, an enable checkbox, a close button, an opacity slider and a progress bar. You can reorder layers by dragging and dropping them. They will be drawn in a backward order, which means that the layer on top of the selector will be drawn last, on top of the previous ones.
+
+### Map Overlay Menu
+
+Lastly, there is a map overlay menu. It is exactly the same as the one found in the products viewer. You can select the colors, enable/disable and change label size.
+
+## Settings
+
+This is where you can edit the msot basic SatDump settings. **This section is worth checking out as it contains all the paths and properties!**
+![](/assets/basic_usage/settings.png)
+
+# CLI (this part was made by Aang23)
 
 The Command-Line Interface (CLI) was also entirely reworked, and some major new features were added... That also clearly did cause some confusion so I thought it was also better to cover it here!   
 First advice : forget how it *used* to work!
