@@ -24,6 +24,7 @@ This tool (as the name suggests) lets you process data from a file. It can be an
 + Pipeline Options [3]
 
 ![](/assets/basic_usage/offline.png)
+
 ### Pipeline Selection
 This widgets lets you select which pipeline to use. Each pipeline is specific to one downlink, so for NOAA you have several: DSB, HRPT and GAC.
 
@@ -56,7 +57,7 @@ Here you can control the FFT and waterfall displays. Using the sliders you can c
 ### Processing
 **In this menu you can initiate live decoding.** It is simillar in a way to the Offline Decoding section. You can find a pipeline selector and pipeline options in both of them. You may start the processing with the 'Start' button. Some new widgets will appear. *The output will be saved in a directory specified in the Settings!*
 
-  ![](/assets/basic_usage/processing.png)
+![](/assets/basic_usage/processing.png)
 
 ### Recording
 This is a menu where you can Record a baseband file. You have to select a baseband format. available formats are s8 (8 bit), s16 (16 bit), f32 (32bit float), wav16 (wav compatible with other software like SDR++) and ZIQ (custom format using ZSTD compression. Can be added with a CMAKE flag on compilation). Status of the recording is indicated by the colored text.
@@ -79,16 +80,19 @@ Here you can edit and view your decoded images. There are a few menus that house
 + Projection
   
 ### General
-  ![](/assets/basic_usage/viewer/products/general.png)
+
+![](/assets/basic_usage/viewer/products/general.png)
 
 In this menu are the most basic functions. There is a tree view of opened datasets and products and options for laoding new datasets and products. (products are automatically loaded after decoding) **When you open the viewer with no products loaded you will be greeted with only this tab and loading options.** Note: the product and dataset names are highlighted yellow when they are added to the projection list, more on that later. You can close datasets and products using an `x` buttonon the right of the name (it can be hidden if the panel is small).
 
 ### Image
+
 ![](/assets/basic_usage/viewer/products/image.png)
 
 Here you can choose what channel (or composite) to use. You can also apply options such as equalization, white balance, etc. The 'Save' button saves the displayed image.
 
 ### RGB Composites
+
 ![](/assets/basic_usage/viewer/products/rgb.png)
 
 This section gives you controll over the RGB composites. You can select from available presets, but also manually create composites of your liking. To do that, simply enter the formula into the textbox. Satdump will understand basic mathematical and logic (ternary) operators, so you can create more elaborate composites, such as the VIS/IR blend: 
@@ -99,6 +103,7 @@ This section gives you controll over the RGB composites. You can select from ava
 This Tab will contain information about calibration and other higher level products we introduce. So far very few instruments are calibrated.
 
 ### Map Overlay
+
 ![](/assets/basic_usage/viewer/products/overlay.png)
 
 This is where you can choose to overlay your image with a map and/or add city labels. You can change the colors as well as the size of the labels.
@@ -125,7 +130,8 @@ Every projection has its own settings which are displayed under the selection. O
 
 This is the part I am (personally) most excited about. We have implemented a layer system for the projections. This means you can combine multiple passes into one image easily! On the very top is a mode selector. You can choose between blend and overlay. I tihnk these are self explanatory!
 
-Under that the layer list is located. There is an `Add Layer` button on the left. This will bring you to a separate window where you can laod custom layers such as Tile Maps, equirectangular images and **[gesotationary satellite images](https://github.com/altillimity/SatDump/issues/129)**. You can load basically any image if you provide it with an appropriate configuration file (more on that in another post, TODO). As proof that you can load *anything* here is an Obama Sphere.
+Under that the layer list is located. There is an `Add Layer` button on the left. This will bring you to a separate window where you can laod custom layers such as Tile Maps, equirectangular images and **[gesotationary satellite images](https://github.com/altillimity/SatDump/issues/129)**. You can load basically any image if you provide it with an appropriate configuration file (more on that in another post, TODO). As proof that you can load *anything* here is an Obama Sphere.  
+
 ![](/assets/basic_usage/viewer/obama.png)
 
 Lastly there is the star of the show: the layer list! Each layer has a thumbnail, an enable checkbox, a close button, an opacity slider and a progress bar. You can reorder layers by dragging and dropping them. They will be drawn in a backward order, which means that the layer on top of the selector will be drawn last, on top of the previous ones.
@@ -137,6 +143,7 @@ Lastly, there is a map overlay menu. It is exactly the same as the one found in 
 ## Settings
 
 This is where you can edit the most basic SatDump settings. **This section is worth checking out as it contains all the paths and properties!**
+
 ![](/assets/basic_usage/settings.png)
 
 # CLI (this part was made by Aang23)
