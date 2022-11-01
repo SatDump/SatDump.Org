@@ -14,6 +14,11 @@
   type: rss
   icon: 'fas fa-rss'
   noblank: true
+-
+  type: matrix
+  icon: 'fab fa-slack'
+  noblank: true
+  url: 'https://matrix.to/#/#satdump:altillimity.com'
 
 # Uncomment and complete the url below to enable more contact options
 # -
