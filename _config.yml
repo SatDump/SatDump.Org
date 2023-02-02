@@ -26,7 +26,7 @@ title: SatDump                          # the main title
 tagline: A generic satellite data processing software   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
+  A generic satellite data processing software
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://www.satdump.org'
