@@ -63,7 +63,7 @@ Thanks to Zbychu, Aang23, SnazzLazz and Carl Reinemann for double checking this 
 | ------------- | ------------- |
 | AVHRR 3 | Working |
 | MHS | Working (degraded) |
-| HIRS  | Working |
+| HIRS  | Defective (?) |
 | AMSU A | Working |
 | SEM  | Working |
 | SBUV  | Defective |
@@ -115,7 +115,7 @@ Annotation: METEOR-M N2 suffered a loss of attitude on 24/12/2022. Because of th
 | MSU-MR | Working |
 | MTVZA | Working |
 
-Annotation: Due to a micrometeorite impact, LRPT is unavailable.
+Annotation: A depressurization accured and N2-2 leaked coolant, causing some parts of the sat to overheat. Due to this,  LRPT is unavailable.
 
 Update 28/01/2023: HRPT is now also active at night, and not limited by daylight. 
 
@@ -1003,7 +1003,8 @@ Annotation: The scan mechanism is failing. EWS-G1 will probably be decomissioned
 | S&R | Working, Deactivated |
 
 Annotation: Eventhough LRIT is active, it appears that no data is transmitted at the moment.
-G14 is currently in in-orbit storage and is beeing moved towards 108.2°W.
+
+Update 03/02/2023: G14 has reached its new position and is now stable at 108.2°W.
 
 ### GOES-15 [Norad 44903]
 
