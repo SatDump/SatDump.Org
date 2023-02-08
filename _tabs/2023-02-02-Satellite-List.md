@@ -7,7 +7,7 @@ order: 4
 When looking for the operational status of some satellites & their instruments, I noticed there doesn't appear to be a combined list for all.
 Thats why I compiled this list and wrote together information on (almost) all satellites that are featured in satDump.
 Maybe its useful to someone - if you spot any mistakes or want to add to it, please let me know! 
-I made this list with the best of my knowledge, but mistakes can always happen -Crosswalkersam
+I made this list with the best of my knowledge, but mistakes can always happen - Crosswalkersam
 
 Thanks to Zbychu, Aang23, SnazzLazz and Carl Reinemann for double checking this list! 
 
@@ -963,6 +963,24 @@ Annotation: RDAS is LHCP.
 Annotation: HRIT transmissions at 00:12, 03:12, 06:12, 09:12, 12:12, 15:12, 18:12 and 21:12 UTC. LRIT same hours at XX:42.
 
 Annotation: RDAS is RHCP.
+
+### ELEKTRO-L4 [Norad 44406]
+
+| Frequency  | Status |
+| ------------- | ------------- |
+| xRIT (1691MHz) | Active |
+| L-Band TLM (1693MHz) | Active |
+| RDAS (7500 MHz) | Active |
+
+| Instrument  | Status |
+| ------------- | ------------- |
+| MSU-GS | Working |
+| GGAK-E | Working |
+| SKIF-6 | Working |
+| SKL-E | Working |
+| ISP-2M | Working |
+
+Annotation: Frequencies yet to be confirmed, but its likely the same as L2 and L3.
 
 ### EWS-G1 (GOES-13) [Norad 29155]
 
