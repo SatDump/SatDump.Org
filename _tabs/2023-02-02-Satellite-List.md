@@ -964,7 +964,7 @@ Annotation: HRIT transmissions at 00:12, 03:12, 06:12, 09:12, 12:12, 15:12, 18:1
 
 Annotation: RDAS is RHCP.
 
-### ELEKTRO-L4 [Norad 44406]
+### ELEKTRO-L4 [Norad 55506]
 
 | Frequency  | Status |
 | ------------- | ------------- |
