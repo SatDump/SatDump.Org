@@ -82,7 +82,7 @@ Thanks to Zbychu, Aang23, SnazzLazz and Carl Reinemann for double checking this 
 | ------------- | ------------- |
 | MSU-MR | Working |
 
-Annotation: METEOR-M N1 suffered a loss of attitude. It was completely deactivated.
+Annotation: METEOR-M N1 suffered a loss of attitude. It was completely deactivated, some rare activity on 1700Mhz.
 
 ### METEOR-M N2 [Norad 40069]
 
@@ -98,7 +98,7 @@ Annotation: METEOR-M N1 suffered a loss of attitude. It was completely deactivat
 | ------------- | ------------- |
 | MSU-MR | Working |
 
-Annotation: METEOR-M N2 suffered a loss of attitude on 24/12/2022. Because of that, the satellite entered safe-mode and LRPT and HRPT will be unavailable. It is yet unclear if it will ever be recovered.
+Annotation: METEOR-M N2 suffered a loss of attitude on 24/12/2022. Because of that, the satellite has been deactivated and recovery is unlikely.
 
 ### METEOR-M N2-2 [Norad 44387]
 
@@ -228,7 +228,7 @@ Annotation: Encrypted.
 | AHRPT (1704.5MHz) | Inactive | DB | Global |
 | S-Band (22XXMHz) | Active | DB | Global |
 | MPT (7775MHz) | Inactive | DB | Global |
-| DPT (Unknown MHz)  | Inactive | Dump | Unknown [CHN] and Kiruna [SWE] |
+| DPT (8145.95MHz)  | Inactive | Dump | Unknown [CHN] and Kiruna [SWE] |
 
 | Instrument  | Status |
 | ------------- | ------------- |
@@ -252,7 +252,7 @@ Annotation: FENGYUN 3-A has been decomissioned.
 | AHRPT (1704.5MHz) | Inactive | DB | Global |
 | S-Band (22XXMHz) | Active | DB | Global |
 | MPT (7775MHz) | Inactive | DB | Global |
-| DPT (UnknownMHz) | Inactive | Dump | Unknown [CHN] and Kiruna [SWE] |
+| DPT (8145.95MHz) | Inactive | Dump | Unknown [CHN] and Kiruna [SWE] |
 
 | Instrument  | Status |
 | ------------- | ------------- |
@@ -284,7 +284,7 @@ Annotation: FENGYUN 3-B has been decomissioned.
 | GNOS-I | Working |
 | IRAS | Working |
 | MWHS-II | Working |
-| MWRI-I | Working |
+| MWRI-I | Deactivated |
 | MWTS-II | Working |
 | SBUS | Working |
 | SIM-II | Working |
@@ -333,7 +333,7 @@ Annotation: FENGYUN 3-B has been decomissioned.
 | WindRAD | Working |
 | X-EUVI | Partially working |
 
-Annotation: X-EUVI is fully functional, just not fully activated.
+Annotation: X-EUVI is fully functional, but the X-Ray channel is inactive, only EUV is being transmitted.
 
 ### PROBA-1 [Norad 26958]
 
@@ -369,7 +369,7 @@ Annotation: On 19/01/2023, ESA officially declared the "CHRIS" instrument's miss
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
 | S-Band (2235MHz) | Active | Dump | Redu [BEL] |
-| X-Band (8090MHz) | Inactive | Dump | Redu [BEL] |
+| X-Band (8090MHz) | Inactive | Dump | Kiruna [NOR] |
 
 | Instrument  | Status |
 | ------------- | ------------- |
@@ -383,18 +383,20 @@ Annotation: Although PROBA-V's mission has been declared completed, it sometimes
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
 | S-Band (2221.5MHz) | Active | DB | Global |
-| X-Band (Unknown MHz) | Active | Dump | Unknown |
+| X-Band (Unknown MHz) | Active | Dump | SafetyNet? |
 
 | Instrument  | Status |
 | ------------- | ------------- |
 | WINDSAT | Working |
-| Sun | Deactivated |
+| SMEI | Deactivated |
+
+Annotation : SMEI is functional as far as it is known. Shutdown due to program funding issues.
 
 ### CLOUDSAT [Norad 29107]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
-| S-Band (2217.5MHz) | Active | Dump | Redu [BEL] |
+| S-Band (2217.5MHz) | Active | Dump | Redu [BEL] / Wallops [US] |
 
 | Instrument  | Status |
 | ------------- | ------------- |
@@ -404,12 +406,14 @@ Annotation: Although PROBA-V's mission has been declared completed, it sometimes
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
-| S-Band (2232MHz) | Active | Dump | Kiruna [SWE] and Quebec [CAN]|
+| S-Band (2232MHz) | Active | Dump | Kiruna [SWE], Quebec [CAN], etc |
 
 | Instrument  | Status |
 | ------------- | ------------- |
 | MAESTRO | Working |
 | FTS | Working |
+
+Annotation : Dumps are done to various Canadian groundstation. No exhaustive list available.
 
 ### CHEOPS [Norad 44876]
 
@@ -425,8 +429,8 @@ Annotation: Although PROBA-V's mission has been declared completed, it sometimes
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
-| S-Band (2274.3MHz) | Active | Dump | Svalbard [NOR] |
-| X-Band (8180MHz) | Active | Dump | Svalbard [NOR] |
+| S-Band (2274.3MHz) | Active | Dump | Svalbard [NOR], NEN |
+| X-Band (8180MHz) | Active | Dump | Svalbard [NOR], NEN |
 
 | Instrument  | Status |
 | ------------- | ------------- |
@@ -461,7 +465,7 @@ Annotation: While S-Band is active, it only seems to transmit filler.
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
-| S-Band (2215.92MHz) | Active | Dump | Kiruna [SWE] |
+| S-Band (2215.92MHz) | Active | Dump | Kiruna [SWE], Wallops [US]? |
 
 | Instrument  | Status |
 | ------------- | ------------- |
@@ -594,7 +598,7 @@ Annotation: Is encrypted, but transmits in the clear when over the US or the pol
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
 | S-Band (2256.22MHz) | Active | Dump | Svalbard [NOR] |
-| X-Band (Unknown MHz) | Unknown | Dump | Svalbard [NOR] |
+| X-Band (8460.81MHz) | Unknown | Dump | Svalbard [NOR]? |
 
 | Instrument  | Status |
 | ------------- | ------------- |
@@ -602,11 +606,13 @@ Annotation: Is encrypted, but transmits in the clear when over the US or the pol
 | EIS | Unknown |
 | XRT | Unknown |
 
+Annotation : Data is being produced, but no detection of the X-Band link was ever possible...
+
 ### INTEGRAL [Norad 27540]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
-| S-Band (2215MHz) | Active | Dump | Svalbard [NOR] |
+| S-Band (2215MHz) | Active | Dump | ? |
 
 | Instrument  | Status |
 | ------------- | ------------- |
@@ -642,7 +648,7 @@ Annotation: Is encrypted, but transmits in the clear when over the US or the pol
 | ------------- | ------------- |
 | Engineering camera | Working |
 
-Annotation: BLUEWALKER-3 is encrypted.
+Annotation: BLUEWALKER-3 is now encrypted.
 
 ### FORMOSAT-5 [Norad 42920]
 
@@ -655,6 +661,8 @@ Annotation: BLUEWALKER-3 is encrypted.
 | ------------- | ------------- |
 | AIP | Working |
 | RSI | Working |
+
+Annotation : X-Band is likely encrypted.
 
 ### BRITE-PL2 [Norad 40119]
 
@@ -672,14 +680,13 @@ Annotation: BLUEWALKER-3 is encrypted.
 | ------------- | ------------- | ------------- | ------------- |
 | S-Band (2247.5MHz) | Active | DB | Global |
 | HRD (7812MHz) | Active | DB | Global |
-| Ka-Band (26703.4MHz) | Active | Dump | Unknown |
+| Ka-Band (26703.4MHz) | Active | Dump | Svalbard [NOR] |
 
 | Instrument  | Status |
 | ------------- | ------------- |
 | ATMS | Working |
 | CERES | Working |
-| Libera | Working |
-| CrlS | Working |
+| CrIS | Working |
 | OMPS | Working |
 | VIIRS | Working |
 
@@ -689,14 +696,12 @@ Annotation: BLUEWALKER-3 is encrypted.
 | ------------- | ------------- | ------------- | ------------- |
 | S-Band (2247.5MHz) | Active | DB | Global |
 | HRD (7812MHz) | Active | DB | Global |
-| Ka-Band (26703.4MHz) | Inactive (Defective?) | Dump | Unknown |
+| Ka-Band (26703.4MHz) | Active | Dump | Svalbard [NOR] |
 
 | Instrument  | Status |
 | ------------- | ------------- |
 | ATMS | Working |
-| CERES | Working |
-| Libera | Working |
-| CrlS | Working |
+| CrIS | Working |
 | OMPS | Working |
 | VIIRS | Working |
 
@@ -705,6 +710,8 @@ Annotation: BLUEWALKER-3 is encrypted.
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
 | X-Band (7812MHz) | Active | DB | Global |
+| X-Band (8212.5Mhz) | Active | Dumps | Svalbard [NOR] |
+| Ku-Band (15003.4Mhz) | Active | Dumps | TDRS |
 
 | Instrument  | Status |
 | ------------- | ------------- |
@@ -729,7 +736,7 @@ Annotation: BLUEWALKER-3 is encrypted.
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
-| S-Band (2287.5 MHz) | Active | DB and Dump | Global, dumps to Svalbard [NOR] or TDRS|
+| S-Band (2287.5 MHz) | Active | DB and Dump | Global, dumps to NEN or TDRS|
 | X-Band (8160MHz) | Active | DB and Dump | Global, dumps to Svalbard [NOR] |
 
 | Instrument  | Status |
@@ -747,9 +754,9 @@ Annotation: BLUEWALKER-3 is encrypted.
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
-| S-Band (2287.5 MHz) | Active | DB | Global |
+| S-Band (2287.5 MHz) | Active | DB | Global, TDRS |
 | X-Band (8212.5MHz) | Active | DB | Global |
-| Ku-Band (Unknown MHz) | Active | Dumps | TDRS |
+| Ku-Band (~15000MHz) | Active | Dumps | TDRS |
 
 | Instrument  | Status |
 | ------------- | ------------- |
@@ -775,7 +782,7 @@ Annotation: On X-Band, only MODIS data.
 | OMI | Working |
 | TES | Working |
 
-Annotation: OMI is on X-Band only.
+Annotation: OMI is the sole X-Band instrument.
 
 ### CRYOSAT-2 [Norad 36508]
 
@@ -793,13 +800,15 @@ Annotation: OMI is on X-Band only.
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
 | L-Band DCP (1703MHz) | Active | Transponder | Global |
-| L-Band TLM (1703MHz) | Inactive | DB | Global |
+| L-Band CGAK (1701MHz) | Inactive | DB | Global |
 | RDAS (7865MHz) | Active | Dump | Moscow [RUS] and Unknown |
 
 | Instrument  | Status |
 | ------------- | ------------- |
-| GGAK-VE | Working |
-| MSU-GS/VE | Unknown |
+| GGAK-VE | Unknown |
+| MSU-GS/VE | Working |
+
+Annotation : The CGAK downlink was active in the first few weeks, and has remained off since.
 
 ### GCOM-W1 [Norad 38337]
 
@@ -841,7 +850,7 @@ Annotation: OMI is on X-Band only.
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
 | S-Band (2285MHz) | Active | Dump | Kiruna [SWE] |
-| X-Band (8150MHz) | Unknown | Dump | Unknown |
+| X-Band (8150MHz) | Active | Dump | Spain |
 
 | Instrument  | Status |
 | ------------- | ------------- |
@@ -851,8 +860,8 @@ Annotation: OMI is on X-Band only.
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
-| S-Band (2262.5MHz) | Active | Dump | Unknown [CHN] |
-| X-Band (8304MHz) | Active | Dump | Kiruna [KIR], Unknown [FRA], Unknown [CHN] |
+| S-Band (2262.5MHz) | Active | DB | Global |
+| X-Band (8304MHz) | Active | Dump | Kiruna [KIR], Unknown [CHN] |
 
 | Instrument  | Status |
 | ------------- | ------------- |
@@ -863,9 +872,9 @@ Annotation: OMI is on X-Band only.
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
-| S-Band (2283.5MHz) | Active | Dump | Inuvik [CAN] |
-| X-Band 1 (8120MHz) | Active | Dump | Inuvik [CAN] |
-| X-Band 2 (8250MHz) | Active | Dump | Inuvik [CAN] |
+| S-Band (2283.5MHz) | Active | Dump | Italy |
+| X-Band 1 (8120MHz) | Active | Dump | Italy |
+| X-Band 2 (8250MHz) | Active | Dump | Italy |
 
 | Instrument  | Status |
 | ------------- | ------------- |
@@ -885,6 +894,8 @@ Annotation: PRISMA is encrypted.
 | ------------- | ------------- |
 | ALADIN | Working |
 
+Annotation : AEOLUS has now been decomissioned.
+
 ### STEREO A/B [Norad 29510/29511]
 
 | Frequency  | Status | Downlink type | Location |
@@ -902,8 +913,8 @@ Annotation: PRISMA is encrypted.
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
-| S-Band (2282.3MHz) | Active | Dump | Kiruna [SWE] |
-| X-Band (8200.5MHz) | Active | DB and Dump | Global and dumps to Svalbard [NOR] |
+| S-Band (2282.3MHz) | Active | Dump | Kiruna [SWE], NEN |
+| X-Band (8200.5MHz) | Active | DB and Dump | Global and dumps to a few stations, Svalbard [NOR] |
 
 | Instrument  | Status |
 | ------------- | ------------- |
@@ -915,7 +926,7 @@ Annotation: PRISMA is encrypted.
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
 | S-Band (2256.75MHz) | Active | Dump | Kiruna [SWE] |
-| X-Band (8090MHz) | Active | Dump | Svalbard [NOR] |
+| X-Band (8090MHz) | Active | Dump | Svalbard [NOR], Kiruna [SWE] |
 
 | Instrument  | Status |
 | ------------- | ------------- |
@@ -931,8 +942,8 @@ Annotation: PRISMA is encrypted.
 | Frequency  | Status |
 | ------------- | ------------- |
 | xRIT (1691MHz) | Inactive |
-| L-Band TLM (1693MHz) | Active |
-| RDAS (7500 MHz) | Active |
+| L-Band CGAK (1693MHz) | Active |
+| RDAS (7500MHz) | Active |
 
 | Instrument  | Status |
 | ------------- | ------------- |
@@ -942,14 +953,14 @@ Annotation: PRISMA is encrypted.
 | SKL-E | Working |
 | ISP-2M | Working |
 
-Annotation: RDAS is LHCP.
+Annotation: RDAS is LHCP. The xRIT payload has failed.
 
 ### ELEKTRO-L3 [Norad 44903]
 
 | Frequency  | Status |
 | ------------- | ------------- |
 | xRIT (1691MHz) | Active |
-| L-Band TLM (1693MHz) | Active |
+| L-Band CGAK (1693MHz) | Active |
 | RDAS (7500 MHz) | Active |
 
 | Instrument  | Status |
@@ -969,7 +980,7 @@ Annotation: RDAS is RHCP.
 | Frequency  | Status |
 | ------------- | ------------- |
 | xRIT (1691MHz) | Active |
-| L-Band TLM (1693MHz) | Active |
+| L-Band CGAK (1693MHz) | Active |
 | RDAS (7500 MHz) | Active |
 
 | Instrument  | Status |
@@ -979,8 +990,6 @@ Annotation: RDAS is RHCP.
 | SKIF-6 | Working |
 | SKL-E | Working |
 | ISP-2M | Working |
-
-Annotation: Frequencies yet to be confirmed, but its likely the same as L2 and L3.
 
 ### EWS-G1 (GOES-13) [Norad 29155]
 
@@ -1000,7 +1009,7 @@ Annotation: Frequencies yet to be confirmed, but its likely the same as L2 and L
 | Imager | Working (degraded) |
 | S&R | Defective |
 
-Annotation: The scan mechanism is failing. EWS-G1 will probably be decomissioned soon and replaced with GOES-14 or GOES-15.
+Annotation: The scan mechanism is failing. EWS-G1 will probably be decomissioned soon and replaced with GOES-15.
 
 ### GOES-14 [Norad 44903]
 
@@ -1020,9 +1029,11 @@ Annotation: The scan mechanism is failing. EWS-G1 will probably be decomissioned
 | Imager | Working, Deactivated |
 | S&R | Working, Deactivated |
 
-Annotation: Eventhough LRIT is active, it appears that no data is transmitted at the moment.
+Annotation: Even though the LRIT transponder is active, it appears that no data is transmitted at the moment.
 
 Update 03/02/2023: G14 has reached its new position and is now stable at 108.2°W.
+
+Annotation: G14 is rarely active, booted up for a yearly check-up or support to GOES-16/17/18.
 
 ### GOES-15 [Norad 44903]
 
@@ -1044,6 +1055,8 @@ G15 is currently in in-orbit storage.
 | Sounder  | Working, Deactivated |
 | Imager | Working, Deactivated |
 | S&R | Working, Deactivated |
+
+Annotation : GOES-15 being moved to become EWS-G2. Downlink activity to be determined once new operations begin.
 
 ### GOES-16 [Norad 44903]
 
@@ -1151,8 +1164,8 @@ That is why G17 is beeing moved to in-orbit storage at 104.7°W where GRB and HR
 
 | Frequency  | Status |
 | ------------- | ------------- |
-| LRIT (1697MHz) | Unknown |
-| HRIT (1679MHz) | Unknown |
+| LRIT (1697MHz) | Active |
+| HRIT (1679MHz) | Active |
 
 | Instrument  | Status |
 | ------------- | ------------- |
