@@ -14,7 +14,7 @@ Thanks to Zbychu, Aang23, SnazzLazz and Carl Reinemann for double checking this 
 
 ## Orbiting satellites
 
-### NOAA-15 [Norad 25338]
+### NOAA-15 [[Norad 25338](https://celestrak.org/NORAD/elements/gp.php?CATNR=25338)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -31,7 +31,7 @@ Thanks to Zbychu, Aang23, SnazzLazz and Carl Reinemann for double checking this 
 | AMSU B | Defective |
 | SEM | Working |
 
-### NOAA-18 [Norad 28654]
+### NOAA-18 [[Norad 28654](https://celestrak.org/NORAD/elements/gp.php?CATNR=28654)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -50,7 +50,7 @@ Thanks to Zbychu, Aang23, SnazzLazz and Carl Reinemann for double checking this 
 | SEM  | Working |
 | SBUV  | Defective |
 
-### NOAA-19 [Norad 33591]
+### NOAA-19 [[Norad 33591](https://celestrak.org/NORAD/elements/gp.php?CATNR=33591)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -68,7 +68,7 @@ Thanks to Zbychu, Aang23, SnazzLazz and Carl Reinemann for double checking this 
 | SEM  | Working |
 | SBUV  | Defective |
 
-### METEOR-M N1 [Norad 35867]
+### METEOR-M N1 [[Norad 35867](https://celestrak.org/NORAD/elements/gp.php?CATNR=35867)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -84,7 +84,7 @@ Thanks to Zbychu, Aang23, SnazzLazz and Carl Reinemann for double checking this 
 
 Annotation: METEOR-M N1 suffered a loss of attitude. It was completely deactivated, some rare activity on 1700Mhz.
 
-### METEOR-M N2 [Norad 40069]
+### METEOR-M N2 [[Norad 40069](https://celestrak.org/NORAD/elements/gp.php?CATNR=40069)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -100,7 +100,7 @@ Annotation: METEOR-M N1 suffered a loss of attitude. It was completely deactivat
 
 Annotation: METEOR-M N2 suffered a loss of attitude on 24/12/2022. Because of that, the satellite has been deactivated and recovery is unlikely.
 
-### METEOR-M N2-2 [Norad 44387]
+### METEOR-M N2-2 [[Norad 44387](https://celestrak.org/NORAD/elements/gp.php?CATNR=44387)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -119,7 +119,7 @@ Annotation: A depressurization accured and N2-2 leaked coolant, causing some par
 
 Update 28/01/2023: HRPT is now also active at night, and not limited by daylight. 
 
-### METOP-A [Norad 29499]
+### METOP-A [[Norad 29499](https://celestrak.org/NORAD/elements/gp.php?CATNR=29499)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -129,7 +129,7 @@ Update 28/01/2023: HRPT is now also active at night, and not limited by daylight
 
 Annotation: METOP-A was decomissioned.
 
-### METOP-B [Norad 38771]
+### METOP-B [[Norad 38771](https://celestrak.org/NORAD/elements/gp.php?CATNR=38771)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -148,7 +148,7 @@ Annotation: METOP-A was decomissioned.
 | IASI  | Working |
 | GOME  | Working |
 
-### METOP-C [Norad 43689]
+### METOP-C [[Norad 43689](https://celestrak.org/NORAD/elements/gp.php?CATNR=43689)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -174,13 +174,13 @@ Annotation: METOP-A was decomissioned.
 
 Annotation: Encrypted.
 
-### ANGELS [Norad 44876]
+### ANGELS [[Norad 44876](https://celestrak.org/NORAD/elements/gp.php?CATNR=44876)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
 | L-band (1703MHz) | Active | DB | Global |
 
-### SARAL [Norad 39086]
+### SARAL [[Norad 39086](https://celestrak.org/NORAD/elements/gp.php?CATNR=39086)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -188,7 +188,7 @@ Annotation: Encrypted.
 | S-band (2245MHz) | Active | Dumps | Unknown |
 | X-band (8212.5MHz) | Active | Dumps | Svalbard [NOR] |
 
-### OCEANSAT-2 [Norad 35931]
+### OCEANSAT-2 [[Norad 35931](https://celestrak.org/NORAD/elements/gp.php?CATNR=35931)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -201,7 +201,7 @@ Annotation: Encrypted.
 | SCAT | Defective |
 | ROSA | Defective |
 
-### OCEANSAT-3 [Norad 54361]
+### OCEANSAT-3 [[Norad 54361](https://celestrak.org/NORAD/elements/gp.php?CATNR=54361)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -215,13 +215,13 @@ Annotation: Encrypted.
 | OSCAT-3 | Working |
 | SSTM | Working |
 
-### OTB-3 (GAZELLE) [Norad 54023]
+### OTB-3 (GAZELLE) [[Norad 54023](https://celestrak.org/NORAD/elements/gp.php?CATNR=54023)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
 | L-band (1703MHz) | Active | DB | Global |
 
-### FENGYUN 3-A [Norad 32958]
+### FENGYUN 3-A [[Norad 32958](https://celestrak.org/NORAD/elements/gp.php?CATNR=32958)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -245,7 +245,7 @@ Annotation: Encrypted.
 
 Annotation: FENGYUN 3-A has been decomissioned.
 
-### FENGYUN 3-B [Norad 37214]
+### FENGYUN 3-B [[Norad 37214](https://celestrak.org/NORAD/elements/gp.php?CATNR=37214)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -269,7 +269,7 @@ Annotation: FENGYUN 3-A has been decomissioned.
 
 Annotation: FENGYUN 3-B has been decomissioned.
 
-### FENGYUN 3-C [Norad 39260]
+### FENGYUN 3-C [[Norad 39260](https://celestrak.org/NORAD/elements/gp.php?CATNR=39260)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -292,7 +292,7 @@ Annotation: FENGYUN 3-B has been decomissioned.
 | VASS | Working |
 | VIRR | Working |
 
-### FENGYUN 3-D [Norad 43010]
+### FENGYUN 3-D [[Norad 43010](https://celestrak.org/NORAD/elements/gp.php?CATNR=43010)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -312,7 +312,7 @@ Annotation: FENGYUN 3-B has been decomissioned.
 | SEM | Working |
 | WAI | Working |
 
-### FENGYUN 3-E [Norad 49008]
+### FENGYUN 3-E [[Norad 49008](https://celestrak.org/NORAD/elements/gp.php?CATNR=49008)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -335,7 +335,7 @@ Annotation: FENGYUN 3-B has been decomissioned.
 
 Annotation: X-EUVI is fully functional, but the X-Ray channel is inactive, only EUV is being transmitted.
 
-### FENGYUN 3-G [Norad 56232]
+### FENGYUN 3-G [[Norad 56232](https://celestrak.org/NORAD/elements/gp.php?CATNR=56232)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -354,7 +354,7 @@ Annotation: While the S-Band transmitter is active, it appears to be unmodulated
 
 Update: 19/05/2023, the satellite has been rotated 180 degrees, as visible on all instruments.
 
-### PROBA-1 [Norad 26958]
+### PROBA-1 [[Norad 26958](https://celestrak.org/NORAD/elements/gp.php?CATNR=26958)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -369,7 +369,7 @@ Update: 19/05/2023, the satellite has been rotated 180 degrees, as visible on al
 
 Annotation: On 19/01/2023, ESA officially declared the "CHRIS" instrument's mission as completed. SEM, DEBIE and HRC data will still be acquired.
 
-### PROBA-2 [Norad 36037]
+### PROBA-2 [[Norad 36037](https://celestrak.org/NORAD/elements/gp.php?CATNR=36037)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -383,7 +383,7 @@ Annotation: On 19/01/2023, ESA officially declared the "CHRIS" instrument's miss
 | DSLP | Working |
 | X-CAM | Deactivated |
 
-### PROBA-V [Norad 39159]
+### PROBA-V [[Norad 39159](https://celestrak.org/NORAD/elements/gp.php?CATNR=39159)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -397,7 +397,7 @@ Annotation: On 19/01/2023, ESA officially declared the "CHRIS" instrument's miss
 
 Annotation: Although PROBA-V's mission has been declared completed, it sometimes transmits preview-data from its vegetation instrument on S-band. It is yet unclear if it will fully resume its duty and start dumping on X-Band aswell. PROBA-V was also seen transmitting GPS data.
 
-### CORIOLIS [Norad 27640]
+### CORIOLIS [[Norad 27640](https://celestrak.org/NORAD/elements/gp.php?CATNR=27640)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -411,7 +411,7 @@ Annotation: Although PROBA-V's mission has been declared completed, it sometimes
 
 Annotation : SMEI is functional as far as it is known. Shutdown due to program funding issues.
 
-### CLOUDSAT [Norad 29107]
+### CLOUDSAT [[Norad 29107](https://celestrak.org/NORAD/elements/gp.php?CATNR=29107)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -421,7 +421,7 @@ Annotation : SMEI is functional as far as it is known. Shutdown due to program f
 | ------------- | ------------- |
 | CPR | Working |
 
-### SCISAT-1 [Norad 27858]
+### SCISAT-1 [[Norad 27858](https://celestrak.org/NORAD/elements/gp.php?CATNR=27858)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -434,7 +434,7 @@ Annotation : SMEI is functional as far as it is known. Shutdown due to program f
 
 Annotation : Dumps are done to various Canadian groundstation. No exhaustive list available.
 
-### CHEOPS [Norad 44876]
+### CHEOPS [[Norad 44876](https://celestrak.org/NORAD/elements/gp.php?CATNR=44876)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -444,7 +444,7 @@ Annotation : Dumps are done to various Canadian groundstation. No exhaustive lis
 | ------------- | ------------- |
 | CIS | Working |
 
-### SMAP [Norad 40376]
+### SMAP [[Norad 40376](https://celestrak.org/NORAD/elements/gp.php?CATNR=40376)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -458,7 +458,7 @@ Annotation : Dumps are done to various Canadian groundstation. No exhaustive lis
 
 Annotation: While S-Band is active, it only seems to transmit filler.
 
-### GRACE-FO 1 [Norad 43476]
+### GRACE-FO 1 [[Norad 43476](https://celestrak.org/NORAD/elements/gp.php?CATNR=43476)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -469,7 +469,7 @@ Annotation: While S-Band is active, it only seems to transmit filler.
 | MWI | Working |
 | LRI | Working |
 
-### GRACE-FO 2 [Norad 43477]
+### GRACE-FO 2 [[Norad 43477](https://celestrak.org/NORAD/elements/gp.php?CATNR=43477)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -480,7 +480,7 @@ Annotation: While S-Band is active, it only seems to transmit filler.
 | MWI | Working |
 | LRI | Working |
 
-### JASON-3 [Norad 41240]
+### JASON-3 [[Norad 41240](https://celestrak.org/NORAD/elements/gp.php?CATNR=41240)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -492,7 +492,7 @@ Annotation: While S-Band is active, it only seems to transmit filler.
 | AMR-2 | Working |
 | LPT | Working |
 
-### MATS [Norad 54227]
+### MATS [[Norad 54227](https://celestrak.org/NORAD/elements/gp.php?CATNR=54227)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -505,7 +505,7 @@ Annotation: While S-Band is active, it only seems to transmit filler.
 | IR A | Working |
 | IR BG | Working |
 
-### TUBIN [Norad 48900]
+### TUBIN [[Norad 48900](https://celestrak.org/NORAD/elements/gp.php?CATNR=48900)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -519,7 +519,7 @@ Annotation: While S-Band is active, it only seems to transmit filler.
 | SOLID | Working |
 
 
-### AIM [Norad 31304]
+### AIM [[Norad 31304](https://celestrak.org/NORAD/elements/gp.php?CATNR=31304)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -533,7 +533,7 @@ Annotation: While S-Band is active, it only seems to transmit filler.
 
 Annotation: On 16/03/2023, NASA declared AIM's mission finished due to a battery failure. It still transmits in the daylight.
 
-### IRIS [Norad 39197]
+### IRIS [[Norad 39197](https://celestrak.org/NORAD/elements/gp.php?CATNR=39197)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -544,7 +544,7 @@ Annotation: On 16/03/2023, NASA declared AIM's mission finished due to a battery
 | ------------- | ------------- |
 | UV telescope & Spectrograph | Working |
 
-### OPS-SAT [Norad 44878]
+### OPS-SAT [[Norad 44878](https://celestrak.org/NORAD/elements/gp.php?CATNR=44878)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -555,7 +555,7 @@ Annotation: On 16/03/2023, NASA declared AIM's mission finished due to a battery
 | ------------- | ------------- |
 | Camera | Working |
 
-### DMSP 17 [Norad 29522]
+### DMSP 17 [[Norad 29522](https://celestrak.org/NORAD/elements/gp.php?CATNR=29522)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -568,7 +568,7 @@ Annotation: On 16/03/2023, NASA declared AIM's mission finished due to a battery
 
 Annotation: Is encrypted, but transmits in the clear when over the US or the poled.
 
-### DMSP 18 [Norad 35951]
+### DMSP 18 [[Norad 35951](https://celestrak.org/NORAD/elements/gp.php?CATNR=35951)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -581,7 +581,7 @@ Annotation: Is encrypted, but transmits in the clear when over the US or the pol
 
 Annotation: Is encrypted, but transmits in the clear when over the US or the poles.
 
-### SWARM A [Norad 39451]
+### SWARM A [[Norad 39451](https://celestrak.org/NORAD/elements/gp.php?CATNR=39451)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -593,7 +593,7 @@ Annotation: Is encrypted, but transmits in the clear when over the US or the pol
 | VFM | Working |
 | EFI | Working |
 
-### SWARM B [Norad 39452]
+### SWARM B [[Norad 39452](https://celestrak.org/NORAD/elements/gp.php?CATNR=39452)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -605,7 +605,7 @@ Annotation: Is encrypted, but transmits in the clear when over the US or the pol
 | VFM | Working |
 | EFI | Working |
 
-### SWARM C [Norad 39453]
+### SWARM C [[Norad 39453](https://celestrak.org/NORAD/elements/gp.php?CATNR=39453)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -617,7 +617,7 @@ Annotation: Is encrypted, but transmits in the clear when over the US or the pol
 | VFM | Working |
 | EFI | Working |
 
-### HINODE [Norad 29479]
+### HINODE [[Norad 29479](https://celestrak.org/NORAD/elements/gp.php?CATNR=29479)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -632,7 +632,7 @@ Annotation: Is encrypted, but transmits in the clear when over the US or the pol
 
 Annotation : Data is being produced, but no detection of the X-Band link was ever possible...
 
-### INTEGRAL [Norad 27540]
+### INTEGRAL [[Norad 27540](https://celestrak.org/NORAD/elements/gp.php?CATNR=27540)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -645,7 +645,7 @@ Annotation : Data is being produced, but no detection of the X-Band link was eve
 | JEM-X | Working |
 | OMC | Working |
 
-### SWOT [Norad 54654]
+### SWOT [[Norad 54654](https://celestrak.org/NORAD/elements/gp.php?CATNR=54654)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -660,7 +660,7 @@ Annotation : Data is being produced, but no detection of the X-Band link was eve
 | AMR-S | Working |
 | DORIS-NG | Working |
 
-### BLUEWALKER-3 [Norad 53807]
+### BLUEWALKER-3 [[Norad 53807](https://celestrak.org/NORAD/elements/gp.php?CATNR=53807)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -674,7 +674,7 @@ Annotation : Data is being produced, but no detection of the X-Band link was eve
 
 Annotation: BLUEWALKER-3 is now encrypted.
 
-### FORMOSAT-5 [Norad 42920]
+### FORMOSAT-5 [[Norad 42920](https://celestrak.org/NORAD/elements/gp.php?CATNR=42920)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -688,7 +688,7 @@ Annotation: BLUEWALKER-3 is now encrypted.
 
 Annotation : X-Band is likely encrypted.
 
-### BRITE-PL2 [Norad 40119]
+### BRITE-PL2 [[Norad 40119](https://celestrak.org/NORAD/elements/gp.php?CATNR=40119)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -698,7 +698,7 @@ Annotation : X-Band is likely encrypted.
 | ------------- | ------------- |
 | BSP | Unknown |
 
-### NOAA-20 (JPSS-1) [Norad 43013]
+### NOAA-20 (JPSS-1) [[Norad 43013](https://celestrak.org/NORAD/elements/gp.php?CATNR=43013)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -714,7 +714,7 @@ Annotation : X-Band is likely encrypted.
 | OMPS | Working |
 | VIIRS | Working |
 
-### NOAA-21 (JPSS-2) [Norad 54234]
+### NOAA-21 (JPSS-2) [[Norad 54234](https://celestrak.org/NORAD/elements/gp.php?CATNR=54234)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -729,7 +729,7 @@ Annotation : X-Band is likely encrypted.
 | OMPS | Working |
 | VIIRS | Working |
 
-### SUOMI-NPP [Norad 37849]
+### SUOMI-NPP [[Norad 37849](https://celestrak.org/NORAD/elements/gp.php?CATNR=37849)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -745,7 +745,7 @@ Annotation : X-Band is likely encrypted.
 | OMPS | Working |
 | VIIRS | Working |
 
-### SMOS [Norad 36036]
+### SMOS [[Norad 36036](https://celestrak.org/NORAD/elements/gp.php?CATNR=36036)]
 
 | Frequency  | Status |
 | ------------- | ------------- |
@@ -756,7 +756,7 @@ Annotation : X-Band is likely encrypted.
 | ------------- | ------------- |
 | MIRAS | Working |
 
-### AQUA [Norad 27424]
+### AQUA [[Norad 27424](https://celestrak.org/NORAD/elements/gp.php?CATNR=27424)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -774,7 +774,7 @@ Annotation : X-Band is likely encrypted.
 | CERES 2 | Working (degraded) |
 | AIRS | Working |
 
-### TERRA [Norad 25994]
+### TERRA [[Norad 25994](https://celestrak.org/NORAD/elements/gp.php?CATNR=25994)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -792,7 +792,7 @@ Annotation : X-Band is likely encrypted.
 
 Annotation: On X-Band, only MODIS data.
 
-### AURA [Norad 28376]
+### AURA [[Norad 28376](https://celestrak.org/NORAD/elements/gp.php?CATNR=28376)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -808,7 +808,7 @@ Annotation: On X-Band, only MODIS data.
 
 Annotation: OMI is the sole X-Band instrument.
 
-### CRYOSAT-2 [Norad 36508]
+### CRYOSAT-2 [[Norad 36508](https://celestrak.org/NORAD/elements/gp.php?CATNR=36508)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -819,7 +819,7 @@ Annotation: OMI is the sole X-Band instrument.
 | ------------- | ------------- |
 | SIRAL | Working |
 
-### ARKTIKA-M 1 [Norad 47719]
+### ARKTIKA-M 1 [[Norad 47719](https://celestrak.org/NORAD/elements/gp.php?CATNR=47719)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -834,7 +834,7 @@ Annotation: OMI is the sole X-Band instrument.
 
 Annotation : The CGAK downlink was active in the first few weeks, and has remained off since.
 
-### GCOM-W1 [Norad 38337]
+### GCOM-W1 [[Norad 38337](https://celestrak.org/NORAD/elements/gp.php?CATNR=38337)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -845,7 +845,7 @@ Annotation : The CGAK downlink was active in the first few weeks, and has remain
 | ------------- | ------------- |
 | AMSR-2 | Working |
 
-### GCOM-C1 [Norad 43065]
+### GCOM-C1 [[Norad 43065](https://celestrak.org/NORAD/elements/gp.php?CATNR=43065)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -856,7 +856,7 @@ Annotation : The CGAK downlink was active in the first few weeks, and has remain
 | ------------- | ------------- |
 | SGLI | Working |
 
-### CALIPSO [Norad 29108]
+### CALIPSO [[Norad 29108](https://celestrak.org/NORAD/elements/gp.php?CATNR=29108)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -869,7 +869,7 @@ Annotation : The CGAK downlink was active in the first few weeks, and has remain
 | ILT | Unknown |
 | WFC | Unknown |
 
-### PAZ [Norad 43215]
+### PAZ [[Norad 43215](https://celestrak.org/NORAD/elements/gp.php?CATNR=43215)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -880,7 +880,7 @@ Annotation : The CGAK downlink was active in the first few weeks, and has remain
 | ------------- | ------------- |
 | SAR | Working |
 
-### CFOSAT [Norad 43662]
+### CFOSAT [[Norad 43662](https://celestrak.org/NORAD/elements/gp.php?CATNR=43662)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -892,7 +892,7 @@ Annotation : The CGAK downlink was active in the first few weeks, and has remain
 | SCAT | Working |
 | SWIM | Working |
 
-### PRISMA [Norad 44072]
+### PRISMA [[Norad 44072](https://celestrak.org/NORAD/elements/gp.php?CATNR=44072)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -907,7 +907,7 @@ Annotation : The CGAK downlink was active in the first few weeks, and has remain
 
 Annotation: PRISMA is encrypted.
 
-### AEOLUS [Norad 43600]
+### AEOLUS [[Norad 43600](https://celestrak.org/NORAD/elements/gp.php?CATNR=43600)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -945,7 +945,7 @@ Annotation : AEOLUS has now been decomissioned.
 | OLI| Working |
 | TIRS | Working |
 
-### SENTINEL 6 [Norad 46984]
+### SENTINEL 6 [[Norad 46984](https://celestrak.org/NORAD/elements/gp.php?CATNR=46984)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -961,7 +961,7 @@ Annotation : AEOLUS has now been decomissioned.
 
 ## Geostationary satellites
 
-### ELEKTRO-L2 [Norad 41105]
+### ELEKTRO-L2 [[Norad 41105](https://celestrak.org/NORAD/elements/gp.php?CATNR=41105)]
 
 | Frequency  | Status |
 | ------------- | ------------- |
@@ -979,7 +979,7 @@ Annotation : AEOLUS has now been decomissioned.
 
 Annotation: RDAS is LHCP. The xRIT payload has failed.
 
-### ELEKTRO-L3 [Norad 44903]
+### ELEKTRO-L3 [[Norad 44903](https://celestrak.org/NORAD/elements/gp.php?CATNR=44903)]
 
 | Frequency  | Status |
 | ------------- | ------------- |
@@ -999,7 +999,7 @@ Annotation: HRIT transmissions at 00:12, 03:12, 06:12, 09:12, 12:12, 15:12, 18:1
 
 Annotation: RDAS is RHCP.
 
-### ELEKTRO-L4 [Norad 55506]
+### ELEKTRO-L4 [[Norad 55506](https://celestrak.org/NORAD/elements/gp.php?CATNR=55506)]
 
 | Frequency  | Status |
 | ------------- | ------------- |
@@ -1015,7 +1015,7 @@ Annotation: RDAS is RHCP.
 | SKL-E | Working |
 | ISP-2M | Working |
 
-### EWS-G1 (GOES-13) [Norad 29155]
+### EWS-G1 (GOES-13) [[Norad 29155](https://celestrak.org/NORAD/elements/gp.php?CATNR=29155)]
 
 | Frequency  | Status |
 | ------------- | ------------- |
@@ -1035,7 +1035,7 @@ Annotation: RDAS is RHCP.
 
 Annotation: The scan mechanism is failing. EWS-G1 will probably be decomissioned soon and replaced with GOES-15.
 
-### GOES-14 [Norad 44903]
+### GOES-14 [[Norad 35491](https://celestrak.org/NORAD/elements/gp.php?CATNR=35491)]
 
 | Frequency  | Status |
 | ------------- | ------------- |
@@ -1059,7 +1059,7 @@ Update 03/02/2023: G14 has reached its new position and is now stable at 108.2°
 
 Annotation: G14 is rarely active, booted up for a yearly check-up or support to GOES-16/17/18.
 
-### GOES-15 [Norad 44903]
+### GOES-15 [[Norad 36411](https://celestrak.org/NORAD/elements/gp.php?CATNR=36411)]
 
 | Frequency  | Status |
 | ------------- | ------------- |
@@ -1082,7 +1082,7 @@ G15 is currently in in-orbit storage.
 
 Annotation : GOES-15 being moved to become EWS-G2. Downlink activity to be determined once new operations begin.
 
-### GOES-16 [Norad 44903]
+### GOES-16 [[Norad 41866](https://celestrak.org/NORAD/elements/gp.php?CATNR=41866)]
 
 | Frequency  | Status |
 | ------------- | ------------- |
@@ -1101,7 +1101,7 @@ Annotation : GOES-15 being moved to become EWS-G2. Downlink activity to be deter
 | MAG | Working |
 | DCS | Working |
 
-### GOES-17 [Norad 44903]
+### GOES-17 [[Norad 43226](https://celestrak.org/NORAD/elements/gp.php?CATNR=43226)]
 
 | Frequency  | Status |
 | ------------- | ------------- |
@@ -1123,7 +1123,7 @@ Annotation : GOES-15 being moved to become EWS-G2. Downlink activity to be deter
 Annotation: Due to a problem with the cooling system, GOES-17 was replaced with GOES-18 and is now a backup. 
 That is why G17 is beeing moved to in-orbit storage at 104.7°W where GRB and HRIT will no longer be available.
 
-### GOES-18 [Norad 44903]
+### GOES-18 [[Norad 51850](https://celestrak.org/NORAD/elements/gp.php?CATNR=51850)]
 
 | Frequency  | Status |
 | ------------- | ------------- |
@@ -1142,7 +1142,7 @@ That is why G17 is beeing moved to in-orbit storage at 104.7°W where GRB and HR
 | MAG | Working |
 | DCS | Working |
 
-### GK-2A [Norad 43823]
+### GK-2A [[Norad 43823](https://celestrak.org/NORAD/elements/gp.php?CATNR=43823)]
 
 | Frequency  | Status |
 | ------------- | ------------- |
@@ -1150,7 +1150,7 @@ That is why G17 is beeing moved to in-orbit storage at 104.7°W where GRB and HR
 | HRIT (1695.4MHz) | Active |
 | CDAS (Unknown MHz) | Unknown |
 
-### FENGYUN-2G [Norad 40367]
+### FENGYUN-2G [[Norad 40367](https://celestrak.org/NORAD/elements/gp.php?CATNR=40367)]
 
 | Frequency  | Status |
 | ------------- | ------------- |
@@ -1160,7 +1160,7 @@ That is why G17 is beeing moved to in-orbit storage at 104.7°W where GRB and HR
 | ------------- | ------------- |
 | VISSR-II | Working |
 
-### FENGYUN-2H [Norad 43491]
+### FENGYUN-2H [[Norad 43491](https://celestrak.org/NORAD/elements/gp.php?CATNR=43491)]
 
 | Frequency  | Status |
 | ------------- | ------------- |
@@ -1170,7 +1170,7 @@ That is why G17 is beeing moved to in-orbit storage at 104.7°W where GRB and HR
 | ------------- | ------------- |
 | VISSR-II | Working |
 
-### FENGYUN-4A [Norad 41882]
+### FENGYUN-4A [[Norad 41882](https://celestrak.org/NORAD/elements/gp.php?CATNR=41882)]
 
 | Frequency  | Status |
 | ------------- | ------------- |
@@ -1184,7 +1184,7 @@ That is why G17 is beeing moved to in-orbit storage at 104.7°W where GRB and HR
 | LMI | Working |
 | SEP | Working |
 
-### FENGYUN-4B [Norad 48808]
+### FENGYUN-4B [[Norad 48808](https://celestrak.org/NORAD/elements/gp.php?CATNR=48808)]
 
 | Frequency  | Status |
 | ------------- | ------------- |
