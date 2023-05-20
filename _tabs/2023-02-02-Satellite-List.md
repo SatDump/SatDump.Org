@@ -80,7 +80,7 @@ Thanks to Zbychu, Aang23, SnazzLazz and Carl Reinemann for double checking this 
 
 | Instrument  | Status |
 | ------------- | ------------- |
-| MSU-MR | Working |
+| MSU-MR | Deactivated |
 
 Annotation: METEOR-M N1 suffered a loss of attitude. It was completely deactivated, some rare activity on 1700Mhz.
 
@@ -90,13 +90,13 @@ Annotation: METEOR-M N1 suffered a loss of attitude. It was completely deactivat
 | ------------- | ------------- | ------------- | ------------- |
 | LRPT (137.1/.9MHz) | Inactive | DB | Global |
 | HRPT (1700MHz) | Inactive | DB | Global |
-| C-Band (3405MHz) | Inactive | DB | Global |
-| X-Band 1 (8120MHz) | Inactive | Dump | Moscow [RUS] |
-| X-Band 2 (8320MHz) | Inactive | Dump | Moscow [RUS] |
+| C-Band (3405MHz) | Unknown | DB | Global |
+| X-Band 1 (8120MHz) | Unknown | Dump | Moscow [RUS] |
+| X-Band 2 (8320MHz) | Unknown | Dump | Moscow [RUS] |
 
 | Instrument  | Status |
 | ------------- | ------------- |
-| MSU-MR | Working |
+| MSU-MR | Deactivated |
 
 Annotation: METEOR-M N2 suffered a loss of attitude on 24/12/2022. Because of that, the satellite has been deactivated and recovery is unlikely.
 
@@ -113,9 +113,10 @@ Annotation: METEOR-M N2 suffered a loss of attitude on 24/12/2022. Because of th
 | Instrument  | Status |
 | ------------- | ------------- |
 | MSU-MR | Working |
-| MTVZA | Working |
+| MTVZA | Deactivated |
 
 Annotation: A depressurization accured and N2-2 leaked coolant, causing some parts of the sat to overheat. Due to this,  LRPT is unavailable.
+MTVZA may be switched on and off randomly (Deactivated as of 21/05/2023).
 
 Update 28/01/2023: HRPT is now also active at night, and not limited by daylight. 
 
@@ -125,7 +126,7 @@ Update 28/01/2023: HRPT is now also active at night, and not limited by daylight
 | ------------- | ------------- | ------------- | ------------- |
 | LRPT (137.1/.9MHz) | Inactive | DB | Global |
 | AHRPT (1701.3MHz) | Inactive | DB | Global |
-| X-Band Dumps(7800MHz)  | Inactive | Dump | Svalbard [NOR] |
+| X-Band (7800MHz)  | Inactive | Dump | Svalbard [NOR] |
 
 Annotation: METOP-A was decomissioned.
 
@@ -134,7 +135,7 @@ Annotation: METOP-A was decomissioned.
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
 | AHRPT (1701.3MHz)  | Active | DB | Global |
-| X-Band Dumps(7800MHz)  | Active | Dump | Svalbard [NOR] |
+| X-Band (7800MHz)  | Active | Dump | Svalbard [NOR] |
 
 | Instrument  | Status |
 | ------------- | ------------- |
@@ -153,7 +154,7 @@ Annotation: METOP-A was decomissioned.
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
 | AHRPT (1701.3MHz)  | Active | DB | Global |
-| X-Band Dumps(7800MHz)  | Active | Dump | Svalbard [NOR] |
+| X-Band (7800MHz)  | Active | Dump | Svalbard [NOR] |
 
 | Instrument  | Status |
 | ------------- | ------------- |
@@ -566,7 +567,7 @@ Annotation: On 16/03/2023, NASA declared AIM's mission finished due to a battery
 | OLS | Working |
 | SSMIS | Working |
 
-Annotation: Is encrypted, but transmits in the clear when over the US or the poled.
+Annotation: Is encrypted, but transmits in the clear when over the US or the poles.
 
 ### DMSP 18 [[Norad 35951](https://celestrak.org/NORAD/elements/gp.php?CATNR=35951)]
 
@@ -911,12 +912,12 @@ Annotation: PRISMA is encrypted.
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
-| S-Band (2205MHz) | Active | Dump | Kiruna [SWE] |
-| X-Band (8040MHz) | Active | Dump | Svalbard [NOR] |
+| S-Band (2205MHz) | Inactive | Dump | Kiruna [SWE] |
+| X-Band (8040MHz) | Inactive | Dump | Svalbard [NOR] |
 
 | Instrument  | Status |
 | ------------- | ------------- |
-| ALADIN | Working |
+| ALADIN | Deactivated |
 
 Annotation : AEOLUS has now been decomissioned.
 
