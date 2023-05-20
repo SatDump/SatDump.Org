@@ -520,6 +520,7 @@ Annotation: While S-Band is active, it only seems to transmit filler.
 
 
 ### AIM [Norad 31304]
+
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
 | S-Band (2282.5MHz) | Inactive | Dump | Svalbard [NOR] and Wallops [US] |
