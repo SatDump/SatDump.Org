@@ -335,6 +335,23 @@ Annotation: FENGYUN 3-B has been decomissioned.
 
 Annotation: X-EUVI is fully functional, but the X-Ray channel is inactive, only EUV is being transmitted.
 
+### FENGYUN 3-G [Norad 56232]
+| Frequency  | Status | Downlink type | Location |
+| ------------- | ------------- | ------------- | ------------- |
+| AHRPT (7790MHz)  | Active | DB | Global |
+| S-Band (2243MHz)  | Active | DB | Global |
+
+| Instrument  | Status |
+| ------------- | ------------- |
+| MERSI-RM | Working |
+| PMR-Radar | Working |
+| MWRI-RM | Working |
+| SIPMAI | Deactivated |
+| HAOC | Deactivated |
+
+Annotation: While the S-Band transmitter is active, it appears to be unmodulated as of 23/04/23.
+Update: 19/05/2023, the satellite has been rotated 180 degrees, as visible on all instruments.
+
 ### PROBA-1 [Norad 26958]
 
 | Frequency  | Status | Downlink type | Location |
