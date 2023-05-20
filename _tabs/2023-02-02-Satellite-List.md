@@ -518,15 +518,19 @@ Annotation: While S-Band is active, it only seems to transmit filler.
 | Imager | Working |
 | SOLID | Working |
 
-### AIM [Norad 31304]
 
+### AIM [Norad 31304]
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
-| S-Band (2282.5MHz) | Active | Dump | Svalbard [NOR] and Wallops [US] |
+| S-Band (2282.5MHz) | Inactive | Dump | Svalbard [NOR] and Wallops [US] |
 
 | Instrument  | Status |
 | ------------- | ------------- |
+| CDE | Working |
 | CIPS | Working |
+| SOFIE | Working |
+
+Annotation: On 16/03/2023, NASA declared AIM's mission finished due to a battery failure. It still transmits in the daylight.
 
 ### IRIS [Norad 39197]
 
