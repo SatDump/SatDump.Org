@@ -126,6 +126,7 @@ Update 28/01/2023: HRPT is now also active at night, and not limited by daylight
 | ------------- | ------------- | ------------- | ------------- |
 | LRPT (137.1/.9MHz) | Inactive | DB | Global |
 | AHRPT (1701.3MHz) | Inactive | DB | Global |
+| S-Band (2230MHz) | Inactive | DB | Global |
 | X-Band (7800MHz)  | Inactive | Dump | Svalbard [NOR] |
 
 Annotation: METOP-A was decomissioned.
@@ -135,6 +136,7 @@ Annotation: METOP-A was decomissioned.
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
 | AHRPT (1701.3MHz)  | Active | DB | Global |
+| S-Band (2230MHz) | Active | DB | Global |
 | X-Band (7800MHz)  | Active | Dump | Svalbard [NOR] |
 
 | Instrument  | Status |
@@ -154,6 +156,7 @@ Annotation: METOP-A was decomissioned.
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
 | AHRPT (1701.3MHz)  | Active | DB | Global |
+| S-Band (2230MHz) | Active | DB | Global |
 | X-Band (7800MHz)  | Active | Dump | Svalbard [NOR] |
 
 | Instrument  | Status |
