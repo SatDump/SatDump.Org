@@ -68,7 +68,7 @@ Thanks to Zbychu, Aang23, SnazzLazz and Carl Reinemann for double checking this 
 | SEM  | Working |
 | SBUV  | Defective |
 
-### METEOR-M N1 [[Norad 35867](https://celestrak.org/NORAD/elements/gp.php?CATNR=35867)]
+### METEOR-M N1 [[Norad 35865](https://celestrak.org/NORAD/elements/gp.php?CATNR=35865)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -435,7 +435,7 @@ Annotation : SMEI is functional as far as it is known. Shutdown due to program f
 
 Annotation : Dumps are done to various Canadian groundstation. No exhaustive list available.
 
-### CHEOPS [[Norad 44876](https://celestrak.org/NORAD/elements/gp.php?CATNR=44876)]
+### CHEOPS [[Norad 44874](https://celestrak.org/NORAD/elements/gp.php?CATNR=44874)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -582,7 +582,7 @@ Annotation: Is encrypted, but transmits in the clear when over the US or the pol
 
 Annotation: Is encrypted, but transmits in the clear when over the US or the poles.
 
-### SWARM A [[Norad 39451](https://celestrak.org/NORAD/elements/gp.php?CATNR=39451)]
+### SWARM A [[Norad 39452](https://celestrak.org/NORAD/elements/gp.php?CATNR=39452)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -594,7 +594,7 @@ Annotation: Is encrypted, but transmits in the clear when over the US or the pol
 | VFM | Working |
 | EFI | Working |
 
-### SWARM B [[Norad 39452](https://celestrak.org/NORAD/elements/gp.php?CATNR=39452)]
+### SWARM B [[Norad 39451](https://celestrak.org/NORAD/elements/gp.php?CATNR=39451)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -646,7 +646,7 @@ Annotation : Data is being produced, but no detection of the X-Band link was eve
 | JEM-X | Working |
 | OMC | Working |
 
-### SWOT [[Norad 54654](https://celestrak.org/NORAD/elements/gp.php?CATNR=54654)]
+### SWOT [[Norad 54754](https://celestrak.org/NORAD/elements/gp.php?CATNR=54754)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
