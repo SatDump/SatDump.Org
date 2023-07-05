@@ -97,8 +97,13 @@ Annotation: METEOR-M N1 suffered a loss of attitude. It was completely deactivat
 | Instrument  | Status |
 | ------------- | ------------- |
 | MSU-MR | Deactivated |
+| KMSS | Deactivated |
+| Severjanin-M | Deactivated |
+| IKFS-2 | Deactivated |
+| GGAK | Working (?) |
 
-Annotation: METEOR-M N2 suffered a loss of attitude on 24/12/2022. Because of that, the satellite has been deactivated and recovery is unlikely.
+Annotation: METEOR-M N2 suffered a loss of attitude on 24/12/2022. Because of that, most instruments have been deactivated and recovery is unlikely.
+Only instruments that do not require NADIR continue to work.
 
 ### METEOR-M N2-2 [[Norad 44387](https://celestrak.org/NORAD/elements/gp.php?CATNR=44387)]
 
@@ -113,12 +118,33 @@ Annotation: METEOR-M N2 suffered a loss of attitude on 24/12/2022. Because of th
 | Instrument  | Status |
 | ------------- | ------------- |
 | MSU-MR | Working |
+| KMSS | Working |
+| Severjanin-M | Defective |
 | MTVZA | Deactivated |
+| GGAK | Working |
 
 Annotation: A depressurization accured and N2-2 leaked coolant, causing some parts of the sat to overheat. Due to this,  LRPT is unavailable.
 MTVZA may be switched on and off randomly (Deactivated as of 21/05/2023).
 
 Update 28/01/2023: HRPT is now also active at night, and not limited by daylight. 
+
+### METEOR-M N2-3 [[Norad 57166](https://celestrak.org/NORAD/elements/gp.php?CATNR=57166)]
+
+| Frequency  | Status | Downlink type | Location |
+| ------------- | ------------- | ------------- | ------------- |
+| LRPT (137.1/.9MHz) | Inactive | DB | Global |
+| HRPT (1700MHz)  | Active | DB | Global |
+| C-Band (3405MHz)  | Active | DB | Global |
+| X-Band 1 (8120MHz)  | Active | Dump | Moscow [RUS] |
+| X-Band 2 (8320MHz)  | Active | Dump | Moscow [RUS] |
+
+| Instrument  | Status |
+| ------------- | ------------- |
+| MSU-MR | Working |
+| KMSS | Working |
+| Severjanin-M | Unknown |
+| MTVZA | Deactivated |
+| GGAK | Working |
 
 ### METOP-A [[Norad 29499](https://celestrak.org/NORAD/elements/gp.php?CATNR=29499)]
 
