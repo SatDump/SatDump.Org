@@ -6,7 +6,7 @@ file = open("GACDumps.md", 'w')
 
 file.write("---\ntitle: GAC Predictor\nicon: fas fa-hourglass\norder: 4\n---\n\n")
 file.write("This site contains all currently scheduled NOAA15/18/19 GAC transmissions.\n")
-file.write("_Last updated: " + str(datetime.utcnow()) + "_\n")
+file.write("_Last updated: " + str(datetime.utcnow()) + "_\n\n")
 file.write("| Type | Time [UTC] | Satellite | Frequency | Polarization | Location |\n")
 file.write("| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |\n")
 
