@@ -146,6 +146,9 @@ Update 28/01/2023: HRPT is now also active at night, and not limited by daylight
 | MTVZA | Deactivated |
 | GGAK | Working |
 
+Annotation: As of 03/07/2023, IR channels 4/5/6 are active and transmitted on HRPT. They still require cooling - resulting images are fuzzy.
+Annotation: On 10/07/2023, the LRPT frequency was changed back to 137.9MHz.
+
 ### METOP-A [[Norad 29499](https://celestrak.org/NORAD/elements/gp.php?CATNR=29499)]
 
 | Frequency  | Status | Downlink type | Location |
@@ -548,7 +551,6 @@ Annotation: While S-Band is active, it only seems to transmit filler.
 | Imager | Working |
 | SOLID | Working |
 
-
 ### AIM [[Norad 31304](https://celestrak.org/NORAD/elements/gp.php?CATNR=31304)]
 
 | Frequency  | Status | Downlink type | Location |
@@ -561,7 +563,8 @@ Annotation: While S-Band is active, it only seems to transmit filler.
 | CIPS | Working |
 | SOFIE | Working |
 
-Annotation: On 16/03/2023, NASA declared AIM's mission finished due to a battery failure. It still transmits in the daylight.
+Annotation: On 16/03/2023, NASA declared AIM's mission finished due to a battery failure.
+Annotation: While AIM does not transmit any scientific data anymore, a strong carrier is still emmitted when in daylight.
 
 ### IRIS [[Norad 39197](https://celestrak.org/NORAD/elements/gp.php?CATNR=39197)]
 
@@ -652,7 +655,7 @@ Annotation: Is encrypted, but transmits in the clear when over the US or the pol
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
 | S-Band (2256.22MHz) | Active | Dump | Svalbard [NOR] |
-| X-Band (8460.81MHz) | Unknown | Dump | Svalbard [NOR]? |
+| X-Band (8460.81MHz) | Defective | Dump | Svalbard [NOR]? |
 
 | Instrument  | Status |
 | ------------- | ------------- |
@@ -660,7 +663,7 @@ Annotation: Is encrypted, but transmits in the clear when over the US or the pol
 | EIS | Unknown |
 | XRT | Unknown |
 
-Annotation : Data is being produced, but no detection of the X-Band link was ever possible...
+Annotation : Due to the broken X-Band TX, all scientific data is transmitted on S-Band.
 
 ### INTEGRAL [[Norad 27540](https://celestrak.org/NORAD/elements/gp.php?CATNR=27540)]
 
