@@ -147,7 +147,8 @@ Update 28/01/2023: HRPT is now also active at night, and not limited by daylight
 | GGAK | Working |
 
 Annotation: As of 03/07/2023, IR channels 4/5/6 are active and transmitted on HRPT. They still require cooling - resulting images are fuzzy.
-Annotation: On 10/07/2023, the LRPT frequency was changed back to 137.9MHz.
+
+Annotation: It seems like N2-3 is conflict switching. The frequency may change randomly between .1 and .9 in order to avoid collisions with N18/N19 APT.
 
 ### METOP-A [[Norad 29499](https://celestrak.org/NORAD/elements/gp.php?CATNR=29499)]
 
