@@ -369,11 +369,33 @@ Annotation: FENGYUN 3-B has been decomissioned.
 
 Annotation: X-EUVI is fully functional, but the X-Ray channel is inactive, only EUV is being transmitted.
 
+### FENGYUN 3-F [[Norad 57490](https://celestrak.org/NORAD/elements/gp.php?CATNR=57490)]
+
+| Frequency  | Status | Downlink type | Location |
+| ------------- | ------------- | ------------- | ------------- |
+| AHRPT (Unknown MHz)  | Unknown | DB | Global |
+| DPT (Unknown MHz)  | Unknown | Dump | Unknown [CHN] and Kiruna [SWE] |
+| S-Band (2264.6MHz)  | Active | DB | Global |
+
+| Instrument  | Status |
+| ------------- | ------------- |
+| MERSI-III | Unknown |
+| HIRAS-II | Unknown |
+| MWTS-II | Unknown |
+| MWHS-III | Unknown |
+| MWRI-II | Unknown |
+| GNOS-II | Unknown |
+| OMS-L | Unknown |
+| OMS-N | Unknown |
+| ERM-II | Unknown |
+| SIM-II | Unknown |
+
 ### FENGYUN 3-G [[Norad 56232](https://celestrak.org/NORAD/elements/gp.php?CATNR=56232)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
 | AHRPT (7790MHz)  | Active | DB | Global |
+| DPT (Unknown MHz)  | Unknown | Dump | Unknown [CHN] and Kiruna [SWE] |
 | S-Band (2243MHz)  | Active | DB | Global |
 
 | Instrument  | Status |
