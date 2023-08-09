@@ -379,7 +379,7 @@ Annotation: X-EUVI is fully functional, but the X-Ray channel is inactive, only 
 
 | Instrument  | Status |
 | ------------- | ------------- |
-| MERSI-III | Deactivated |
+| MERSI-III | Active |
 | HIRAS-II | Active |
 | MWTS-II | Deactivated |
 | MWHS-III | Active |
