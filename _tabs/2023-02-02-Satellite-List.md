@@ -381,10 +381,10 @@ Annotation: X-EUVI is fully functional, but the X-Ray channel is inactive, only 
 | ------------- | ------------- |
 | MERSI-III | Active |
 | HIRAS-II | Active |
-| MWTS-II | Deactivated |
+| MWTS-II | Active |
 | MWHS-III | Active |
 | MWRI-II | Deactivated |
-| GNOS-II | Deactivated |
+| GNOS-II | Active |
 | OMS-L | Deactivated |
 | OMS-N | Deactivated |
 | ERM-II | Deactivated |
