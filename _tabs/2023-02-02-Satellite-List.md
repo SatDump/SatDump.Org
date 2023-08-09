@@ -379,16 +379,18 @@ Annotation: X-EUVI is fully functional, but the X-Ray channel is inactive, only 
 
 | Instrument  | Status |
 | ------------- | ------------- |
-| MERSI-III | Unknown |
-| HIRAS-II | Unknown |
-| MWTS-II | Unknown |
-| MWHS-III | Unknown |
-| MWRI-II | Unknown |
-| GNOS-II | Unknown |
-| OMS-L | Unknown |
-| OMS-N | Unknown |
-| ERM-II | Unknown |
-| SIM-II | Unknown |
+| MERSI-III | Deactivated |
+| HIRAS-II | Active |
+| MWTS-II | Deactivated |
+| MWHS-III | Active |
+| MWRI-II | Deactivated |
+| GNOS-II | Deactivated |
+| OMS-L | Deactivated |
+| OMS-N | Deactivated |
+| ERM-II | Deactivated |
+| SIM-II | Deactivated |
+
+Annotation: 3F was launched recently. More and more instruments will become active as time passes.
 
 ### FENGYUN 3-G [[Norad 56232](https://celestrak.org/NORAD/elements/gp.php?CATNR=56232)]
 
