@@ -21,6 +21,7 @@ Thanks to Zbychu, Aang23, SnazzLazz and Carl Reinemann for double checking this 
 | DSB (137.35MHz) | Active  | DB | Global |
 | APT (137.62MHz) | Active  | DB | Global |
 | HRPT (1702.5MHz) | Active | DB | Global |
+| HRPT (2247.5MHz) | Active | DB | Global |
 | GAC (2247.5MHz) | Active | Dump | Wallops [US] |
 
 | Instrument  | Status |
