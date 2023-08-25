@@ -58,6 +58,7 @@ Thanks to Zbychu, Aang23, SnazzLazz and Carl Reinemann for double checking this 
 | DSB (137.77MHz) | Active | DB | Global |
 | APT (137.1MHz) | Active | DB | Global |
 | HRPT (1698MHz) | Active | DB | Global |
+| HRPT (2247.5MHz) | Active | DB | Global |
 | GAC (1702.5 MHz) | Active | Dump | Wallops [US] and Svalbard [NOR]|
 
 | Instrument  | Status |
