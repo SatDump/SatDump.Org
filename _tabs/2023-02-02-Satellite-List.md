@@ -143,12 +143,14 @@ Update 28/01/2023: HRPT is now also active at night, and not limited by daylight
 | MSU-MR | Working |
 | KMSS | Working |
 | Severjanin-M | Unknown |
-| MTVZA | Deactivated |
+| MTVZA | Working |
 | GGAK | Working |
 
 Annotation: As of 03/07/2023, IR channels 4/5/6 are active and transmitted on HRPT. They still require cooling - resulting images are fuzzy.
 
-Annotation: It seems like N2-3 is conflict switching. The frequency may change randomly between .1 and .9 in order to avoid collisions with N18/N19 APT.
+Annotation: It seems like N2-3 is conflict switching. The frequency may change randomly between .1 and .9 and 72k/80k modes in order to avoid collisions with N18/N19 APT.
+
+Annotation: N2-3 activated MTVZA on 04/07/2023 with a different format than METEOR-M N2-2.
 
 ### METOP-A [[Norad 29499](https://celestrak.org/NORAD/elements/gp.php?CATNR=29499)]
 
