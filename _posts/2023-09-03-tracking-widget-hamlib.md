@@ -35,7 +35,7 @@ With this plot, we can see many things,
 In the top left corner, we can see some information about the spacecraft,
 + Spacecrafts name
 + Current location
-+ Loss of signal/Acquisition of signal
++ Loss of signal/acquisition of signal
 
 ## Satellite Selector
 
@@ -49,7 +49,7 @@ The TLE mode will read from a list of TLEs in the satdump folder.
 
 ##### Horizons
 The horizons mode will take a second to load, as it has to request data from the JPL horizons server. If you are
-not connected to the internet, it will not work. This mode is useful for things that do not orbit earth, as you cant make a TLE for them.
+not connected to the internet, it will not work. This mode is useful for things that do not orbit earth, as TLEs dont work well for those.
 
 ## Object Information
 
@@ -74,7 +74,7 @@ to a remote different computer that handles the rotor.
 
 ### Rotor UI
 
-- Rotor positions. First Column shows the Azimut and Second Column the Elevation.
+- Rotor positions. First column shows the azimuth and the second column the elevation.
 * First row is an editable text box that shows the latest commanded position: it will be automatically updated when a satellite is being tracked. If the selected satellite is bellow horizon or not being tracked you can manually enter and type the desired position.
 * Second row shows the actual position reported by the rotor, where is it pointing currently (while it´s connected to Rotctld or PstRotator.
 - Rotor Control. This section defines enables the level of control over the rotor as well the controller daemon protocol.
@@ -116,9 +116,9 @@ Most of the configuration steps in PstRotator only needs to be done one single t
 
 ![](/assets/tracking_widget/rotor08.png)
 
-+ In Mode box at PstRotator select “Manual”. While PstRotator includes internal modules for both satellite and astronomical objects tracking it’s highly recommended not using them when using it with Satdump to avoid conflicts.
-+ It’s also recommended to enable in the PstRotator Setup Menu the options “Start in Manual Mode” and “Localized KBD Shortcuts” to avoid conflicts and tracking issues.
-+ Go to Satdump and Select PstRotator on Satdump Rotator Configuration panel.
++ In the Mode box in PstRotator select “Manual”. While PstRotator includes internal modules for both satellite and astronomical objects tracking, it’s highly recommended not using them while using it with Satdump to avoid conflicts.
++ It’s also recommended to enable the options “Start in Manual Mode” and “Localized KBD Shortcuts” in the PstRotator Setup Menu to avoid conflicts and tracking issues.
++ Go to Satdump and Select PstRotator in the Satdump Rotator Configuration panel.
 + Type the IP Address and TCP port as required (4002 is default PstRotator port).
 + Click in Connect.
 + Click Engage to start sending commands to the rotor.
