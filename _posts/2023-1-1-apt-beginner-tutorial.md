@@ -53,3 +53,5 @@ NOAA 19: 137.1 MHz
 
 
 Under the devices section you will also have to adjust the gain. For RTLSDRs and some other SDRs you will most likely need to set this to the maximum to get a solid signal. Once you see a signal appearing on the FFT, You can hit the record button. After 10-15 minutes the signal should start to fade, you can then stop the recording.
+
+The record should be located in the install directory of SatDump in the recordings folder on windows, and in ~/.config/satdump/recordings on linux.
