@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "APT Beginner tutorial"
-date:   2023-1-1 17:10:00 +0200
+date:   2023-9-3 18:35:00 +0200
 tags: tutorial
 author: feuerwerko
 ---
