@@ -61,7 +61,7 @@ This displays information about the object you are tracking, such as,
 + the change in az and el over a second
 
 
-## INTERFACING SATDUMP WITH A ROTOR
+## Interfacing Satdump with a Rotor
 Satdump features support for satellite tracking using a generic rotor interfacing through third party rotor controller daemons like Hamlib’s rotctld
 and YO3DMU’s PstRotator. While Hamlib rotctld and PstRotator handles the hardware communications requirements and the specific rotor protocols and 
 configuration, Satdump communicates with these apps at software level in a common and more generic protocols. This allows to basically control and command 
@@ -104,7 +104,7 @@ This guide only cover the basic instructions for Rotctld. Please refer to [Hamli
     
 (rotor06.png & rotor07.png) side by side or up/down if it fits better…)
 
-### USING PSTROTATOR
+### Using PstRotator
 
 This guide only cover the basic instructions for PstRotator. Please refer to [YO3DMU’s PstRotator Website](https://www.pstrotator.com/){:target="_blank"}{:rel="noopener noreferrer"} for details on how to download and install it, as well to setup your rotor.
 Most of the configuration steps in PstRotator only needs to be done one single time as it will save the settings when closed.
