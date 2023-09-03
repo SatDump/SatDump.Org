@@ -38,7 +38,7 @@ Before we record anything, we need to configure a few things. Note that the sett
 ![](/assets/apt_beginner_tutorial/Recorder-Devices.png)
 
 
-First, open the Device section, and select your SDR from the drop down menu at the top. If your device doesnt show up, try pressing the button next to the drop down to refresh the device list. Also make sure to input your SDRs PPM correction into the field called "Decimation", however this is not important for most modern SDRs at such low frequencies. Also set the sample rate to 250000 for APT. You can leave the other fields as standard for now. We will need to edit the gain and frequency before we begin recording tho.
+First, open the Device section, and select your SDR from the drop down menu at the top. If your device doesnt show up, try pressing the button next to the drop down to refresh the device list. Also set the sample rate to 250000 for APT. You can leave the other fields as standard for now. We will need to edit the gain and frequency before we begin recording tho.
 
 ![](/assets/apt_beginner_tutorial/Recorder-FFT.png)
 
