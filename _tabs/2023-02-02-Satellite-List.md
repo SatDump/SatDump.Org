@@ -32,6 +32,9 @@ Thanks to Zbychu, Aang23, SnazzLazz and Carl Reinemann for double checking this 
 | AMSU B | Defective |
 | SEM | Working |
 
+Annotation: On 2023/08/28 the NOAA-15 AVHRR scan mirror friction increased, resulting in a higher scan motor current and corrupted images.
+It is yet unclear if/when it will recover.
+
 ### NOAA-18 [[Norad 28654](https://celestrak.org/NORAD/elements/gp.php?CATNR=28654)]
 
 | Frequency  | Status | Downlink type | Location |
