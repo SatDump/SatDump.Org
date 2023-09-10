@@ -468,7 +468,7 @@ Annotation: Although PROBA-V's mission has been declared completed, it sometimes
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
-| S-Band (2221.5MHz) | Active | DB | Global |
+| S-Band (2221.5MHz) | Inactive (?) | DB | Global |
 | X-Band (Unknown MHz) | Active | Dump | SafetyNet? |
 
 | Instrument  | Status |
@@ -476,7 +476,9 @@ Annotation: Although PROBA-V's mission has been declared completed, it sometimes
 | WINDSAT | Working |
 | SMEI | Deactivated |
 
-Annotation : SMEI is functional as far as it is known. Shutdown due to program funding issues.
+Annotation: SMEI is functional as far as it is known. Shutdown due to program funding issues.
+
+Annotation: It seems like CORIOLIS ceased all S-Band DB transmissions on 2023/08/19. There is no official statement on this, yet. 
 
 ### CLOUDSAT [[Norad 29107](https://celestrak.org/NORAD/elements/gp.php?CATNR=29107)]
 
