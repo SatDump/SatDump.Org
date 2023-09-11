@@ -68,7 +68,7 @@ It is yet unclear if/when it will recover.
 | ------------- | ------------- |
 | AVHRR 3 | Working |
 | MHS | Working (degraded) |
-| HIRS  | Defective (?) |
+| HIRS  | Working |
 | AMSU A | Working |
 | SEM  | Working |
 | SBUV  | Defective |
