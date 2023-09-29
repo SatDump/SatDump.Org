@@ -383,7 +383,7 @@ Annotation: X-EUVI is fully functional, but the X-Ray channel is inactive, only 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
 | AHRPT (7790MHz)  | Active | DB | Global |
-| DPT (8212.5MHz)  | Unknown | Dump | Unknown [CHN] and Kiruna [SWE] |
+| DPT (8212.5MHz)  | Active | Dump | Unknown [CHN] and Kiruna [SWE] |
 | S-Band (2264.6MHz)  | Active | DB | Global |
 
 | Instrument  | Status |
