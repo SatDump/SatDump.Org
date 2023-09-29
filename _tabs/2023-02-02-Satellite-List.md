@@ -382,8 +382,8 @@ Annotation: X-EUVI is fully functional, but the X-Ray channel is inactive, only 
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
-| AHRPT (7790 MHz)  | Active | DB | Global |
-| DPT (Unknown MHz)  | Unknown | Dump | Unknown [CHN] and Kiruna [SWE] |
+| AHRPT (7790MHz)  | Active | DB | Global |
+| DPT (8212.5MHz)  | Unknown | Dump | Unknown [CHN] and Kiruna [SWE] |
 | S-Band (2264.6MHz)  | Active | DB | Global |
 
 | Instrument  | Status |
@@ -478,7 +478,9 @@ Annotation: Although PROBA-V's mission has been declared completed, it sometimes
 
 Annotation: SMEI is functional as far as it is known. Shutdown due to program funding issues.
 
-Annotation: It seems like CORIOLIS ceased all S-Band DB transmissions on 2023/08/19. There is no official statement on this, yet. 
+Annotation: It seems like CORIOLIS ceased all S-Band DB transmissions on 2023/08/19. There is no official statement on this, yet.
+
+Annotation 29/09/2023: After more than one month of daily surveillance, not a single emmission was seen. At this point, its unlikely to come back.
 
 ### CLOUDSAT [[Norad 29107](https://celestrak.org/NORAD/elements/gp.php?CATNR=29107)]
 
