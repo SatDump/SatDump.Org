@@ -455,7 +455,7 @@ Annotation: On 19/01/2023, ESA officially declared the "CHRIS" instrument's miss
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
 | S-Band (2235MHz) | Active | Dump | Redu [BEL] |
-| X-Band (8090MHz) | Inactive | Dump | Kiruna [NOR] |
+| X-Band (8090MHz) | Inactive | Dump | Kiruna [SWE] |
 
 | Instrument  | Status |
 | ------------- | ------------- |
@@ -469,7 +469,7 @@ Annotation: Although PROBA-V's mission has been declared completed, it sometimes
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
 | S-Band (2221MHz) | Active | Dump | Redu [BEL] |
-| X-Band (8215.5MHz) | Unknwon | Dump | Kiruna [NOR] |
+| X-Band (8215.5MHz) | Unknwon | Dump | Kiruna [SWE] |
 
 | Instrument  | Status |
 | ------------- | ------------- |
