@@ -481,7 +481,7 @@ Annotation: PVCC was launched recently, the Vegetation instrument and X-Band dow
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
-| S-Band (2244MHz) | Unknwon | Dump | Graz [AU] |
+| S-Band (2244MHz) | Unknwon | Dump | Graz [AT] |
 
 | Instrument  | Status |
 | ------------- | ------------- |
