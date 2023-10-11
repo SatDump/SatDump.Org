@@ -469,7 +469,7 @@ Annotation: Although PROBA-V's mission has been declared completed, it sometimes
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
 | S-Band (2221MHz) | Active | Dump | Redu [BEL] |
-| X-Band (8215.5MHz) | Unknwon | Dump | Kiruna [SWE] |
+| X-Band (8175.5MHz) | Unknwon | Dump | Kiruna [SWE] |
 
 | Instrument  | Status |
 | ------------- | ------------- |
