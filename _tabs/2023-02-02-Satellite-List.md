@@ -464,6 +464,32 @@ Annotation: On 19/01/2023, ESA officially declared the "CHRIS" instrument's miss
 
 Annotation: Although PROBA-V's mission has been declared completed, it sometimes transmits preview-data from its vegetation instrument on S-band. It is yet unclear if it will fully resume its duty and start dumping on X-Band aswell. PROBA-V was also seen transmitting GPS data.
 
+### PROBA-V cubesat companion [Norad 580XX]
+
+| Frequency  | Status | Downlink type | Location |
+| ------------- | ------------- | ------------- | ------------- |
+| S-Band (2221MHz) | Active | Dump | Redu [BEL] |
+| X-Band (8215.5MHz) | Unknwon | Dump | Kiruna [NOR] |
+
+| Instrument  | Status |
+| ------------- | ------------- |
+| Vegetation Imager | Inactive |
+
+Annotation: PVCC was launched recently, the Vegetation instrument and X-Band downlink are expected to turn on soon.
+
+### PRETTY [Norad 580XX]
+
+| Frequency  | Status | Downlink type | Location |
+| ------------- | ------------- | ------------- | ------------- |
+| S-Band (2244MHz) | Unknwon | Dump | Graz [AU] |
+
+| Instrument  | Status |
+| ------------- | ------------- |
+| Reflectometer | Inactive |
+| Dosimeter | Inactive |
+
+Annotation: PRETTY was launched recently, the instruments are expected to turn on soon.
+
 ### CORIOLIS [[Norad 27640](https://celestrak.org/NORAD/elements/gp.php?CATNR=27640)]
 
 | Frequency  | Status | Downlink type | Location |
