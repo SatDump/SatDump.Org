@@ -464,7 +464,7 @@ Annotation: On 19/01/2023, ESA officially declared the "CHRIS" instrument's miss
 
 Annotation: Although PROBA-V's mission has been declared completed, it sometimes transmits preview-data from its vegetation instrument on S-band. It is yet unclear if it will fully resume its duty and start dumping on X-Band aswell. PROBA-V was also seen transmitting GPS data.
 
-### PROBA-V cubesat companion [Norad 580XX]
+### PROBA-V cubesat companion [[Norad 58025](https://celestrak.org/NORAD/elements/gp.php?CATNR=58025)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
