@@ -32,7 +32,7 @@ description: >-                        # used by seo meta and the atom feed
 url: 'https://www.satdump.org'
 
 github:
-  username: Altillimity/SatDump             # change to your github username
+  username: SatDump/SatDump             # change to your github username
 
 #twitter:
 #  username: twitter_username            # change to your twitter username
