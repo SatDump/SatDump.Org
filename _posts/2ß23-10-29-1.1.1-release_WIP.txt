@@ -13,15 +13,15 @@ So we figured a small maintenance update will do no harm, to get you amazing fol
 ## Better projections
 Aang23 made some overtime and implemented a new projection algorithm to finally replace the old and crusty pre-1.0.0 algorithm.
 He made a fantastic writeup [[here](https://www.satdump.org/posts/projection-story/)] that is definitely worth checking out. Don't worry, the old
-Algo is still there. It...just has a better friend now. You can also select colors for different parts of the map overlay now.
+Algo is still there. It...just has a better friend now. You can also select different colors for different parts of the map overlay now.
 
 [Add projection image here, maybe the one from the writeup]
 
 ## Better TLE loading
-Instead of pulling every needed TLE separately, SatDump is now getting its TLEs from Celestrak's Active.txt list. TLE loading was improved, making SatDump launch faster and more stable (Thanks JVital2013!).
+Instead of pulling every needed TLE separately, SatDump is now getting all of its TLEs from Celestrak's Active.txt list. TLE loading was improved, making SatDump launch faster and more stable (Thanks JVital2013!).
 
 ## AMSU calibration
-Thanks to Zbychu's endurance when it come to reading the NOAA KLM Guide, we finally have AMSU calibrated. This means its now producing calibrated data that actually can be used to do science. Its available for NOAA-15/18/19 and METOP-B/C.
+Thanks to Zbychu's endurance when it comes to reading the NOAA KLM Guide, we finally have AMSU calibrated. This means its now producing calibrated data that actually can be used to do science. Its available for NOAA-15/18/19 and METOP-B/C.
 
 ## RTL-TCP improvements
 RTL-TCP now supports PPM correction.
@@ -39,7 +39,7 @@ Projections for METEOR, NOAA, METOP and FY were improved and should be more accu
 The "Save as" dialog on MacOS did not work properly, fixed now.
 
 ## Windows cleanup
-A bug caused the recorder/FFT split to be uneven. Fixed by JVital2013.
+A bug caused the recorder/FFT split to be very uneven. Fixed by JVital2013.
 
 ## FY3 fixes
 Some small problems with FY-3 arose, like a inconsistent handling of the LDPC. Everything is retuned and stable now.
