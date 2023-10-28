@@ -1,0 +1,54 @@
+---
+layout: post
+title:  "Release 1.1.1"
+date:   2023-12-31 23:59:59 +0200
+tags: release
+---
+
+Guess what, it's update time again! Time GOES by so fast - it's been a month now since V1.1.0 was released (See what we did there?).
+So we figured a small maintenance update will do no harm, to get you amazing folks some more features!
+
+# New features
+
+## Better projections
+Aang23 made some unpaid overtime and implemented a new projection algorithm to finally replace the old and crusty pre-1.0.0 algorithm.
+He made a fantastic writeup [[here](https://www.satdump.org/posts/projection-story/)] that is definitely worth checking out. Don't worry, the old
+Algo is still there. It...just has a better friend now. You can also select colors for different parts of the map overlay now.
+
+[Add projection image here, maybe the one from the writeup]
+
+## Better TLE loading
+Instead of pulling every needed TLE separately, SatDump is now getting its TLEs from Celestrak's Active.txt list. TLE loading was improved, making SatDump launch faster and more stable (Thanks JVital2013!).
+
+## AMSU calibration
+Thanks to Zbychu'S endurance when it come to reading the NOAA KLM Guide, we finally have AMSU-A2 calibrated. This means its now producing calibrated data that actually can be used to do science. Its available for NOAA-15/18/19 and METOP-B/C.
+
+## RTL-TCP improvements
+RTL-TCP now supports PPM correction.
+
+## Pipelines
+Pipelines for Psyche, PVCC and ODIN were added. There is no decoder yet, since we didn't manage to collect enough data for decoder construction yet. 
+
+##Tons of retuning
+Projections for METEOR, NOAA, METOP and FY were improved and should be more accurate. Some satellites seem to wobble a bit, so its not impossible for some projections to be slightly off again.
+
+
+# List of killed bugs
+
+## MacOS File problems
+The "Save as" dialog on MacOS did not work properly, fixed now.
+
+## Windows cleanup
+A bug caused the recorder/FFT split to be uneven. Fixed by JVital2013.
+
+## FY3 fixes
+Some small problems with FY-3 arose, like a inconsistent handling of the LDPC. Everything is retuned and stable now.
+
+## Composite fixup
+Lego11 cleaned up the Composite presets available in the SatDump viewer.
+
+## Android fixes
+Small stuff on Android, like a keyboard showing up in situations where a keyboard is not needed, was repaired.
+
+## UDP Source on Windows
+Argh, windows struck once again. The UDP source didn't work properly here, because Windows likes being special. Fixed.
