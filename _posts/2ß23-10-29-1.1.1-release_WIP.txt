@@ -11,7 +11,7 @@ So we figured a small maintenance update will do no harm, to get you amazing fol
 # New features
 
 ## Better projections
-Aang23 made some unpaid overtime and implemented a new projection algorithm to finally replace the old and crusty pre-1.0.0 algorithm.
+Aang23 made some overtime and implemented a new projection algorithm to finally replace the old and crusty pre-1.0.0 algorithm.
 He made a fantastic writeup [[here](https://www.satdump.org/posts/projection-story/)] that is definitely worth checking out. Don't worry, the old
 Algo is still there. It...just has a better friend now. You can also select colors for different parts of the map overlay now.
 
@@ -21,7 +21,7 @@ Algo is still there. It...just has a better friend now. You can also select colo
 Instead of pulling every needed TLE separately, SatDump is now getting its TLEs from Celestrak's Active.txt list. TLE loading was improved, making SatDump launch faster and more stable (Thanks JVital2013!).
 
 ## AMSU calibration
-Thanks to Zbychu'S endurance when it come to reading the NOAA KLM Guide, we finally have AMSU-A2 calibrated. This means its now producing calibrated data that actually can be used to do science. Its available for NOAA-15/18/19 and METOP-B/C.
+Thanks to Zbychu's endurance when it come to reading the NOAA KLM Guide, we finally have AMSU-A2 calibrated. This means its now producing calibrated data that actually can be used to do science. Its available for NOAA-15/18/19 and METOP-B/C.
 
 ## RTL-TCP improvements
 RTL-TCP now supports PPM correction.
@@ -51,4 +51,4 @@ Lego11 cleaned up the Composite presets available in the SatDump viewer.
 Small stuff on Android, like a keyboard showing up in situations where a keyboard is not needed, was repaired.
 
 ## UDP Source on Windows
-Argh, windows struck once again. The UDP source didn't work properly here, because Windows likes being special. Fixed.
+Argh, windows struck once again. The UDP source didn't work properly here, because Windows likes beeing special. Fixed.
