@@ -3,11 +3,10 @@ title: Satellite List
 icon: fas fa-book
 order: 4
 ---
-
-When looking for the operational status of some satellites & their instruments, I noticed there doesn't appear to be a combined list for all.
-Thats why I compiled this list and wrote together information on (almost) all satellites that are featured in satDump.
-Maybe its useful to someone - if you spot any mistakes or want to add to it, please let me know! 
-I made this list with the best of my knowledge, but mistakes can always happen - Crosswalkersam
+This list contains information on all satellites that are featured in satDump (and some more!.
+I made this list with the best of my knowledge, but mistakes can always happen.
+This list is maintained by Crosswalkersam - if you find any mistakes or you want to add to it, 
+consider maing a PR or drop us a message on our Matrix server!
 
 Thanks to Zbychu, Aang23, SnazzLazz and Carl Reinemann for double checking this list! 
 
@@ -469,7 +468,7 @@ Annotation: Although PROBA-V's mission has been declared completed, it sometimes
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
 | S-Band (2221MHz) | Active | Dump | Redu [BEL] |
-| X-Band (8175.5MHz) | Unknwon | Dump | Kiruna [SWE] |
+| X-Band (8175.5MHz) | Active | Dump | Kiruna [SWE] |
 
 | Instrument  | Status |
 | ------------- | ------------- |
