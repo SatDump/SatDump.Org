@@ -21,7 +21,7 @@ Algo is still there. It...just has a better friend now. You can also select colo
 Instead of pulling every needed TLE separately, SatDump is now getting its TLEs from Celestrak's Active.txt list. TLE loading was improved, making SatDump launch faster and more stable (Thanks JVital2013!).
 
 ## AMSU calibration
-Thanks to Zbychu's endurance when it come to reading the NOAA KLM Guide, we finally have AMSU-A2 calibrated. This means its now producing calibrated data that actually can be used to do science. Its available for NOAA-15/18/19 and METOP-B/C.
+Thanks to Zbychu's endurance when it come to reading the NOAA KLM Guide, we finally have AMSU calibrated. This means its now producing calibrated data that actually can be used to do science. Its available for NOAA-15/18/19 and METOP-B/C.
 
 ## RTL-TCP improvements
 RTL-TCP now supports PPM correction.
