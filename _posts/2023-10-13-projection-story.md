@@ -216,11 +216,11 @@ As stated previous, most instruments provide timestamp that are mandatory for th
 
 ![](/assets/projection_story/mersi_ll.png)
 
-*FengYun-3E DPT by Andrew*
+*FengYun-3E DPT by Andrew (MrFentazis)*
 
 ![](/assets/projection_story/fy3f.png)
 
-*FengYun-3F DPT by Andrew*
+*FengYun-3F DPT by Andrew (MrFentazis)*
 
 ![](/assets/projection_story/aqua.png)
 
