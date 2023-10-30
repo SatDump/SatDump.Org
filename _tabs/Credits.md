@@ -5,31 +5,32 @@ order: 3
 ---
 
 # Developers
-**Lead Developer:** Aang23 (F4LAU)
+**Lead Developer:** Aang23 (F4LAU) [Twitter](https://twitter.com/aang254)
 
 ### Additional Developers
-- Crosswalkersam
-- Jamie Vital (KC3TWZ)
-- lego11 (IU1QPT)
-- Zbychu (SP5EWS)
+- Crosswalkersam [Twitter](https://twitter.com/Crosswalkersam)
+- Jamie Vital (KC3TWZ) [Twitter](https://twitter.com/JVital2013)
+- lego11 (IU1QPT) [Twitter](https://twitter.com/original_lego11)
+- Zbychu (SP5EWS) [Twitter](https://twitter.com/sp5ews)
 
 ### Contributors
-- Arved MØKDS
+- Arved MØKDS [Twitter](https://twitter.com/arvedviehweger)
 - Blobtoe
-- Felix OK9UWU
-- Fred Jansen
+- Felix OK9UWU [Twitter](https://twitter.com/OK9UWU)
+- Fred Jansen [Twitter](https://twitter.com/redplanet00)
 - Jpjonte
-- LazzSnazz
+- LazzSnazz [Twitter](https://twitter.com/LazzSnazz)
 - Mark Pentier
-- MeteoOleg
-- Oleg Kutkov
-- Peter Kooistra
+- MeteoOleg [Twitter](https://twitter.com/MeteoOleg)
+- Oleg Kutkov [Twitter](https://twitter.com/olegkutkov)
+- Peter Kooistra [Twitter](https://twitter.com/petermeteor)
 - Piefadase
-- Ryzerth
-- Raov UB8QBD
-- Sam (@sam210723)
-- Scott Tilley (VE7TIL)
+- Ryzerth [Twitter](https://twitter.com/ryzerth)
+- Raov UB8QBD [Twitter](https://twitter.com/UB8QBD)
+- Sam (@sam210723) [Twitter](https://twitter.com/sam210723)
+- Scott Tilley (VE7TIL) [Twitter](https://twitter.com/coastal8049)
 - Tomi HA6NAB
+- CO2ESP [Twitter](https://twitter.com/CO2ESP_Raydel)
 
 ### Special Thanks to
 - microp11 (Paul Maxan), for the reverse-engineering work & Scytale-C
