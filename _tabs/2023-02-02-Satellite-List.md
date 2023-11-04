@@ -1014,7 +1014,7 @@ Annotation: PRISMA is encrypted.
 | ------------- | ------------- |
 | ALADIN | Deactivated |
 
-Annotation : AEOLUS has now been decomissioned.
+Annotation : AEOLUS has been decomissioned and is decayed.
 
 ### STEREO A/B [Norad 29510/29511]
 
@@ -1115,21 +1115,21 @@ Annotation: RDAS is RHCP.
 
 | Frequency  | Status |
 | ------------- | ------------- |
-| GVAR (1685.7MHz) | Active |
-| SD (1676MHz) | Active |
-| CDA (1694MHz) | Active |
+| GVAR (1685.7MHz) | Inactive |
+| SD (1676MHz) | Inactive |
+| CDA (1694MHz) | Inactive |
 | LRIT (1691MHz) | Inactive |
 | MDL (1681.418MHz) | Inactive |
 
 | Instrument  | Status |
 | ------------- | ------------- |
 | SXI | Defective |
-| SEM | Working |
+| SEM | Deactivated |
 | Sounder  | Defective |
-| Imager | Working (degraded) |
+| Imager | Deactivated (degraded) |
 | S&R | Defective |
 
-Annotation: The scan mechanism is failing. EWS-G1 will probably be decomissioned soon and replaced with GOES-15.
+Annotation: The scan mechanism is failing. EWS-G1 was deactivated and replaced with EWS-G2 (GOES-15).
 
 ### GOES-14 [[Norad 35491](https://celestrak.org/NORAD/elements/gp.php?CATNR=35491)]
 
@@ -1155,28 +1155,25 @@ Update 03/02/2023: G14 has reached its new position and is now stable at 108.2°
 
 Annotation: G14 is rarely active, booted up for a yearly check-up or support to GOES-16/17/18.
 
-### GOES-15 [[Norad 36411](https://celestrak.org/NORAD/elements/gp.php?CATNR=36411)]
+### EWS-G2 (GOES-15) [[Norad 36411](https://celestrak.org/NORAD/elements/gp.php?CATNR=36411)]
 
 | Frequency  | Status |
 | ------------- | ------------- |
-| GVAR (1685.7MHz) | Inactive |
+| GVAR (1685.7MHz) | Active |
 | SD (1676MHz) | Inactive |
 | CDA (1694MHz) | Active |
 | LRIT (1691MHz) | Active |
 | MDL (1681.418MHz) | Inactive |
 
-Annotation: Eventhough LRIT is active, it appears that no data is transmitted at the moment.
-G15 is currently in in-orbit storage.
-
 | Instrument  | Status |
 | ------------- | ------------- |
-| SXI | Working, Deactivated |
-| SEM | Working, Deactivated |
-| Sounder  | Working, Deactivated |
-| Imager | Working, Deactivated |
-| S&R | Working, Deactivated |
+| SXI | Working |
+| SEM | Working |
+| Sounder  | Working |
+| Imager | Working |
+| S&R | Working |
 
-Annotation : GOES-15 being moved to become EWS-G2. Downlink activity to be determined once new operations begin.
+Annotation : GOES-15 has replaced GOES-13 and is now EWS-G2.
 
 ### GOES-16 [[Norad 41866](https://celestrak.org/NORAD/elements/gp.php?CATNR=41866)]
 
