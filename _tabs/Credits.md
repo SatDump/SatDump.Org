@@ -103,7 +103,7 @@ order: 3
 
 ### UI Libraries
 - [OpenGL ES](https://www.khronos.org/opengles/) and [EGL](https://www.khronos.org/egl), for OpenGL on Android
-- [glew](http://glew.sourceforge.net/) and [glfw3](https://www.glfw.org/), for OpenGL on Desktop
+- [glfw3](https://www.glfw.org/), for OpenGL on Desktop
 
 ### Fonts
 - [Roboto](https://fonts.google.com/specimen/Roboto), for text
