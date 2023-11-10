@@ -1,11 +1,11 @@
 ---
-title: Contributers
+title: Contributors
 icon: fas fa-users
 order: 3
 ---
 
 # Developers
-**Lead Developer:** Aang23 (F4LAU) [Twitter](https://twitter.com/aang254)
+**Lead Developer:** Aang23 (F4LAU)
 
 ### Additional Developers
 - Crosswalkersam [Twitter](https://twitter.com/Crosswalkersam)
