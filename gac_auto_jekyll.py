@@ -7,7 +7,7 @@ file = open("GACDumps.md", 'w')
 file.write("---\ntitle: GAC Predictor\nicon: fas fa-hourglass\norder: 4\n---\n\n")
 file.write("This site contains all currently scheduled NOAA15/18/19 GAC transmissions according to the official NOAA schedule.\n\n")
 file.write("_Last updated: " + str(datetime.utcnow()) + "_\n\n")
-file.write("> **WARNING**: Due to NOAA POES handover to Parsons Tech, GAC schedule from NOAA is to be considered inaccurate. NOAA satellites do not dump at this moment (November 2023) in the United States. They all dump instead at Svalbard, at every orbit on 2247.5 MHz S-band.\n\n> For up-to-date information, we recommend you check out our official [Matrix](https://github.com/SatDump/SatDump) or [Discord](https://discord.gg/ctt3M8pRYG) channels.\n\n")
+file.write("> **WARNING**: Due to NOAA POES handover to Parsons Tech, GAC schedule from NOAA is to be considered inaccurate. NOAA satellites do not dump at this moment (November 2023) in the United States. They all dump instead at Svalbard, at every orbit on 2247.5 MHz S-band.\n\n> For up-to-date information, we recommend you check out our official [Matrix](https://github.com/SatDump/SatDump) room, or our [Discord](https://discord.gg/ctt3M8pRYG) bridge to Matrix.\n\n")
 file.write("| Type | Time [UTC] | Satellite | Frequency | Polarization | Location |\n")
 file.write("| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |\n")
 
