@@ -198,7 +198,7 @@ For parameters, you will at least need the following :
  - `samplerate` : Samplerate to record at, in SPS or Hz
  - `frequency` : Frequency to tune the device at, in Hz
  - `baseband_format` : Same as for offline processing, with a few differences
-   - `wav16` : To record in .wav format (s16, 16-bits)
+   - `w16` : To record in .wav format (s16, 16-bits)
    - `ziq` : This default to 8-bits. If you want to use another depth, you can add `--bit_depth 16` (can be 8, 16, or 32)
  - `timeout` : Entirely optional, but sets for how long, in seconds, SatDump should record for
 
