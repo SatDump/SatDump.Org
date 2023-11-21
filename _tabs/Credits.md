@@ -43,7 +43,7 @@ order: 3
 - [deepspace-turbo](https://github.com/geeanlooca/deepspace-turbo), used for Turbo decoding
 - [dlfcn-win32](https://github.com/dlfcn-win32/dlfcn-win32), to use the usual dlopen() functions on Windows
 - [ImGui](https://github.com/ocornut/imgui), for the user interface
-- [imgui_markdown](https://github.com/juliettef/imgui_markdown), to render this very file!
+- [imgui_markdown](https://github.com/juliettef/imgui_markdown), to render composite info popups and the about screen
 - [implot](https://github.com/epezent/implot), to display images in the viewer
 - [libaec](https://gitlab.dkrz.de/k202009/libaec), with OpenSatelliteProject's path
 - [libcorrect](https://github.com/quiet/libcorrect), for Reed-Solomon decoding
@@ -103,7 +103,7 @@ order: 3
 
 ### UI Libraries
 - [OpenGL ES](https://www.khronos.org/opengles/) and [EGL](https://www.khronos.org/egl), for OpenGL on Android
-- [glfw3](https://www.glfw.org/), for OpenGL on Desktop
+- [gl3w](https://github.com/skaslev/gl3w) and [glfw3](https://www.glfw.org/), for OpenGL on Desktop
 
 ### Fonts
 - [Roboto](https://fonts.google.com/specimen/Roboto), for text
