@@ -31,9 +31,6 @@ Thanks to Zbychu, Aang23, SnazzLazz and Carl Reinemann for double checking this 
 | AMSU B | Defective |
 | SEM | Working |
 
-Annotation: On 2023/08/28 the NOAA-15 AVHRR scan mirror friction increased, resulting in a higher scan motor current and corrupted images.
-It is yet unclear if/when it will recover.
-
 ### NOAA-18 [[Norad 28654](https://celestrak.org/NORAD/elements/gp.php?CATNR=28654)]
 
 | Frequency  | Status | Downlink type | Location |
@@ -334,6 +331,8 @@ Annotation: FENGYUN 3-B has been decomissioned.
 | VASS | Working |
 | VIRR | Working |
 
+Annotation: Please note that wilhe FY3C is still functional, AHRPT is only active over China.
+
 ### FENGYUN 3-D [[Norad 43010](https://celestrak.org/NORAD/elements/gp.php?CATNR=43010)]
 
 | Frequency  | Status | Downlink type | Location |
@@ -400,6 +399,8 @@ Annotation: X-EUVI is fully functional, but the X-Ray channel is inactive, only 
 
 Annotation: 3F was launched recently. More and more instruments will become active as time passes.
 
+Annotation: FengYun-3F is LHCP!
+
 ### FENGYUN 3-G [[Norad 56232](https://celestrak.org/NORAD/elements/gp.php?CATNR=56232)]
 
 | Frequency  | Status | Downlink type | Location |
@@ -416,9 +417,9 @@ Annotation: 3F was launched recently. More and more instruments will become acti
 | SIPMAI | Deactivated |
 | HAOC | Deactivated |
 
-Annotation: While the S-Band transmitter is active, it appears to be unmodulated as of 23/04/23.
+Annotation: The S-Band seems to part of a chinese TDRS-like network using DSSS. Currently not decodable.
 
-Update: 19/05/2023, the satellite has been rotated 180 degrees, as visible on all instruments.
+Annotation: The satellite may be rotated randomly. If the resulting images show jitter, select the "Rotated Satellite" checkbox in SatDump.
 
 ### PROBA-1 [[Norad 26958](https://celestrak.org/NORAD/elements/gp.php?CATNR=26958)]
 
@@ -476,10 +477,13 @@ Annotation: Although PROBA-V's mission has been declared completed, it sometimes
 
 Annotation: PVCC was launched recently, the Vegetation instrument and X-Band downlink are expected to turn on soon.
 
+Annotation: It is not planned to transmit scientific preview data on S-Band like on PROBA-V. All Data will be X-Band.
+
 ### PRETTY [Norad 580XX]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
+| VHF (137.78MHz) | Active | Dump | Graz [AT] |
 | S-Band (2244MHz) | Unknwon | Dump | Graz [AT] |
 
 | Instrument  | Status |
@@ -493,7 +497,7 @@ Annotation: PRETTY was launched recently, the instruments are expected to turn o
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
-| S-Band (2221.5MHz) | Inactive (?) | DB | Global |
+| S-Band (2221.5MHz) | Active | DB | Global |
 | X-Band (Unknown MHz) | Active | Dump | SafetyNet? |
 
 | Instrument  | Status |
@@ -505,7 +509,7 @@ Annotation: SMEI is functional as far as it is known. Shutdown due to program fu
 
 Annotation: It seems like CORIOLIS ceased all S-Band DB transmissions on 2023/08/19. There is no official statement on this, yet.
 
-Annotation 29/09/2023: After more than one month of daily surveillance, not a single emmission was seen. At this point, its unlikely to come back.
+Annotation 22/11/2023: The S-Band downlink was turned back on, but is only transmitting filler.
 
 ### CLOUDSAT [[Norad 29107](https://celestrak.org/NORAD/elements/gp.php?CATNR=29107)]
 
@@ -569,12 +573,14 @@ Annotation: While S-Band is active, it only seems to transmit filler.
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
-| S-Band (2260.5MHz) | Active | Dump | Svalbard [NOR] |
+| S-Band (2260.5MHz) | inactive (?) | Dump | Svalbard [NOR] |
 
 | Instrument  | Status |
 | ------------- | ------------- |
 | MWI | Working |
 | LRI | Working |
+
+Annotation: Observations indicate that only GRACE-FO 1 is beeing used. FO 2 seems to be inactive.
 
 ### JASON-3 [[Norad 41240](https://celestrak.org/NORAD/elements/gp.php?CATNR=41240)]
 
@@ -587,6 +593,8 @@ Annotation: While S-Band is active, it only seems to transmit filler.
 | POSEIDON | Working |
 | AMR-2 | Working |
 | LPT | Working |
+
+Annotation: The decoder for JASON-3 wasnt ported to the newest version yet. To get all instruments, please use v0.0.39.
 
 ### MATS [[Norad 54227](https://celestrak.org/NORAD/elements/gp.php?CATNR=54227)]
 
@@ -611,7 +619,8 @@ Annotation: While S-Band is active, it only seems to transmit filler.
 
 | Instrument  | Status |
 | ------------- | ------------- |
-| Imager | Working |
+| Imager VIS | Working |
+| Imager IR | Working |
 | SOLID | Working |
 
 ### AIM [[Norad 31304](https://celestrak.org/NORAD/elements/gp.php?CATNR=31304)]
@@ -627,7 +636,10 @@ Annotation: While S-Band is active, it only seems to transmit filler.
 | SOFIE | Working |
 
 Annotation: On 16/03/2023, NASA declared AIM's mission finished due to a battery failure.
+
 Annotation: While AIM does not transmit any scientific data anymore, a strong carrier is still emmitted when in daylight.
+
+Annotation 22/12/2023: AIM will decay soon.
 
 ### IRIS [[Norad 39197](https://celestrak.org/NORAD/elements/gp.php?CATNR=39197)]
 
@@ -722,9 +734,10 @@ Annotation: Is encrypted, but transmits in the clear when over the US or the pol
 
 | Instrument  | Status |
 | ------------- | ------------- |
-| SOT | Unknown |
-| EIS | Unknown |
-| XRT | Unknown |
+| FLT | Working |
+| EIS | Working |
+| SPP | Working |
+| XRT | Working |
 
 Annotation : Due to the broken X-Band TX, all scientific data is transmitted on S-Band.
 
@@ -930,6 +943,20 @@ Annotation: OMI is the sole X-Band instrument.
 
 Annotation : The CGAK downlink was active in the first few weeks, and has remained off since.
 
+### ARKTIKA-M 2 [Norad ?????]
+
+| Frequency  | Status | Downlink type | Location |
+| ------------- | ------------- | ------------- | ------------- |
+| L-Band CGAK (????MHz) | Unknown | DB | Global |
+| RDAS (????MHz) | Unknown | Dump | Moscow [RUS] and Unknown |
+
+| Instrument  | Status |
+| ------------- | ------------- |
+| GGAK-VE | Unknown |
+| MSU-GS/VE | Unknown |
+
+Annotation: ARKTIKA-M2 launched successfully, but no emmisions were detected so far.
+
 ### GCOM-W1 [[Norad 38337](https://celestrak.org/NORAD/elements/gp.php?CATNR=38337)]
 
 | Frequency  | Status | Downlink type | Location |
@@ -1003,7 +1030,7 @@ Annotation : The CGAK downlink was active in the first few weeks, and has remain
 
 Annotation: PRISMA is encrypted.
 
-### AEOLUS [[Norad 43600](https://celestrak.org/NORAD/elements/gp.php?CATNR=43600)]
+### AEOLUS [Norad 43600]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -1129,7 +1156,7 @@ Annotation: RDAS is RHCP.
 | Imager | Deactivated (degraded) |
 | S&R | Defective |
 
-Annotation: The scan mechanism is failing. EWS-G1 was deactivated and replaced with EWS-G2 (GOES-15).
+Annotation: The scan mechanism is failing. EWS-G1 was deactivated and replaced with EWS-G2 (GOES-15). It is currently drifting west.
 
 ### GOES-14 [[Norad 35491](https://celestrak.org/NORAD/elements/gp.php?CATNR=35491)]
 
