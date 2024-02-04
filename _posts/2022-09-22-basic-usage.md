@@ -219,7 +219,7 @@ Additionally, live-processing in CLI mode can provide current status over HTTP. 
 
 For example, on GOES-R HRIT :
 ```
-satdump live goes_hrit output_test_wtf --source rtlsdr --samplerate 2.4e6 --frequency 1694.1 --gain 40 --http_server 0.0.0.0:8080
+satdump live goes_hrit output_test_wtf --source rtlsdr --samplerate 2.4e6 --frequency 1694.1e6 --gain 40 --http_server 0.0.0.0:8080
 ```
 Running `curl https://0.0.0.0:8080` will show the following, which can be fed into Grafana or other similar tools for monitoring.
 ```
