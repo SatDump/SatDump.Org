@@ -44,6 +44,7 @@ Alternatively, you can [compile SatDump yourself](https://github.com/SatDump/Sat
 
 * [Windows Installer](https://github.com/SatDump/SatDump/releases/download/nightly/SatDump-Windows_x64_Installer.exe)
 * [Windows Portable](https://github.com/SatDump/SatDump/releases/download/nightly/SatDump-Windows_x64_Portable.zip)
-* [macOS Intel DMG](https://github.com/SatDump/SatDump/releases/download/nightly/SatDump-macOS.dmg)
+* [macOS (Intel)](https://github.com/SatDump/SatDump/releases/download/nightly/SatDump-macOS-Intel.dmg)
+* [macOS (Silicon - M1/M2/M3)](https://github.com/SatDump/SatDump/releases/download/nightly/SatDump-macOS-Silicon.dmg)
 * [Linux Ubuntu 22.04 and later](https://github.com/SatDump/SatDump/releases/download/nightly/satdump_ubuntu_latest_amd64.deb)
 * [64-Bit ARM (like Raspberry Pi OS; deb)](https://github.com/SatDump/SatDump/releases/download/nightly/satdump_rpi64_latest_arm64.deb)
