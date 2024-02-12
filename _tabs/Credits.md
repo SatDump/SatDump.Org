@@ -43,11 +43,12 @@ order: 3
 - [deepspace-turbo](https://github.com/geeanlooca/deepspace-turbo), used for Turbo decoding
 - [dlfcn-win32](https://github.com/dlfcn-win32/dlfcn-win32), to use the usual dlopen() functions on Windows
 - [ImGui](https://github.com/ocornut/imgui), for the user interface
-- [imgui_markdown](https://github.com/juliettef/imgui_markdown), to render composite info popups and the about screen
+- [imgui_markdown](https://github.com/juliettef/imgui_markdown), to render composite info popups and this very file!
 - [implot](https://github.com/epezent/implot), to display images in the viewer
 - [libaec](https://gitlab.dkrz.de/k202009/libaec), with OpenSatelliteProject's path
 - [libcorrect](https://github.com/quiet/libcorrect), for Reed-Solomon decoding
 - [libjpeg](https://ijg.org/), from the Independent JPEG Group
+- [libOpenCL-loader](https://github.com/robertwgh/libOpenCL-loader), for OpenCL on Android
 - [libpredict](https://github.com/la1k/libpredict), used for orbit prediction
 - [Lua](https://www.lua.org/), used for complex image composites
 - [miniz](https://github.com/richgel999/miniz), used to decompress ZIP files in some decoders
@@ -80,6 +81,7 @@ order: 3
 
 ### Libraries linked against
 - [fftw3](http://fftw.org/), used for all FFT operations
+- [jemalloc](https://jemalloc.net/), for memory allocation optimization on Linux and macOS
 - [libpng](https://github.com/glennrp/libpng), for PNG image loading/saving
 - [nng](https://github.com/nanomsg/nng), for network stuff
 - [PortAudio](https://www.portaudio.com/), used for audio output for NOAA APT
