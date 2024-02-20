@@ -24,7 +24,7 @@ Latest stable version: **1.1.4** [(Changelog)](/posts/1.1.4-release).
 
 ## Linux
 
-* [Ubuntu 22.04 and later](https://github.com/SatDump/SatDump/releases/download/1.1.4/satdump_1.1.4_amd64.deb)
+* [Ubuntu 22.04-23.04](https://github.com/SatDump/SatDump/releases/download/1.1.4/satdump_1.1.4_amd64.deb)
 * [64-Bit ARM (like Raspberry Pi OS; deb)](https://github.com/SatDump/SatDump/releases/download/1.1.4/satdump_1.1.4_arm64.deb)
 
 > For Linux it is recommended to [compile SatDump yourself](https://github.com/SatDump/SatDump#linux) on your machine. These `deb` files are provided for your convenience.
