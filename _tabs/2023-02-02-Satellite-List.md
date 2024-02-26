@@ -113,7 +113,7 @@ Only instruments that do not require NADIR continue to work.
 | LRPT (137.1/.9MHz) | Inactive | DB | Global |
 | HRPT (1700MHz)  | Active | DB | Global |
 | C-Band (3405MHz)  | Active | DB | Global |
-| X-Band 1 (8120MHz)  | Active | Dump | Moscow [RUS] |
+| X-Band 1 (8128MHz)  | Active | Dump | Moscow [RUS] |
 | X-Band 2 (8320MHz)  | Active | Dump | Moscow [RUS] |
 
 | Instrument  | Status |
@@ -136,7 +136,7 @@ Update 28/01/2023: HRPT is now also active at night, and not limited by daylight
 | LRPT (137.1/.9MHz) | Active | DB | Global |
 | HRPT (1700MHz)  | Active | DB | Global |
 | C-Band (3405MHz)  | Active | DB | Global |
-| X-Band 1 (8120MHz)  | Active | Dump | Moscow [RUS] |
+| X-Band 1 (8128MHz)  | Active | Dump | Moscow [RUS] |
 | X-Band 2 (8320MHz)  | Active | Dump | Moscow [RUS] |
 
 | Instrument  | Status |
