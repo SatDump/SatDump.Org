@@ -133,7 +133,7 @@ Update 28/01/2023: HRPT is now also active at night, and not limited by daylight
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
-| LRPT (137.1/.9MHz) | Active | DB | Global |
+| LRPT (137.9MHz) | Active | DB | Global |
 | HRPT (1700MHz)  | Active | DB | Global |
 | C-Band (3405MHz)  | Active | DB | Global |
 | X-Band 1 (8128MHz)  | Active | Dump | Moscow [RUS] |
@@ -154,6 +154,28 @@ Annotation: It seems like N2-3 is conflict switching. The frequency may change r
 Annotation: N2-3 activated MTVZA on 04/07/2023 with a different format than METEOR-M N2-2.
 
 Annotation: METEOR-M N2-3 suffered a loss of attitude on 2023/09/05. This is fixed now, 2-3 is working as intended.
+
+### METEOR-M N2-4 [[Norad 59051](https://celestrak.org/NORAD/elements/gp.php?CATNR=59051)]
+
+| Frequency  | Status | Downlink type | Location |
+| ------------- | ------------- | ------------- | ------------- |
+| LRPT (137.1MHz) | Active | DB | Global |
+| HRPT (1700MHz)  | Active | DB | Global |
+| C-Band (3405MHz)  | Unknown | DB | Global |
+| X-Band 1 (8128MHz)  | Active | Dump | Moscow [RUS] |
+| X-Band 2 (8320MHz)  | Active | Dump | Moscow [RUS] |
+
+| Instrument  | Status |
+| ------------- | ------------- |
+| MSU-MR | Working |
+| MTVZA | Unknown |
+| KMSS | Unknown |
+| GGAK-M | Unknown |
+| IKFS-2 | Unknown |
+| MeteoSAR | Unknown |
+| IKOR-M | Unknown |
+
+Annotation: METEOR-M N2-4 was launched recently. The MSU-MR assembly is not cooled down yet, IR images will be fuzzy. Instruments will get turned on as time passes.
 
 ### METOP-A [[Norad 29499](https://celestrak.org/NORAD/elements/gp.php?CATNR=29499)]
 
