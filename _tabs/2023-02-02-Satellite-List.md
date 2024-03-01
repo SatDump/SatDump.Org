@@ -162,8 +162,8 @@ Annotation: METEOR-M N2-3 suffered a loss of attitude on 2023/09/05. This is fix
 | LRPT (137.1MHz) | Active | DB | Global |
 | HRPT (1700MHz)  | Active | DB | Global |
 | C-Band (3405MHz)  | Unknown | DB | Global |
-| X-Band 1 (8128MHz)  | Active | Dump | Moscow [RUS] |
-| X-Band 2 (8320MHz)  | Active | Dump | Moscow [RUS] |
+| X-Band 1 (8128MHz)  | Unknown | Dump | Moscow [RUS] |
+| X-Band 2 (8320MHz)  | Unknown | Dump | Moscow [RUS] |
 
 | Instrument  | Status |
 | ------------- | ------------- |
