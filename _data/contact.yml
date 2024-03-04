@@ -3,6 +3,10 @@
 -
   type: github
   icon: 'fab fa-github'
+-
+  type: docs
+  icon: 'far fa-file'
+  url: 'https://docs.satdump.org'
 #-
 #  type: twitter
 #  icon: 'fab fa-twitter'
