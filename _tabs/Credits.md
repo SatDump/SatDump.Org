@@ -43,7 +43,7 @@ order: 3
 - [deepspace-turbo](https://github.com/geeanlooca/deepspace-turbo), used for Turbo decoding
 - [dlfcn-win32](https://github.com/dlfcn-win32/dlfcn-win32), to use the usual dlopen() functions on Windows
 - [ImGui](https://github.com/ocornut/imgui), for the user interface
-- [imgui_markdown](https://github.com/juliettef/imgui_markdown), to render composite info popups and this very file!
+- [imgui_markdown](https://github.com/juliettef/imgui_markdown), to render composite info popups and the about screen!
 - [implot](https://github.com/epezent/implot), to display images in the viewer
 - [libaec](https://gitlab.dkrz.de/k202009/libaec), with OpenSatelliteProject's path
 - [libcorrect](https://github.com/quiet/libcorrect), for Reed-Solomon decoding
@@ -107,6 +107,9 @@ order: 3
 - [gl3w](https://github.com/skaslev/gl3w) and [glfw3](https://www.glfw.org/), for OpenGL on Desktop
 
 ### Fonts
-- [Roboto](https://fonts.google.com/specimen/Roboto), for text
-- [3270 Nerd Font](https://www.nerdfonts.com/font-downloads), for icons and symbols  
-*Both fonts were merged into a single font.ttf*
+- [Roboto](https://fonts.google.com/specimen/Roboto), for default font
+- [3270 Nerd Font](https://www.nerdfonts.com/font-downloads), for icons and symbols
+- [Perfect DOS VGA 437](https://www.dafont.com/perfect-dos-vga-437.font), for Phosphor theme
+- [PX Sans Nouveaux](https://www.dafont.com/px-sans-nouveaux.font), for Windows 98 theme
+
+*3270 Nerd Font and Roboto have been merged into a single font.ttf*
