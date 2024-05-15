@@ -16,6 +16,9 @@ order: 3
 ### Contributors
 - Arved MØKDS [Twitter](https://twitter.com/arvedviehweger)
 - Blobtoe
+- CO2ESP [Twitter](https://twitter.com/CO2ESP_Raydel)
+- Daniel Ekman (SA2KNG) [Twitter](https://twitter.com/knglaser)
+- Digitelektro [Twitter](https://twitter.com/digitelektro1)
 - Felix OK9UWU [Twitter](https://twitter.com/OK9UWU)
 - Fred Jansen [Twitter](https://twitter.com/redplanet00)
 - Jpjonte
@@ -30,7 +33,6 @@ order: 3
 - Sam (@sam210723) [Twitter](https://twitter.com/sam210723)
 - Scott Tilley (VE7TIL) [Twitter](https://twitter.com/coastal8049)
 - Tomi HA6NAB
-- CO2ESP [Twitter](https://twitter.com/CO2ESP_Raydel)
 
 ### Special Thanks to
 - microp11 (Paul Maxan), for the reverse-engineering work & Scytale-C
@@ -43,7 +45,7 @@ order: 3
 - [deepspace-turbo](https://github.com/geeanlooca/deepspace-turbo), used for Turbo decoding
 - [dlfcn-win32](https://github.com/dlfcn-win32/dlfcn-win32), to use the usual dlopen() functions on Windows
 - [ImGui](https://github.com/ocornut/imgui), for the user interface
-- [imgui_markdown](https://github.com/juliettef/imgui_markdown), to render composite info popups and the about screen!
+- [imgui_markdown](https://github.com/juliettef/imgui_markdown), to render composite info popups and the about screen
 - [implot](https://github.com/epezent/implot), to display images in the viewer
 - [libaec](https://gitlab.dkrz.de/k202009/libaec), with OpenSatelliteProject's path
 - [libcorrect](https://github.com/quiet/libcorrect), for Reed-Solomon decoding
@@ -57,9 +59,9 @@ order: 3
 - [OpenCL C++ Headers](https://github.com/KhronosGroup/OpenCL-CLHPP), for OpenCL support
 - [OpenJP2](https://github.com/uclouvain/openjpeg), for JPEG-2000 support on GOES GRB, FY4, and more
 - [Portable File Dialogs](https://github.com/samhocevar/portable-file-dialogs), for native files dialogs
+- [QOI](https://github.com/phoboslab/qoi), for qoi image support
 - [RapidXML](http://rapidxml.sourceforge.net/), for XML Parsing
 - [sol2](https://github.com/ThePhD/sol2), C++ Bindings for LUA
-- [tiny-regex-c](https://github.com/kokke/tiny-regex-c), for RegEx parsing
 - [UTF-8 CPP](https://utfcpp.sourceforge.net/), for UTF-8 handling
 - [xdsopl's LDPC](https://github.com/xdsopl/LDPC), utilized for LDPC codes encoding/decoding
 
