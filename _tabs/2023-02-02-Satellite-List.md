@@ -510,10 +510,9 @@ Annotation: It is not planned to transmit scientific preview data on S-Band like
 
 | Instrument  | Status |
 | ------------- | ------------- |
-| Reflectometer | Inactive |
-| Dosimeter | Inactive |
+| Reflectometer | Working |
+| Dosimeter | Working |
 
-Annotation: PRETTY was launched recently, the instruments are expected to turn on soon.
 
 ### CORIOLIS [[Norad 27640](https://celestrak.org/NORAD/elements/gp.php?CATNR=27640)]
 
