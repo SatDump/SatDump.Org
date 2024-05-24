@@ -31,6 +31,8 @@ Thanks to Zbychu, Aang23, SnazzLazz and Carl Reinemann for double checking this 
 | AMSU B | Defective |
 | SEM | Working |
 
+Annotation: NOAA-15 is a old, the AVHRR scanning may fail or recover spontaeously.
+
 ### NOAA-18 [[Norad 28654](https://celestrak.org/NORAD/elements/gp.php?CATNR=28654)]
 
 | Frequency  | Status | Downlink type | Location |
@@ -147,13 +149,13 @@ Update 28/01/2023: HRPT is now also active at night, and not limited by daylight
 | MTVZA | Working |
 | GGAK | Working |
 
-Annotation: As of 03/07/2023, IR channels 4/5/6 are active and transmitted on HRPT. Due to humidity in the MSU-MR assembly, frequent reheating is required. IR channels may randomly get fuzzy.
-
 Annotation: It seems like N2-3 is conflict switching. The frequency may change randomly between .1 and .9 and 72k/80k modes in order to avoid collisions with N18/N19 APT.
 
 Annotation: N2-3 activated MTVZA on 04/07/2023 with a different format than METEOR-M N2-2.
 
 Annotation: METEOR-M N2-3 suffered a loss of attitude on 2023/09/05. This is fixed now, 2-3 is working as intended.
+
+Annotation: Users may see the horizon when receiving 2-4. This is likely not a loss of attitude, but for calibration purposes.
 
 ### METEOR-M N2-4 [[Norad 59051](https://celestrak.org/NORAD/elements/gp.php?CATNR=59051)]
 
@@ -162,20 +164,20 @@ Annotation: METEOR-M N2-3 suffered a loss of attitude on 2023/09/05. This is fix
 | LRPT (137.1MHz) | Active | DB | Global |
 | HRPT (1700MHz)  | Active | DB | Global |
 | C-Band (3405MHz)  | Unknown | DB | Global |
-| X-Band 1 (8128MHz)  | Unknown | Dump | Moscow [RUS] |
-| X-Band 2 (8320MHz)  | Unknown | Dump | Moscow [RUS] |
+| X-Band 1 (8128MHz)  | Inactive | Dump | Moscow [RUS] |
+| X-Band 2 (8320MHz)  | Active | Dump | Moscow [RUS] |
 
 | Instrument  | Status |
 | ------------- | ------------- |
 | MSU-MR | Working |
-| MTVZA | Unknown |
-| KMSS | Unknown |
-| GGAK-M | Unknown |
+| MTVZA | Working |
+| KMSS | Working |
+| GGAK-M | Working |
 | IKFS-2 | Unknown |
 | MeteoSAR | Unknown |
 | IKOR-M | Unknown |
 
-Annotation: METEOR-M N2-4 was launched recently. The MSU-MR assembly is not cooled down yet, IR images will be fuzzy. Instruments will get turned on as time passes.
+Annotation: METEOR-KMSS is now supported in SatDump.
 
 ### METOP-A [[Norad 29499](https://celestrak.org/NORAD/elements/gp.php?CATNR=29499)]
 
@@ -419,8 +421,6 @@ Annotation: X-EUVI is fully functional, but the X-Ray channel is inactive, only 
 | ERM-II | Deactivated |
 | SIM-II | Deactivated |
 
-Annotation: 3F was launched recently. More and more instruments will become active as time passes.
-
 Annotation: FengYun-3F is LHCP!
 
 ### FENGYUN 3-G [[Norad 56232](https://celestrak.org/NORAD/elements/gp.php?CATNR=56232)]
@@ -457,6 +457,8 @@ Annotation: The satellite may be rotated randomly. If the resulting images show 
 | SEM | Working |
 
 Annotation: On 19/01/2023, ESA officially declared the "CHRIS" instrument's mission as completed. SEM, DEBIE and HRC data will still be acquired.
+
+Annotation: Since end of 2023, PROBA-1 does not seem to do any imaging anymore. No HRC traffic was seen, only SEM and DEBIE.
 
 ### PROBA-2 [[Norad 36037](https://celestrak.org/NORAD/elements/gp.php?CATNR=36037)]
 
@@ -497,21 +499,21 @@ Annotation: Although PROBA-V's mission has been declared completed, it sometimes
 | ------------- | ------------- |
 | Vegetation Imager | Inactive |
 
-Annotation: PVCC was launched recently, the Vegetation instrument and X-Band downlink are expected to turn on soon.
-
 Annotation: It is not planned to transmit scientific preview data on S-Band like on PROBA-V. All Data will be X-Band.
+
+Annotation May 2024: PVCC is still beeing comissioned (?)
 
 ### PRETTY [[Norad 58023](https://celestrak.org/NORAD/elements/gp.php?CATNR=58023)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
 | VHF (137.78MHz) | Active | Dump | Graz [AT] |
-| S-Band (2244MHz) | Unknwon | Dump | Graz [AT] |
+| S-Band (2244MHz) | Active | Dump | Graz [AT] |
 
 | Instrument  | Status |
 | ------------- | ------------- |
-| Reflectometer | Working |
-| Dosimeter | Working |
+| Reflectometer | Unknown |
+| Dosimeter | Unknown |
 
 
 ### CORIOLIS [[Norad 27640](https://celestrak.org/NORAD/elements/gp.php?CATNR=27640)]
@@ -536,11 +538,13 @@ Annotation 22/11/2023: The S-Band downlink was turned back on, but is only trans
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
-| S-Band (2217.5MHz) | Active | Dump | Redu [BEL] / Wallops [US] |
+| S-Band (2217.5MHz) | Inactive | Dump | Redu [BEL] / Wallops [US] |
 
 | Instrument  | Status |
 | ------------- | ------------- |
-| CPR | Working |
+| CPR | Deactivated |
+
+Annotation: Cloudsat was decommisioned.
 
 ### SCISAT-1 [[Norad 27858](https://celestrak.org/NORAD/elements/gp.php?CATNR=27858)]
 
@@ -652,15 +656,11 @@ Annotation: The decoder for JASON-3 wasnt ported to the newest version yet. To g
 
 | Instrument  | Status |
 | ------------- | ------------- |
-| CDE | Working |
-| CIPS | Working |
-| SOFIE | Working |
+| CDE | Deactivated |
+| CIPS | Deactivated |
+| SOFIE | Deactivated |
 
-Annotation: On 16/03/2023, NASA declared AIM's mission finished due to a battery failure.
-
-Annotation: While AIM does not transmit any scientific data anymore, a strong carrier is still emmitted when in daylight.
-
-Annotation 22/12/2023: AIM will decay soon.
+Annotation: AIM was decommisioned and has decayed.
 
 ### IRIS [[Norad 39197](https://celestrak.org/NORAD/elements/gp.php?CATNR=39197)]
 
@@ -677,12 +677,14 @@ Annotation 22/12/2023: AIM will decay soon.
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
-| S-Band (2229.5MHz) | Active | Dump | SMILE [Darmstadt, GER] |
-| X-Band (8176MHz) | Active | Dump | SMILE [Darmstadt, GER] |
+| S-Band (2229.5MHz) | Inactive | Dump | SMILE [Darmstadt, GER] |
+| X-Band (8176MHz) | Inactive | Dump | SMILE [Darmstadt, GER] |
 
 | Instrument  | Status |
 | ------------- | ------------- |
-| Camera | Working |
+| Camera | Deactivated |
+
+Annotation: OPS-SAT has decayed.
 
 ### DMSP 17 [[Norad 29522](https://celestrak.org/NORAD/elements/gp.php?CATNR=29522)]
 
