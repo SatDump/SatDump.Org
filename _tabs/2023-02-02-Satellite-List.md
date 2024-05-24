@@ -501,7 +501,7 @@ Annotation: PVCC was launched recently, the Vegetation instrument and X-Band dow
 
 Annotation: It is not planned to transmit scientific preview data on S-Band like on PROBA-V. All Data will be X-Band.
 
-### PRETTY [Norad 580XX]
+### PRETTY [[Norad 58023](https://celestrak.org/NORAD/elements/gp.php?CATNR=58023)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
