@@ -24,7 +24,7 @@ Latest stable version: **1.2.0** [(Changelog)](/posts/1.2.0-release).
 
 ## Linux
 
-* [Ubuntu 22.04-23.04](https://github.com/SatDump/SatDump/releases/download/1.2.0/satdump_1.2.0_amd64.deb)
+* [Ubuntu 22.04](https://github.com/SatDump/SatDump/releases/download/1.2.0/satdump_1.2.0_amd64.deb)
 * [64-Bit ARM (like Raspberry Pi OS; deb)](https://github.com/SatDump/SatDump/releases/download/1.2.0/satdump_1.2.0_arm64.deb)
 
 > For Linux it is recommended to [compile SatDump yourself](https://github.com/SatDump/SatDump#linux) on your machine. These `deb` files are provided for your convenience.
@@ -45,5 +45,6 @@ Alternatively, you can [compile SatDump yourself](https://github.com/SatDump/Sat
 * [Windows Portable](https://github.com/SatDump/SatDump/releases/download/nightly/SatDump-Windows_x64_Portable.zip)
 * [macOS (Intel)](https://github.com/SatDump/SatDump/releases/download/nightly/SatDump-macOS-Intel.dmg)
 * [macOS (Silicon - M1/M2/M3)](https://github.com/SatDump/SatDump/releases/download/nightly/SatDump-macOS-Silicon.dmg)
-* [Linux Ubuntu 22.04 and later](https://github.com/SatDump/SatDump/releases/download/nightly/satdump_ubuntu_latest_amd64.deb)
-* [64-Bit ARM (like Raspberry Pi OS; deb)](https://github.com/SatDump/SatDump/releases/download/nightly/satdump_rpi64_latest_arm64.deb)
+* [Ubuntu 24.04](https://github.com/SatDump/SatDump/releases/download/nightly/satdump_ubuntu_24.04_amd64.deb)
+* [Ubuntu 22.04](https://github.com/SatDump/SatDump/releases/download/nightly/satdump_ubuntu_22.04_amd64.deb)
+* [Debian 64-Bit ARM (like Raspberry Pi OS)](https://github.com/SatDump/SatDump/releases/download/nightly/satdump_rpi64_latest_arm64.deb)
