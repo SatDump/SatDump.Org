@@ -155,8 +155,6 @@ Annotation: N2-3 activated MTVZA on 04/07/2023 with a different format than METE
 
 Annotation: METEOR-M N2-3 suffered a loss of attitude on 2023/09/05. This is fixed now, 2-3 is working as intended.
 
-Annotation: Users may see the horizon when receiving 2-4. This is likely not a loss of attitude, but for calibration purposes.
-
 ### METEOR-M N2-4 [[Norad 59051](https://celestrak.org/NORAD/elements/gp.php?CATNR=59051)]
 
 | Frequency  | Status | Downlink type | Location |
@@ -178,6 +176,8 @@ Annotation: Users may see the horizon when receiving 2-4. This is likely not a l
 | IKOR-M | Unknown |
 
 Annotation: METEOR-KMSS is now supported in SatDump.
+
+Annotation: Users may see the horizon when receiving 2-4. This is likely not a loss of attitude, but for calibration purposes.
 
 ### METOP-A [[Norad 29499](https://celestrak.org/NORAD/elements/gp.php?CATNR=29499)]
 
