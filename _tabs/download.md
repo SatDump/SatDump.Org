@@ -48,3 +48,4 @@ Alternatively, you can [compile SatDump yourself](https://github.com/SatDump/Sat
 * [Ubuntu 24.04](https://github.com/SatDump/SatDump/releases/download/nightly/satdump_ubuntu_24.04_amd64.deb)
 * [Ubuntu 22.04](https://github.com/SatDump/SatDump/releases/download/nightly/satdump_ubuntu_22.04_amd64.deb)
 * [Debian 64-Bit ARM (like Raspberry Pi OS)](https://github.com/SatDump/SatDump/releases/download/nightly/satdump_rpi64_latest_arm64.deb)
+* [Android (9.0+)](https://github.com/SatDump/SatDump/releases/download/nightly/SatDump-Android.apk)
