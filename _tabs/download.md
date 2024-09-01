@@ -35,17 +35,27 @@ Latest stable version: **1.2.0** [(Changelog)](/posts/1.2.0-release).
 
 > While pretty much all features perfectly function on Android, there may be some limitations (including hardware limitations depending on the device in use) in some places. For example, not all SDR radios can be used. Currently, only the RTL-SDR, Airspy, Airspy HF, LimeSDR Mini and HackRF are supported on Android.
 
+
 # Nightly
 
 The nightly versions are automatically built when the source code is updated. You can download them to try out new features or to check if a bug has been already resolved.
 
 Alternatively, you can [compile SatDump yourself](https://github.com/SatDump/SatDump#building--installing).
 
-* [Windows Installer](https://github.com/SatDump/SatDump/releases/download/nightly/SatDump-Windows_x64_Installer.exe)
-* [Windows Portable](https://github.com/SatDump/SatDump/releases/download/nightly/SatDump-Windows_x64_Portable.zip)
-* [macOS (Intel)](https://github.com/SatDump/SatDump/releases/download/nightly/SatDump-macOS-Intel.dmg)
-* [macOS (Silicon - M1/M2/M3)](https://github.com/SatDump/SatDump/releases/download/nightly/SatDump-macOS-Silicon.dmg)
+## Windows
+* [x64 - Installer](https://github.com/SatDump/SatDump/releases/download/nightly/SatDump-Windows_x64_Installer.exe)
+* [x64 - Portable](https://github.com/SatDump/SatDump/releases/download/nightly/SatDump-Windows_x64_Portable.zip)
+* [arm64 - Installer](https://github.com/SatDump/SatDump/releases/download/nightly/SatDump-Windows_arm64_Installer.exe)
+* [arm64 - Portable](https://github.com/SatDump/SatDump/releases/download/nightly/SatDump-Windows_arm64_Portable.zip)
+
+## macOS
+* [Intel](https://github.com/SatDump/SatDump/releases/download/nightly/SatDump-macOS-Intel.dmg)
+* [Apple Silicon](https://github.com/SatDump/SatDump/releases/download/nightly/SatDump-macOS-Silicon.dmg)
+
+## Linux
 * [Ubuntu 24.04](https://github.com/SatDump/SatDump/releases/download/nightly/satdump_ubuntu_24.04_amd64.deb)
 * [Ubuntu 22.04](https://github.com/SatDump/SatDump/releases/download/nightly/satdump_ubuntu_22.04_amd64.deb)
 * [Debian 64-Bit ARM (like Raspberry Pi OS)](https://github.com/SatDump/SatDump/releases/download/nightly/satdump_rpi64_latest_arm64.deb)
+
+## Android
 * [Android (9.0+)](https://github.com/SatDump/SatDump/releases/download/nightly/SatDump-Android.apk)
