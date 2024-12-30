@@ -21,7 +21,7 @@ Thanks to Zbychu, Aang23, SnazzLazz and Carl Reinemann for double checking this 
 | APT (137.62MHz) | Active  | DB | Global |
 | HRPT (1702.5MHz) | Active | DB | Global |
 | HRPT (2247.5MHz) | Active | DB | Global |
-| GAC (2247.5MHz) | Active | Dump | Wallops [US] |
+| GAC (2247.5MHz) | Active | Dump | Svalbard [NOR] |
 
 | Instrument  | Status |
 | ------------- | ------------- |
@@ -41,7 +41,7 @@ Annotation: NOAA-15 is a old, the AVHRR scanning may fail or recover spontaeousl
 | APT (137.9125MHz) | Active  | DB | Global |
 | HRPT (1707MHz) | Active | DB | Global |
 | HRPT (2247.5MHz) | Active | DB | Global |
-| GAC (1698MHz) | Active | Dump | Wallops [US] |
+| GAC (1698MHz) | Active | Dump | Svlabard [NOR] |
 
 | Instrument  | Status |
 | ------------- | ------------- |
@@ -60,7 +60,7 @@ Annotation: NOAA-15 is a old, the AVHRR scanning may fail or recover spontaeousl
 | APT (137.1MHz) | Active | DB | Global |
 | HRPT (1698MHz) | Active | DB | Global |
 | HRPT (2247.5MHz) | Active | DB | Global |
-| GAC (1702.5 MHz) | Active | Dump | Wallops [US] and Svalbard [NOR]|
+| GAC (1702.5 MHz) | Active | Dump | Svalbard [NOR]|
 
 | Instrument  | Status |
 | ------------- | ------------- |
@@ -113,23 +113,23 @@ Only instruments that do not require NADIR continue to work.
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
 | LRPT (137.1/.9MHz) | Inactive | DB | Global |
-| HRPT (1700MHz)  | Active | DB | Global |
-| C-Band (3405MHz)  | Active | DB | Global |
-| X-Band 1 (8128MHz)  | Active | Dump | Moscow [RUS] |
-| X-Band 2 (8320MHz)  | Active | Dump | Moscow [RUS] |
+| HRPT (1700MHz)  | Inactive | DB | Global |
+| C-Band (3405MHz)  | Unknown | DB | Global |
+| X-Band 1 (8128MHz)  | Unknown | Dump | Moscow [RUS] |
+| X-Band 2 (8320MHz)  | Unknown | Dump | Moscow [RUS] |
 
 | Instrument  | Status |
 | ------------- | ------------- |
-| MSU-MR | Working |
-| KMSS | Working |
+| MSU-MR | Deactivated |
+| KMSS | Deactivated |
 | Severjanin-M | Defective |
 | MTVZA | Deactivated |
-| GGAK | Working |
+| GGAK | Unknown |
 
 Annotation: A depressurization accured and N2-2 leaked coolant, causing some parts of the sat to overheat. Due to this,  LRPT is unavailable.
 MTVZA may be switched on and off randomly (Deactivated as of 21/05/2023).
 
-Update 28/01/2023: HRPT is now also active at night, and not limited by daylight. 
+Annotation: METEOR-M N2-2 seems to have failed, HRPT downlink was turned off. No X-Band trafic was seen.
 
 ### METEOR-M N2-3 [[Norad 57166](https://celestrak.org/NORAD/elements/gp.php?CATNR=57166)]
 
@@ -458,7 +458,7 @@ Annotation: The satellite may be rotated randomly. If the resulting images show 
 
 Annotation: On 19/01/2023, ESA officially declared the "CHRIS" instrument's mission as completed. SEM, DEBIE and HRC data will still be acquired.
 
-Annotation: Since end of 2023, PROBA-1 does not seem to do any imaging anymore. No HRC traffic was seen, only SEM and DEBIE.
+Annotation: Since end of 2023, PROBA-1 does not seem to do any imaging anymore. Some spontaneous HRC imaging was seen.
 
 ### PROBA-2 [[Norad 36037](https://celestrak.org/NORAD/elements/gp.php?CATNR=36037)]
 
@@ -503,6 +503,19 @@ Annotation: It is not planned to transmit scientific preview data on S-Band like
 
 Annotation May 2024: PVCC is still beeing comissioned (?)
 
+### PROBA-3 [[Norad 62256](https://celestrak.org/NORAD/elements/gp.php?CATNR=62256)]
+
+| Frequency  | Status | Downlink type | Location |
+| ------------- | ------------- | ------------- | ------------- |
+| S-Band (Unknown MHz) | Active | Dump | Redu [BEL] |
+| X-Band (Unknown MHz) | Unknown | Dump | Kiruna [SWE] |
+
+| Instrument  | Status |
+| ------------- | ------------- |
+| ASPIICS | Inactive |
+
+Annotation: PROBA-3 was launched recently and is still beeing comissioned.
+
 ### PRETTY [[Norad 58023](https://celestrak.org/NORAD/elements/gp.php?CATNR=58023)]
 
 | Frequency  | Status | Downlink type | Location |
@@ -530,9 +543,7 @@ Annotation May 2024: PVCC is still beeing comissioned (?)
 
 Annotation: SMEI is functional as far as it is known. Shutdown due to program funding issues.
 
-Annotation: It seems like CORIOLIS ceased all S-Band DB transmissions on 2023/08/19. There is no official statement on this, yet.
-
-Annotation 22/11/2023: The S-Band downlink was turned back on, but is only transmitting filler.
+Annotation: It seems like CORIOLIS ceased all S-Band DB transmissions on 2023/08/19. There is no official statement on this, yet. Some spontaneous filler transmissions can  be seen.
 
 ### CLOUDSAT [[Norad 29107](https://celestrak.org/NORAD/elements/gp.php?CATNR=29107)]
 
@@ -834,7 +845,7 @@ Annotation : X-Band is likely encrypted.
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
-| S-Band (2247.5MHz) | Active | DB | Global |
+| S-Band TLM (2247.5MHz) | Active | DB | Global |
 | HRD (7812MHz) | Active | DB | Global |
 | Ka-Band (26703.4MHz) | Active | Dump | Svalbard [NOR] |
 
@@ -850,7 +861,7 @@ Annotation : X-Band is likely encrypted.
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
-| S-Band (2247.5MHz) | Active | DB | Global |
+| S-Band TLM (2247.5MHz) | Active | DB | Global |
 | HRD (7812MHz) | Active | DB | Global |
 | Ka-Band (26703.4MHz) | Active | Dump | Svalbard [NOR] |
 
@@ -966,7 +977,7 @@ Annotation: OMI is the sole X-Band instrument.
 
 Annotation : The CGAK downlink was active in the first few weeks, and has remained off since.
 
-### ARKTIKA-M 2 [Norad ?????]
+### ARKTIKA-M 2 [[Norad 58584](https://celestrak.org/NORAD/elements/gp.php?CATNR=58584)]
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
@@ -977,8 +988,6 @@ Annotation : The CGAK downlink was active in the first few weeks, and has remain
 | ------------- | ------------- |
 | GGAK-VE | Unknown |
 | MSU-GS/VE | Unknown |
-
-Annotation: ARKTIKA-M2 launched successfully, but no emmisions were detected so far.
 
 ### GCOM-W1 [[Norad 38337](https://celestrak.org/NORAD/elements/gp.php?CATNR=38337)]
 
