@@ -9,7 +9,7 @@ Getting started with SatDump is easy. We organised these guides to help you unde
 ### General information
 
 * [General SatDump usage](https://www.satdump.org/posts/basic-usage/)
-* [In-depth documentation](https://docs.satdup.org)
+* [In-depth documentation](https://docs.satdump.org)
 * [Satellite tools](https://www.a-centauri.com/articoli/satellite-tools)
 
 ### Basic
