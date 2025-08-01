@@ -37,11 +37,11 @@ Annotation: NOAA-15 is a old, the AVHRR scanning may fail or recover spontaeousl
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
-| DSB (137.35MHz) | Active  | DB | Global |
-| APT (137.9125MHz) | Active  | DB | Global |
-| HRPT (1707MHz) | Active | DB | Global |
-| HRPT (2247.5MHz) | Active | DB | Global |
-| GAC (1698MHz) | Active | Dump | Svlabard [NOR] |
+| DSB (137.35MHz) | Inactive | DB | Global |
+| APT (137.9125MHz) | Inactive  | DB | Global |
+| HRPT (1707MHz) | Inactive | DB | Global |
+| HRPT (2247.5MHz) | Inactive | DB | Global |
+| GAC (1698MHz) | Inactive | Dump | Svlabard [NOR] |
 
 | Instrument  | Status |
 | ------------- | ------------- |
@@ -51,6 +51,8 @@ Annotation: NOAA-15 is a old, the AVHRR scanning may fail or recover spontaeousl
 | AMSU A | Working |
 | SEM  | Working |
 | SBUV  | Defective |
+
+Annotation: NOAA-18 was decomisioned on 06.06.2025.
 
 ### NOAA-19 [[Norad 33591](https://celestrak.org/NORAD/elements/gp.php?CATNR=33591)]
 
