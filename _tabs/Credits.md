@@ -1,7 +1,7 @@
 ---
 title: Contributors
 icon: fas fa-users
-order: 3
+order: 5
 ---
 
 # Developers
@@ -10,7 +10,7 @@ order: 3
 ### Additional Developers
 - Crosswalkersam [Twitter](https://twitter.com/Crosswalkersam)
 - Jamie Vital (KC3TWZ) [Twitter](https://twitter.com/JVital2013)
-- lego11 (IU1QPT) [Twitter](https://twitter.com/original_lego11)
+- lego11 (IU1QPT) [Twitter](https://twitter.com/original_lego11) [Website] (http://www.a-centauri.com)
 - Zbychu (SP5EWS) [Twitter](https://twitter.com/sp5ews)
 
 ### Contributors
