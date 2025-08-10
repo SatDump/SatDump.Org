@@ -54,6 +54,8 @@ Annotation: NOAA-15 is a old, the AVHRR scanning may fail or recover spontaeousl
 
 Annotation: NOAA-18 has been completely decommissioned at June 6, 2025. NOAA's reasoning being that the S-band transmitter has been failing (effect dropping from 7W to 0.8W), making it hard for doing commading of the satellite on ground, and leaving it further active could cause battery issues that could explode the satellite. To prevent from making any debris, the satellite therefore has been decommissioned. More info on [Decommissioning of NOAA-18 scheduled for June 6, 2025 1733-1749 UTC](https://www.nesdis.noaa.gov/about/documents-reports/notice-of-changes/2025-notice-of-changes/decommissioning-of-noaa-18-scheduled-june-6-2025-1733-1749-utc)
 
+Annotation: NOAA-18 was decomisioned on 06.06.2025.
+
 ### NOAA-19 [[Norad 33591](https://celestrak.org/NORAD/elements/gp.php?CATNR=33591)]
 
 | Frequency  | Status | Downlink type | Location |
