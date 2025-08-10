@@ -37,7 +37,7 @@ Annotation: NOAA-15 is a old, the AVHRR scanning may fail or recover spontaeousl
 
 | Frequency  | Status | Downlink type | Location |
 | ------------- | ------------- | ------------- | ------------- |
-| DSB (137.35MHz) | Inactive | DB | Global |
+| DSB (137.35MHz) | Inactive  | DB | Global |
 | APT (137.9125MHz) | Inactive  | DB | Global |
 | HRPT (1707MHz) | Inactive | DB | Global |
 | HRPT (2247.5MHz) | Inactive | DB | Global |
@@ -45,12 +45,14 @@ Annotation: NOAA-15 is a old, the AVHRR scanning may fail or recover spontaeousl
 
 | Instrument  | Status |
 | ------------- | ------------- |
-| AVHRR 3 | Working |
-| MHS | Defective |
-| HIRS  | Defective |
-| AMSU A | Working |
-| SEM  | Working |
-| SBUV  | Defective |
+| AVHRR 3 | Deactivated |
+| MHS | Deactivated |
+| HIRS  | Deactivated |
+| AMSU A | Deactivated |
+| SEM  | Deactivated |
+| SBUV  | Deactivated |
+
+Annotation: NOAA-18 has been completely decommissioned at June 6, 2025. NOAA's reasoning being that the S-band transmitter has been failing (effect dropping from 7W to 0.8W), making it hard for doing commading of the satellite on ground, and leaving it further active could cause battery issues that could explode the satellite. To prevent from making any debris, the satellite therefore has been decommissioned. More info on [Decommissioning of NOAA-18 scheduled for June 6, 2025 1733-1749 UTC](https://www.nesdis.noaa.gov/about/documents-reports/notice-of-changes/2025-notice-of-changes/decommissioning-of-noaa-18-scheduled-june-6-2025-1733-1749-utc)
 
 Annotation: NOAA-18 was decomisioned on 06.06.2025.
 
