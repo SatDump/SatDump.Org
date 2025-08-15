@@ -25,7 +25,7 @@ order: 5
 - LazzSnazz [Twitter](https://twitter.com/LazzSnazz)
 - Mark Pentier
 - MeteoOleg [Twitter](https://twitter.com/MeteoOleg)
-- MrFentazis (Andrew)
+- MrFentazis (Andrew) [Website](http://lorett.org)
 - Oleg Kutkov [Twitter](https://twitter.com/olegkutkov)
 - Peter Kooistra [Twitter](https://twitter.com/petermeteor)
 - Piefadase
