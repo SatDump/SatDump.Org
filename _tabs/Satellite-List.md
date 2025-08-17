@@ -366,7 +366,7 @@ Annotation: X-EUVI is fully functional, but the X-Ray channel is inactive, only 
 | HIRAS-II   | Active      |
 | MWTS-II    | Active      |
 | MWHS-III   | Active      |
-| MWRI-II    | Deactivated |
+| MWRI-II    | Failed |
 | GNOS-II    | Active      |
 | OMS-L      | Deactivated |
 | OMS-N      | Deactivated |
@@ -387,7 +387,7 @@ Annotation: FengYun-3F is LHCP!
 | ---------- | ----------- |
 | MERSI-RM   | Working     |
 | PMR-Radar  | Working     |
-| MWRI-RM    | Working     |
+| MWRI-RM    | Failed     |
 | SIPMAI     | Deactivated |
 | HAOC       | Deactivated |
 
