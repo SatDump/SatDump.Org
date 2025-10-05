@@ -1,0 +1,226 @@
+[
+{
+    "name": "Meteor M2-4",
+    "norad": "59051",
+    "agency": "Roscosmos",
+    "start": "29-02-2024",
+    "end": "",
+    "description": "First fully operational Meteor-M satellite. LRPT JPEG compressor has minor issues from time to time causing pixelated imagery, the satellite has a watchdog that restarts it after a few orbits.",
+    "signals": [
+        {
+            "name": "LRPT",
+            "status": "a",
+            "frequency": "137.1/.9 MHz",
+            "polarization": "RHCP",
+            "image": "https://blog.cpt-dingus.cc/assets/images/Radio/Meteor-LRPT.jpg",
+            "description": "3 JPEG-compressed 1 km/px channels. 3x VIS during summer, 2x VIS + 1x IR during winter.",
+            "imagery": [
+                {
+                    "name": "221",
+                    "url": "https://blog.cpt-dingus.cc/assets/images/Radio/Meteor-LRPT.jpg"
+                }
+            ]
+        },
+        {
+            "name": "HRPT",
+            "status": "a",
+            "frequency": "1700 MHz",
+            "polarization": "RHCP",
+            "image": "https://static.cpt-dingus.cc/archived-blog_page/L%20band%20weather%20satellite%20reception%20_%20Meti%E2%80%99s%20blog_files/Meteor-HRPT.jpg",
+            "description": "Full resolution 6x MSU-MR channels at 1 km/px, MTVZA",
+            "imagery": [
+                {
+                    "name": "Natural color",
+                    "url": "https://sat-archive.cpt-dingus.cc/L-band/Meteor-M/msu_mr_2024-11-09_13-23-58Z_Natural%20Color.png"
+                },
+                {
+                    "name": "221",
+                    "url": "https://sat-archive.cpt-dingus.cc/L-band/Meteor-M/msu_mr_2024-11-09_13-23-58Z_AVHRR%20221%20False%20Color.png"
+                },
+                {
+                    "name": "Day microphysics",
+                    "url": "https://sat-archive.cpt-dingus.cc/L-band/Meteor-M/msu_mr_2024-11-09_13-23-58Z_Day%20Microphysics.png"
+                }
+            ]
+        },
+        {
+            "name": "MTVZA dump",
+            "status": "a",
+            "frequency": "8128 MHz",
+            "polarization": "RHCP",
+            "image": "",
+            "description": "MTVZA data from several orbits. Non-beamed dumps to Moscow, Novosibirsk, Khabrovsk. Narrow BPSK.",
+            "imagery": []
+        },
+        {
+            "name": "IKFS dump",
+            "status": "u",
+            "frequency": "??? MHz",
+            "polarization": "???",
+            "image": "",
+            "description": "Dumps from the IKFS instrument, not received yet - unconfirmed. Non-beamed dumps to Khabrovsk. Narrow QPSK.",
+            "imagery": []
+        },
+        {
+            "name": "KMSS DB",
+            "status": "a",
+            "frequency": "8128/8320 MHz",
+            "polarization": "RHCP",
+            "image": "",
+            "description": "Direct broadcast from the KMSS instrument, active over Russia, Europe, possibly the Carribean and Brazil as well (unconfirmed). Wide BPSK.",
+            "imagery": []
+        },
+        {
+            "name": "Main Dump",
+            "status": "a",
+            "frequency": "8320 MHz",
+            "polarization": "RHCP",
+            "image": "",
+            "description": "KMSS/MSU-MR/Severjanin-M + MeteoSAR instrument data, only KMSS supported as of right now. Non-beamed dumps to Moscow, Novosibirsk, Khabrovsk. Wide QPSK.",
+            "imagery": []
+        }
+    ]
+},
+{
+    "name": "Meteor M2-3",
+    "norad": "57166",
+    "agency": "Roscosmos",
+    "start": "27-06-2023",
+    "end": "",
+    "description": "VHF antenna didn't deploy properly due to extended storage. Wide X-band transmitter has failed. LRPT JPEG compressor has minor issues from time to time causing pixelated imagery, the satellite has a watchdog that restarts it after a few orbits.",
+    "signals": [
+        {
+            "name": "LRPT",
+            "status": "a",
+            "frequency": "137.1/.9 MHz",
+            "polarization": "RHCP",
+            "image": "https://blog.cpt-dingus.cc/assets/images/Radio/Meteor-LRPT.jpg",
+            "description": "3 JPEG-compressed 1 km/px channels. 3x VIS during summer, 2x VIS + 1x IR during winter",
+            "imagery": [
+                {
+                    "name": "221",
+                    "url": "https://blog.cpt-dingus.cc/assets/images/Radio/Meteor-LRPT.jpg"
+                }
+            ]
+        },
+        {
+            "name": "HRPT",
+            "status": "a",
+            "frequency": "1700 MHz",
+            "polarization": "RHCP",
+            "image": "https://static.cpt-dingus.cc/archived-blog_page/L%20band%20weather%20satellite%20reception%20_%20Meti%E2%80%99s%20blog_files/Meteor-HRPT.jpg",
+            "description": "Full resolution 6x MSU-MR channels at 1 km/px, MTVZA",
+            "imagery": [
+                {
+                    "name": "Natural color",
+                    "url": "https://sat-archive.cpt-dingus.cc/L-band/Meteor-M/msu_mr_2024-11-09_13-23-58Z_Natural%20Color.png"
+                },
+                {
+                    "name": "221",
+                    "url": "https://sat-archive.cpt-dingus.cc/L-band/Meteor-M/msu_mr_2024-11-09_13-23-58Z_AVHRR%20221%20False%20Color.png"
+                },
+                {
+                    "name": "Day microphysics",
+                    "url": "https://sat-archive.cpt-dingus.cc/L-band/Meteor-M/msu_mr_2024-11-09_13-23-58Z_Day%20Microphysics.png"
+                }
+            ]
+        },
+        {
+            "name": "Telemetry",
+            "status": "a",
+            "frequency": "3405.235 MHz",
+            "polarization": "RHCP",
+            "image": "",
+            "description": "Telemetry broadcast, might be seen locking onto a groundstation (drifting). Currently not supported.",
+            "imagery": []
+        },
+        {
+            "name": "MTVZA dump",
+            "status": "a",
+            "frequency": "8128 MHz",
+            "polarization": "RHCP",
+            "image": "",
+            "description": "MTVZA data from several orbits. Non-beamed dumps to Moscow, Novosibirsk, Khabrovsk. Narrow BPSK.",
+            "imagery": []
+        },
+        {
+            "name": "IKFS dump",
+            "status": "u",
+            "frequency": "??? MHz",
+            "polarization": "???",
+            "image": "",
+            "description": "Dumps from the IKFS instrument, not received yet - unconfirmed. Non-beamed dumps to Khabrovsk. Narrow QPSK.",
+            "imagery": []
+        },
+        {
+            "name": "KMSS DB",
+            "status": "i",
+            "frequency": "8128/8320 MHz",
+            "polarization": "RHCP",
+            "image": "",
+            "description": "Direct broadcast from the KMSS instrument, active over Russia, Europe, possibly the Carribean and Brazil as well (unconfirmed). Wide BPSK.",
+            "imagery": []
+        },
+        {
+            "name": "Main Dump",
+            "status": "i",
+            "frequency": "8320 MHz",
+            "polarization": "RHCP",
+            "image": "",
+            "description": "KMSS/MSU-MR/Severjanin-M + MeteoSAR instrument data, only KMSS supported as of right now. Non-beamed dumps to Moscow, Novosibirsk, Khabrovsk. Wide QPSK.",
+            "imagery": []
+        }
+    ]
+},
+{
+    "name": "NOAA 15",
+    "norad": "25338",
+    "agency": "NOAA",
+    "start": "13-05-1998",
+    "end": "19-08-2025",
+    "description": "This was the longest living NOAA POES satellite until being shut down due to political reasons. Decommissioning took two tries, as the satellite rebooted a few orbits after its first one. It only used a damaged emergency antenna for L-band due to the others interfering with the AMSU instrument, this made the transmission strength very weak. AVHRR came close to stalling on several occasions, but always recovered.",
+    "signals": [
+        {
+            "name": "APT",
+            "status": "i",
+            "frequency": "137.62 MHz",
+            "polarization": "RHCP",
+            "image": "https://static.cpt-dingus.cc/archived-blog_page/Beginners%20guide%20to%20weather%20satellite%20reception%20_%20Meti%E2%80%99s%20blog_files/NOAA-APT.jpg",
+            "description": "2x 4 km/px images, during day 1x IR + 1x VIS and 2x IR during night.",
+            "imagery": [
+                {
+                    "name": "HVC",
+                    "url": "https://blog.cpt-dingus.cc/assets/images/Radio/APT-Sample-image.png"
+                },
+                {
+                    "name": "Raw image",
+                    "url": "https://blog.cpt-dingus.cc/assets/images/Radio/APT-Sample-image.png"
+                }
+            ]
+        },
+        {
+            "name": "HRPT",
+            "status": "i",
+            "frequency": "1702.5/2247.5 MHz",
+            "polarization": "RHCP",
+            "image": "https://static.cpt-dingus.cc/archived-blog_page/L%20band%20weather%20satellite%20reception%20_%20Meti%E2%80%99s%20blog_files/NOAA-HRPT.jpg",
+            "description": "Live full resolution operational imagery from all instruments",
+            "imagery": [
+                {
+                    "name": "NOAA Natural Color",
+                    "url": "https://blog.cpt-dingus.cc/assets/images/Sat-reception-journey/Best-HRPT-yet.png"
+                }
+            ]
+        },
+        {
+            "name": "GAC",
+            "status": "i",
+            "frequency": "2247.5 MHz",
+            "polarization": "RHCP",
+            "image": "https://blog.cpt-dingus.cc/assets/images/Radio/GOES-GVAR.jpg",
+            "description": "Full orbit dumps of all instruments, AVHRR only at 4 km/px. Dumped to Svalbard on every pass",
+            "imagery": []
+        }
+    ]
+}
+]
