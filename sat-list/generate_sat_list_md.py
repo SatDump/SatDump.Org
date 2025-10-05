@@ -3,15 +3,18 @@
 from datetime import datetime, timezone
 import json
 from sat_classes import *
-#from pprint import pprint
+
+# from pprint import pprint
 
 SAT_LIST = open("../sat-list/sat_list.json", "r")
 OUTPUT_FILE = open("sat-list.md", "w")
 
-OUTPUT_FILE.write("---\ntitle: Satellite list\nicon: fas fa-hourglass\norder: 4\n---\n\n")
+OUTPUT_FILE.write(
+    "---\ntitle: Satellite list\nicon: fas fa-hourglass\norder: 4\n---\n\n"
+)
 
 OUTPUT_FILE.write(
-"""<style>
+    """<style>
 th,td {
   text-align: center;
 }
@@ -20,7 +23,7 @@ th,td {
 )
 
 OUTPUT_FILE.write(
-"""This site contains all satellites currently decodable by SatDump, including descriptions of each of their signals.
+    """This site contains all satellites currently decodable by SatDump, including descriptions of each of their signals.
 
 Every signal will have a colored marker next to the name depicting its last known status:
 - 🟢 Active
@@ -50,7 +53,7 @@ for sat_raw in sorted(json.load(SAT_LIST), key=lambda x: x.get("name", "")):
         OUTPUT_FILE.write(str(sat_raw))
         OUTPUT_FILE.write("```\n\n")
         continue
-    
+
     OUTPUT_FILE.write(sat.to_markdown())
     OUTPUT_FILE.write("\n\n")
 

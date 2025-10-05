@@ -1,7 +1,9 @@
 """This file contains helper funcs to allow pretty colored UI"""
 
+
 class ANSII_ESCAPE:
     """Some ANSII color escape codes"""
+
     HEADER = "\033[95m"
     OKBLUE = "\033[94m"
     OKCYAN = "\033[96m"
@@ -29,19 +31,25 @@ def blue(msg: str):
 def green(msg: str):
     return ANSII_ESCAPE.OKGREEN + msg + ANSII_ESCAPE.ENDC
 
+
 def gray(msg: str):
     return ANSII_ESCAPE.GRAY + msg + ANSII_ESCAPE.ENDC
 
+
 # Direct prints
+
 
 def warn(msg: str):
     print(orange(msg))
 
+
 def error(msg: str):
     print(red(msg))
 
+
 def info(msg: str):
     print(blue(msg))
+
 
 def good(msg: str):
     print(green(msg))

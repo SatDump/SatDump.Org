@@ -28,6 +28,7 @@ class Signal:
         status: str,
         frequency: str,
         polarization: str,
+        symbolrate: str,
         image: str,
         description: str,
         imagery: list[SampleImage],
@@ -36,6 +37,7 @@ class Signal:
         self.status = status  # a = active, u = unknown, f = failed, i = inop
         self.frequency = frequency
         self.polarization = polarization
+        self.symbolrate = symbolrate
         self.image = image
         self.description = description
 
@@ -62,7 +64,7 @@ class Signal:
         Returns:
             str: A formatted print
         """
-        out = f"{self.name} -> {self.frequency} {self.polarization}\n\n>Image URL: {self.image}\n>Description:\n{self.description}\n\n"
+        out = f"{self.name} -> {self.frequency} {self.polarization} {self.symbolrate} \n\n>Image URL: {self.image}\n>Description:\n{self.description}\n\n"
 
         out += ">Sample imagery:\n"
         for image in self.imagery:
@@ -157,13 +159,17 @@ class Satellite:
         out += "<br>\n<b>Transmitted signals:\n\n"
 
         out += "<table>\n"
-        out += "<tr><th>Name</th><th>FFT</th><th>Freq.</th><th>Pol.</th><th>Imagery</th></tr>\n"
+        out += "<tr><th>Name</th><th>FFT image</th><th>Frequency</th><th>Polarization,<br>Symbol rate</th><th>Imagery</th></tr>\n"
 
         for signal in self.signals:
+
             # No borders so description is merged to it
             out += '<tr style="border-top: none; border-bottom: none; border-left: none; border-right: none;">'
+
+            # Name column
             out += add_column(f"<b>{statuses[signal.status]}{signal.name}</b>")
 
+            # FFT image column
             if signal.image:
                 out += add_column(
                     f"<img src='{signal.image}' alt='{signal.name} FFT image'>"
@@ -171,9 +177,18 @@ class Satellite:
             else:
                 out += add_column("-")
 
+            # Signal frequency column
             out += add_column(signal.frequency)
-            out += add_column(signal.polarization)
 
+            # Polarization + symbol rate column
+            out += f"<td>{signal.polarization}<br>"
+            if signal.symbolrate:
+                out += signal.symbolrate
+            else:
+                out += "??? sym/s"
+            out += "</td>"
+
+            # Sample imagery column
             if signal.imagery:
                 out += '<td style="line-height: 1;">'
                 out += "<br>".join(
@@ -186,6 +201,7 @@ class Satellite:
 
             out += "</tr>\n"
 
+            # Signal description is placed below every signal
             out += "<tr>"
             out += '<td style= "text-align: left; white-space: normal; word-wrap: break-word; overflow-wrap: break-word;" colspan="5" >'
             out += f"{signal.description}"

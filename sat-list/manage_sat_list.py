@@ -8,9 +8,10 @@ from colors import *
 
 SAT_LIST = []
 
+
 def update_sat_list() -> None:
     """Loads the satellite list from the .json file"""
-    
+
     with open("sat_list.json", "r") as file:
         raw_data = json.load(file)
 
@@ -34,6 +35,7 @@ def update_sat_list() -> None:
 
     print(gray(f"Loaded {len(SAT_LIST)} satellite(s)"))
 
+
 def write_sat_list() -> None:
     """Writes to the satellite list from the local SAT_LIST variable"""
 
@@ -48,9 +50,10 @@ def write_sat_list() -> None:
     with open("sat_list.json", "w") as file:
         file.write(out)
 
+
 def get_input(
     message: str, default: str = "", case_sensitive=False, options: list[str] = []
-) -> str: # pyright: ignore[reportReturnType]
+) -> str:  # pyright: ignore[reportReturnType]
     """Gets input with some additional functionality, exists gracefully if 'q' is entered
 
     Args:
@@ -86,7 +89,8 @@ def get_input(
 
         return choice
 
-def confirm(msg: str, info: str = "", default: bool = True) -> bool: # type: ignore
+
+def confirm(msg: str, info: str = "", default: bool = True) -> bool:  # type: ignore
     """Prompts user to confirm something (Yes/No)
 
     Args:
@@ -116,6 +120,7 @@ def confirm(msg: str, info: str = "", default: bool = True) -> bool: # type: ign
 
         error("Invalid input!")
 
+
 def find_satellite(query: int | str) -> list[Satellite]:
     """Gets a satellite from the sat_list dictionary by NORAD or name
 
@@ -135,10 +140,11 @@ def find_satellite(query: int | str) -> list[Satellite]:
 
     # If query were NORAD, it would have been found already. Look in names
     for sat in SAT_LIST:
-        if str(query).lower() in sat.name.lower(): 
+        if str(query).lower() in sat.name.lower():
             matches.append(sat)
 
     return matches
+
 
 def choose_satellite() -> Satellite | None:
     """Prompts user to select a satellite via NORAD or name
@@ -172,7 +178,6 @@ def choose_satellite() -> Satellite | None:
 
             continue
 
-
         good(f"Found {len(matches)} satellites! Please choose one:")
 
         while 1:
@@ -194,6 +199,7 @@ def choose_satellite() -> Satellite | None:
 
             except ValueError:
                 error("Please enter a valid number")
+
 
 def redo_dict(inp: dict):
     """Prompts user to redo all keys in the input dict. Used when undoing things
@@ -217,11 +223,13 @@ def redo_dict(inp: dict):
                 print(f"{index}. {step}")
                 index += 1
 
-            choice = get_input("Please choose which attribute to input [#]/[D]one",default="d")
+            choice = get_input(
+                "Please choose which attribute to input [#]/[D]one", default="d"
+            )
 
             if choice[0] == "d":
                 return
-            
+
             try:
                 choice = int(choice)
 
@@ -234,6 +242,7 @@ def redo_dict(inp: dict):
 
             except ValueError as e:
                 error("Invalid input!")
+
 
 def insert_value(key: str, sat: dict):
     """Prompts user to insert key into the sat dict, can undo on request
@@ -252,6 +261,7 @@ def insert_value(key: str, sat: dict):
         sat[key] = inp
 
         return
+
 
 def build_satellite() -> Satellite:
     """Builds a Satellite object
@@ -281,7 +291,14 @@ def build_satellite() -> Satellite:
 
     signals = []
     current_signal = {}
-    signal_params = ["name", "frequency", "polarization", "image", "description"]
+    signal_params = [
+        "name",
+        "frequency",
+        "polarization",
+        "symbolrate",
+        "image",
+        "description",
+    ]
 
     good(
         "You will now be propmted information for the signals the satellite broadcasts"
@@ -289,7 +306,7 @@ def build_satellite() -> Satellite:
     print(gray("If you make a mistake at any point, type [U]ndo to go back"))
 
     while 1:
-        
+
         # First signal
         if len(current_signal) == 0:
             for param in signal_params:
@@ -311,7 +328,6 @@ def build_satellite() -> Satellite:
         if not confirm("Do the signal params look good to you?"):
             redo_dict(current_signal)
             continue
-
 
         # Handling for sample imagery
         if confirm("Do you want to add sample imagery?"):
@@ -340,7 +356,6 @@ def build_satellite() -> Satellite:
         else:
             current_signal["imagery"] = []
 
-
         # Handling for signal status
         current_signal["status"] = get_input(
             "What's the status of this signal? [A]ctive/[I]noperational (permanently off)/[D]isabled (operational but off)/[U]nknown",
@@ -363,7 +378,9 @@ def main():
     while 1:
         update_sat_list()
 
-        print("1. Show satellite\n2. Edit satellite\n3. Add satellite\n4. Remove satellite")
+        print(
+            "1. Show satellite\n2. Edit satellite\n3. Add satellite\n4. Remove satellite"
+        )
         warn("This tool is still WIP! Editing is not implemented yet")
 
         action = get_input("Please choose action [#]/[Q]uit")
@@ -432,10 +449,8 @@ def main():
                     SAT_LIST.remove(sat)
                     write_sat_list()
                     good(f"`{sat.name} was removed!")
-                
-                continue
 
-                
+                continue
 
         print(red("Invalid choice!"))
 
