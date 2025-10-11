@@ -172,7 +172,7 @@ class Satellite:
             # FFT image column
             if signal.image:
                 out += add_column(
-                    f"<img src='{signal.image}' alt='{signal.name} FFT image'>"
+                    f"<img src='/assets/sat-list/fft/{signal.image}' alt='{signal.name} FFT image'>"
                 )
             else:
                 out += add_column("-")
@@ -204,6 +204,8 @@ class Satellite:
             # Signal description is placed below every signal
             out += "<tr>"
             out += '<td style= "text-align: left; white-space: normal; word-wrap: break-word; overflow-wrap: break-word;" colspan="5" >'
+            if not signal.description:
+                out += "-"
             out += f"{signal.description}"
             out += "</td>"
             out += "</tr>\n"

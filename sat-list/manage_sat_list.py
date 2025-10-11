@@ -40,7 +40,7 @@ def write_sat_list() -> None:
     """Writes to the satellite list from the local SAT_LIST variable"""
 
     out = "[\n"
-    for sat in SAT_LIST:
+    for sat in sorted(SAT_LIST, key=lambda x: x.name):
         out += sat.to_JSON()
         out += ",\n"
 

@@ -1,98 +1,335 @@
 [
 {
-    "name": "Meteor M2-4",
-    "norad": "59051",
-    "agency": "Roscosmos",
-    "start": "29-02-2024",
+    "name": "",
+    "norad": "",
+    "agency": "",
+    "start": "",
     "end": "",
-    "description": "First fully operational Meteor-M satellite. LRPT JPEG compressor has minor issues from time to time causing pixelated imagery, the satellite has a watchdog that restarts it after a few orbits.",
+    "description": "",
     "signals": [
         {
-            "name": "LRPT",
+            "name": "",
             "status": "a",
-            "frequency": "137.1/.9 MHz",
+            "frequency": "",
+            "polarization": "",
+            "symbolrate": "",
+            "image": "",
+            "description": "",
+            "imagery": []
+        }
+    ]
+},
+{
+    "name": "CHEOPS",
+    "norad": "44874",
+    "agency": "ESA",
+    "start": "17-12-2019",
+    "end": "",
+    "description": "Satellite that studies extrasolar planets",
+    "signals": [
+        {
+            "name": "Dumps",
+            "status": "u",
+            "frequency": "2208.5 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "",
+            "description": "",
+            "imagery": []
+        }
+    ]
+},
+{
+    "name": "Elektro-L N\u00b02",
+    "norad": "41105",
+    "agency": "Roscosmos",
+    "start": "11-12-2015",
+    "end": "",
+    "description": "Currently positioned at the 14.5\u00b0W slot. MSU-GS has several inoperational channels, the satellite has suffered a power supply failure making it unable to transmit xRIT. It has developed a high inclination due to the lack of propellant. Undergoes periodic yaw flips which significantly alter signal strength.",
+    "signals": [
+        {
+            "name": "LRIT",
+            "status": "i",
+            "frequency": "1691 MHz",
             "polarization": "RHCP",
-            "symbolrate": "72/80 ksym/s",
-            "image": "https://blog.cpt-dingus.cc/assets/images/Radio/Meteor-LRPT.jpg",
-            "description": "3 JPEG-compressed 1 km/px channels. 3x VIS during summer, 2x VIS + 1x IR during winter. 72k mode used normally, 80k only just after launch for testing.",
+            "symbolrate": "294 ksym/s",
+            "image": "Elektro-LRIT.jpg",
+            "description": "Transmitted every 00:42 UTC and every 3 hours onwards. 06:42 and 18:42 UTC are seasonal timeslots not persent during winter months. Contains 3x VIS channels, 1x Water vapour (degraded), 1x Long-wave infrared.",
             "imagery": [
                 {
-                    "name": "221",
-                    "url": "https://blog.cpt-dingus.cc/assets/images/Radio/Meteor-LRPT.jpg"
+                    "name": "Natural color",
+                    "url": "https://sat-archive.cpt-dingus.cc/L-band/Elektro/LRIT/Elektro-L3/2024-02-28_09-41_elektro-lrit_Meti/IMAGES/L3_NC_20240228T093000Z.png"
                 }
             ]
         },
         {
-            "name": "HRPT",
-            "status": "a",
-            "frequency": "1700 MHz",
+            "name": "HRIT",
+            "status": "i",
+            "frequency": "1691 MHz",
             "polarization": "RHCP",
-            "symbolrate": "2x 665.4 ksym/s",
-            "image": "https://static.cpt-dingus.cc/archived-blog_page/L%20band%20weather%20satellite%20reception%20_%20Meti%E2%80%99s%20blog_files/Meteor-HRPT.jpg",
-            "description": "Full resolution 6x MSU-MR channels at 1 km/px, MTVZA",
+            "symbolrate": "1.15 Msym/s",
+            "image": "Elektro-HRIT.jpg",
+            "description": "Transmitted every 00:12 UTC and every 3 hours onwards. 06:12 and 18:12 UTC are seasonal timeslots not persent during winter months. Contains all MSU-GS channels.",
+            "imagery": [
+                {
+                    "name": "Natural Color",
+                    "url": "https://sat-archive.cpt-dingus.cc/L-band/Elektro/HRIT/Elektro-L3/2024-11-09_09-00_elektro-hrit_Meti/msu_gs_Natural%20Color.png"
+                }
+            ]
+        },
+        {
+            "name": "GGAK",
+            "status": "a",
+            "frequency": "1693 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "5 ksym/s",
+            "image": "Elektro-GGAK.jpg",
+            "description": "Contains telemetry and SEM data. Data decoding currently unsupported due to lack of documentation.",
+            "imagery": []
+        },
+        {
+            "name": "DCP",
+            "status": "a",
+            "frequency": "1697 MHz",
+            "polarization": "Linear",
+            "symbolrate": "",
+            "image": "",
+            "description": "Contains DCP data, currently unsupported due to unknown modulation.",
+            "imagery": []
+        },
+        {
+            "name": "RDAS",
+            "status": "a",
+            "frequency": "7500 MHz",
+            "polarization": "LHCP",
+            "symbolrate": "30.72 Msym/s",
+            "image": "",
+            "description": "Raw MSU-GS data downlink. New image every 30 minutes due to power supply issues. Beamed to Moscow.",
+            "imagery": []
+        },
+        {
+            "name": "Telemetry",
+            "status": "a",
+            "frequency": "3405.703 MHz",
+            "polarization": "???",
+            "symbolrate": "32 ksym/s",
+            "image": "",
+            "description": "Satellite telemetry",
+            "imagery": []
+        }
+    ]
+},
+{
+    "name": "Elektro-L N\u00b03",
+    "norad": "44903",
+    "agency": "Roscosmos",
+    "start": "24-12-2019",
+    "end": "",
+    "description": "Currently positioned at the 76\u00b0E slot. MSU-GS has a degraded channel 4, broken channel 10.",
+    "signals": [
+        {
+            "name": "LRIT",
+            "status": "a",
+            "frequency": "1691 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "294 ksym/s",
+            "image": "Elektro-LRIT.jpg",
+            "description": "Transmitted every 00:42 UTC and every 3 hours onwards. 06:42 and 18:42 UTC are seasonal timeslots not persent during winter months. Contains 3x VIS channels, 1x Water vapour (degraded), 1x Long-wave infrared.",
             "imagery": [
                 {
                     "name": "Natural color",
-                    "url": "https://sat-archive.cpt-dingus.cc/L-band/Meteor-M/msu_mr_2024-11-09_13-23-58Z_Natural%20Color.png"
-                },
+                    "url": "https://sat-archive.cpt-dingus.cc/L-band/Elektro/LRIT/Elektro-L3/2024-02-28_09-41_elektro-lrit_Meti/IMAGES/L3_NC_20240228T093000Z.png"
+                }
+            ]
+        },
+        {
+            "name": "HRIT",
+            "status": "a",
+            "frequency": "1691 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "1.15 Msym/s",
+            "image": "Elektro-HRIT.jpg",
+            "description": "Transmitted every 00:12 UTC and every 3 hours onwards. 06:12 and 18:12 UTC are seasonal timeslots not persent during winter months. Contains all MSU-GS channels.",
+            "imagery": [
                 {
-                    "name": "221",
-                    "url": "https://sat-archive.cpt-dingus.cc/L-band/Meteor-M/msu_mr_2024-11-09_13-23-58Z_AVHRR%20221%20False%20Color.png"
-                },
+                    "name": "Natural Color",
+                    "url": "https://sat-archive.cpt-dingus.cc/L-band/Elektro/HRIT/Elektro-L3/2024-11-09_09-00_elektro-hrit_Meti/msu_gs_Natural%20Color.png"
+                }
+            ]
+        },
+        {
+            "name": "GGAK",
+            "status": "a",
+            "frequency": "1693 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "5 ksym/s",
+            "image": "Elektro-GGAK.jpg",
+            "description": "Contains telemetry and SEM data. Data decoding currently unsupported due to lack of documentation.",
+            "imagery": []
+        },
+        {
+            "name": "DCP",
+            "status": "a",
+            "frequency": "1697 MHz",
+            "polarization": "Linear",
+            "symbolrate": "",
+            "image": "",
+            "description": "Contains DCP data, currently unsupported due to unknown modulation.",
+            "imagery": []
+        },
+        {
+            "name": "RDAS",
+            "status": "a",
+            "frequency": "7500 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "30.72 Msym/s",
+            "image": "",
+            "description": "Raw MSU-GS data downlink. New image every 15 minutes. Beamed to Moscow.",
+            "imagery": []
+        },
+        {
+            "name": "Telemetry",
+            "status": "a",
+            "frequency": "3405.703 MHz",
+            "polarization": "???",
+            "symbolrate": "32 ksym/s",
+            "image": "",
+            "description": "Satellite telemetry",
+            "imagery": []
+        }
+    ]
+},
+{
+    "name": "Elektro-L N\u00b04",
+    "norad": "55506",
+    "agency": "Roscosmos",
+    "start": "02-05-2023",
+    "end": "",
+    "description": "Currently positioned at the 165.75\u00b0E slot.",
+    "signals": [
+        {
+            "name": "LRIT",
+            "status": "a",
+            "frequency": "1691 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "294 ksym/s",
+            "image": "Elektro-LRIT.jpg",
+            "description": "Transmitted every 00:42 UTC and every 3 hours onwards. 06:42 and 18:42 UTC are seasonal timeslots not persent during winter months. Channels are broadcasted seemingly at random, broadcasts are often skipped. Transmission abruptly shuts down after 15 minutes.",
+            "imagery": [
                 {
-                    "name": "Day microphysics",
-                    "url": "https://sat-archive.cpt-dingus.cc/L-band/Meteor-M/msu_mr_2024-11-09_13-23-58Z_Day%20Microphysics.png"
+                    "name": "Natural color",
+                    "url": "https://sat-archive.cpt-dingus.cc/L-band/Elektro/LRIT/Elektro-L3/2024-02-28_09-41_elektro-lrit_Meti/IMAGES/L3_NC_20240228T093000Z.png"
+                }
+            ]
+        },
+        {
+            "name": "HRIT",
+            "status": "a",
+            "frequency": "1691 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "1.15 Msym/s",
+            "image": "Elektro-HRIT.jpg",
+            "description": "Transmitted every 00:12 UTC and every 3 hours onwards. 06:12 and 18:12 UTC are seasonal timeslots not persent during winter months. Contains all MSU-GS channels.",
+            "imagery": [
+                {
+                    "name": "Natural Color",
+                    "url": "https://sat-archive.cpt-dingus.cc/L-band/Elektro/HRIT/Elektro-L3/2024-11-09_09-00_elektro-hrit_Meti/msu_gs_Natural%20Color.png"
+                }
+            ]
+        },
+        {
+            "name": "GGAK",
+            "status": "a",
+            "frequency": "1693 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "5 ksym/s",
+            "image": "Elektro-GGAK.jpg",
+            "description": "Contains telemetry and SEM data. Data decoding currently unsupported due to lack of documentation.",
+            "imagery": []
+        },
+        {
+            "name": "DCP",
+            "status": "a",
+            "frequency": "1697 MHz",
+            "polarization": "Linear",
+            "symbolrate": "",
+            "image": "",
+            "description": "Contains DCP data, currently unsupported due to unknown modulation.",
+            "imagery": []
+        },
+        {
+            "name": "RDAS",
+            "status": "a",
+            "frequency": "7500 MHz",
+            "polarization": "LHCP",
+            "symbolrate": "30.72 Msym/s",
+            "image": "",
+            "description": "Raw MSU-GS data downlink. New image every 15 minutes. Beamed to Vladivostok.",
+            "imagery": []
+        },
+        {
+            "name": "Telemetry",
+            "status": "a",
+            "frequency": "3405.703 MHz",
+            "polarization": "???",
+            "symbolrate": "32 ksym/s",
+            "image": "",
+            "description": "Satellite telemetry",
+            "imagery": []
+        }
+    ]
+},
+{
+    "name": "FengYun 3A",
+    "norad": "32958",
+    "agency": "NSMC",
+    "start": "27-05-2008",
+    "end": "05-01-2015",
+    "description": "Prototype FengYun 3 satellite, true color L-band",
+    "signals": [
+        {
+            "name": "AHRPT",
+            "status": "i",
+            "frequency": "1704.5 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "2.8 Msym/s",
+            "image": "FengYun-3abc-AHRPT.jpg",
+            "description": "Full resolution DB imagery from all instruments",
+            "imagery": []
+        },
+        {
+            "name": "MPT",
+            "status": "i",
+            "frequency": "7775 MHz",
+            "polarization": "???",
+            "symbolrate": "18.7 Msym/s",
+            "image": "",
+            "description": "",
+            "imagery": []
+        },
+        {
+            "name": "DPT",
+            "status": "i",
+            "frequency": "8145.95 Msym/s",
+            "polarization": "???",
+            "symbolrate": "62 Msym/s",
+            "image": "",
+            "description": "Delayed Picture Transmisison - full orbit instrument dump",
+            "imagery": [
+                {
+                    "name": "",
+                    "url": ""
                 }
             ]
         },
         {
             "name": "Telemetry",
-            "status": "a",
-            "frequency": "3405.235 MHz",
-            "polarization": "RHCP",
-            "symbolrate": "32 ksym/s",
-            "image": "",
-            "description": "Telemetry broadcast, might be seen locking onto a groundstation (drifting). Currently not supported.",
-            "imagery": []
-        },
-        {
-            "name": "MTVZA dump",
-            "status": "a",
-            "frequency": "8128 MHz",
-            "polarization": "RHCP",
-            "symbolrate": "15.36 Msym/s",
-            "image": "",
-            "description": "MTVZA data from several orbits. Non-beamed dumps to Moscow, Novosibirsk, Khabrovsk. Narrow BPSK.",
-            "imagery": []
-        },
-        {
-            "name": "IKFS dump",
-            "status": "u",
-            "frequency": "??? MHz",
+            "status": "i",
+            "frequency": "22XX MHz",
             "polarization": "???",
-            "symbolrate": "15.36 Msym/s",
+            "symbolrate": "???",
             "image": "",
-            "description": "Dumps from the IKFS instrument, not received yet - unconfirmed. Non-beamed dumps to Khabrovsk. Narrow QPSK.",
-            "imagery": []
-        },
-        {
-            "name": "KMSS DB",
-            "status": "a",
-            "frequency": "8128/8320 MHz",
-            "polarization": "RHCP",
-            "symbolrate": "61.4 Msym/s",
-            "image": "",
-            "description": "Direct broadcast from the KMSS instrument, active over Russia, Europe, possibly the Carribean and Brazil as well (unconfirmed). Wide BPSK.",
-            "imagery": []
-        },
-        {
-            "name": "Main Dump",
-            "status": "a",
-            "frequency": "8320 MHz",
-            "polarization": "RHCP",
-            "symbolrate": "61.4 Msym/s",
-            "image": "",
-            "description": "KMSS/MSU-MR/Severjanin-M + MeteoSAR instrument data, only KMSS supported as of right now. Non-beamed dumps to Moscow, Novosibirsk, Khabrovsk. Wide QPSK.",
+            "description": "",
             "imagery": []
         }
     ]
@@ -196,6 +433,104 @@
     ]
 },
 {
+    "name": "Meteor M2-4",
+    "norad": "59051",
+    "agency": "Roscosmos",
+    "start": "29-02-2024",
+    "end": "",
+    "description": "First fully operational Meteor-M satellite. LRPT JPEG compressor has minor issues from time to time causing pixelated imagery, the satellite has a watchdog that restarts it after a few orbits.",
+    "signals": [
+        {
+            "name": "LRPT",
+            "status": "a",
+            "frequency": "137.1/.9 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "72/80 ksym/s",
+            "image": "https://blog.cpt-dingus.cc/assets/images/Radio/Meteor-LRPT.jpg",
+            "description": "3 JPEG-compressed 1 km/px channels. 3x VIS during summer, 2x VIS + 1x IR during winter. 72k mode used normally, 80k only just after launch for testing.",
+            "imagery": [
+                {
+                    "name": "221",
+                    "url": "https://blog.cpt-dingus.cc/assets/images/Radio/Meteor-LRPT.jpg"
+                }
+            ]
+        },
+        {
+            "name": "HRPT",
+            "status": "a",
+            "frequency": "1700 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "2x 665.4 ksym/s",
+            "image": "https://static.cpt-dingus.cc/archived-blog_page/L%20band%20weather%20satellite%20reception%20_%20Meti%E2%80%99s%20blog_files/Meteor-HRPT.jpg",
+            "description": "Full resolution 6x MSU-MR channels at 1 km/px, MTVZA",
+            "imagery": [
+                {
+                    "name": "Natural color",
+                    "url": "https://sat-archive.cpt-dingus.cc/L-band/Meteor-M/msu_mr_2024-11-09_13-23-58Z_Natural%20Color.png"
+                },
+                {
+                    "name": "221",
+                    "url": "https://sat-archive.cpt-dingus.cc/L-band/Meteor-M/msu_mr_2024-11-09_13-23-58Z_AVHRR%20221%20False%20Color.png"
+                },
+                {
+                    "name": "Day microphysics",
+                    "url": "https://sat-archive.cpt-dingus.cc/L-band/Meteor-M/msu_mr_2024-11-09_13-23-58Z_Day%20Microphysics.png"
+                }
+            ]
+        },
+        {
+            "name": "Telemetry",
+            "status": "a",
+            "frequency": "3405.235 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "32 ksym/s",
+            "image": "",
+            "description": "Telemetry broadcast, might be seen locking onto a groundstation (drifting). Currently not supported.",
+            "imagery": []
+        },
+        {
+            "name": "MTVZA dump",
+            "status": "a",
+            "frequency": "8128 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "15.36 Msym/s",
+            "image": "",
+            "description": "MTVZA data from several orbits. Non-beamed dumps to Moscow, Novosibirsk, Khabrovsk. Narrow BPSK.",
+            "imagery": []
+        },
+        {
+            "name": "IKFS dump",
+            "status": "u",
+            "frequency": "??? MHz",
+            "polarization": "???",
+            "symbolrate": "15.36 Msym/s",
+            "image": "",
+            "description": "Dumps from the IKFS instrument, not received yet - unconfirmed. Non-beamed dumps to Khabrovsk. Narrow QPSK.",
+            "imagery": []
+        },
+        {
+            "name": "KMSS DB",
+            "status": "a",
+            "frequency": "8128/8320 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "61.4 Msym/s",
+            "image": "",
+            "description": "Direct broadcast from the KMSS instrument, active over Russia, Europe, possibly the Carribean and Brazil as well (unconfirmed). Wide BPSK.",
+            "imagery": []
+        },
+        {
+            "name": "Main Dump",
+            "status": "a",
+            "frequency": "8320 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "61.4 Msym/s",
+            "image": "",
+            "description": "KMSS/MSU-MR/Severjanin-M + MeteoSAR instrument data, only KMSS supported as of right now. Non-beamed dumps to Moscow, Novosibirsk, Khabrovsk. Wide QPSK.",
+            "imagery": []
+        }
+    ]
+},
+{
     "name": "NOAA 15",
     "norad": "25338",
     "agency": "NOAA",
@@ -245,154 +580,6 @@
             "symbolrate": "2.6616 Msym/s",
             "image": "https://blog.cpt-dingus.cc/assets/images/Radio/GOES-GVAR.jpg",
             "description": "Full orbit dumps of all instruments, AVHRR only at 4 km/px. Dumped to Svalbard on every pass",
-            "imagery": []
-        }
-    ]
-},
-{
-    "name": "Elektro-L N\u00b03",
-    "norad": "44903",
-    "agency": "Roscosmos",
-    "start": "24-12-2019",
-    "end": "",
-    "description": "Currently positioned at the 76\u00b0E slot. MSU-GS has a degraded channel 4, broken channel 10.",
-    "signals": [
-        {
-            "name": "LRIT",
-            "status": "a",
-            "frequency": "1691 MHz",
-            "polarization": "RHCP",
-            "symbolrate": "294 ksym/s",
-            "image": "https://blog.cpt-dingus.cc/assets/images/Radio/Elektro-LRIT-HRIT.jpg",
-            "description": "Transmitted every 00:42 UTC and every 3 hours onwards. 06:42 and 18:42 UTC are seasonal timeslots not persent during winter months. Contains 3x VIS channels, 1x Water vapour (degraded), 1x Long-wave infrared.",
-            "imagery": [
-                {
-                    "name": "Natural color",
-                    "url": "https://sat-archive.cpt-dingus.cc/L-band/Elektro/LRIT/Elektro-L3/2024-02-28_09-41_elektro-lrit_Meti/IMAGES/L3_NC_20240228T093000Z.png"
-                },
-                {
-                    "name": "oops",
-                    "url": ""
-                }
-            ]
-        },
-        {
-            "name": "HRIT",
-            "status": "a",
-            "frequency": "1691 MHz",
-            "polarization": "RHCP",
-            "symbolrate": "1.15 Msym/s",
-            "image": "",
-            "description": "Transmitted every 00:12 UTC and every 3 hours onwards. 06:12 and 18:12 UTC are seasonal timeslots not persent during winter months. Contains all MSU-GS channels.",
-            "imagery": [
-                {
-                    "name": "Natural Color",
-                    "url": "https://sat-archive.cpt-dingus.cc/L-band/Elektro/HRIT/Elektro-L3/2024-11-09_09-00_elektro-hrit_Meti/msu_gs_Natural%20Color.png"
-                }
-            ]
-        },
-        {
-            "name": "GGAK",
-            "status": "a",
-            "frequency": "1693 MHz",
-            "polarization": "RHCP",
-            "symbolrate": "5 ksym/s",
-            "image": "https://blog.cpt-dingus.cc/assets/images/Radio/Elektro-GGAK.jpg",
-            "description": "Contains telemetry and SEM data. Data decoding currently unsupported due to lack of documentation.",
-            "imagery": []
-        },
-        {
-            "name": "DCP",
-            "status": "a",
-            "frequency": "1697 MHz",
-            "polarization": "Linear",
-            "symbolrate": "",
-            "image": "",
-            "description": "Contains DCP data, currently unsupported due to unknown modulation.",
-            "imagery": []
-        },
-        {
-            "name": "RDAS",
-            "status": "a",
-            "frequency": "7500 MHz",
-            "polarization": "RHCP",
-            "symbolrate": "30.72 Msym/s",
-            "image": "",
-            "description": "Raw MSU-GS data downlink. New image every 15 minutes.",
-            "imagery": []
-        }
-    ]
-},
-{
-    "name": "Elektro-L N\u00b02",
-    "norad": "41105",
-    "agency": "Roscosmos",
-    "start": "11-12-2015",
-    "end": "",
-    "description": "Currently positioned at the 14.5\u00b0E slot. MSU-GS has several inoperational channels, the satellite has suffered a power supply failure making it unable to transmit xRIT. It has developed a high inclination due to the lack of propellant. Undergoes periodic yaw flips which significantly alter signal strength.",
-    "signals": [
-        {
-            "name": "LRIT",
-            "status": "i",
-            "frequency": "1691 MHz",
-            "polarization": "RHCP",
-            "symbolrate": "294 ksym/s",
-            "image": "https://blog.cpt-dingus.cc/assets/images/Radio/Elektro-LRIT-HRIT.jpg",
-            "description": "Transmitted every 00:42 UTC and every 3 hours onwards. 06:42 and 18:42 UTC are seasonal timeslots not persent during winter months. Contains 3x VIS channels, 1x Water vapour (degraded), 1x Long-wave infrared.",
-            "imagery": [
-                {
-                    "name": "Natural color",
-                    "url": "https://sat-archive.cpt-dingus.cc/L-band/Elektro/LRIT/Elektro-L3/2024-02-28_09-41_elektro-lrit_Meti/IMAGES/L3_NC_20240228T093000Z.png"
-                },
-                {
-                    "name": "oops",
-                    "url": ""
-                }
-            ]
-        },
-        {
-            "name": "HRIT",
-            "status": "i",
-            "frequency": "1691 MHz",
-            "polarization": "RHCP",
-            "symbolrate": "1.15 Msym/s",
-            "image": "",
-            "description": "Transmitted every 00:12 UTC and every 3 hours onwards. 06:12 and 18:12 UTC are seasonal timeslots not persent during winter months. Contains all MSU-GS channels.",
-            "imagery": [
-                {
-                    "name": "Natural Color",
-                    "url": "https://sat-archive.cpt-dingus.cc/L-band/Elektro/HRIT/Elektro-L3/2024-11-09_09-00_elektro-hrit_Meti/msu_gs_Natural%20Color.png"
-                }
-            ]
-        },
-        {
-            "name": "GGAK",
-            "status": "a",
-            "frequency": "1693 MHz",
-            "polarization": "RHCP",
-            "symbolrate": "5 ksym/s",
-            "image": "https://blog.cpt-dingus.cc/assets/images/Radio/Elektro-GGAK.jpg",
-            "description": "Contains telemetry and SEM data. Data decoding currently unsupported due to lack of documentation.",
-            "imagery": []
-        },
-        {
-            "name": "DCP",
-            "status": "a",
-            "frequency": "1697 MHz",
-            "polarization": "Linear",
-            "symbolrate": "",
-            "image": "",
-            "description": "Contains DCP data, currently unsupported due to unknown modulation.",
-            "imagery": []
-        },
-        {
-            "name": "RDAS",
-            "status": "a",
-            "frequency": "7500 MHz",
-            "polarization": "LHCP",
-            "symbolrate": "30.72 Msym/s",
-            "image": "",
-            "description": "Raw MSU-GS data downlink. New image every 30 minutes due to power supply issues.",
             "imagery": []
         }
     ]

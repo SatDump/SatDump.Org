@@ -3,6 +3,18 @@ title: Satellite List
 icon: fas fa-book
 order: 4
 ---
+
+<style>
+ h2, h3, h4, h5, h6{
+  line-height: 30px; 
+}
+</style>
+<style>
+    h1 {
+  line-height: 10px; 
+}
+</style>
+
 This list contains information on all satellites that are featured in SatDump as well as some additional ones. It was originally created and maintained by Crosswalkersam, I (Meti) have now patched it up and updated it. Please forward any feedback or corrections to our Matrix!
 
 You can jump to a list of all dead (decommissioned) satellites [here](#dead-satellites)
@@ -10,6 +22,22 @@ You can jump to a list of all dead (decommissioned) satellites [here](#dead-sate
 
 > Thanks to Zbychu, Aang23, SnazzLazz and Carl Reinemann for double checking this list! 
 
+
+# Meteor-M N°2-4
+
+<small> Roscosmos • 29-02-2024
+
+- First Meteor-M2 satellite to work without any issues
+- Looked at me cutely that one day
+
+Transmitted signals:
+
+|Signal name|FFT|Symbol rate|Polarization|Frequency|Sample data|
+|---|---|---|---|---|---|
+|LRPT|![LRPT FFT](https://static.cpt-dingus.cc/archived-blog_page/Beginners%20guide%20to%20weather%20satellite%20reception%20_%20Meti%E2%80%99s%20blog_files/Meteor-LRPT.jpg)|72 ksym/s|RHCP|137.1/.9 MHz|[3a21](TODO)<br>[221](TODO)<br>[NC](TODO)
+|HRPT|![LRPT FFT](https://blog.cpt-dingus.cc/assets/images/Radio/Meteor-HRPT.jpg)|656.6 ksym/s|RHCP|1700 MHz|[3a21](TODO)<br>[221](TODO)<br>[NC](TODO)
+
+# NORMAL
 ## **Active satellites**
 
 
