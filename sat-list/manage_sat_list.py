@@ -270,7 +270,7 @@ def build_satellite() -> Satellite:
         Satellite | None: The satellite object if we created one
     """
     # Debug purposes. Broken right now...
-    # return Satellite("Meteor M2-3", 57145, "Roscosmos", "2020", "2026", "Bad deployment", [{"name": "LRPT", "polarization": "RHCP", "image": "test", "description": "compressed imagery","frequency": "137.9 MHz", "imagery": [{"name": "test", "url": "test", "credit": "test"}]}]) # type: ignore
+    # return Satellite("Meteor M2-3", 57145, "Roscosmos", "2020", "2026", "Bad deployment", [{"name": "LRPT", "polarization": "RHCP", "image": "test", "description": "compressed imagery","frequency": "137.9 MHz", "data": [{"name": "test", "url": "test", "credit": "test"}]}]) # type: ignore
 
     sat = {}
     sat_params = ["name", "norad", "agency", "start", "end", "description"]
@@ -329,9 +329,9 @@ def build_satellite() -> Satellite:
             redo_dict(current_signal)
             continue
 
-        # Handling for sample imagery
-        if confirm("Do you want to add sample imagery?"):
-            sample_imagery = []
+        # Handling for sample data
+        if confirm("Do you want to add sample data?"):
+            sample_data = []
             current_image = {}
 
             while 1:
@@ -345,16 +345,16 @@ def build_satellite() -> Satellite:
                 if not confirm("Does the current image look good to you?"):
                     redo_dict(current_image)
 
-                sample_imagery.append(current_image)
+                sample_data.append(current_image)
                 current_image = {}
 
                 if not confirm("Add another sample image? [Y]es/[N]o", "y"):
                     break
 
-            current_signal["imagery"] = sample_imagery
+            current_signal["data"] = sample_data
 
         else:
-            current_signal["imagery"] = []
+            current_signal["data"] = []
 
         # Handling for signal status
         current_signal["status"] = get_input(

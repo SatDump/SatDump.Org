@@ -8,7 +8,7 @@ statuses = {
 }
 
 
-class SampleImage:
+class SampleData:
     """A sample image with hotlink and credit"""
 
     def __init__(self, name: str, url: str):
@@ -31,7 +31,7 @@ class Signal:
         symbolrate: str,
         image: str,
         description: str,
-        imagery: list[SampleImage],
+        data: list[SampleData],
     ):
         self.name = name
         self.status = status  # a = active, u = unknown, f = failed, i = inop
@@ -41,14 +41,14 @@ class Signal:
         self.image = image
         self.description = description
 
-        self.imagery: list[SampleImage] = []
+        self.data: list[SampleData] = []
 
-        for sample_image in imagery:
-            if isinstance(sample_image, SampleImage):
-                self.imagery.append(sample_image)
+        for sample_data in data:
+            if isinstance(sample_data, SampleData):
+                self.data.append(sample_data)
 
             else:
-                self.imagery.append(SampleImage(**sample_image))
+                self.data.append(SampleData(**sample_data))
 
     def to_JSON(self):
         """Returns object as JSON compliant dict
@@ -66,8 +66,8 @@ class Signal:
         """
         out = f"{self.name} -> {self.frequency} {self.polarization} {self.symbolrate} \n\n>Image URL: {self.image}\n>Description:\n{self.description}\n\n"
 
-        out += ">Sample imagery:\n"
-        for image in self.imagery:
+        out += ">Sample data:\n"
+        for image in self.data:
             out += f"    - {image.name} - {image.url}\n"
 
         return out
@@ -159,7 +159,7 @@ class Satellite:
         out += "<br>\n<b>Transmitted signals:\n\n"
 
         out += "<table>\n"
-        out += "<tr><th>Name</th><th>FFT image</th><th>Frequency</th><th>Polarization,<br>Symbol rate</th><th>Imagery</th></tr>\n"
+        out += "<tr><th>Name</th><th>FFT image</th><th>Frequency</th><th>Polarization,<br>Symbol rate</th><th>Sample data</th></tr>\n"
 
         for signal in self.signals:
 
@@ -188,12 +188,12 @@ class Satellite:
                 out += "??? sym/s"
             out += "</td>"
 
-            # Sample imagery column
-            if signal.imagery:
+            # Sample data column
+            if signal.data:
                 out += '<td style="line-height: 1;">'
                 out += "<br>".join(
-                    f"<a href='{image.url}'>{image.name}</a> <br>"
-                    for image in signal.imagery
+                    f"<a href='{data.url}'>{data.name}</a> <br>"
+                    for data in signal.data
                 )
                 out += "</td>"
             else:
