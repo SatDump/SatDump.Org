@@ -366,7 +366,7 @@ Annotation: X-EUVI is fully functional, but the X-Ray channel is inactive, only 
 | HIRAS-II   | Active      |
 | MWTS-II    | Active      |
 | MWHS-III   | Active      |
-| MWRI-II    | Failed |
+| MWRI-II    | Failed      |
 | GNOS-II    | Active      |
 | OMS-L      | Deactivated |
 | OMS-N      | Deactivated |
@@ -387,13 +387,32 @@ Annotation: FengYun-3F is LHCP!
 | ---------- | ----------- |
 | MERSI-RM   | Working     |
 | PMR-Radar  | Working     |
-| MWRI-RM    | Failed     |
+| MWRI-RM    | Failed      |
 | SIPMAI     | Deactivated |
 | HAOC       | Deactivated |
 
 Annotation: The S-Band seems to part of a Chinese TDRS-like network using DSSS. Not decodable yet.
 
 Annotation: The satellite may be rotated randomly. If the resulting images show jitter, select the "Rotated Satellite" checkbox in SatDump.
+
+### FENGYUN 3-H [[Norad 65815](https://celestrak.org/NORAD/elements/gp.php?CATNR=65815)]
+
+| Frequency           | Status | Downlink type | Location                       |
+| ------------------- | ------ | ------------- | ------------------------------ |
+| AHRPT (7860 MHz)    | Active | DB            | Global                         |
+| DPT (8212.5 MHz)    | Active | Dump          | Unknown [CHN] and Kiruna [SWE] |
+| S-Band (2264.6 MHz) | Active | DB            | Global                         |
+
+| Instrument | Status |
+| ---------- | ------ |
+| MERSI-III  | Active |
+| HIRAS-II   | Active |
+| MWTS-III   | Active |
+| MWHS-III   | Active |
+| MWRI-II    | Active |
+| GNOS-II    | Active |
+
+Annotation: FengYun-3H is LHCP!
 
 ### FENGYUN-2G [[Norad 40367](https://celestrak.org/NORAD/elements/gp.php?CATNR=40367)]
 
@@ -841,26 +860,6 @@ Annotation: The L-band modulator has intermittently experienced issues causing a
 | GOME       | Working            |
 
 Annotation: MHS has stripes on a few channels
-
-### NOAA-15 [[Norad 25338](https://celestrak.org/NORAD/elements/gp.php?CATNR=25338)]
-
-| Frequency         | Status | Downlink type | Location       |
-| ----------------- | ------ | ------------- | -------------- |
-| DSB (137.35 MHz)  | Active | DB            | Global         |
-| APT (137.62 MHz)  | Active | DB            | Global         |
-| HRPT (1702.5 MHz) | Active | DB            | Global         |
-| HRPT (2247.5 MHz) | Active | DB            | Global         |
-| GAC (2247.5 MHz)  | Active | Dump          | Svalbard [NOR] |
-
-| Instrument | Status             |
-| ---------- | ------------------ |
-| AVHRR 3    | Working (degraded) |
-| HIRS       | Working (degraded) |
-| AMSU A     | Working            |
-| AMSU B     | Defective          |
-| SEM        | Working            |
-
-Annotation: NOAA-15 is old, the AVHRR scanning may fail or recover spontaeously.
 
 
 ### NOAA-20 (JPSS-1) [[Norad 43013](https://celestrak.org/NORAD/elements/gp.php?CATNR=43013)]
@@ -1372,6 +1371,26 @@ Annotation: METEOR-M N1 suffered a loss of attitude. The satellite has been deco
 
 Annotation: METOP-A was decomissioned.
 
+### NOAA-15 [[Norad 25338](https://celestrak.org/NORAD/elements/gp.php?CATNR=25338)]
+
+| Frequency         | Status   | Downlink type | Location       |
+| ----------------- | -------- | ------------- | -------------- |
+| DSB (137.35 MHz)  | Inactive | DB            | Global         |
+| APT (137.62 MHz)  | Inactive | DB            | Global         |
+| HRPT (1702.5 MHz) | Inactive | DB            | Global         |
+| HRPT (2247.5 MHz) | Inactive | DB            | Global         |
+| GAC (2247.5 MHz)  | Inactive | Dump          | Svalbard [NOR] |
+
+| Instrument | Status      |
+| ---------- | ----------- |
+| AVHRR 3    | Deactivated |
+| HIRS       | Deactivated |
+| AMSU A     | Deactivated |
+| AMSU B     | Deactivated |
+| SEM        | Deactivated |
+
+Annotation: NOAA-15 was decommissioned on 19-08-2025.
+
 ### NOAA-18 [[Norad 28654](https://celestrak.org/NORAD/elements/gp.php?CATNR=28654)]
 
 | Frequency          | Status   | Downlink type | Location        |
@@ -1398,11 +1417,11 @@ Annotation: NOAA-18 has been completely decommissioned at June 6, 2025. NOAA's r
 
 | Frequency         | Status | Downlink type | Location       |
 | ----------------- | ------ | ------------- | -------------- |
-| DSB (137.77 MHz)  | Active | DB            | Global         |
-| APT (137.1 MHz)   | Active | DB            | Global         |
-| HRPT (1698 MHz)   | Active | DB            | Global         |
-| HRPT (2247.5 MHz) | Active | DB            | Global         |
-| GAC (1702.5 MHz)  | Active | Dump          | Svalbard [NOR] |
+| DSB (137.77 MHz)  | Inactive | DB            | Global         |
+| APT (137.1 MHz)   | Inactive | DB            | Global         |
+| HRPT (1698 MHz)   | Inactive | DB            | Global         |
+| HRPT (2247.5 MHz) | Inactive | DB            | Global         |
+| GAC (1702.5 MHz)  | Inactive | Dump          | Svalbard [NOR] |
 
 | Instrument | Status      |
 | ---------- | ----------- |
