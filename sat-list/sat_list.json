@@ -1351,10 +1351,10 @@
             "name": "CDAS",
             "status": "u",
             "frequency": "??? MHz",
-            "polarization": "???",
+            "polarization": "RHCP",
             "symbolrate": "3.096 msym/s",
             "image": "TODO",
-            "description": "TODO",
+            "description": "It is suspected this downlink is from COMS-1, but we have no way to confirm as it has never transimtted any data. It used to be the raw downlink from the COMS-1 satellite, GK2A is known to feature compatibility with the COMS downlinks namely in its xRIT platforms.",
             "data": []
         }
     ]
