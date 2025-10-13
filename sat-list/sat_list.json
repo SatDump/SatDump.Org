@@ -375,6 +375,36 @@
     ]
 },
 {
+    "name": "Cryosat-2",
+    "norad": "36508",
+    "agency": "ESA",
+    "start": "08-04-2010",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "DB",
+            "status": "u",
+            "frequency": "2221.5 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "TODO",
+            "data": []
+        },
+        {
+            "name": "Dumps",
+            "status": "u",
+            "frequency": "??? MHz",
+            "polarization": "???",
+            "symbolrate": "60 Msym/s",
+            "image": "TODO",
+            "description": "TODO",
+            "data": []
+        }
+    ]
+},
+{
     "name": "DMSP F17",
     "norad": "29522",
     "agency": "USSF",
@@ -1110,6 +1140,226 @@
     ]
 },
 {
+    "name": "FengYun 4A",
+    "norad": "41882",
+    "agency": "NSMC",
+    "start": "10-12-2016",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "LRIT",
+            "status": "u",
+            "frequency": "1697 MHz",
+            "polarization": "Linear",
+            "symbolrate": "90 ksym/s",
+            "image": "TODO",
+            "description": "Encrypted, clear imagery every hour (?). Low bit depth, imagery looks crunchy",
+            "data": []
+        },
+        {
+            "name": "HRIT",
+            "status": "u",
+            "frequency": "1681 MHz",
+            "polarization": "Linear",
+            "symbolrate": "1 Msym/s",
+            "image": "TODO",
+            "description": "Encrypted, transmits a clear IR image every 30 minutes (?)",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "FengYun 4B",
+    "norad": "48808",
+    "agency": "NSMC",
+    "start": "02-06-2021",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "LRIT",
+            "status": "u",
+            "frequency": "1697 MHz",
+            "polarization": "Linear",
+            "symbolrate": "90 ksym/s",
+            "image": "TODO",
+            "description": "Encrypted, clear imagery every hour (?). Low bit depth, imagery looks crunchy",
+            "data": []
+        },
+        {
+            "name": "HRIT",
+            "status": "u",
+            "frequency": "1681 MHz",
+            "polarization": "Linear",
+            "symbolrate": "1 Msym/s",
+            "image": "TODO",
+            "description": "Encrypted, transmits a clear IR image every 30 minutes (?)",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Formosat-5",
+    "norad": "42920",
+    "agency": "NSO",
+    "start": "24-08-2017",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "s-band dump",
+            "status": "u",
+            "frequency": "2215 MHz",
+            "polarization": "???",
+            "symbolrate": "1.6 Msym/s",
+            "image": "TODO",
+            "description": "Dumps to Kiruna.",
+            "data": []
+        },
+        {
+            "name": "X-band dump",
+            "status": "u",
+            "frequency": "??? MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "Dumps to Kiruna. Likely encrypted.",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "GCOM-C1",
+    "norad": "43065",
+    "agency": "JAXA",
+    "start": "23-12-2017",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "S-band dump",
+            "status": "u",
+            "frequency": "2220 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "Dumps to Kiruna.",
+            "data": []
+        },
+        {
+            "name": "X-band dump",
+            "status": "u",
+            "frequency": "8105 MHz",
+            "polarization": "???",
+            "symbolrate": "69.416 Msym/s",
+            "image": "TODO",
+            "description": "Dumps to Svalbard.",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "GCOM-W1",
+    "norad": "38337",
+    "agency": "JAXA",
+    "start": "17-05-2012",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "S-band dump",
+            "status": "u",
+            "frequency": "2220 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "Dumps to Kiruna.",
+            "data": []
+        },
+        {
+            "name": "X-band dump",
+            "status": "u",
+            "frequency": "8245 MHz",
+            "polarization": "???",
+            "symbolrate": "10 Msym/s",
+            "image": "TODO",
+            "description": "Dumps to Svalbard.",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "GEO-KOMPSAT 2A",
+    "norad": "43823",
+    "agency": "KARI",
+    "start": "04-12-2018",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "LRIT",
+            "status": "a",
+            "frequency": "1692.14 MHz",
+            "polarization": "Linear",
+            "symbolrate": "128 ksym/s",
+            "image": "TODO",
+            "description": "Very strong, 1x 4 km/px IR as well as miscallenous data every 10 minutes",
+            "data": [
+                {
+                    "name": "Clean longwave IR",
+                    "url": "https://sat-archive.cpt-dingus.cc/L-band/GEO-KOMPSAT/LRIT/GEO-KOMPSAT-2A/2024-12-28_08-50_gk2a-lrit_Meti/ami_Clean%20Longwave%20IR%20Window%20Band.png"
+                }
+            ]
+        },
+        {
+            "name": "HRIT",
+            "status": "a",
+            "frequency": "1695.4 MHz",
+            "polarization": "Linear",
+            "symbolrate": "3 Msym/s",
+            "image": "TODO",
+            "description": "1x 1 km/px VIS, 4x 4 km/px IR every 10 minutes",
+            "data": [
+                {
+                    "name": "Raw channel 1",
+                    "url": "https://sat-archive.cpt-dingus.cc/L-band/GEO-KOMPSAT/HRIT/GEO-KOMPSAT-2A/2025-01-08_04-26_gk2a-lrit_Meti/GK2A_VI006_20250108T042636Z.png"
+                }
+            ]
+        },
+        {
+            "name": "UHRIT",
+            "status": "a",
+            "frequency": "8070 MHz",
+            "polarization": "LHCP",
+            "symbolrate": "15.63 Msym/s",
+            "image": "TODO",
+            "description": "Contains all AMI channels at a full resolution - as high as 0.5 km/px with VI006",
+            "data": []
+        },
+        {
+            "name": "Raw data",
+            "status": "a",
+            "frequency": "8300 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "65 Msym/s",
+            "image": "TODO",
+            "description": "Possibly beamed, raw sensor downlink.",
+            "data": []
+        },
+        {
+            "name": "CDAS",
+            "status": "u",
+            "frequency": "??? MHz",
+            "polarization": "???",
+            "symbolrate": "3.096 msym/s",
+            "image": "TODO",
+            "description": "TODO",
+            "data": []
+        }
+    ]
+},
+{
     "name": "GOES-14",
     "norad": "35491",
     "agency": "NOAA",
@@ -1459,6 +1709,86 @@
             "symbolrate": "60 Msym/s",
             "image": "TODO",
             "description": "Beamed to Wallops",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "GRACE-FO 1",
+    "norad": "43476",
+    "agency": "NASA + DLR",
+    "start": "22-05-2018",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "Dump",
+            "status": "u",
+            "frequency": "2211 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "Dumps to Svalbard",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "GRACE-FO 2",
+    "norad": "43477",
+    "agency": "NASA + DLR",
+    "start": "22-05-2018",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "Dump",
+            "status": "u",
+            "frequency": "2211 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "Dumps to Svalbard. Possibly inactive",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Hinode",
+    "norad": "29479",
+    "agency": "JAXA",
+    "start": "22-11-2006",
+    "end": "",
+    "description": "After a failed X-band transmitter, this satellite broadcasts all of its instruments over the S-band downlink to [several groundstations](https://a-centauri.com/data/media/images/s-band-guide/hinode_gs.png) as often as possible",
+    "signals": [
+        {
+            "name": "S-band dumps",
+            "status": "a",
+            "frequency": "2256.22 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "262 ksym/s",
+            "image": "TODO",
+            "description": "TODO",
+            "data": []
+        },
+        {
+            "name": "Telemetry",
+            "status": "a",
+            "frequency": "2256.22 MHz",
+            "polarization": "rhcp",
+            "symbolrate": "65.6 ksym/s",
+            "image": "TODO",
+            "description": "Active whenever the satellite isn't dumping data",
+            "data": []
+        },
+        {
+            "name": "X-band dumps",
+            "status": "i",
+            "frequency": "8460.81 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "Transmitter failed",
             "data": []
         }
     ]
@@ -1858,46 +2188,6 @@
     ]
 },
 {
-    "name": "Meteosat-9 (MSG-2)",
-    "norad": "28912",
-    "agency": "EUMETSAT",
-    "start": "21-12-2005",
-    "end": "",
-    "description": "Currently positioned at 45.5\u00b0E. High inclination due to low propellant.",
-    "signals": [
-        {
-            "name": "PGS Raw data",
-            "status": "a",
-            "frequency": "1686.83 MHz",
-            "polarization": "Linear",
-            "symbolrate": "3.75 msym/s",
-            "image": "MSG-raw.jpg",
-            "description": "Contains all raw SEVIRI channels - 1x panchromatic at 1.6 km/px, 3x VIS and 9x IR all at 4.8 km/px. New image every 15 minutes in standard FD scanning mode, every 5 minutes in RSS mode. Meteosat-9 operates in RSS mode (?)",
-            "data": []
-        },
-        {
-            "name": "xRIT",
-            "status": "d",
-            "frequency": "1691/1695.15 MHz",
-            "polarization": "Linear",
-            "symbolrate": "-",
-            "image": "",
-            "description": "Not used in favour of the EumetCast service.",
-            "data": []
-        },
-        {
-            "name": "DCP",
-            "status": "a",
-            "frequency": "1675.281 MHz",
-            "polarization": "Linear",
-            "symbolrate": "???",
-            "image": "TODO",
-            "description": "DCP data. Not supported due to lack of documentation.",
-            "data": []
-        }
-    ]
-},
-{
     "name": "Meteosat-10 (MSG-3)",
     "norad": "38552",
     "agency": "EUMETSAT",
@@ -1953,6 +2243,46 @@
             "symbolrate": "3.75 msym/s",
             "image": "MSG-raw.jpg",
             "description": "Contains all raw SEVIRI channels - 1x panchromatic at 1.6 km/px, 3x VIS and 9x IR all at 4.8 km/px. New image every 15 minutes in standard FD scanning mode, every 5 minutes in RSS mode.",
+            "data": []
+        },
+        {
+            "name": "xRIT",
+            "status": "d",
+            "frequency": "1691/1695.15 MHz",
+            "polarization": "Linear",
+            "symbolrate": "-",
+            "image": "",
+            "description": "Not used in favour of the EumetCast service.",
+            "data": []
+        },
+        {
+            "name": "DCP",
+            "status": "a",
+            "frequency": "1675.281 MHz",
+            "polarization": "Linear",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "DCP data. Not supported due to lack of documentation.",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Meteosat-9 (MSG-2)",
+    "norad": "28912",
+    "agency": "EUMETSAT",
+    "start": "21-12-2005",
+    "end": "",
+    "description": "Currently positioned at 45.5\u00b0E. High inclination due to low propellant.",
+    "signals": [
+        {
+            "name": "PGS Raw data",
+            "status": "a",
+            "frequency": "1686.83 MHz",
+            "polarization": "Linear",
+            "symbolrate": "3.75 msym/s",
+            "image": "MSG-raw.jpg",
+            "description": "Contains all raw SEVIRI channels - 1x panchromatic at 1.6 km/px, 3x VIS and 9x IR all at 4.8 km/px. New image every 15 minutes in standard FD scanning mode, every 5 minutes in RSS mode. Meteosat-9 operates in RSS mode (?)",
             "data": []
         },
         {
