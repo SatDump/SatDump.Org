@@ -1,5 +1,14 @@
 """This file exists to internally manage the satellite list, to make it a bit less tedious to add/edit stuff"""
 
+# KNOWN BUGS:
+# When "n" is selcted on the final signal check, the signal never gets added
+# Duplicate Y/N on sample imagery
+
+# TODO:
+# Ability to revert adding a new signal
+# Editing functionality
+# Linting
+
 import json
 import sys
 from pprint import pprint
