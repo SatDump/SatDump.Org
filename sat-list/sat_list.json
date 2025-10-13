@@ -375,6 +375,46 @@
     ]
 },
 {
+    "name": "DMSP F17",
+    "norad": "29522",
+    "agency": "USSF",
+    "start": "04-11-2006",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "RTD",
+            "status": "a",
+            "frequency": "2252.5 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "1.024 MSym/s",
+            "image": "TODO",
+            "description": "Encrypted everywhere except the South pole and over mainland US. Contains two OLS channels as well as the SSMIS sounder.",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "DMSP F18",
+    "norad": "35951",
+    "agency": "USSF",
+    "start": "18-10-2009",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "RTD",
+            "status": "a",
+            "frequency": "2252.5 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "1.024 MSym/s",
+            "image": "TODO",
+            "description": "Encrypted everywhere except the South pole and over mainland US. Contains two OLS channels as well as the SSMIS sounder.",
+            "data": []
+        }
+    ]
+},
+{
     "name": "DSCOVR",
     "norad": "40390",
     "agency": "NOAA",
@@ -1070,12 +1110,466 @@
     ]
 },
 {
+    "name": "GOES-14",
+    "norad": "35491",
+    "agency": "NOAA",
+    "start": "27-06-2009",
+    "end": "",
+    "description": "Currently in storage mode.",
+    "signals": [
+        {
+            "name": "GVAR",
+            "status": "d",
+            "frequency": "1685.7 MHz",
+            "polarization": "Linear",
+            "symbolrate": "2.11 MSym/s",
+            "image": "GOES-N-GVAR.jpg",
+            "description": "800 m/px VIS + 4x 4 km/px IR crop of the indian ocean every 15 minutes. Full disk transmitted at 02:45Z and every 3 hours onwards. ",
+            "data": []
+        },
+        {
+            "name": "CDA telemetry",
+            "status": "a",
+            "frequency": "1694 MHz",
+            "polarization": "Linear",
+            "symbolrate": "40 ksym/s",
+            "image": "GOES-N-CDA.jpg",
+            "description": "Satellite telemetry, still transmitted.",
+            "data": []
+        },
+        {
+            "name": "IMAGER SD",
+            "status": "d",
+            "frequency": "1676 MHz",
+            "polarization": "Linear",
+            "symbolrate": "2.62 Msym/s",
+            "image": "TODO",
+            "description": "Raw IMAGER instrument downlink. Functionally identical to GVAR as of right now.",
+            "data": []
+        },
+        {
+            "name": "Sounder SD",
+            "status": "d",
+            "frequency": "1676 MHz",
+            "polarization": "Linear",
+            "symbolrate": "40 ksym/s",
+            "image": "TODO",
+            "description": "Transmitted on the same frequency as IMAGER SD, contains the raw SOUNDER instrument data. Given that the SOUNDER instrument is currently disabled, this downlink is empty.",
+            "data": []
+        },
+        {
+            "name": "LRIT",
+            "status": "d",
+            "frequency": "1691 MHz",
+            "polarization": "Linear",
+            "symbolrate": "293 ksym/s",
+            "image": "TODO",
+            "description": "Unused downlink. Only transmits weak filler weak filler.",
+            "data": []
+        },
+        {
+            "name": "MDL",
+            "status": "d",
+            "frequency": "1681.5 MHz",
+            "polarization": "Linear",
+            "symbolrate": "200 ksym/s",
+            "image": "TODO",
+            "description": "Unused downlink.",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "GOES-16",
+    "norad": "41866",
+    "agency": "NOAA",
+    "start": "19-11-2016",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "HRIT",
+            "status": "d",
+            "frequency": "1694.1 MHz",
+            "polarization": "linear",
+            "symbolrate": "927 ksym/s",
+            "image": "TODO",
+            "description": "GOES 16 FD: 1x VIS + 6x IR at 2 km/px every 30 minutes, 1x VIS + 2x IR mesoscale every 15 minutes, other operational GOES 1x IR at 4 km/px every hour, Himawari 1x VIS + 2x IR at 4 km/px every hour, Meteosat: 1x IR at 15 km/px every hour, Miscallenous EMWIN",
+            "data": []
+        },
+        {
+            "name": "GRB",
+            "status": "d",
+            "frequency": "1681.6 MHz",
+            "polarization": "RHCP+LHCP",
+            "symbolrate": "8.67 Msym/s",
+            "image": "GOES-R-GRB.jpg",
+            "description": "Half the data is transmitted over RHCP, half over LHCP. LHCP contains ABI channels 2,7,8,10,14,15,16 while RHCP contains ABI chanels 1,3,4,5,6,9,11,12,13, GOES lightning mapper, SUVI imagery, SEM data. All channels transmitted in the LHCP broadcast (besides 10 and 16) are transmitted in HRIT as well, making RHCP much more interesting to receive",
+            "data": [
+                {
+                    "name": "(RHCP) Full-disk RGB 135",
+                    "url": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/ABI/FULLDISK/20220728T131152Z/ABI_FULLDISK_RGB135_20220728T131152Z.png"
+                },
+                {
+                    "name": "(RHCP) CONUS RGB 135",
+                    "url": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/ABI/CONUS/20220727T234457Z/ABI_CONUS_RGB135_20220727T234457Z.png"
+                },
+                {
+                    "name": "(RHCP) Mesoscale RGB 135",
+                    "url": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/ABI/MESO1/20220727T234049Z/ABI_MESO1_RGB135_20220727T234049Z.png"
+                },
+                {
+                    "name": "(RHCP) 171 angstrom SUVI",
+                    "url": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/SUVI/Fe171/SUVI_Fe171_20220727T234355Z.png"
+                },
+                {
+                    "name": "(RHCP) 304 angstrom SUVI",
+                    "url": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/SUVI/Fe304/SUVI_Fe304_20220727T234053Z.png"
+                }
+            ]
+        },
+        {
+            "name": "CDA telemetry",
+            "status": "a",
+            "frequency": "1693 MHz",
+            "polarization": "Linear",
+            "symbolrate": "40 ksym/s",
+            "image": "TODO",
+            "description": "Telemetry broadcast, can be used to verify setup functionality",
+            "data": []
+        },
+        {
+            "name": "Raw downlink",
+            "status": "d",
+            "frequency": "8220 MHz",
+            "polarization": "???",
+            "symbolrate": "60 Msym/s",
+            "image": "TODO",
+            "description": "Beamed to Wallops",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "GOES-17",
+    "norad": "43226",
+    "agency": "NOAA",
+    "start": "01-03-2018",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "HRIT",
+            "status": "d",
+            "frequency": "1694.1 MHz",
+            "polarization": "linear",
+            "symbolrate": "927 ksym/s",
+            "image": "TODO",
+            "description": "GOES 17 FD: 1x VIS + 6x IR at 2 km/px every 30 minutes, 1x VIS + 2x IR mesoscale every 15 minutes, other operational GOES 1x IR at 4 km/px every hour, Himawari 1x VIS + 2x IR at 4 km/px every hour, Meteosat: 1x IR at 15 km/px every hour, Miscallenous EMWIN",
+            "data": []
+        },
+        {
+            "name": "GRB",
+            "status": "d",
+            "frequency": "1681.6 MHz",
+            "polarization": "RHCP+LHCP",
+            "symbolrate": "8.67 Msym/s",
+            "image": "GOES-R-GRB.jpg",
+            "description": "Half the data is transmitted over RHCP, half over LHCP. LHCP contains ABI channels 2,7,8,10,14,15,16 while RHCP contains ABI chanels 1,3,4,5,6,9,11,12,13, GOES lightning mapper, SUVI imagery, SEM data. All channels transmitted in the LHCP broadcast (besides 10 and 16) are transmitted in HRIT as well, making RHCP much more interesting to receive",
+            "data": [
+                {
+                    "name": "(RHCP) Full-disk RGB 135",
+                    "url": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/ABI/FULLDISK/20220728T131152Z/ABI_FULLDISK_RGB135_20220728T131152Z.png"
+                },
+                {
+                    "name": "(RHCP) CONUS RGB 135",
+                    "url": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/ABI/CONUS/20220727T234457Z/ABI_CONUS_RGB135_20220727T234457Z.png"
+                },
+                {
+                    "name": "(RHCP) Mesoscale RGB 135",
+                    "url": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/ABI/MESO1/20220727T234049Z/ABI_MESO1_RGB135_20220727T234049Z.png"
+                },
+                {
+                    "name": "(RHCP) 171 angstrom SUVI",
+                    "url": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/SUVI/Fe171/SUVI_Fe171_20220727T234355Z.png"
+                },
+                {
+                    "name": "(RHCP) 304 angstrom SUVI",
+                    "url": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/SUVI/Fe304/SUVI_Fe304_20220727T234053Z.png"
+                }
+            ]
+        },
+        {
+            "name": "CDA telemetry",
+            "status": "a",
+            "frequency": "1693 MHz",
+            "polarization": "Linear",
+            "symbolrate": "40 ksym/s",
+            "image": "TODO",
+            "description": "Telemetry broadcast, can be used to verify setup functionality",
+            "data": []
+        },
+        {
+            "name": "Raw downlink",
+            "status": "d",
+            "frequency": "8220 MHz",
+            "polarization": "???",
+            "symbolrate": "60 Msym/s",
+            "image": "TODO",
+            "description": "Beamed to Wallops",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "GOES-18",
+    "norad": "51850",
+    "agency": "NOAA",
+    "start": "01-03-2022",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "HRIT",
+            "status": "a",
+            "frequency": "1694.1 MHz",
+            "polarization": "linear",
+            "symbolrate": "927 ksym/s",
+            "image": "TODO",
+            "description": "GOES 18 FD: 1x VIS + 6x IR at 2 km/px every 30 minutes, 1x VIS + 2x IR mesoscale every 15 minutes, other operational GOES 1x IR at 4 km/px every hour, Himawari 1x VIS + 2x IR at 4 km/px every hour, Meteosat: 1x IR at 15 km/px every hour, Miscallenous EMWIN",
+            "data": []
+        },
+        {
+            "name": "GRB",
+            "status": "a",
+            "frequency": "1681.6 MHz",
+            "polarization": "RHCP+LHCP",
+            "symbolrate": "8.67 Msym/s",
+            "image": "GOES-R-GRB.jpg",
+            "description": "Half the data is transmitted over RHCP, half over LHCP. LHCP contains ABI channels 2,7,8,10,14,15,16 while RHCP contains ABI chanels 1,3,4,5,6,9,11,12,13, GOES lightning mapper, SUVI imagery, SEM data. All channels transmitted in the LHCP broadcast (besides 10 and 16) are transmitted in HRIT as well, making RHCP much more interesting to receive",
+            "data": [
+                {
+                    "name": "(RHCP) Full-disk RGB 135",
+                    "url": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/ABI/FULLDISK/20220728T131152Z/ABI_FULLDISK_RGB135_20220728T131152Z.png"
+                },
+                {
+                    "name": "(RHCP) CONUS RGB 135",
+                    "url": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/ABI/CONUS/20220727T234457Z/ABI_CONUS_RGB135_20220727T234457Z.png"
+                },
+                {
+                    "name": "(RHCP) Mesoscale RGB 135",
+                    "url": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/ABI/MESO1/20220727T234049Z/ABI_MESO1_RGB135_20220727T234049Z.png"
+                },
+                {
+                    "name": "(RHCP) 171 angstrom SUVI",
+                    "url": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/SUVI/Fe171/SUVI_Fe171_20220727T234355Z.png"
+                },
+                {
+                    "name": "(RHCP) 304 angstrom SUVI",
+                    "url": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/SUVI/Fe304/SUVI_Fe304_20220727T234053Z.png"
+                }
+            ]
+        },
+        {
+            "name": "CDA telemetry",
+            "status": "a",
+            "frequency": "1693 MHz",
+            "polarization": "Linear",
+            "symbolrate": "40 ksym/s",
+            "image": "TODO",
+            "description": "Telemetry broadcast, can be used to verify setup functionality",
+            "data": []
+        },
+        {
+            "name": "Raw downlink",
+            "status": "a",
+            "frequency": "8220 MHz",
+            "polarization": "???",
+            "symbolrate": "60 Msym/s",
+            "image": "TODO",
+            "description": "Beamed to Wallops",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "GOES-19",
+    "norad": "60133",
+    "agency": "NOAA",
+    "start": "25-06-2024",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "HRIT",
+            "status": "a",
+            "frequency": "1694.1 MHz",
+            "polarization": "linear",
+            "symbolrate": "927 ksym/s",
+            "image": "TODO",
+            "description": "GOES 19 FD: 1x VIS + 6x IR at 2 km/px every 30 minutes, 1x VIS + 2x IR mesoscale every 15 minutes, other operational GOES 1x IR at 4 km/px every hour, Himawari 1x VIS + 2x IR at 4 km/px every hour, Meteosat: 1x IR at 15 km/px every hour, Miscallenous EMWIN",
+            "data": []
+        },
+        {
+            "name": "GRB",
+            "status": "a",
+            "frequency": "1681.6 MHz",
+            "polarization": "RHCP+LHCP",
+            "symbolrate": "8.67 Msym/s",
+            "image": "GOES-R-GRB.jpg",
+            "description": "Half the data is transmitted over RHCP, half over LHCP. LHCP contains ABI channels 2,7,8,10,14,15,16 while RHCP contains ABI chanels 1,3,4,5,6,9,11,12,13, GOES lightning mapper, SUVI imagery, SEM data. All channels transmitted in the LHCP broadcast (besides 10 and 16) are transmitted in HRIT as well, making RHCP much more interesting to receive",
+            "data": [
+                {
+                    "name": "(RHCP) Full-disk RGB 135",
+                    "url": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/ABI/FULLDISK/20220728T131152Z/ABI_FULLDISK_RGB135_20220728T131152Z.png"
+                },
+                {
+                    "name": "(RHCP) CONUS RGB 135",
+                    "url": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/ABI/CONUS/20220727T234457Z/ABI_CONUS_RGB135_20220727T234457Z.png"
+                },
+                {
+                    "name": "(RHCP) Mesoscale RGB 135",
+                    "url": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/ABI/MESO1/20220727T234049Z/ABI_MESO1_RGB135_20220727T234049Z.png"
+                },
+                {
+                    "name": "(RHCP) 171 angstrom SUVI",
+                    "url": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/SUVI/Fe171/SUVI_Fe171_20220727T234355Z.png"
+                },
+                {
+                    "name": "(RHCP) 304 angstrom SUVI",
+                    "url": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/SUVI/Fe304/SUVI_Fe304_20220727T234053Z.png"
+                }
+            ]
+        },
+        {
+            "name": "CDA telemetry",
+            "status": "a",
+            "frequency": "1693 MHz",
+            "polarization": "Linear",
+            "symbolrate": "40 ksym/s",
+            "image": "TODO",
+            "description": "Telemetry broadcast, can be used to verify setup functionality",
+            "data": []
+        },
+        {
+            "name": "Raw downlink",
+            "status": "a",
+            "frequency": "8220 MHz",
+            "polarization": "???",
+            "symbolrate": "60 Msym/s",
+            "image": "TODO",
+            "description": "Beamed to Wallops",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "MetOp-B",
+    "norad": "38771",
+    "agency": "EUMETSAT",
+    "start": "17-09-2012",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "AHRPT",
+            "status": "a",
+            "frequency": "1701.3 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "2.33 Msym/s",
+            "image": "Metop-AHRPT.jpg",
+            "description": "Full resolution DB imagery from all instruments. Suffers from intermittent modulator issues causing a distorted constellation and lower SNR than MetOp-C.",
+            "data": []
+        },
+        {
+            "name": "X-band dump",
+            "status": "a",
+            "frequency": "7800 Mhz",
+            "polarization": "RHCP",
+            "symbolrate": "35 Msym/s",
+            "image": "TODO",
+            "description": "In essence just faster AHRPT, transmits full-orbit imagery from all instruments. Non-beamed dumps to Svalbard.",
+            "data": []
+        },
+        {
+            "name": "Telemetry",
+            "status": "a",
+            "frequency": "2230 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "Telemetry broadcast.",
+            "data": []
+        },
+        {
+            "name": "LRPT",
+            "status": "d",
+            "frequency": "137.1/.9 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "72 ksym/s",
+            "image": "TODO",
+            "description": "Inactive due to interference with HIRS. Even though the HIRS instrument has failed, the broadcast remains off.",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "MetOp-C",
+    "norad": "43689",
+    "agency": "EUMETSAT",
+    "start": "07-11-2018",
+    "end": "",
+    "description": "MHS instrument has striping present on TODO",
+    "signals": [
+        {
+            "name": "AHRPT",
+            "status": "a",
+            "frequency": "1701.3 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "2.33 Msym/s",
+            "image": "Metop-AHRPT.jpg",
+            "description": "Full resolution DB imagery from all instruments.",
+            "data": []
+        },
+        {
+            "name": "X-band dump",
+            "status": "a",
+            "frequency": "7800 Mhz",
+            "polarization": "RHCP",
+            "symbolrate": "35 Msym/s",
+            "image": "TODO",
+            "description": "In essence just faster AHRPT, transmits full-orbit imagery from all instruments. Non-beamed dumps to Svalbard.",
+            "data": []
+        },
+        {
+            "name": "Telemetry",
+            "status": "a",
+            "frequency": "2230 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "Telemetry broadcast.",
+            "data": []
+        },
+        {
+            "name": "LRPT",
+            "status": "d",
+            "frequency": "137.1/.9 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "72 ksym/s",
+            "image": "TODO",
+            "description": "Inactive due to interference with HIRS. Even though the HIRS instrument has failed, the broadcast remains off.",
+            "data": []
+        }
+    ]
+},
+{
     "name": "Meteor-M N\u00b02-2",
     "norad": "44387",
     "agency": "Roscosmos",
     "start": "05-07-2019",
     "end": "",
-    "description": "LRPT was only active for a few months after launch due to a micrometeorite strike in 12-2019. This caused a leak of thermal transfer gas rendering LRPT inoperable. Satellite was moved to storage mode un 07-2024 due to orbital proximity to Meteor-M N\u00b02-4.",
+    "description": "LRPT was only active for a few months after launch due to a micrometeorite strike in 12-2019. This caused a leak of thermal transfer gas rendering LRPT inoperable. Satellite was moved to storage mode on 07-2024 due to orbital proximity to Meteor-M N\u00b02-4.",
     "signals": [
         {
             "name": "LRPT",
@@ -1084,7 +1578,7 @@
             "polarization": "RHCP",
             "symbolrate": "2x 665.4 ksym/s",
             "image": "Meteor-LRPT.jpg",
-            "description": "3 JPEG-compressed 1 km/px channels. 3x VIS during summer, 2x VIS + 1x IR during winter",
+            "description": "3 JPEG-compressed 1 km/px channels. 3x VIS during summer, 2x VIS + 1x IR during winter. Rendered inoperable due to micrometeorite strike.",
             "data": [
                 {
                     "name": "221",
@@ -1364,6 +1858,126 @@
     ]
 },
 {
+    "name": "Meteosat-9 (MSG-2)",
+    "norad": "28912",
+    "agency": "EUMETSAT",
+    "start": "21-12-2005",
+    "end": "",
+    "description": "Currently positioned at 45.5\u00b0E. High inclination due to low propellant.",
+    "signals": [
+        {
+            "name": "PGS Raw data",
+            "status": "a",
+            "frequency": "1686.83 MHz",
+            "polarization": "Linear",
+            "symbolrate": "3.75 msym/s",
+            "image": "MSG-raw.jpg",
+            "description": "Contains all raw SEVIRI channels - 1x panchromatic at 1.6 km/px, 3x VIS and 9x IR all at 4.8 km/px. New image every 15 minutes in standard FD scanning mode, every 5 minutes in RSS mode. Meteosat-9 operates in RSS mode (?)",
+            "data": []
+        },
+        {
+            "name": "xRIT",
+            "status": "d",
+            "frequency": "1691/1695.15 MHz",
+            "polarization": "Linear",
+            "symbolrate": "-",
+            "image": "",
+            "description": "Not used in favour of the EumetCast service.",
+            "data": []
+        },
+        {
+            "name": "DCP",
+            "status": "a",
+            "frequency": "1675.281 MHz",
+            "polarization": "Linear",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "DCP data. Not supported due to lack of documentation.",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Meteosat-10 (MSG-3)",
+    "norad": "38552",
+    "agency": "EUMETSAT",
+    "start": "05-06-2012",
+    "end": "",
+    "description": "Currently positioned at 0\u00b0.",
+    "signals": [
+        {
+            "name": "PGS Raw data",
+            "status": "a",
+            "frequency": "1686.83 MHz",
+            "polarization": "Linear",
+            "symbolrate": "3.75 msym/s",
+            "image": "MSG-raw.jpg",
+            "description": "Contains all raw SEVIRI channels - 1x panchromatic at 1.6 km/px, 3x VIS and 9x IR all at 4.8 km/px. New image every 15 minutes in standard FD scanning mode, every 5 minutes in RSS mode.",
+            "data": []
+        },
+        {
+            "name": "xRIT",
+            "status": "d",
+            "frequency": "1691/1695.15 MHz",
+            "polarization": "Linear",
+            "symbolrate": "-",
+            "image": "",
+            "description": "Not used in favour of the EumetCast service.",
+            "data": []
+        },
+        {
+            "name": "DCP",
+            "status": "a",
+            "frequency": "1675.281 MHz",
+            "polarization": "Linear",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "DCP data. Not supported due to lack of documentation.",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Meteosat-11 (MSG-4)",
+    "norad": "40732",
+    "agency": "EUMETSAT",
+    "start": "15-07-2015",
+    "end": "",
+    "description": "Currently positioned at 9.5\u00b0E.",
+    "signals": [
+        {
+            "name": "PGS Raw data",
+            "status": "a",
+            "frequency": "1686.83 MHz",
+            "polarization": "Linear",
+            "symbolrate": "3.75 msym/s",
+            "image": "MSG-raw.jpg",
+            "description": "Contains all raw SEVIRI channels - 1x panchromatic at 1.6 km/px, 3x VIS and 9x IR all at 4.8 km/px. New image every 15 minutes in standard FD scanning mode, every 5 minutes in RSS mode.",
+            "data": []
+        },
+        {
+            "name": "xRIT",
+            "status": "d",
+            "frequency": "1691/1695.15 MHz",
+            "polarization": "Linear",
+            "symbolrate": "-",
+            "image": "",
+            "description": "Not used in favour of the EumetCast service.",
+            "data": []
+        },
+        {
+            "name": "DCP",
+            "status": "a",
+            "frequency": "1675.281 MHz",
+            "polarization": "Linear",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "DCP data. Not supported due to lack of documentation.",
+            "data": []
+        }
+    ]
+},
+{
     "name": "NOAA 15",
     "norad": "25338",
     "agency": "NOAA",
@@ -1377,7 +1991,7 @@
             "frequency": "137.62 MHz",
             "polarization": "RHCP",
             "symbolrate": "N/A",
-            "image": "https://static.cpt-dingus.cc/archived-blog_page/Beginners%20guide%20to%20weather%20satellite%20reception%20_%20Meti%E2%80%99s%20blog_files/NOAA-APT.jpg",
+            "image": "/POES-APT.jpg",
             "description": "2x 4 km/px images, during day 1x IR + 1x VIS and 2x IR during night.",
             "data": [
                 {
@@ -1396,7 +2010,7 @@
             "frequency": "1702.5/2247.5 MHz",
             "polarization": "RHCP",
             "symbolrate": "2x 665.4 ksym/s",
-            "image": "/NOAA-HRPT.jpg",
+            "image": "/POES-HRPT.jpg",
             "description": "Live full resolution operational imagery from all instruments",
             "data": [
                 {
@@ -1418,101 +2032,291 @@
     ]
 },
 {
-    "name": "MetOp-B",
-    "norad": "38771",
-    "agency": "EUMETSAT",
-    "start": "17-09-2012",
-    "end": "",
+    "name": "NOAA 18",
+    "norad": "28654",
+    "agency": "NOAA",
+    "start": "20-05-2005",
+    "end": "06-06-2025",
     "description": "TODO",
     "signals": [
         {
-            "name": "AHRPT",
-            "status": "a",
-            "frequency": "1701.3 MHz",
+            "name": "APT",
+            "status": "i",
+            "frequency": "137.9125 MHz",
             "polarization": "RHCP",
-            "symbolrate": "2.33 Msym/s",
-            "image": "Metop-AHRPT.jpg",
-            "description": "Full resolution DB imagery from all instruments. Suffers from intermittent modulator issues causing a distorted constellation and lower SNR than MetOp-C.",
-            "data": []
+            "symbolrate": "N/A",
+            "image": "/POES-APT.jpg",
+            "description": "2x 4 km/px images, 1x IR + 1x VIS. Normally should be 2x IR during night, but a configuration error made the satellite transmit a VIS channel instead.",
+            "data": [
+                {
+                    "name": "HVC",
+                    "url": "https://blog.cpt-dingus.cc/assets/images/Radio/APT-Sample-image.png"
+                }
+            ]
         },
         {
-            "name": "X-band dump",
-            "status": "a",
-            "frequency": "7800 Mhz",
+            "name": "HRPT",
+            "status": "i",
+            "frequency": "1707/2247.5 MHz",
             "polarization": "RHCP",
-            "symbolrate": "35 Msym/s",
-            "image": "TODO",
-            "description": "In essence just faster AHRPT, transmits full-orbit imagery from all instruments. Non-beamed dumps to Svalbard.",
-            "data": []
+            "symbolrate": "2x 665.4 ksym/s",
+            "image": "/POES-HRPT.jpg",
+            "description": "Live full resolution operational imagery from all instruments",
+            "data": [
+                {
+                    "name": "NOAA Natural Color",
+                    "url": "https://blog.cpt-dingus.cc/assets/images/Sat-reception-journey/Best-HRPT-yet.png"
+                }
+            ]
         },
         {
-            "name": "Telemetry",
-            "status": "a",
-            "frequency": "2230 MHz",
+            "name": "GAC",
+            "status": "i",
+            "frequency": "2247.5 MHz",
             "polarization": "RHCP",
-            "symbolrate": "???",
-            "image": "TODO",
-            "description": "Telemetry broadcast.",
-            "data": []
-        },
-        {
-            "name": "LRPT",
-            "status": "d",
-            "frequency": "137.1/.9 MHz",
-            "polarization": "RHCP",
-            "symbolrate": "72 ksym/s",
-            "image": "TODO",
-            "description": "Inactive due to interference with HIRS. Even though the HIRS instrument has failed, the broadcast remains off.",
+            "symbolrate": "2.6616 Msym/s",
+            "image": "https://blog.cpt-dingus.cc/assets/images/Radio/GOES-GVAR.jpg",
+            "description": "Full orbit dumps of all instruments, AVHRR only at 4 km/px. Dumped to Svalbard on every pass",
             "data": []
         }
     ]
 },
 {
-    "name": "MetOp-C",
-    "norad": "43689",
-    "agency": "EUMETSAT",
-    "start": "07-11-2018",
-    "end": "",
-    "description": "MHS instrument has striping present on TODO",
+    "name": "NOAA 19",
+    "norad": "33591",
+    "agency": "NOAA",
+    "start": "06-02-2009",
+    "end": "13-08-2025",
+    "description": "TODO",
     "signals": [
         {
-            "name": "AHRPT",
-            "status": "a",
-            "frequency": "1701.3 MHz",
+            "name": "APT",
+            "status": "i",
+            "frequency": "137.1 MHz",
             "polarization": "RHCP",
-            "symbolrate": "2.33 Msym/s",
-            "image": "Metop-AHRPT.jpg",
-            "description": "Full resolution DB imagery from all instruments.",
+            "symbolrate": "N/A",
+            "image": "/POES-APT.jpg",
+            "description": "2x 4 km/px images, 1x IR + 1x VIS during day, 2x IR during night.",
+            "data": [
+                {
+                    "name": "HVC",
+                    "url": "https://blog.cpt-dingus.cc/assets/images/Radio/APT-Sample-image.png"
+                }
+            ]
+        },
+        {
+            "name": "HRPT",
+            "status": "i",
+            "frequency": "1698/2247.5 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "2x 665.4 ksym/s",
+            "image": "/POES-HRPT.jpg",
+            "description": "Live full resolution operational imagery from all instruments",
+            "data": [
+                {
+                    "name": "NOAA Natural Color",
+                    "url": "https://blog.cpt-dingus.cc/assets/images/Sat-reception-journey/Best-HRPT-yet.png"
+                }
+            ]
+        },
+        {
+            "name": "GAC",
+            "status": "i",
+            "frequency": "2247.5 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "2.6616 Msym/s",
+            "image": "https://blog.cpt-dingus.cc/assets/images/Radio/GOES-GVAR.jpg",
+            "description": "Full orbit dumps of all instruments, AVHRR only at 4 km/px. Dumped to Svalbard on every pass",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "NOAA 20 (JPSS-1)",
+    "norad": "43013",
+    "agency": "NOAA",
+    "start": "18-11-2017",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "HRD",
+            "status": "a",
+            "frequency": "7812 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "15 Msym/s",
+            "image": "TODO",
+            "description": "TODO, null",
             "data": []
         },
         {
-            "name": "X-band dump",
+            "name": "Ka-band dumps",
             "status": "a",
-            "frequency": "7800 Mhz",
-            "polarization": "RHCP",
-            "symbolrate": "35 Msym/s",
+            "frequency": "26703.4 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
             "image": "TODO",
-            "description": "In essence just faster AHRPT, transmits full-orbit imagery from all instruments. Non-beamed dumps to Svalbard.",
+            "description": "TODO",
             "data": []
         },
         {
             "name": "Telemetry",
             "status": "a",
-            "frequency": "2230 MHz",
+            "frequency": "2247.5 MHz",
             "polarization": "RHCP",
             "symbolrate": "???",
             "image": "TODO",
-            "description": "Telemetry broadcast.",
+            "description": "TODO",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "NOAA 21 (JPSS-2)",
+    "norad": "54234",
+    "agency": "NOAA",
+    "start": "10-11-2022",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "HRD",
+            "status": "a",
+            "frequency": "7812 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "15 Msym/s",
+            "image": "TODO",
+            "description": "TODO, null",
             "data": []
         },
         {
-            "name": "LRPT",
-            "status": "d",
-            "frequency": "137.1/.9 MHz",
-            "polarization": "RHCP",
-            "symbolrate": "72 ksym/s",
+            "name": "Ka-band dumps",
+            "status": "a",
+            "frequency": "26703.4 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
             "image": "TODO",
-            "description": "Inactive due to interference with HIRS. Even though the HIRS instrument has failed, the broadcast remains off.",
+            "description": "TODO",
+            "data": []
+        },
+        {
+            "name": "Telemetry",
+            "status": "a",
+            "frequency": "2247.5 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "TODO",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Stereo-A",
+    "norad": "29510",
+    "agency": "NASA",
+    "start": "26-10-2006",
+    "end": "",
+    "description": "Stereo-A (Ahead) is currently in a heliocentric orbit around the sun, performs imaging of the Corona as well as SEM monitoring. Launched with its sister satellite, Stereo-B (Behind) ",
+    "signals": [
+        {
+            "name": "Low rate",
+            "status": "a",
+            "frequency": "8443.52 MHz",
+            "polarization": "???",
+            "symbolrate": "3800 sym/s",
+            "image": "TODO",
+            "description": "TODO",
+            "data": []
+        },
+        {
+            "name": "High rate",
+            "status": "a",
+            "frequency": "8443.52 MHz",
+            "polarization": "???",
+            "symbolrate": "1.44 Msym/s",
+            "image": "TODO",
+            "description": "TODO",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Stereo-B",
+    "norad": "29511",
+    "agency": "NASA",
+    "start": "26-10-2006",
+    "end": "01-10-2014",
+    "description": "The satellite was in a heliocentric orbit around the sun with its sister satellite, Stereo-A, was used for sun imaging and SEM. A planned test of the spacecraft's automation just before the satellite passed behind the sun failed on 01-10-2014, causing the satellite to spin too quickly for the reaction wheels to correct it. After 22 months, on 21-08-2016, communications were restored and recovery attempts were performed through September. On 23-09-2016, the carrier wave stopped being detected. It is suspected a frozen thruster valve came loose, increasing the spin rate even more. All subsequent attempts to find the satellite have failed.",
+    "signals": [
+        {
+            "name": "low rate",
+            "status": "i",
+            "frequency": "8443.52 MHz",
+            "polarization": "???",
+            "symbolrate": "3800 sym/s",
+            "image": "TODO",
+            "description": "TODO",
+            "data": []
+        },
+        {
+            "name": "High rate",
+            "status": "i",
+            "frequency": "8443.52 MHz",
+            "polarization": "???",
+            "symbolrate": "1.44 Msym/s",
+            "image": "TODO",
+            "description": "TODO",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Suomi NPP",
+    "norad": "37849",
+    "agency": "NOAA",
+    "start": "28-10-2011",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "HRD",
+            "status": "a",
+            "frequency": "7812 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "15 Msym/s",
+            "image": "TODO",
+            "description": "TODO, null",
+            "data": []
+        },
+        {
+            "name": "Dumps",
+            "status": "a",
+            "frequency": "8212.5 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "TODO, dumps to Svalbard",
+            "data": []
+        },
+        {
+            "name": "TDRS dumps",
+            "status": "a",
+            "frequency": "26703.4 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "TODO",
+            "data": []
+        },
+        {
+            "name": "Telemetry",
+            "status": "a",
+            "frequency": "2247.5 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "TODO",
             "data": []
         }
     ]
