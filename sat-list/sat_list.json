@@ -1,25 +1,5 @@
 [
 {
-    "name": "",
-    "norad": "",
-    "agency": "",
-    "start": "",
-    "end": "",
-    "description": "",
-    "signals": [
-        {
-            "name": "",
-            "status": "a",
-            "frequency": "",
-            "polarization": "",
-            "symbolrate": "",
-            "image": "",
-            "description": "",
-            "data": []
-        }
-    ]
-},
-{
     "name": "ANGELS",
     "norad": "44876",
     "agency": "CNES",
@@ -1754,6 +1734,26 @@
     ]
 },
 {
+    "name": "Gazelle (OTB-3, Argos-4)",
+    "norad": "54023",
+    "agency": "GA-EMS",
+    "start": "07-10-2022",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "ARGOS",
+            "status": "a",
+            "frequency": "1703 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "1 Msym/s",
+            "image": "TODO",
+            "description": "Commonly spotted in L-band, as it is active globally.",
+            "data": []
+        }
+    ]
+},
+{
     "name": "Hinode",
     "norad": "29479",
     "agency": "JAXA",
@@ -1789,6 +1789,156 @@
             "symbolrate": "???",
             "image": "TODO",
             "description": "Transmitter failed",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "INTEGRAL",
+    "norad": "27540",
+    "agency": "ESA",
+    "start": "17-10-2002",
+    "end": "28-02-2025",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "Dump",
+            "status": "u",
+            "frequency": "2215 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "TODO",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "IRIS",
+    "norad": "39197",
+    "agency": "NASA",
+    "start": "28-06-2013",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "S-band dump",
+            "status": "u",
+            "frequency": "2220.8 MHz",
+            "polarization": "???",
+            "symbolrate": "512 ksym/s",
+            "image": "TODO",
+            "description": "TODO",
+            "data": []
+        },
+        {
+            "name": "X-band dump",
+            "status": "u",
+            "frequency": "8483 MHz",
+            "polarization": "???",
+            "symbolrate": "7.5 Msym/s",
+            "image": "TODO",
+            "description": "TODO",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Jason-3",
+    "norad": "41240",
+    "agency": "EUMETSAT + NASA",
+    "start": "17-01-2016",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "Dump",
+            "status": "a",
+            "frequency": "2215.92 MHz",
+            "polarization": "LHCP",
+            "symbolrate": "838 ksym/s",
+            "image": "TODO",
+            "description": "TODO",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Landsat 8",
+    "norad": "39084",
+    "agency": "NASA + USGS",
+    "start": "11-02-2013",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "X-band data",
+            "status": "a",
+            "frequency": "8200.5 MHz",
+            "polarization": "???",
+            "symbolrate": "220.4 Msym/s",
+            "image": "TODO",
+            "description": "Direct broadcast, dumps to a few groundstations (incl. Svalbard)",
+            "data": []
+        },
+        {
+            "name": "S-band dump",
+            "status": "a",
+            "frequency": "2282.3 MHz",
+            "polarization": "???",
+            "symbolrate": "1.067 Msym/s",
+            "image": "TODO",
+            "description": "Dumps to Kiruna and Svalbard",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Landsat 9",
+    "norad": "49260",
+    "agency": "NASA + USGS",
+    "start": "27-09-2021",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "X-band data",
+            "status": "a",
+            "frequency": "8200.5 MHz",
+            "polarization": "???",
+            "symbolrate": "220.4 Msym/s",
+            "image": "TODO",
+            "description": "Direct broadcast, dumps to a few groundstations (incl. Svalbard)",
+            "data": []
+        },
+        {
+            "name": "S-band dump",
+            "status": "a",
+            "frequency": "2282.3 MHz",
+            "polarization": "???",
+            "symbolrate": "1.067 Msym/s",
+            "image": "TODO",
+            "description": "Dumps to Kiruna and Svalbard",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "MATS",
+    "norad": "54227",
+    "agency": "OHB Sweden",
+    "start": "04-11-2022",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "Dumps",
+            "status": "a",
+            "frequency": "2214 MHz",
+            "polarization": "???",
+            "symbolrate": "1.562 MHz",
+            "image": "TODO",
+            "description": "Dumps to Kiruna",
             "data": []
         }
     ]
@@ -2542,12 +2692,452 @@
     ]
 },
 {
+    "name": "Oceansat-2",
+    "norad": "35931",
+    "agency": "ISRO",
+    "start": "23-09-2009",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "S-band DB",
+            "status": "a",
+            "frequency": "2245 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "TODO",
+            "data": []
+        },
+        {
+            "name": "Dumps",
+            "status": "i",
+            "frequency": "8212.5 MHz",
+            "polarization": "???",
+            "symbolrate": "22.226 MHz",
+            "image": "TODO",
+            "description": "TODO",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Oceansat-3 (EOS-6)",
+    "norad": "54361",
+    "agency": "ISRO",
+    "start": "26-11-2022",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "X-band dumps",
+            "status": "a",
+            "frequency": "8275 MHz",
+            "polarization": "???",
+            "symbolrate": "80 MSym/s",
+            "image": "TODO",
+            "description": "Dumps to Svalbard and unknown groundstation in India",
+            "data": []
+        },
+        {
+            "name": "S-band dumps",
+            "status": "a",
+            "frequency": "2250 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "Dumps to Svalbard and unknown groundstation in India",
+            "data": []
+        },
+        {
+            "name": "ARGOS",
+            "status": "a",
+            "frequency": "1703 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "1 Msym/s",
+            "image": "TODO",
+            "description": "Commonly spotted in L-band, as it is active globally.",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "PAZ",
+    "norad": "43215",
+    "agency": "Hisdesat",
+    "start": "22-12-2018",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "X-band dump",
+            "status": "u",
+            "frequency": "8150 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "Dumps to Spain",
+            "data": []
+        },
+        {
+            "name": "S-band dump",
+            "status": "u",
+            "frequency": "2285 MHz",
+            "polarization": "???",
+            "symbolrate": "???\u0148",
+            "image": "TODO",
+            "description": "Dumps to Kiruna",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "PRETTY",
+    "norad": "58023",
+    "agency": "ESA",
+    "start": "09-10-2023",
+    "end": "10-2024",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "VHF",
+            "status": "u",
+            "frequency": "137.78 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "TODO",
+            "data": []
+        },
+        {
+            "name": "s-band dumps",
+            "status": "u",
+            "frequency": "2244 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "Dumps to Graz [AT]",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "PRISMA",
+    "norad": "44072",
+    "agency": "ASI",
+    "start": "22-03-2019",
+    "end": "",
+    "description": "Encrypted on all downlinks",
+    "signals": [
+        {
+            "name": "X-band 1",
+            "status": "a",
+            "frequency": "8120 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "todo",
+            "description": "Encrypted dumps to italy",
+            "data": []
+        },
+        {
+            "name": "S-band",
+            "status": "a",
+            "frequency": "2283.5 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "Encrypted dumps to Italy",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Proba-1",
+    "norad": "26958",
+    "agency": "ESA",
+    "start": "22-10-2001",
+    "end": "",
+    "description": "Satellite is only enabled for testing, normally does not transmit any imagery. The satellite suffered some memory issues making CHRIS imagery appear corrupted.",
+    "signals": [
+        {
+            "name": "Dumps",
+            "status": "a",
+            "frequency": "2235 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "2 Msym/s",
+            "image": "TODO",
+            "description": "Dumps to Redu [BG]",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Proba-2",
+    "norad": "36037",
+    "agency": "ESA",
+    "start": "02-11-2009",
+    "end": "",
+    "description": "This satelltie performs sun imaging using its SWAP instrument. Dumps imagery on every pass.",
+    "signals": [
+        {
+            "name": "Dumps",
+            "status": "a",
+            "frequency": "2235 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "2 Msym/s",
+            "image": "TODO",
+            "description": "Dumps on every pass to Redu [BG]",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Proba-V",
+    "norad": "39159",
+    "agency": "ESA",
+    "start": "07-05-2013",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "X-band dumps",
+            "status": "d",
+            "frequency": "8090 MHz",
+            "polarization": "rhcp",
+            "symbolrate": "35 msym/s",
+            "image": "TODO",
+            "description": "Dumps to Kiruna. Mission has been declared as completed, dumps have not been seen since.",
+            "data": []
+        },
+        {
+            "name": "S-band dumps",
+            "status": "a",
+            "frequency": "2235 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "1.919 Msym/s",
+            "image": "TODO",
+            "description": "Contains Vegetation instrument moon calibration every once in a while.",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Proba-VCC (PVCC)",
+    "norad": "58025",
+    "agency": "ESA",
+    "start": "09-10-2023",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "X-band dumps",
+            "status": "a",
+            "frequency": "8175.5 MHz",
+            "polarization": "???",
+            "symbolrate": "50 Msym/s",
+            "image": "TODO",
+            "description": "TODO",
+            "data": []
+        },
+        {
+            "name": "S-band dumps",
+            "status": "a",
+            "frequency": "2221 Mhz",
+            "polarization": "???",
+            "symbolrate": "2 Msym/s",
+            "image": "TODO",
+            "description": "TODO",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "SMAP",
+    "norad": "40376",
+    "agency": "NASA",
+    "start": "31-12-2015",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "X-band",
+            "status": "u",
+            "frequency": "8180 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "TODO",
+            "data": []
+        },
+        {
+            "name": "S-band dumps",
+            "status": "u",
+            "frequency": "2247.3 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "TODO",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "SMOS",
+    "norad": "36036",
+    "agency": "esa",
+    "start": "02-11-2009",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "X-band",
+            "status": "u",
+            "frequency": "8150 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "TODO",
+            "data": []
+        },
+        {
+            "name": "S-band",
+            "status": "u",
+            "frequency": "??? MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "todo",
+            "description": "TODO",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "SWOT",
+    "norad": "54754",
+    "agency": "NASA",
+    "start": "16-12-2022",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "X-band dumps",
+            "status": "a",
+            "frequency": "8205 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "Dumps to Svalbard",
+            "data": []
+        },
+        {
+            "name": "S-band dumps",
+            "status": "a",
+            "frequency": "2282.4 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "???",
+            "description": "Dumps to Svalbard [NOR], Inuvik [CAN], Hartebeesthoek [ZA], Kourou [FRG] and Kerguelen [FRA]",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Saral",
+    "norad": "39086",
+    "agency": "ISRO + CNES",
+    "start": "25-02-2013",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "X-band dumps",
+            "status": "a",
+            "frequency": "8212.5 MHz",
+            "polarization": "???",
+            "symbolrate": "16 Msym/s",
+            "image": "TODO",
+            "description": "TODO",
+            "data": []
+        },
+        {
+            "name": "S-band dumps",
+            "status": "a",
+            "frequency": "2245 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "TODO",
+            "data": []
+        },
+        {
+            "name": "ARGOS",
+            "status": "a",
+            "frequency": "1698.4 mhz",
+            "polarization": "RHCP",
+            "symbolrate": "400 ksym/s",
+            "image": "TODO",
+            "description": "Commonly spotted in L-band, as it is active globally.",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "SciSat-1",
+    "norad": "27858",
+    "agency": "CSA",
+    "start": "13-08-2003",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "Dumps",
+            "status": "a",
+            "frequency": "2232 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "2 Mysm/s",
+            "image": "TODO",
+            "description": "Dumps to Kiruna [SWE], Quebec [CAN] and other groundstations.\u0148",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Sentinel-6",
+    "norad": "46984",
+    "agency": "EUMETSAT + NASA",
+    "start": "21-11-2020",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "Dumps",
+            "status": "a",
+            "frequency": "8090 MHz",
+            "polarization": "???",
+            "symbolrate": "75 Msym/s",
+            "image": "TODO",
+            "description": "TODO",
+            "data": []
+        },
+        {
+            "name": "Telemetry",
+            "status": "a",
+            "frequency": "2256.75 Mhz",
+            "polarization": "???",
+            "symbolrate": "500 ksym/s",
+            "image": "TODO",
+            "description": "TODO",
+            "data": []
+        }
+    ]
+},
+{
     "name": "Stereo-A",
     "norad": "29510",
     "agency": "NASA",
     "start": "26-10-2006",
     "end": "",
-    "description": "Stereo-A (Ahead) is currently in a heliocentric orbit around the sun, performs imaging of the Corona as well as SEM monitoring. Launched with its sister satellite, Stereo-B (Behind) ",
+    "description": "Stereo-A (Ahead) is currently in a heliocentric orbit around the sun with its sister satellite, Stereo-B (Behind), performs imaging of the Corona as well as SEM monitoring. Launched with its sister satellite, Stereo-B (Behind) ",
     "signals": [
         {
             "name": "Low rate",
@@ -2577,7 +3167,7 @@
     "agency": "NASA",
     "start": "26-10-2006",
     "end": "01-10-2014",
-    "description": "The satellite was in a heliocentric orbit around the sun with its sister satellite, Stereo-A, was used for sun imaging and SEM. A planned test of the spacecraft's automation just before the satellite passed behind the sun failed on 01-10-2014, causing the satellite to spin too quickly for the reaction wheels to correct it. After 22 months, on 21-08-2016, communications were restored and recovery attempts were performed through September. On 23-09-2016, the carrier wave stopped being detected. It is suspected a frozen thruster valve came loose, increasing the spin rate even more. All subsequent attempts to find the satellite have failed.",
+    "description": "Stereo-B (Behind) is in a heliocentric orbit around the sun with its sister satellite, Stereo-A (Ahead). It was used for sun imaging and SEM. A planned test of the spacecraft's automation just before the satellite passed behind the sun failed on 01-10-2014, causing the satellite to spin too quickly for the reaction wheels to correct it. After 22 months, on 21-08-2016, communications were restored and recovery attempts were performed through to September. On 23-09-2016, the carrier wave stopped being detected. It is suspected a frozen thruster valve came loose, increasing the spin rate even more. All subsequent attempts to find the satellite have failed.",
     "signals": [
         {
             "name": "low rate",
@@ -2647,6 +3237,176 @@
             "symbolrate": "???",
             "image": "TODO",
             "description": "TODO",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Swarm-A",
+    "norad": "39452",
+    "agency": "ESA",
+    "start": "22-11-2013",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "Dumps",
+            "status": "a",
+            "frequency": "2249 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "todo",
+            "description": "TODO",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Swarm-B",
+    "norad": "39451",
+    "agency": "ESA",
+    "start": "22-11-2013",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "Dumps",
+            "status": "a",
+            "frequency": "2249 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "todo",
+            "description": "TODO",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Swarm-C",
+    "norad": "39453",
+    "agency": "ESA",
+    "start": "22-11-2013",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "Dumps",
+            "status": "a",
+            "frequency": "2249 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "todo",
+            "description": "TODO",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "TUBIN",
+    "norad": "48900",
+    "agency": "TU Berlin",
+    "start": "30-06-2021",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "X-band dumps",
+            "status": "a",
+            "frequency": "8392.5 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "Dumps to Berlin and Svalbard",
+            "data": []
+        },
+        {
+            "name": "S-band 1",
+            "status": "a",
+            "frequency": "2263 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "Dumps to Berlin",
+            "data": []
+        },
+        {
+            "name": "S-band 1",
+            "status": "a",
+            "frequency": "2263 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "Dumps to Berlin",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Terra",
+    "norad": "25994",
+    "agency": "NASA",
+    "start": "18-12-1999",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "Ka-band TDRS dumps",
+            "status": "a",
+            "frequency": "~15000 Mhz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "Tightly beamed",
+            "data": []
+        },
+        {
+            "name": "X-band TDRS dumps",
+            "status": "a",
+            "frequency": "8212.5 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "Dumps to TDRS groundstations",
+            "data": []
+        },
+        {
+            "name": "X-band DB",
+            "status": "i",
+            "frequency": "8212.5 MHz",
+            "polarization": "???",
+            "symbolrate": "13.125 Msym/s",
+            "image": "TODO",
+            "description": "DB failed after power supply issues",
+            "data": []
+        },
+        {
+            "name": "Telemetry",
+            "status": "a",
+            "frequency": "2287.5 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "TODO",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Yunhai 3",
+    "norad": "54235",
+    "agency": "NSMC",
+    "start": "11-11-2022",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "L-band DB",
+            "status": "a",
+            "frequency": "1704 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "4 Msym/s",
+            "image": "TODO",
+            "description": "Encrypted, commonly spotted in L band as it is enabled globally",
             "data": []
         }
     ]
