@@ -450,7 +450,7 @@
     "agency": "USSF",
     "start": "25-05-2006",
     "end": "31-10-2023",
-    "description": "GOES-13 management was transferred from NOAA to USSF in 02-2020 and became operational as EWS-G1 at 08-09-2020. providing imagery at 61.5\u00b0E for Indian Ocean monitoring. It was replaced by EWS-G2 following an imager failure at 31-10-2023. It is currently drifting in a graveyard orbit, still transmits CDA telemetry.",
+    "description": "GOES-13 management was transferred from NOAA to USSF in 02-2020 and became operational as EWS-G1 at 08-09-2020 providing imagery at 61.5\u00b0E for Indian Ocean monitoring. It was replaced by EWS-G2 following an imager failure at 31-10-2023. It is currently drifting in a graveyard orbit, still transmits CDA telemetry.",
     "signals": [
         {
             "name": "GVAR",
