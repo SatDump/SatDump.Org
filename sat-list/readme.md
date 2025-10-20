@@ -13,10 +13,10 @@ The structure of satellites is as follows:
 ```json
 {
     "name": "Name of the satellite",
-    "norad": "NORAD of the satellite",
+    "norad": "NORAD ID of the satellite",
     "agency": "Satellite operators/agency",
     "start": "Launch date",
-    "end": "EOL",
+    "end": "EOL date",
     "description": "A description of the satelite",
     "signals": [
         {
