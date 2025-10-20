@@ -151,7 +151,7 @@ class Satellite:
         if self.end:
             out += f"<small>*{self.start} - {self.end} | Agency: {self.agency}*</small>\n\n"
         else:
-            out += f"<small>*{self.start} | Agency: {self.agency}*</small>\n\n"
+            out += f"<small>*{self.start} • Agency: {self.agency}*</small>\n\n"
 
         out += self.description
 
