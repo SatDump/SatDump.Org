@@ -37,6 +37,8 @@ OUTPUT_FILE.write("_Last updated: " + str(datetime.now(timezone.utc)) + "_\n\n")
 OUTPUT_FILE.write("_Currently maintained by: Meti_\n\n")
 
 
+failed_generations = 0
+
 for sat_raw in sorted(json.load(SAT_LIST), key=lambda x: x.get("name", "")):
 
     try:
@@ -50,6 +52,8 @@ for sat_raw in sorted(json.load(SAT_LIST), key=lambda x: x.get("name", "")):
         OUTPUT_FILE.write(f"Exception: `{e}` <br>JSON:<br>```")
         OUTPUT_FILE.write(str(sat_raw))
         OUTPUT_FILE.write("```\n\n")
+
+        failed_generations += 1
         continue
 
     OUTPUT_FILE.write(sat.to_markdown())
@@ -61,4 +65,7 @@ for sat_raw in sorted(json.load(SAT_LIST), key=lambda x: x.get("name", "")):
 SAT_LIST.close()
 OUTPUT_FILE.close()
 
-print("Succesfully generated satellite list!")
+if failed_generations == 0:
+    print("Succesfully generated satellite list!")
+else:
+    print("Failed to generate some satellites!")
