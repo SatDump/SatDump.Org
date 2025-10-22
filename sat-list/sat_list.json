@@ -33,7 +33,7 @@
             "frequency": "8160 MHz",
             "polarization": "RHCP",
             "symbolrate": "7.5 Msym/s",
-            "image": "TODO",
+            "image": "Aqua-DB.jpg",
             "description": "DB + Dump",
             "data": []
         },
@@ -55,7 +55,7 @@
     "agency": "Roscosmos",
     "start": "28-02-2021",
     "end": "",
-    "description": "Elektro satellite bus shot into a molniya orbit to perform high resolution Arctic region imaging.",
+    "description": "Same satellite bus as Elektro ([Навигатор](https://ru.wikipedia.org/wiki/%D0%9D%D0%B0%D0%B2%D0%B8%D0%B3%D0%B0%D1%82%D0%BE%D1%80_(%D1%81%D0%BF%D1%83%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D0%B0%D1%8F_%D0%BF%D0%BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%D0%BC%D0%B0))) shot into a Molniya orbit to perform high resolution Arctic region imaging.",
     "signals": [
         {
             "name": "RDAS",
@@ -73,7 +73,7 @@
             "frequency": "1703 MHz",
             "polarization": "RHCP",
             "symbolrate": "5 ksym/s",
-            "image": "TODO",
+            "image": "Arktika-GGAK.jpg",
             "description": "Seemingly unused GGAK downlink.",
             "data": []
         },
@@ -83,7 +83,7 @@
             "frequency": "1697.5 MHz",
             "polarization": "Linear",
             "symbolrate": "",
-            "image": "",
+            "image": "Arktika-DCP.jpg",
             "description": "Contains DCP data, currently unsupported due to unknown modulation.",
             "data": []
         },
@@ -105,7 +105,7 @@
     "agency": "Roscosmos",
     "start": "16-12-2023",
     "end": "",
-    "description": "Elektro satellite bus shot into a molniya orbit to perform high resolution Arctic region imaging.",
+    "description": "Same satellite bus as Elektro ([Навигатор](https://ru.wikipedia.org/wiki/%D0%9D%D0%B0%D0%B2%D0%B8%D0%B3%D0%B0%D1%82%D0%BE%D1%80_(%D1%81%D0%BF%D1%83%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D0%B0%D1%8F_%D0%BF%D0%BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%D0%BC%D0%B0))) shot into a Molniya orbit to perform high resolution Arctic region imaging.",
     "signals": [
         {
             "name": "RDAS",
@@ -123,8 +123,8 @@
             "frequency": "1703 MHz",
             "polarization": "RHCP",
             "symbolrate": "5 ksym/s",
-            "image": "TODO",
-            "description": "Contains GGAK and SEM data, not supported due to the lack of documentation.",
+            "image": "Arktika-GGAK.jpg",
+            "description": "Contains GGAK and SEM data, not supported due to the lack of documentation. Spike on the left is not a part of the signal.",
             "data": []
         },
         {
@@ -133,7 +133,7 @@
             "frequency": "1697.5 MHz",
             "polarization": "Linear",
             "symbolrate": "??? ksym/s",
-            "image": "",
+            "image": "Arktika-DCP.jpg",
             "description": "Contains DCP data, currently unsupported due to unknown modulation.",
             "data": []
         },
@@ -172,7 +172,7 @@
             "status": "a",
             "frequency": "2287.5 MHz",
             "polarization": "RHCP",
-            "symbolrate": "ksym/s",
+            "symbolrate": "???",
             "image": "TODO",
             "description": "Telemetry?",
             "data": []
@@ -201,20 +201,20 @@
             "name": "S-band (WIDE)",
             "status": "u",
             "frequency": "2245 MHz",
-            "polarization": "???",
+            "polarization": "RHCP",
             "symbolrate": "512 ksym/s",
-            "image": "TODO",
-            "description": "TODO",
+            "image": "Bluewalker3-wide.jpg",
+            "description": "Encrypted.",
             "data": []
         },
         {
             "name": "S-band (NARROW)",
             "status": "u",
             "frequency": "2245 Msym/s",
-            "polarization": "???",
+            "polarization": "RHCP",
             "symbolrate": "128 ksym/s",
             "image": "TODO",
-            "description": "TODO",
+            "description": "Encrypted.",
             "data": []
         }
     ]
@@ -242,7 +242,7 @@
 {
     "name": "CALIPSO",
     "norad": "29108",
-    "agency": "nasa + cnes",
+    "agency": "NASA + CNES",
     "start": "28-04-2006",
     "end": "",
     "description": "TODO",
@@ -315,13 +315,7 @@
             "symbolrate": "???",
             "image": "",
             "description": "",
-            "data": [
-                {
-                    "name": "OMI heatmap",
-                    "raw": "https://sat-archive.cpt-dingus.cc/X-band/NASA-EOS/Aura/2023-10-22_14-30_aura-db_lego11/OMI/OMI-VIS-1_heatmap.png",
-                    "preview": ""
-                }
-            ]
+            "data": []
         }
     ]
 },
@@ -339,7 +333,7 @@
             "frequency": "2221.5 MHz",
             "polarization": "RHCP",
             "symbolrate": "512 ksym/s",
-            "image": "TODO",
+            "image": "Coriolis-DB.jpg",
             "description": "Only filler due to the failure of the Windsat instrument",
             "data": []
         },
@@ -350,7 +344,7 @@
             "polarization": "???",
             "symbolrate": "???",
             "image": "TODO",
-            "description": "Safetynet dumps to Wallops?",
+            "description": "Safetynet dumps to Wallops? Used to dump to Spain as well",
             "data": []
         }
     ]
@@ -400,7 +394,7 @@
             "polarization": "RHCP",
             "symbolrate": "1.024 MSym/s",
             "image": "TODO",
-            "description": "Encrypted everywhere except the South pole and over mainland US. Contains two OLS channels as well as the SSMIS sounder.",
+            "description": "Encrypted everywhere except the South pole, Arctic Ocean, and over mainland US. Contains two OLS channels as well as the SSMIS sounder.",
             "data": []
         }
     ]
@@ -420,7 +414,7 @@
             "polarization": "RHCP",
             "symbolrate": "1.024 MSym/s",
             "image": "TODO",
-            "description": "Encrypted everywhere except the South pole and over mainland US. Contains two OLS channels as well as the SSMIS sounder.",
+            "description": "Encrypted everywhere except the South pole, Arctic Ocean, and over mainland US. Contains two OLS channels as well as the SSMIS sounder.",
             "data": []
         }
     ]
@@ -434,13 +428,23 @@
     "description": "Satellite stopped transmitting, is presumed to have failed.",
     "signals": [
         {
-            "name": "DB",
+            "name": "High rate link",
+            "status": "u",
+            "frequency": "2215 MHz",
+            "polarization": "???",
+            "symbolrate": "276 ksym/s",
+            "image": "TODO",
+            "description": "Transmission stopped due to a \"serious software glitch\" on 15-07-2025. Used to transmit SEM data as well as EPIC instrument imagery",
+            "data": []
+        },
+        {
+            "name": "Telemetry link",
             "status": "u",
             "frequency": "2215 MHz",
             "polarization": "???",
             "symbolrate": "40 ksym/s",
-            "image": "TODO",
-            "description": "Transmission stopped due to a \"serious software glitch\" on 15-07-2025. Used to transmit SEM data as well as EPIC instrument imagery",
+            "image": "DSCOVR-TLM.jpg",
+            "description": "Telemetry downlink.",
             "data": []
         }
     ]
@@ -500,7 +504,7 @@
             "polarization": "Linear",
             "symbolrate": "293 ksym/s",
             "image": "TODO",
-            "description": "Unused downlink. Only transmits weak filler weak filler.",
+            "description": "Unused downlink. Transmitter noise floor is visible.",
             "data": []
         },
         {
@@ -641,7 +645,7 @@
             "frequency": "1697 MHz",
             "polarization": "Linear",
             "symbolrate": "",
-            "image": "",
+            "image": "Elektro-DCP.jpg",
             "description": "Contains DCP data, currently unsupported due to unknown modulation.",
             "data": []
         },
@@ -722,8 +726,8 @@
             "status": "a",
             "frequency": "1697 MHz",
             "polarization": "Linear",
-            "symbolrate": "",
-            "image": "",
+            "symbolrate": "???",
+            "image": "Elektro-DCP.jpg",
             "description": "Contains DCP data, currently unsupported due to unknown modulation.",
             "data": []
         },
@@ -804,8 +808,8 @@
             "status": "a",
             "frequency": "1697 MHz",
             "polarization": "Linear",
-            "symbolrate": "",
-            "image": "",
+            "symbolrate": "???",
+            "image": "Elektro-DCP.jpg",
             "description": "Contains DCP data, currently unsupported due to unknown modulation.",
             "data": []
         },
@@ -1004,7 +1008,7 @@
             "polarization": "RHCP",
             "symbolrate": "150 Msym/s",
             "image": "TODO",
-            "description": "Delayed Picture Transmission - Full orbit data dump. Non-beamed to Kiruna, Chinese groundstations",
+            "description": "Delayed Picture Transmission - Full orbit data dump. Non-beamed dumps to Kiruna, Chinese groundstations",
             "data": []
         }
     ]
@@ -1309,8 +1313,8 @@
             "frequency": "1695.4 MHz",
             "polarization": "Linear",
             "symbolrate": "3 Msym/s",
-            "image": "TODO",
-            "description": "1x 1 km/px VIS, 4x 4 km/px IR every 10 minutes",
+            "image": "GK2A-HRIT.jpg",
+            "description": "1x 1 km/px VIS, 4x 4 km/px IR every 10 minutes. You can see it switching from filler to data on the FFT.",
             "data": [
                 {
                     "name": "Raw channel 1",
@@ -1907,10 +1911,10 @@
             "name": "X-band data",
             "status": "a",
             "frequency": "8200.5 MHz",
-            "polarization": "???",
+            "polarization": "RHCP",
             "symbolrate": "220.4 Msym/s",
             "image": "TODO",
-            "description": "Direct broadcast, dumps to a few groundstations (incl. Svalbard)",
+            "description": "Direct broadcast when in range of ground stations (no specific list is available, but most of the world is covered). Disabled over the sea.",
             "data": []
         },
         {
@@ -1937,10 +1941,10 @@
             "name": "X-band data",
             "status": "a",
             "frequency": "8200.5 MHz",
-            "polarization": "???",
+            "polarization": "RHCP",
             "symbolrate": "220.4 Msym/s",
             "image": "TODO",
-            "description": "Direct broadcast, dumps to a few groundstations (incl. Svalbard)",
+            "description": "Direct broadcast when in range of ground stations (no specific list is available, but most of the world is covered). Disabled over the sea.",
             "data": []
         },
         {
@@ -2677,7 +2681,7 @@
             "polarization": "RHCP",
             "symbolrate": "15 Msym/s",
             "image": "TODO",
-            "description": "TODO, null",
+            "description": "Full resolution DB from all instruments. Has a strong null at certain elevations when the satellite is East from your receiving position.",
             "data": []
         },
         {
@@ -2696,8 +2700,8 @@
             "frequency": "2247.5 MHz",
             "polarization": "RHCP",
             "symbolrate": "???",
-            "image": "TODO",
-            "description": "TODO",
+            "image": "JPSS-1-tlm.jpg",
+            "description": "Global telemetry downlink. The spikes present on the FFT are a part of the signal.",
             "data": []
         }
     ]
@@ -2717,7 +2721,7 @@
             "polarization": "RHCP",
             "symbolrate": "15 Msym/s",
             "image": "TODO",
-            "description": "TODO, null",
+            "description": "Full resolution DB from all instruments. Has a weaker null than JPSS-1, improved FEC helps mitigate it further.",
             "data": []
         },
         {
@@ -2735,9 +2739,9 @@
             "status": "a",
             "frequency": "2247.5 MHz",
             "polarization": "RHCP",
-            "symbolrate": "???",
-            "image": "TODO",
-            "description": "TODO",
+            "symbolrate": "1.6 Msym/s",
+            "image": "JPSS-2-tlm.jpg",
+            "description": "Global telemetry downlink. DC spike on the right side of the image is not part of the signal.",
             "data": []
         }
     ]
@@ -2856,17 +2860,17 @@
             "frequency": "137.78 MHz",
             "polarization": "???",
             "symbolrate": "???",
-            "image": "TODO",
-            "description": "TODO",
+            "image": "PRETTY_VHF.jpg",
+            "description": "Signal is on the right hand side of the FFT image.",
             "data": []
         },
         {
-            "name": "s-band dumps",
+            "name": "S-band dumps",
             "status": "u",
             "frequency": "2244 MHz",
             "polarization": "???",
             "symbolrate": "???",
-            "image": "TODO",
+            "image": "PRETTY_S-band.jpg",
             "description": "Dumps to Graz [AT]",
             "data": []
         }
@@ -2886,8 +2890,18 @@
             "frequency": "8120 MHz",
             "polarization": "???",
             "symbolrate": "???",
-            "image": "todo",
-            "description": "Encrypted dumps to italy",
+            "image": "TODO",
+            "description": "Encrypted dumps to Matera",
+            "data": []
+        },
+                {
+            "name": "X-band 2",
+            "status": "a",
+            "frequency": "8320 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "Encrypted dumps to Matera",
             "data": []
         },
         {
@@ -2897,7 +2911,7 @@
             "polarization": "???",
             "symbolrate": "???",
             "image": "TODO",
-            "description": "Encrypted dumps to Italy",
+            "description": "Encrypted dumps to Matera",
             "data": []
         }
     ]
@@ -2917,7 +2931,7 @@
             "polarization": "RHCP",
             "symbolrate": "2 Msym/s",
             "image": "TODO",
-            "description": "Dumps to Redu [BG]",
+            "description": "Dumps to Redu [BE]",
             "data": []
         }
     ]
@@ -2936,8 +2950,8 @@
             "frequency": "2235 MHz",
             "polarization": "RHCP",
             "symbolrate": "2 Msym/s",
-            "image": "TODO",
-            "description": "Dumps on every pass to Redu [BG]",
+            "image": "Proba-2.jpg",
+            "description": "Dumps on every pass to Redu [BE]",
             "data": []
         }
     ]
@@ -2952,12 +2966,12 @@
     "signals": [
         {
             "name": "X-band dumps",
-            "status": "d",
+            "status": "a",
             "frequency": "8090 MHz",
-            "polarization": "rhcp",
+            "polarization": "RHCP",
             "symbolrate": "35 msym/s",
             "image": "TODO",
-            "description": "Dumps to Kiruna. Mission has been declared as completed, dumps have not been seen since.",
+            "description": "Dumps to Kiruna. Mission was suspended due to insufficient light caused by orbital drift, but it has resumed.",
             "data": []
         },
         {
@@ -2966,7 +2980,7 @@
             "frequency": "2235 MHz",
             "polarization": "RHCP",
             "symbolrate": "1.919 Msym/s",
-            "image": "TODO",
+            "image": "Proba-V_S-band.jpg",
             "description": "Contains Vegetation instrument moon calibration every once in a while.",
             "data": []
         }
@@ -3147,7 +3161,7 @@
             "polarization": "RHCP",
             "symbolrate": "2 Mysm/s",
             "image": "TODO",
-            "description": "Dumps to Kiruna [SWE], Quebec [CAN] and other groundstations.\u0148",
+            "description": "Dumps to Kiruna [SWE], Quebec [CAN] and other groundstations.",
             "data": []
         }
     ]
@@ -3196,7 +3210,7 @@
             "frequency": "8443.52 MHz",
             "polarization": "???",
             "symbolrate": "3800 sym/s",
-            "image": "TODO",
+            "image": "Stereo-LR.jpg",
             "description": "TODO",
             "data": []
         },
@@ -3218,15 +3232,15 @@
     "agency": "NASA",
     "start": "26-10-2006",
     "end": "01-10-2014",
-    "description": "Stereo-B (Behind) is in a heliocentric orbit around the sun with its sister satellite, Stereo-A (Ahead). It was used for sun imaging and SEM. A planned test of the spacecraft's automation just before the satellite passed behind the sun failed on 01-10-2014, causing the satellite to spin too quickly for the reaction wheels to correct it. After 22 months, on 21-08-2016, communications were restored and recovery attempts were performed through to September. On 23-09-2016, the carrier wave stopped being detected. It is suspected a frozen thruster valve came loose, increasing the spin rate even more. All subsequent attempts to find the satellite have failed.",
+    "description": "Stereo-B (Behind) is in a heliocentric orbit around the sun with its sister satellite, Stereo-A (Ahead). It was used for sun imaging and SEM. A planned test of the spacecraft's automation just before the satellite passed behind the sun failed on 01-10-2014, causing the satellite to spin too quickly for the reaction wheels to correct it, resulting in a loss of communication with the spacecraft. After 22 months, on 21-08-2016, communications were restored and recovery attempts were performed through to September. On 23-09-2016, the carrier wave stopped being detected. It is suspected a frozen thruster valve came loose, increasing the spin rate even more. All subsequent attempts to find the satellite have failed.",
     "signals": [
         {
-            "name": "low rate",
+            "name": "Low rate",
             "status": "i",
             "frequency": "8443.52 MHz",
             "polarization": "???",
             "symbolrate": "3800 sym/s",
-            "image": "TODO",
+            "image": "Stereo-LR.jpg",
             "description": "TODO",
             "data": []
         },
@@ -3257,7 +3271,7 @@
             "polarization": "RHCP",
             "symbolrate": "15 Msym/s",
             "image": "TODO",
-            "description": "TODO, null",
+            "description": "Full resolution DB from all instruments. Has a strong null at certain elevations when the satellite is West from your receiving position.",
             "data": []
         },
         {
@@ -3287,7 +3301,7 @@
             "polarization": "RHCP",
             "symbolrate": "???",
             "image": "TODO",
-            "description": "TODO",
+            "description": "Global telemetry downlink.",
             "data": []
         }
     ]
@@ -3422,12 +3436,12 @@
         },
         {
             "name": "X-band DB",
-            "status": "i",
+            "status": "d",
             "frequency": "8212.5 MHz",
             "polarization": "???",
             "symbolrate": "13.125 Msym/s",
             "image": "TODO",
-            "description": "DB failed after power supply issues",
+            "description": "DB disaled after power supply issues",
             "data": []
         },
         {
