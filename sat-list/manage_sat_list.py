@@ -278,9 +278,6 @@ def build_satellite() -> Satellite:
     Returns:
         Satellite | None: The satellite object if we created one
     """
-    # Debug purposes. Broken right now...
-    # return Satellite("Meteor M2-3", 57145, "Roscosmos", "2020", "2026", "Bad deployment", [{"name": "LRPT", "polarization": "RHCP", "image": "test", "description": "compressed imagery","frequency": "137.9 MHz", "data": [{"name": "test", "url": "test", "credit": "test"}]}]) # type: ignore
-
     sat = {}
     sat_params = ["name", "norad", "agency", "start", "end", "description"]
 
@@ -346,7 +343,7 @@ def build_satellite() -> Satellite:
             while 1:
                 # If there isn't an image, create one
                 if len(current_image) == 0:
-                    for img_param in ["name", "url"]:
+                    for img_param in ["name", "raw", "preview"]:
                         insert_value(img_param, current_image)
 
                 pprint(current_image)

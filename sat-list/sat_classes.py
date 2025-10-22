@@ -11,12 +11,13 @@ statuses = {
 class SampleData:
     """A sample image with hotlink and credit"""
 
-    def __init__(self, name: str, url: str):
+    def __init__(self, name: str, raw: str, preview: str):
         self.name = name
-        self.url = url
+        self.raw = raw
+        self.preview = preview
 
     def __repr__(self):
-        return self.name + " - " + self.url
+        return self.name + " - " + self.raw + " - " + self.preview
 
 
 class Signal:
@@ -68,7 +69,7 @@ class Signal:
 
         out += ">Sample data:\n"
         for image in self.data:
-            out += f"    - {image.name} - {image.url}\n"
+            out += f"    - {image.name} - {image.preview} - {image.raw}\n"
 
         return out
 
@@ -134,7 +135,7 @@ class Satellite:
         """
 
         def add_column(item: str) -> str:
-            """Returns a html table column
+            """Wraps string in html column tags. Just makes reading a bit less tedious
 
             Args:
                 item (str): Contents of coumn
@@ -192,7 +193,11 @@ class Satellite:
             if signal.data:
                 out += '<td style="line-height: 1;">'
                 out += "<br>".join(
-                    f"<a href='{data.url}'>{data.name}</a> <br>"
+                    (
+                        f"<a href='{data.preview}'>{data.name}</a> (<a href='{data.raw}'>Raw</a>) <br>"
+                        if data.preview != ""
+                        else f"<a href='{data.raw}'>{data.name}</a><br>"
+                    )
                     for data in signal.data
                 )
                 out += "</td>"

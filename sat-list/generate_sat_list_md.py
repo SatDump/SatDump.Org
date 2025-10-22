@@ -9,9 +9,7 @@ from sat_classes import *
 SAT_LIST = open("../sat-list/sat_list.json", "r")
 OUTPUT_FILE = open("sat-list.md", "w")
 
-OUTPUT_FILE.write(
-    "---\ntitle: Satellite list\nicon: fas fa-hourglass\norder: 4\n---\n\n"
-)
+OUTPUT_FILE.write("---\ntitle: Satellite list\nicon: fas fa-book\norder: 4\n---\n\n")
 
 OUTPUT_FILE.write(
     """<style>
@@ -23,7 +21,7 @@ th,td {
 )
 
 OUTPUT_FILE.write(
-    """This site contains all satellites currently decodable by SatDump, including descriptions of each of their signals.
+    """This site contains all satellites currently decodable by SatDump, including descriptions of each of their signals. Sample data and FFT imagery is received by the SatDump team.
 
 Every signal will have a colored marker next to the name depicting its last known status:
 - 🟢 Active

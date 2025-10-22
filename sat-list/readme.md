@@ -30,7 +30,8 @@ The structure of satellites is as follows:
             "data": [
                 {
                     "name": "Name of the data",
-                    "url": "Link to the data"
+                    "preview": "Optional link to a lower resolution, possibly cropped version of sample data",
+                    "raw": "Link to the raw thing. If there is no preview, this is shown instead.
                 }
             ]
         }

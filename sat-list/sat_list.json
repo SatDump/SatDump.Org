@@ -318,7 +318,8 @@
             "data": [
                 {
                     "name": "OMI heatmap",
-                    "url": "https://sat-archive.cpt-dingus.cc/X-band/NASA-EOS/Aura/2023-10-22_14-30_aura-db_lego11/OMI/OMI-VIS-1_heatmap.png"
+                    "raw": "https://sat-archive.cpt-dingus.cc/X-band/NASA-EOS/Aura/2023-10-22_14-30_aura-db_lego11/OMI/OMI-VIS-1_heatmap.png",
+                    "preview": ""
                 }
             ]
         }
@@ -603,7 +604,8 @@
             "data": [
                 {
                     "name": "Natural color",
-                    "url": "https://sat-archive.cpt-dingus.cc/L-band/Elektro/LRIT/Elektro-L3/2024-02-28_09-41_elektro-lrit_Meti/IMAGES/L3_NC_20240228T093000Z.png"
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/Elektro/LRIT/Elektro-L3/2024-02-28_09-41_elektro-lrit_Meti/IMAGES/L3_NC_20240228T093000Z.png",
+                    "preview": ""
                 }
             ]
         },
@@ -618,7 +620,8 @@
             "data": [
                 {
                     "name": "Natural Color",
-                    "url": "https://sat-archive.cpt-dingus.cc/L-band/Elektro/HRIT/Elektro-L3/2024-11-09_09-00_elektro-hrit_Meti/msu_gs_Natural%20Color.png"
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/Elektro/HRIT/Elektro-L3/2024-11-09_09-00_elektro-hrit_Meti/msu_gs_Natural%20Color.png",
+                    "preview": ""
                 }
             ]
         },
@@ -683,7 +686,8 @@
             "data": [
                 {
                     "name": "Natural color",
-                    "url": "https://sat-archive.cpt-dingus.cc/L-band/Elektro/LRIT/Elektro-L3/2024-02-28_09-41_elektro-lrit_Meti/IMAGES/L3_NC_20240228T093000Z.png"
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/Elektro/LRIT/Elektro-L3/2024-02-28_09-41_elektro-lrit_Meti/IMAGES/L3_NC_20240228T093000Z.png",
+                    "preview": ""
                 }
             ]
         },
@@ -698,7 +702,8 @@
             "data": [
                 {
                     "name": "Natural Color",
-                    "url": "https://sat-archive.cpt-dingus.cc/L-band/Elektro/HRIT/Elektro-L3/2024-11-09_09-00_elektro-hrit_Meti/msu_gs_Natural%20Color.png"
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/Elektro/HRIT/Elektro-L3/2024-11-09_09-00_elektro-hrit_Meti/msu_gs_Natural%20Color.png",
+                    "preview": ""
                 }
             ]
         },
@@ -763,7 +768,8 @@
             "data": [
                 {
                     "name": "Natural color",
-                    "url": "https://sat-archive.cpt-dingus.cc/L-band/Elektro/LRIT/Elektro-L3/2024-02-28_09-41_elektro-lrit_Meti/IMAGES/L3_NC_20240228T093000Z.png"
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/Elektro/LRIT/Elektro-L3/2024-02-28_09-41_elektro-lrit_Meti/IMAGES/L3_NC_20240228T093000Z.png",
+                    "preview": ""
                 }
             ]
         },
@@ -778,7 +784,8 @@
             "data": [
                 {
                     "name": "Natural Color",
-                    "url": "https://sat-archive.cpt-dingus.cc/L-band/Elektro/HRIT/Elektro-L3/2024-11-09_09-00_elektro-hrit_Meti/msu_gs_Natural%20Color.png"
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/Elektro/HRIT/Elektro-L3/2024-11-09_09-00_elektro-hrit_Meti/msu_gs_Natural%20Color.png",
+                    "preview": ""
                 }
             ]
         },
@@ -843,7 +850,8 @@
             "data": [
                 {
                     "name": "False color FD",
-                    "url": "https://sat-archive.cpt-dingus.cc/L-band/FengYun-2/FengYun-2H/2024-08-17_00-00_fengyun-svissr_Meti/2024-08-17_08-25/FY-2x_FC_20240817T082620Z.png"
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/FengYun-2/FengYun-2H/2024-08-17_00-00_fengyun-svissr_Meti/2024-08-17_08-25/FY-2x_FC_20240817T082620Z.png",
+                    "preview": ""
                 }
             ]
         },
@@ -888,7 +896,8 @@
             "data": [
                 {
                     "name": "False color FD",
-                    "url": "https://sat-archive.cpt-dingus.cc/L-band/FengYun-2/FengYun-2H/2024-08-17_00-00_fengyun-svissr_Meti/2024-08-17_08-25/FY-2x_FC_20240817T082620Z.png"
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/FengYun-2/FengYun-2H/2024-08-17_00-00_fengyun-svissr_Meti/2024-08-17_08-25/FY-2x_FC_20240817T082620Z.png",
+                    "preview": ""
                 }
             ]
         },
@@ -953,7 +962,8 @@
             "data": [
                 {
                     "name": "",
-                    "url": ""
+                    "raw": "",
+                    "preview": ""
                 }
             ]
         },
@@ -1288,7 +1298,8 @@
             "data": [
                 {
                     "name": "Clean longwave IR",
-                    "url": "https://sat-archive.cpt-dingus.cc/L-band/GEO-KOMPSAT/LRIT/GEO-KOMPSAT-2A/2024-12-28_08-50_gk2a-lrit_Meti/ami_Clean%20Longwave%20IR%20Window%20Band.png"
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/GEO-KOMPSAT/LRIT/GEO-KOMPSAT-2A/2024-12-28_08-50_gk2a-lrit_Meti/ami_Clean%20Longwave%20IR%20Window%20Band.png",
+                    "preview": ""
                 }
             ]
         },
@@ -1303,7 +1314,8 @@
             "data": [
                 {
                     "name": "Raw channel 1",
-                    "url": "https://sat-archive.cpt-dingus.cc/L-band/GEO-KOMPSAT/HRIT/GEO-KOMPSAT-2A/2025-01-08_04-26_gk2a-lrit_Meti/GK2A_VI006_20250108T042636Z.png"
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/GEO-KOMPSAT/HRIT/GEO-KOMPSAT-2A/2025-01-08_04-26_gk2a-lrit_Meti/GK2A_VI006_20250108T042636Z.png",
+                    "preview": ""
                 }
             ]
         },
@@ -1438,23 +1450,28 @@
             "data": [
                 {
                     "name": "(RHCP) Full-disk RGB 135",
-                    "url": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/ABI/FULLDISK/20220728T131152Z/ABI_FULLDISK_RGB135_20220728T131152Z.png"
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/ABI/FULLDISK/20220728T131152Z/ABI_FULLDISK_RGB135_20220728T131152Z.png",
+                    "preview": ""
                 },
                 {
                     "name": "(RHCP) CONUS RGB 135",
-                    "url": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/ABI/CONUS/20220727T234457Z/ABI_CONUS_RGB135_20220727T234457Z.png"
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/ABI/CONUS/20220727T234457Z/ABI_CONUS_RGB135_20220727T234457Z.png",
+                    "preview": ""
                 },
                 {
                     "name": "(RHCP) Mesoscale RGB 135",
-                    "url": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/ABI/MESO1/20220727T234049Z/ABI_MESO1_RGB135_20220727T234049Z.png"
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/ABI/MESO1/20220727T234049Z/ABI_MESO1_RGB135_20220727T234049Z.png",
+                    "preview": ""
                 },
                 {
                     "name": "(RHCP) 171 angstrom SUVI",
-                    "url": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/SUVI/Fe171/SUVI_Fe171_20220727T234355Z.png"
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/SUVI/Fe171/SUVI_Fe171_20220727T234355Z.png",
+                    "preview": ""
                 },
                 {
                     "name": "(RHCP) 304 angstrom SUVI",
-                    "url": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/SUVI/Fe304/SUVI_Fe304_20220727T234053Z.png"
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/SUVI/Fe304/SUVI_Fe304_20220727T234053Z.png",
+                    "preview": ""
                 }
             ]
         },
@@ -1509,23 +1526,28 @@
             "data": [
                 {
                     "name": "(RHCP) Full-disk RGB 135",
-                    "url": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/ABI/FULLDISK/20220728T131152Z/ABI_FULLDISK_RGB135_20220728T131152Z.png"
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/ABI/FULLDISK/20220728T131152Z/ABI_FULLDISK_RGB135_20220728T131152Z.png",
+                    "preview": ""
                 },
                 {
                     "name": "(RHCP) CONUS RGB 135",
-                    "url": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/ABI/CONUS/20220727T234457Z/ABI_CONUS_RGB135_20220727T234457Z.png"
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/ABI/CONUS/20220727T234457Z/ABI_CONUS_RGB135_20220727T234457Z.png",
+                    "preview": ""
                 },
                 {
                     "name": "(RHCP) Mesoscale RGB 135",
-                    "url": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/ABI/MESO1/20220727T234049Z/ABI_MESO1_RGB135_20220727T234049Z.png"
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/ABI/MESO1/20220727T234049Z/ABI_MESO1_RGB135_20220727T234049Z.png",
+                    "preview": ""
                 },
                 {
                     "name": "(RHCP) 171 angstrom SUVI",
-                    "url": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/SUVI/Fe171/SUVI_Fe171_20220727T234355Z.png"
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/SUVI/Fe171/SUVI_Fe171_20220727T234355Z.png",
+                    "preview": ""
                 },
                 {
                     "name": "(RHCP) 304 angstrom SUVI",
-                    "url": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/SUVI/Fe304/SUVI_Fe304_20220727T234053Z.png"
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/SUVI/Fe304/SUVI_Fe304_20220727T234053Z.png",
+                    "preview": ""
                 }
             ]
         },
@@ -1580,23 +1602,28 @@
             "data": [
                 {
                     "name": "(RHCP) Full-disk RGB 135",
-                    "url": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/ABI/FULLDISK/20220728T131152Z/ABI_FULLDISK_RGB135_20220728T131152Z.png"
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/ABI/FULLDISK/20220728T131152Z/ABI_FULLDISK_RGB135_20220728T131152Z.png",
+                    "preview": ""
                 },
                 {
                     "name": "(RHCP) CONUS RGB 135",
-                    "url": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/ABI/CONUS/20220727T234457Z/ABI_CONUS_RGB135_20220727T234457Z.png"
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/ABI/CONUS/20220727T234457Z/ABI_CONUS_RGB135_20220727T234457Z.png",
+                    "preview": ""
                 },
                 {
                     "name": "(RHCP) Mesoscale RGB 135",
-                    "url": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/ABI/MESO1/20220727T234049Z/ABI_MESO1_RGB135_20220727T234049Z.png"
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/ABI/MESO1/20220727T234049Z/ABI_MESO1_RGB135_20220727T234049Z.png",
+                    "preview": ""
                 },
                 {
                     "name": "(RHCP) 171 angstrom SUVI",
-                    "url": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/SUVI/Fe171/SUVI_Fe171_20220727T234355Z.png"
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/SUVI/Fe171/SUVI_Fe171_20220727T234355Z.png",
+                    "preview": ""
                 },
                 {
                     "name": "(RHCP) 304 angstrom SUVI",
-                    "url": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/SUVI/Fe304/SUVI_Fe304_20220727T234053Z.png"
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/SUVI/Fe304/SUVI_Fe304_20220727T234053Z.png",
+                    "preview": ""
                 }
             ]
         },
@@ -1651,23 +1678,28 @@
             "data": [
                 {
                     "name": "(RHCP) Full-disk RGB 135",
-                    "url": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/ABI/FULLDISK/20220728T131152Z/ABI_FULLDISK_RGB135_20220728T131152Z.png"
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/ABI/FULLDISK/20220728T131152Z/ABI_FULLDISK_RGB135_20220728T131152Z.png",
+                    "preview": ""
                 },
                 {
                     "name": "(RHCP) CONUS RGB 135",
-                    "url": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/ABI/CONUS/20220727T234457Z/ABI_CONUS_RGB135_20220727T234457Z.png"
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/ABI/CONUS/20220727T234457Z/ABI_CONUS_RGB135_20220727T234457Z.png",
+                    "preview": ""
                 },
                 {
                     "name": "(RHCP) Mesoscale RGB 135",
-                    "url": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/ABI/MESO1/20220727T234049Z/ABI_MESO1_RGB135_20220727T234049Z.png"
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/ABI/MESO1/20220727T234049Z/ABI_MESO1_RGB135_20220727T234049Z.png",
+                    "preview": ""
                 },
                 {
                     "name": "(RHCP) 171 angstrom SUVI",
-                    "url": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/SUVI/Fe171/SUVI_Fe171_20220727T234355Z.png"
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/SUVI/Fe171/SUVI_Fe171_20220727T234355Z.png",
+                    "preview": ""
                 },
                 {
                     "name": "(RHCP) 304 angstrom SUVI",
-                    "url": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/SUVI/Fe304/SUVI_Fe304_20220727T234053Z.png"
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/SUVI/Fe304/SUVI_Fe304_20220727T234053Z.png",
+                    "preview": ""
                 }
             ]
         },
@@ -2062,7 +2094,8 @@
             "data": [
                 {
                     "name": "221",
-                    "url": "Meteor-LRPT.jpg"
+                    "raw": "Meteor-LRPT.jpg",
+                    "preview": ""
                 }
             ]
         },
@@ -2077,15 +2110,18 @@
             "data": [
                 {
                     "name": "Natural color",
-                    "url": "https://sat-archive.cpt-dingus.cc/L-band/Meteor-M/msu_mr_2024-11-09_13-23-58Z_Natural%20Color.png"
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/Meteor-M/msu_mr_2024-11-09_13-23-58Z_Natural%20Color.png",
+                    "preview": ""
                 },
                 {
                     "name": "221",
-                    "url": "https://sat-archive.cpt-dingus.cc/L-band/Meteor-M/msu_mr_2024-11-09_13-23-58Z_AVHRR%20221%20False%20Color.png"
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/Meteor-M/msu_mr_2024-11-09_13-23-58Z_AVHRR%20221%20False%20Color.png",
+                    "preview": ""
                 },
                 {
                     "name": "Day microphysics",
-                    "url": "https://sat-archive.cpt-dingus.cc/L-band/Meteor-M/msu_mr_2024-11-09_13-23-58Z_Day%20Microphysics.png"
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/Meteor-M/msu_mr_2024-11-09_13-23-58Z_Day%20Microphysics.png",
+                    "preview": ""
                 }
             ]
         },
@@ -2160,7 +2196,8 @@
             "data": [
                 {
                     "name": "221",
-                    "url": "Meteor-LRPT.jpg"
+                    "raw": "Meteor-LRPT.jpg",
+                    "preview": ""
                 }
             ]
         },
@@ -2175,15 +2212,18 @@
             "data": [
                 {
                     "name": "Natural color",
-                    "url": "https://sat-archive.cpt-dingus.cc/L-band/Meteor-M/msu_mr_2024-11-09_13-23-58Z_Natural%20Color.png"
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/Meteor-M/msu_mr_2024-11-09_13-23-58Z_Natural%20Color.png",
+                    "preview": ""
                 },
                 {
                     "name": "221",
-                    "url": "https://sat-archive.cpt-dingus.cc/L-band/Meteor-M/msu_mr_2024-11-09_13-23-58Z_AVHRR%20221%20False%20Color.png"
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/Meteor-M/msu_mr_2024-11-09_13-23-58Z_AVHRR%20221%20False%20Color.png",
+                    "preview": ""
                 },
                 {
                     "name": "Day microphysics",
-                    "url": "https://sat-archive.cpt-dingus.cc/L-band/Meteor-M/msu_mr_2024-11-09_13-23-58Z_Day%20Microphysics.png"
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/Meteor-M/msu_mr_2024-11-09_13-23-58Z_Day%20Microphysics.png",
+                    "preview": ""
                 }
             ]
         },
@@ -2258,7 +2298,8 @@
             "data": [
                 {
                     "name": "221",
-                    "url": "Meteor-LRPT.jpg"
+                    "raw": "Meteor-LRPT.jpg",
+                    "preview": ""
                 }
             ]
         },
@@ -2273,15 +2314,18 @@
             "data": [
                 {
                     "name": "Natural color",
-                    "url": "https://sat-archive.cpt-dingus.cc/L-band/Meteor-M/msu_mr_2024-11-09_13-23-58Z_Natural%20Color.png"
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/Meteor-M/msu_mr_2024-11-09_13-23-58Z_Natural%20Color.png",
+                    "preview": ""
                 },
                 {
                     "name": "221",
-                    "url": "https://sat-archive.cpt-dingus.cc/L-band/Meteor-M/msu_mr_2024-11-09_13-23-58Z_AVHRR%20221%20False%20Color.png"
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/Meteor-M/msu_mr_2024-11-09_13-23-58Z_AVHRR%20221%20False%20Color.png",
+                    "preview": ""
                 },
                 {
                     "name": "Day microphysics",
-                    "url": "https://sat-archive.cpt-dingus.cc/L-band/Meteor-M/msu_mr_2024-11-09_13-23-58Z_Day%20Microphysics.png"
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/Meteor-M/msu_mr_2024-11-09_13-23-58Z_Day%20Microphysics.png",
+                    "preview": ""
                 }
             ]
         },
@@ -2476,11 +2520,13 @@
             "data": [
                 {
                     "name": "HVC",
-                    "url": "https://blog.cpt-dingus.cc/assets/images/Radio/APT-Sample-image.png"
+                    "raw": "https://blog.cpt-dingus.cc/assets/images/Radio/APT-Sample-image.png",
+                    "preview": ""
                 },
                 {
                     "name": "Raw image",
-                    "url": "https://blog.cpt-dingus.cc/assets/images/Radio/APT-Sample-image.png"
+                    "raw": "https://blog.cpt-dingus.cc/assets/images/Radio/APT-Sample-image.png",
+                    "preview": ""
                 }
             ]
         },
@@ -2495,7 +2541,8 @@
             "data": [
                 {
                     "name": "NOAA Natural Color",
-                    "url": "https://blog.cpt-dingus.cc/assets/images/Sat-reception-journey/Best-HRPT-yet.png"
+                    "raw": "https://blog.cpt-dingus.cc/assets/images/Sat-reception-journey/Best-HRPT-yet.png",
+                    "preview": ""
                 }
             ]
         },
@@ -2530,7 +2577,8 @@
             "data": [
                 {
                     "name": "HVC",
-                    "url": "https://blog.cpt-dingus.cc/assets/images/Radio/APT-Sample-image.png"
+                    "raw": "https://blog.cpt-dingus.cc/assets/images/Radio/APT-Sample-image.png",
+                    "preview": ""
                 }
             ]
         },
@@ -2545,7 +2593,8 @@
             "data": [
                 {
                     "name": "NOAA Natural Color",
-                    "url": "https://blog.cpt-dingus.cc/assets/images/Sat-reception-journey/Best-HRPT-yet.png"
+                    "raw": "https://blog.cpt-dingus.cc/assets/images/Sat-reception-journey/Best-HRPT-yet.png",
+                    "preview": ""
                 }
             ]
         },
@@ -2580,7 +2629,8 @@
             "data": [
                 {
                     "name": "HVC",
-                    "url": "https://blog.cpt-dingus.cc/assets/images/Radio/APT-Sample-image.png"
+                    "raw": "https://blog.cpt-dingus.cc/assets/images/Radio/APT-Sample-image.png",
+                    "preview": ""
                 }
             ]
         },
@@ -2595,7 +2645,8 @@
             "data": [
                 {
                     "name": "NOAA Natural Color",
-                    "url": "https://blog.cpt-dingus.cc/assets/images/Sat-reception-journey/Best-HRPT-yet.png"
+                    "raw": "https://blog.cpt-dingus.cc/assets/images/Sat-reception-journey/Best-HRPT-yet.png",
+                    "preview": ""
                 }
             ]
         },
