@@ -385,7 +385,7 @@ def main():
         update_sat_list()
 
         print(
-            "1. Show satellite\n2. Edit satellite\n3. Add satellite\n4. Remove satellite"
+            "1. Show satellite\n2. Edit satellite\n3. Add satellite\n4. Remove satellite\n5. Lint satellite list"
         )
         warn("This tool is still WIP! Editing is not implemented yet")
 
@@ -456,6 +456,11 @@ def main():
                     write_sat_list()
                     good(f"`{sat.name} was removed!")
 
+                continue
+
+            case "5":
+                write_sat_list()
+                print(good("Linting OK!"))
                 continue
 
         print(red("Invalid choice!"))

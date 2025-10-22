@@ -134,7 +134,7 @@ class Satellite:
             str: Formatted MD
         """
 
-        def add_column(item: str) -> str:
+        def html_column(item: str) -> str:
             """Wraps string in html column tags. Just makes reading a bit less tedious
 
             Args:
@@ -168,18 +168,21 @@ class Satellite:
             out += '<tr style="border-top: none; border-bottom: none; border-left: none; border-right: none;">'
 
             # Name column
-            out += add_column(f"<b>{statuses[signal.status]}{signal.name}</b>")
+            out += html_column(f"<b>{statuses[signal.status]}{signal.name}</b>")
 
             # FFT image column
             if signal.image:
-                out += add_column(
+                if signal.image == "TODO":
+                    out += html_column("TODO")
+                else:
+                    out += html_column(
                     f"<img src='/assets/sat-list/fft/{signal.image}' alt='{signal.name} FFT image'>"
                 )
             else:
-                out += add_column("-")
+                out += html_column("-")
 
             # Signal frequency column
-            out += add_column(signal.frequency)
+            out += html_column(signal.frequency)
 
             # Polarization + symbol rate column
             out += f"<td>{signal.polarization}<br>"
@@ -202,7 +205,7 @@ class Satellite:
                 )
                 out += "</td>"
             else:
-                out += add_column("-")
+                out += html_column("-")
 
             out += "</tr>\n"
 
