@@ -1,0 +1,3479 @@
+[
+{
+    "name": "ANGELS",
+    "norad": "44876",
+    "agency": "CNES",
+    "start": "18-12-2019",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "DB",
+            "status": "u",
+            "frequency": "1703 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "TODO",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Aqua",
+    "norad": "27424",
+    "agency": "NASA",
+    "start": "04-05-2002",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "X-band",
+            "status": "a",
+            "frequency": "8160 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "7.5 Msym/s",
+            "image": "Aqua-DB.jpg",
+            "description": "DB + Dump",
+            "data": []
+        },
+        {
+            "name": "S-band",
+            "status": "a",
+            "frequency": "2287.5 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "??? ksym/s",
+            "image": "TODO",
+            "description": "Telemetry?",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Arktika-M N\u00b01",
+    "norad": "47719",
+    "agency": "Roscosmos",
+    "start": "28-02-2021",
+    "end": "",
+    "description": "Same satellite bus as Elektro ([Навигатор](https://ru.wikipedia.org/wiki/%D0%9D%D0%B0%D0%B2%D0%B8%D0%B3%D0%B0%D1%82%D0%BE%D1%80_(%D1%81%D0%BF%D1%83%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D0%B0%D1%8F_%D0%BF%D0%BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%D0%BC%D0%B0))) shot into a Molniya orbit to perform high resolution Arctic region imaging.",
+    "signals": [
+        {
+            "name": "RDAS",
+            "status": "a",
+            "frequency": "7865 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "30.72 Msym/s",
+            "image": "TODO",
+            "description": "Full resolution MSU-GS imagery. Transmitted near apogee.",
+            "data": []
+        },
+        {
+            "name": "GGAK",
+            "status": "i",
+            "frequency": "1703 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "5 ksym/s",
+            "image": "Arktika-GGAK.jpg",
+            "description": "Seemingly unused GGAK downlink.",
+            "data": []
+        },
+        {
+            "name": "DCP",
+            "status": "a",
+            "frequency": "1697.5 MHz",
+            "polarization": "Linear",
+            "symbolrate": "",
+            "image": "Arktika-DCP.jpg",
+            "description": "Contains DCP data, currently unsupported due to unknown modulation.",
+            "data": []
+        },
+        {
+            "name": "xRIT",
+            "status": "i",
+            "frequency": "1691 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "-",
+            "image": "",
+            "description": "Arktika satellites can broadcast xRIT just like their Elektro counterparts, but the downlink is currently unused.",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Arktika-M N\u00b02",
+    "norad": "58584",
+    "agency": "Roscosmos",
+    "start": "16-12-2023",
+    "end": "",
+    "description": "Same satellite bus as Elektro ([Навигатор](https://ru.wikipedia.org/wiki/%D0%9D%D0%B0%D0%B2%D0%B8%D0%B3%D0%B0%D1%82%D0%BE%D1%80_(%D1%81%D0%BF%D1%83%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D0%B0%D1%8F_%D0%BF%D0%BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%D0%BC%D0%B0))) shot into a Molniya orbit to perform high resolution Arctic region imaging.",
+    "signals": [
+        {
+            "name": "RDAS",
+            "status": "a",
+            "frequency": "7865 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "30.72 Msym/s",
+            "image": "TODO",
+            "description": "Full resolution MSU-GS imagery. Transmitted near apogee.",
+            "data": []
+        },
+        {
+            "name": "GGAK",
+            "status": "a",
+            "frequency": "1703 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "5 ksym/s",
+            "image": "Arktika-GGAK.jpg",
+            "description": "Contains GGAK and SEM data, not supported due to the lack of documentation. Spike on the left is not a part of the signal.",
+            "data": []
+        },
+        {
+            "name": "DCP",
+            "status": "a",
+            "frequency": "1697.5 MHz",
+            "polarization": "Linear",
+            "symbolrate": "??? ksym/s",
+            "image": "Arktika-DCP.jpg",
+            "description": "Contains DCP data, currently unsupported due to unknown modulation.",
+            "data": []
+        },
+        {
+            "name": "xRIT",
+            "status": "i",
+            "frequency": "1691 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "-",
+            "image": "",
+            "description": "Arktika satellites can broadcast xRIT just like their Elektro counterparts, but the downlink is currently unused.",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Aura",
+    "norad": "28376",
+    "agency": "NASA",
+    "start": "05-06-2004",
+    "end": "",
+    "description": "Performs atmosphere & ozone monitoring",
+    "signals": [
+        {
+            "name": "X-band",
+            "status": "a",
+            "frequency": "8160 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "7.5 Msym/s",
+            "image": "TODO",
+            "description": "TODO",
+            "data": []
+        },
+        {
+            "name": "S-band",
+            "status": "a",
+            "frequency": "2287.5 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "Telemetry?",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "BlueWalker-3",
+    "norad": "53807",
+    "agency": "AST + SpaceMobile",
+    "start": "11-09-2022",
+    "end": "",
+    "description": "Encrypted mobile communicatino satellite, contains an engineering camera.",
+    "signals": [
+        {
+            "name": "Dump",
+            "status": "a",
+            "frequency": "437.5 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "Encrypted.",
+            "data": []
+        },
+        {
+            "name": "S-band (WIDE)",
+            "status": "u",
+            "frequency": "2245 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "512 ksym/s",
+            "image": "Bluewalker3-wide.jpg",
+            "description": "Encrypted.",
+            "data": []
+        },
+        {
+            "name": "S-band (NARROW)",
+            "status": "u",
+            "frequency": "2245 Msym/s",
+            "polarization": "RHCP",
+            "symbolrate": "128 ksym/s",
+            "image": "TODO",
+            "description": "Encrypted.",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Brite-PL 2",
+    "norad": "40119",
+    "agency": "Polish Academy of Sciences",
+    "start": "19-08-2014",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "Dump",
+            "status": "a",
+            "frequency": "2234.4 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "TODO",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "CALIPSO",
+    "norad": "29108",
+    "agency": "NASA + CNES",
+    "start": "28-04-2006",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "X-band",
+            "status": "u",
+            "frequency": "8330 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "TODO",
+            "data": []
+        },
+        {
+            "name": "S-band",
+            "status": "u",
+            "frequency": "2262.5 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "TODO",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "CFOSAT",
+    "norad": "43662",
+    "agency": "CNAS + CNES",
+    "start": "29-10-2018",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "X-band",
+            "status": "a",
+            "frequency": "8304 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "Dumps to Kiruna and China",
+            "data": []
+        },
+        {
+            "name": "S-band",
+            "status": "a",
+            "frequency": "2262.5 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "TODO",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "CHEOPS",
+    "norad": "44874",
+    "agency": "ESA",
+    "start": "17-12-2019",
+    "end": "",
+    "description": "Satellite that studies extrasolar planets",
+    "signals": [
+        {
+            "name": "Dumps",
+            "status": "u",
+            "frequency": "2208.5 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "",
+            "description": "",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Coriolis",
+    "norad": "27640",
+    "agency": "USSF",
+    "start": "06-01-2003",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "S-band DB",
+            "status": "a",
+            "frequency": "2221.5 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "512 ksym/s",
+            "image": "Coriolis-DB.jpg",
+            "description": "Only filler due to the failure of the Windsat instrument",
+            "data": []
+        },
+        {
+            "name": "X-band dump",
+            "status": "u",
+            "frequency": "??? MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "Safetynet dumps to Wallops? Used to dump to Spain as well",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Cryosat-2",
+    "norad": "36508",
+    "agency": "ESA",
+    "start": "08-04-2010",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "DB",
+            "status": "u",
+            "frequency": "2221.5 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "TODO",
+            "data": []
+        },
+        {
+            "name": "Dumps",
+            "status": "u",
+            "frequency": "??? MHz",
+            "polarization": "???",
+            "symbolrate": "60 Msym/s",
+            "image": "TODO",
+            "description": "TODO",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "DMSP F17",
+    "norad": "29522",
+    "agency": "USSF",
+    "start": "04-11-2006",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "RTD",
+            "status": "a",
+            "frequency": "2252.5 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "1.024 MSym/s",
+            "image": "TODO",
+            "description": "Encrypted everywhere except the South pole, Arctic Ocean, and over mainland US. Contains two OLS channels as well as the SSMIS sounder.",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "DMSP F18",
+    "norad": "35951",
+    "agency": "USSF",
+    "start": "18-10-2009",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "RTD",
+            "status": "a",
+            "frequency": "2252.5 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "1.024 MSym/s",
+            "image": "TODO",
+            "description": "Encrypted everywhere except the South pole, Arctic Ocean, and over mainland US. Contains two OLS channels as well as the SSMIS sounder.",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "DSCOVR",
+    "norad": "40390",
+    "agency": "NOAA",
+    "start": "11-02-2015",
+    "end": "15-07-2025?",
+    "description": "Satellite stopped transmitting, is presumed to have failed.",
+    "signals": [
+        {
+            "name": "High rate link",
+            "status": "u",
+            "frequency": "2215 MHz",
+            "polarization": "???",
+            "symbolrate": "276 ksym/s",
+            "image": "TODO",
+            "description": "Transmission stopped due to a \"serious software glitch\" on 15-07-2025. Used to transmit SEM data as well as EPIC instrument imagery",
+            "data": []
+        },
+        {
+            "name": "Telemetry link",
+            "status": "u",
+            "frequency": "2215 MHz",
+            "polarization": "???",
+            "symbolrate": "40 ksym/s",
+            "image": "DSCOVR-TLM.jpg",
+            "description": "Telemetry downlink.",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "EWS-G1 (GOES-13)",
+    "norad": "29155",
+    "agency": "USSF",
+    "start": "25-05-2006",
+    "end": "31-10-2023",
+    "description": "GOES-13 management was transferred from NOAA to USSF in 02-2020 and became operational as EWS-G1 at 08-09-2020 providing imagery at 61.5\u00b0E for Indian Ocean monitoring. It was replaced by EWS-G2 following an imager failure at 31-10-2023. It is currently drifting in a graveyard orbit, still transmits CDA telemetry.",
+    "signals": [
+        {
+            "name": "GVAR",
+            "status": "i",
+            "frequency": "1685.7 MHz",
+            "polarization": "Linear",
+            "symbolrate": "2.11 MSym/s",
+            "image": "GOES-N-GVAR.jpg",
+            "description": "800 m/px VIS + 4x 4 km/px IR crop of the indian ocean every 15 minutes. Full disk transmitted at 02:45Z and every 3 hours onwards. ",
+            "data": []
+        },
+        {
+            "name": "CDA telemetry",
+            "status": "a",
+            "frequency": "1694 MHz",
+            "polarization": "Linear",
+            "symbolrate": "40 ksym/s",
+            "image": "GOES-N-CDA.jpg",
+            "description": "Satellite telemetry, still transmitted.",
+            "data": []
+        },
+        {
+            "name": "IMAGER SD",
+            "status": "i",
+            "frequency": "1676 MHz",
+            "polarization": "Linear",
+            "symbolrate": "2.62 Msym/s",
+            "image": "TODO",
+            "description": "Raw IMAGER instrument downlink. Functionally identical to GVAR as of right now.",
+            "data": []
+        },
+        {
+            "name": "Sounder SD",
+            "status": "i",
+            "frequency": "1676 MHz",
+            "polarization": "Linear",
+            "symbolrate": "40 ksym/s",
+            "image": "TODO",
+            "description": "Transmitted on the same frequency as IMAGER SD, contains the raw SOUNDER instrument data. Given that the SOUNDER instrument is currently disabled, this downlink is empty.",
+            "data": []
+        },
+        {
+            "name": "LRIT",
+            "status": "i",
+            "frequency": "1691 MHz",
+            "polarization": "Linear",
+            "symbolrate": "293 ksym/s",
+            "image": "TODO",
+            "description": "Unused downlink. Transmitter noise floor is visible.",
+            "data": []
+        },
+        {
+            "name": "MDL",
+            "status": "i",
+            "frequency": "1681.5 MHz",
+            "polarization": "Linear",
+            "symbolrate": "200 ksym/s",
+            "image": "TODO",
+            "description": "Unused downlink.",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "EWS-G2 (GOES-15)",
+    "norad": "36411",
+    "agency": "USSF",
+    "start": "05-05-2010",
+    "end": "",
+    "description": "After the failure of EWS-G1, GOES-15 management was transferred from NOAA to USSF on 22-09-2023 and the satellite was subsequently moved over to 61.5\u00b0E for Indian Ocean monitoring",
+    "signals": [
+        {
+            "name": "GVAR",
+            "status": "a",
+            "frequency": "1685.7 MHz",
+            "polarization": "Linear",
+            "symbolrate": "2.11 MSym/s",
+            "image": "GOES-N-GVAR.jpg",
+            "description": "800 m/px VIS + 4x 4 km/px IR crop of the indian ocean every 15 minutes. Full disk transmitted at 02:45Z and every 3 hours onwards. ",
+            "data": []
+        },
+        {
+            "name": "CDA telemetry",
+            "status": "a",
+            "frequency": "1694 MHz",
+            "polarization": "Linear",
+            "symbolrate": "40 ksym/s",
+            "image": "GOES-N-CDA.jpg",
+            "description": "Satellite telemetry. Currently not supported because the syncword is unknown.",
+            "data": []
+        },
+        {
+            "name": "IMAGER SD",
+            "status": "a",
+            "frequency": "1676 MHz",
+            "polarization": "Linear",
+            "symbolrate": "2.62 Msym/s",
+            "image": "TODO",
+            "description": "Raw IMAGER instrument downlink. Functionally identical to GVAR as of right now.",
+            "data": []
+        },
+        {
+            "name": "Sounder SD",
+            "status": "a",
+            "frequency": "1676 MHz",
+            "polarization": "Linear",
+            "symbolrate": "40 ksym/s",
+            "image": "TODO",
+            "description": "Transmitted on the same frequency as IMAGER SD, contains the raw SOUNDER instrument data. Given that the SOUNDER instrument is currently disabled, this downlink is empty.",
+            "data": []
+        },
+        {
+            "name": "LRIT",
+            "status": "a",
+            "frequency": "1691 MHz",
+            "polarization": "Linear",
+            "symbolrate": "293 ksym/s",
+            "image": "TODO",
+            "description": "Unused downlink. Only transmits weak filler weak filler.",
+            "data": []
+        },
+        {
+            "name": "MDL",
+            "status": "i",
+            "frequency": "1681.5 MHz",
+            "polarization": "Linear",
+            "symbolrate": "200 ksym/s",
+            "image": "TODO",
+            "description": "Unused downlink.",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Elektro-L N\u00b02",
+    "norad": "41105",
+    "agency": "Roscosmos",
+    "start": "11-12-2015",
+    "end": "",
+    "description": "Currently positioned at the 14.5\u00b0W slot. MSU-GS has several inoperational channels, the satellite has suffered a power supply failure making it unable to transmit xRIT. It has developed a high inclination due to the lack of propellant. Undergoes periodic yaw flips which significantly alter signal strength.",
+    "signals": [
+        {
+            "name": "LRIT",
+            "status": "i",
+            "frequency": "1691 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "294 ksym/s",
+            "image": "Elektro-LRIT.jpg",
+            "description": "Transmitted every 00:42 UTC and every 3 hours onwards. 06:42 and 18:42 UTC are seasonal timeslots not persent during winter months. Contains 3x VIS channels, 1x Water vapour (degraded), 1x Long-wave infrared.",
+            "data": [
+                {
+                    "name": "Natural color",
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/Elektro/LRIT/Elektro-L3/2024-02-28_09-41_elektro-lrit_Meti/IMAGES/L3_NC_20240228T093000Z.png",
+                    "preview": ""
+                }
+            ]
+        },
+        {
+            "name": "HRIT",
+            "status": "i",
+            "frequency": "1691 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "1.15 Msym/s",
+            "image": "Elektro-HRIT.jpg",
+            "description": "Transmitted every 00:12 UTC and every 3 hours onwards. 06:12 and 18:12 UTC are seasonal timeslots not persent during winter months. Contains all MSU-GS channels.",
+            "data": [
+                {
+                    "name": "Natural Color",
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/Elektro/HRIT/Elektro-L3/2024-11-09_09-00_elektro-hrit_Meti/msu_gs_Natural%20Color.png",
+                    "preview": ""
+                }
+            ]
+        },
+        {
+            "name": "GGAK",
+            "status": "a",
+            "frequency": "1693 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "5 ksym/s",
+            "image": "Elektro-GGAK.jpg",
+            "description": "Contains telemetry and SEM data. Data decoding currently unsupported due to lack of documentation.",
+            "data": []
+        },
+        {
+            "name": "DCP",
+            "status": "a",
+            "frequency": "1697 MHz",
+            "polarization": "Linear",
+            "symbolrate": "",
+            "image": "Elektro-DCP.jpg",
+            "description": "Contains DCP data, currently unsupported due to unknown modulation.",
+            "data": []
+        },
+        {
+            "name": "RDAS",
+            "status": "a",
+            "frequency": "7500 MHz",
+            "polarization": "LHCP",
+            "symbolrate": "30.72 Msym/s",
+            "image": "",
+            "description": "Raw MSU-GS data downlink. New image every 30 minutes due to power supply issues. Beamed to Moscow.",
+            "data": []
+        },
+        {
+            "name": "Telemetry",
+            "status": "a",
+            "frequency": "3405.703 MHz",
+            "polarization": "???",
+            "symbolrate": "32 ksym/s",
+            "image": "",
+            "description": "Satellite telemetry",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Elektro-L N\u00b03",
+    "norad": "44903",
+    "agency": "Roscosmos",
+    "start": "24-12-2019",
+    "end": "",
+    "description": "Currently positioned at the 76\u00b0E slot. MSU-GS has a degraded channel 4, broken channel 10.",
+    "signals": [
+        {
+            "name": "LRIT",
+            "status": "a",
+            "frequency": "1691 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "294 ksym/s",
+            "image": "Elektro-LRIT.jpg",
+            "description": "Transmitted every 00:42 UTC and every 3 hours onwards. 06:42 and 18:42 UTC are seasonal timeslots not persent during winter months. Contains 3x VIS channels, 1x Water vapour (degraded), 1x Long-wave infrared.",
+            "data": [
+                {
+                    "name": "Natural color",
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/Elektro/LRIT/Elektro-L3/2024-02-28_09-41_elektro-lrit_Meti/IMAGES/L3_NC_20240228T093000Z.png",
+                    "preview": ""
+                }
+            ]
+        },
+        {
+            "name": "HRIT",
+            "status": "a",
+            "frequency": "1691 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "1.15 Msym/s",
+            "image": "Elektro-HRIT.jpg",
+            "description": "Transmitted every 00:12 UTC and every 3 hours onwards. 06:12 and 18:12 UTC are seasonal timeslots not persent during winter months. Contains all MSU-GS channels.",
+            "data": [
+                {
+                    "name": "Natural Color",
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/Elektro/HRIT/Elektro-L3/2024-11-09_09-00_elektro-hrit_Meti/msu_gs_Natural%20Color.png",
+                    "preview": ""
+                }
+            ]
+        },
+        {
+            "name": "GGAK",
+            "status": "a",
+            "frequency": "1693 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "5 ksym/s",
+            "image": "Elektro-GGAK.jpg",
+            "description": "Contains telemetry and SEM data. Data decoding currently unsupported due to lack of documentation.",
+            "data": []
+        },
+        {
+            "name": "DCP",
+            "status": "a",
+            "frequency": "1697 MHz",
+            "polarization": "Linear",
+            "symbolrate": "???",
+            "image": "Elektro-DCP.jpg",
+            "description": "Contains DCP data, currently unsupported due to unknown modulation.",
+            "data": []
+        },
+        {
+            "name": "RDAS",
+            "status": "a",
+            "frequency": "7500 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "30.72 Msym/s",
+            "image": "",
+            "description": "Raw MSU-GS data downlink. New image every 15 minutes. Beamed to Moscow.",
+            "data": []
+        },
+        {
+            "name": "Telemetry",
+            "status": "a",
+            "frequency": "3405.703 MHz",
+            "polarization": "???",
+            "symbolrate": "32 ksym/s",
+            "image": "",
+            "description": "Satellite telemetry",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Elektro-L N\u00b04",
+    "norad": "55506",
+    "agency": "Roscosmos",
+    "start": "02-05-2023",
+    "end": "",
+    "description": "Currently positioned at the 165.75\u00b0E slot.",
+    "signals": [
+        {
+            "name": "LRIT",
+            "status": "a",
+            "frequency": "1691 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "294 ksym/s",
+            "image": "Elektro-LRIT.jpg",
+            "description": "Transmitted every 00:42 UTC and every 3 hours onwards. 06:42 and 18:42 UTC are seasonal timeslots not persent during winter months. Channels are broadcasted seemingly at random, broadcasts are often skipped. Transmission abruptly shuts down after 15 minutes.",
+            "data": [
+                {
+                    "name": "Natural color",
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/Elektro/LRIT/Elektro-L3/2024-02-28_09-41_elektro-lrit_Meti/IMAGES/L3_NC_20240228T093000Z.png",
+                    "preview": ""
+                }
+            ]
+        },
+        {
+            "name": "HRIT",
+            "status": "a",
+            "frequency": "1691 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "1.15 Msym/s",
+            "image": "Elektro-HRIT.jpg",
+            "description": "Transmitted every 00:12 UTC and every 3 hours onwards. 06:12 and 18:12 UTC are seasonal timeslots not persent during winter months. Contains all MSU-GS channels.",
+            "data": [
+                {
+                    "name": "Natural Color",
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/Elektro/HRIT/Elektro-L3/2024-11-09_09-00_elektro-hrit_Meti/msu_gs_Natural%20Color.png",
+                    "preview": ""
+                }
+            ]
+        },
+        {
+            "name": "GGAK",
+            "status": "a",
+            "frequency": "1693 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "5 ksym/s",
+            "image": "Elektro-GGAK.jpg",
+            "description": "Contains telemetry and SEM data. Data decoding currently unsupported due to lack of documentation.",
+            "data": []
+        },
+        {
+            "name": "DCP",
+            "status": "a",
+            "frequency": "1697 MHz",
+            "polarization": "Linear",
+            "symbolrate": "???",
+            "image": "Elektro-DCP.jpg",
+            "description": "Contains DCP data, currently unsupported due to unknown modulation.",
+            "data": []
+        },
+        {
+            "name": "RDAS",
+            "status": "a",
+            "frequency": "7500 MHz",
+            "polarization": "LHCP",
+            "symbolrate": "30.72 Msym/s",
+            "image": "",
+            "description": "Raw MSU-GS data downlink. New image every 15 minutes. Beamed to Vladivostok.",
+            "data": []
+        },
+        {
+            "name": "Telemetry",
+            "status": "a",
+            "frequency": "3405.703 MHz",
+            "polarization": "???",
+            "symbolrate": "32 ksym/s",
+            "image": "",
+            "description": "Satellite telemetry",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "FengYun 2G",
+    "norad": "43491",
+    "agency": "NSMC",
+    "start": "05-06-2018",
+    "end": "",
+    "description": "Spin-stabilized geostationary satellite. Has a high inclination due to low propellant, is positioned at 99.5\u00b0E",
+    "signals": [
+        {
+            "name": "S-VISSR (HRIT)",
+            "status": "a",
+            "frequency": "1687.5 MHz",
+            "polarization": "Linear",
+            "symbolrate": "660 ksym/s",
+            "image": "FengYun-2-SVISSR.jpg",
+            "description": "1.25 km/px VIS channel and 4x 5 km/px channels, transmitted every hour at XX:00. Second timeslot is at XX:30, is transmitted 01:30Z and every 4 hours after.",
+            "data": [
+                {
+                    "name": "False color FD",
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/FengYun-2/FengYun-2H/2024-08-17_00-00_fengyun-svissr_Meti/2024-08-17_08-25/FY-2x_FC_20240817T082620Z.png",
+                    "preview": ""
+                }
+            ]
+        },
+        {
+            "name": "LRIT",
+            "status": "i",
+            "frequency": "1690.5 MHz",
+            "polarization": "Linear",
+            "symbolrate": "??? ksym/s",
+            "image": "TODO",
+            "description": "Unused downlink.",
+            "data": []
+        },
+        {
+            "name": "CDAS raw data",
+            "status": "a",
+            "frequency": "1681.6 MHz",
+            "polarization": "Linear",
+            "symbolrate": "20 Msym/s?",
+            "image": "TODO",
+            "description": "Raw S-VISSR sensor downlink, transmitted right next to the 1687.5 MHz downlink. Line is transmitted in real time, groundstation processes it and *stretches* it (The S in S-VISSR), then uplinks it to the satellite so it can be downlinked at a lower symbol rate over the 1687.5 MHz transmission. Not supported due to the lack of sample data",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "FengYun 2H",
+    "norad": "43491",
+    "agency": "NSMC",
+    "start": "05-06-2018",
+    "end": "",
+    "description": "Last spin-stabilized geostationary FengYun-2 satellite. Positioned at 79\u00b0E",
+    "signals": [
+        {
+            "name": "S-VISSR (HRIT)",
+            "status": "a",
+            "frequency": "1687.5 MHz",
+            "polarization": "Linear",
+            "symbolrate": "660 ksym/s",
+            "image": "FengYun-2-SVISSR.jpg",
+            "description": "1.25 km/px VIS channel and 4x 5 km/px channels, transmitted every hour at XX:00. Second timeslot at XX:30 transmits every hour, but only finishes the full disk at 05:30Z and every 6 hours onwards. Otherwise, LRIT is transmitted instead and the full disk gets cut off at XX:48Z.",
+            "data": [
+                {
+                    "name": "False color FD",
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/FengYun-2/FengYun-2H/2024-08-17_00-00_fengyun-svissr_Meti/2024-08-17_08-25/FY-2x_FC_20240817T082620Z.png",
+                    "preview": ""
+                }
+            ]
+        },
+        {
+            "name": "LRIT",
+            "status": "a",
+            "frequency": "1690.5 MHz",
+            "polarization": "Linear",
+            "symbolrate": "??? ksym/s",
+            "image": "TODO",
+            "description": "Transmitted every hour at XX:48 except 05:48Z and every 6 hours onwards. Does not transmit any imagery, is only filler throughout.",
+            "data": []
+        },
+        {
+            "name": "CDAS raw data",
+            "status": "a",
+            "frequency": "1681.6 MHz",
+            "polarization": "Linear",
+            "symbolrate": "20 Msym/s?",
+            "image": "TODO",
+            "description": "Raw S-VISSR sensor downlink, transmitted right next to the 1687.5 MHz downlink. Line is transmitted in real time, groundstation processes it and *stretches* it (The S in S-VISSR), then uplinks it to the satellite so it can be downlinked at a lower symbol rate over the 1687.5 MHz transmission. Not supported due to the lack of sample data",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "FengYun 3A",
+    "norad": "32958",
+    "agency": "NSMC",
+    "start": "27-05-2008",
+    "end": "05-01-2015",
+    "description": "Prototype FengYun 3 satellite, true color L-band",
+    "signals": [
+        {
+            "name": "AHRPT",
+            "status": "i",
+            "frequency": "1704.5 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "2.8 Msym/s",
+            "image": "FengYun-3abc-AHRPT.jpg",
+            "description": "Full resolution DB imagery from all instruments",
+            "data": []
+        },
+        {
+            "name": "MPT",
+            "status": "i",
+            "frequency": "7775 MHz",
+            "polarization": "???",
+            "symbolrate": "18.7 Msym/s",
+            "image": "",
+            "description": "",
+            "data": []
+        },
+        {
+            "name": "DPT",
+            "status": "i",
+            "frequency": "8145.95 Msym/s",
+            "polarization": "???",
+            "symbolrate": "62 Msym/s",
+            "image": "",
+            "description": "Delayed Picture Transmisison - full orbit instrument dump",
+            "data": [
+                {
+                    "name": "",
+                    "raw": "",
+                    "preview": ""
+                }
+            ]
+        },
+        {
+            "name": "Telemetry",
+            "status": "i",
+            "frequency": "22XX MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "",
+            "description": "",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "FengYun 3D",
+    "norad": "43010",
+    "agency": "NSMC",
+    "start": "14-11-2017",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "AHRPT",
+            "status": "a",
+            "frequency": "7820 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "30 Msym/s",
+            "image": "TODO",
+            "description": "Full resolution DB from all instruments",
+            "data": []
+        },
+        {
+            "name": "DPT (Dump)",
+            "status": "a",
+            "frequency": "8250 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "150 Msym/s",
+            "image": "TODO",
+            "description": "Delayed Picture Transmission - Full orbit data dump. Non-beamed dumps to Kiruna, Chinese groundstations",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "FengYun 3E",
+    "norad": "49008",
+    "agency": "NSMC",
+    "start": "04-07-2021",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "AHRPT",
+            "status": "a",
+            "frequency": "7860 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "38.4 Msym/s",
+            "image": "TODO",
+            "description": "Full resolution DB from all instruments",
+            "data": []
+        },
+        {
+            "name": "DPT (Dump)",
+            "status": "a",
+            "frequency": "8212.5 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "225 Msym/s",
+            "image": "TODO",
+            "description": "Delayed Picture Transmission - Full orbit data dump. Non-beamed dumps to Kiruna, Chinese groundstations",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "FengYun 3F",
+    "norad": "57490",
+    "agency": "NSMC",
+    "start": "03-08-2023",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "AHRPT",
+            "status": "a",
+            "frequency": "7790 MHz",
+            "polarization": "LHCP",
+            "symbolrate": "38.4 Msym/s",
+            "image": "TODO",
+            "description": "Full resolution DB from all instruments",
+            "data": []
+        },
+        {
+            "name": "DPT (Dump)",
+            "status": "a",
+            "frequency": "8212.5 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "225 Msym/s",
+            "image": "TODO",
+            "description": "Delayed Picture Transmission - Full orbit data dump. Non-beamed dumps to Kiruna, Chinese groundstations",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "FengYun 3G",
+    "norad": "56232",
+    "agency": "NSMC",
+    "start": "16-04-2023",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "AHRPT",
+            "status": "a",
+            "frequency": "7790 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "6 Msym/s",
+            "image": "TODO",
+            "description": "Full resolution DB from all instruments. Quite strong due to low symbol rate and low orbital height.",
+            "data": []
+        },
+        {
+            "name": "DPT (Dump)",
+            "status": "u",
+            "frequency": "??? MHz",
+            "polarization": "???",
+            "symbolrate": "225 Msym/s",
+            "image": "TODO",
+            "description": "Delayed Picture Transmission - Full orbit data dump. Non-beamed dumps to Chinese groundstations",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "FengYun 3H",
+    "norad": "65815",
+    "agency": "NSMC",
+    "start": "26-09-2025",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "AHRPT",
+            "status": "a",
+            "frequency": "7860 MHz",
+            "polarization": "LHCP",
+            "symbolrate": "38.4 Msym/s",
+            "image": "TODO",
+            "description": "Full resolution DB from all instruments",
+            "data": []
+        },
+        {
+            "name": "DPT (Dump)",
+            "status": "u",
+            "frequency": "8212.5 MHz",
+            "polarization": "???",
+            "symbolrate": "225 Msym/s",
+            "image": "TODO",
+            "description": "Delayed Picture Transmission - Full orbit data dump. Non-beamed dumps to Kiruna, Chinese groundstations",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "FengYun 4A",
+    "norad": "41882",
+    "agency": "NSMC",
+    "start": "10-12-2016",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "LRIT",
+            "status": "u",
+            "frequency": "1697 MHz",
+            "polarization": "Linear",
+            "symbolrate": "90 ksym/s",
+            "image": "TODO",
+            "description": "Encrypted, clear imagery every hour (?). Low bit depth, imagery looks crunchy",
+            "data": []
+        },
+        {
+            "name": "HRIT",
+            "status": "u",
+            "frequency": "1681 MHz",
+            "polarization": "Linear",
+            "symbolrate": "1 Msym/s",
+            "image": "TODO",
+            "description": "Encrypted, transmits a clear IR image every 30 minutes (?)",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "FengYun 4B",
+    "norad": "48808",
+    "agency": "NSMC",
+    "start": "02-06-2021",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "LRIT",
+            "status": "u",
+            "frequency": "1697 MHz",
+            "polarization": "Linear",
+            "symbolrate": "90 ksym/s",
+            "image": "TODO",
+            "description": "Encrypted, clear imagery every hour (?). Low bit depth, imagery looks crunchy",
+            "data": []
+        },
+        {
+            "name": "HRIT",
+            "status": "u",
+            "frequency": "1681 MHz",
+            "polarization": "Linear",
+            "symbolrate": "1 Msym/s",
+            "image": "TODO",
+            "description": "Encrypted, transmits a clear IR image every 30 minutes (?)",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Formosat-5",
+    "norad": "42920",
+    "agency": "NSO",
+    "start": "24-08-2017",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "s-band dump",
+            "status": "u",
+            "frequency": "2215 MHz",
+            "polarization": "???",
+            "symbolrate": "1.6 Msym/s",
+            "image": "TODO",
+            "description": "Dumps to Kiruna.",
+            "data": []
+        },
+        {
+            "name": "X-band dump",
+            "status": "u",
+            "frequency": "??? MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "Dumps to Kiruna. Likely encrypted.",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "GCOM-C1",
+    "norad": "43065",
+    "agency": "JAXA",
+    "start": "23-12-2017",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "S-band dump",
+            "status": "u",
+            "frequency": "2220 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "Dumps to Kiruna.",
+            "data": []
+        },
+        {
+            "name": "X-band dump",
+            "status": "u",
+            "frequency": "8105 MHz",
+            "polarization": "???",
+            "symbolrate": "69.416 Msym/s",
+            "image": "TODO",
+            "description": "Dumps to Svalbard.",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "GCOM-W1",
+    "norad": "38337",
+    "agency": "JAXA",
+    "start": "17-05-2012",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "S-band dump",
+            "status": "u",
+            "frequency": "2220 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "Dumps to Kiruna.",
+            "data": []
+        },
+        {
+            "name": "X-band dump",
+            "status": "u",
+            "frequency": "8245 MHz",
+            "polarization": "???",
+            "symbolrate": "10 Msym/s",
+            "image": "TODO",
+            "description": "Dumps to Svalbard.",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "GEO-KOMPSAT 2A",
+    "norad": "43823",
+    "agency": "KARI",
+    "start": "04-12-2018",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "LRIT",
+            "status": "a",
+            "frequency": "1692.14 MHz",
+            "polarization": "Linear",
+            "symbolrate": "128 ksym/s",
+            "image": "TODO",
+            "description": "Very strong, 1x 4 km/px IR as well as miscallenous data every 10 minutes",
+            "data": [
+                {
+                    "name": "Clean longwave IR",
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/GEO-KOMPSAT/LRIT/GEO-KOMPSAT-2A/2024-12-28_08-50_gk2a-lrit_Meti/ami_Clean%20Longwave%20IR%20Window%20Band.png",
+                    "preview": ""
+                }
+            ]
+        },
+        {
+            "name": "HRIT",
+            "status": "a",
+            "frequency": "1695.4 MHz",
+            "polarization": "Linear",
+            "symbolrate": "3 Msym/s",
+            "image": "GK2A-HRIT.jpg",
+            "description": "1x 1 km/px VIS, 4x 4 km/px IR every 10 minutes. You can see it switching from filler to data on the FFT.",
+            "data": [
+                {
+                    "name": "Raw channel 1",
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/GEO-KOMPSAT/HRIT/GEO-KOMPSAT-2A/2025-01-08_04-26_gk2a-lrit_Meti/GK2A_VI006_20250108T042636Z.png",
+                    "preview": ""
+                }
+            ]
+        },
+        {
+            "name": "UHRIT",
+            "status": "a",
+            "frequency": "8070 MHz",
+            "polarization": "LHCP",
+            "symbolrate": "15.63 Msym/s",
+            "image": "TODO",
+            "description": "Contains all AMI channels at a full resolution - as high as 0.5 km/px with VI006",
+            "data": []
+        },
+        {
+            "name": "Raw data",
+            "status": "a",
+            "frequency": "8300 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "65 Msym/s",
+            "image": "TODO",
+            "description": "Possibly beamed, raw sensor downlink.",
+            "data": []
+        },
+        {
+            "name": "CDAS",
+            "status": "u",
+            "frequency": "??? MHz",
+            "polarization": "RHCP",
+            "symbolrate": "3.096 msym/s",
+            "image": "TODO",
+            "description": "It is suspected this downlink is from COMS-1, but we have no way to confirm as it has never transimtted any data. It used to be the raw downlink from the COMS-1 satellite, GK2A is known to feature compatibility with the COMS downlinks namely in its xRIT platforms.",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "GOES-14",
+    "norad": "35491",
+    "agency": "NOAA",
+    "start": "27-06-2009",
+    "end": "",
+    "description": "Currently in storage mode.",
+    "signals": [
+        {
+            "name": "GVAR",
+            "status": "d",
+            "frequency": "1685.7 MHz",
+            "polarization": "Linear",
+            "symbolrate": "2.11 MSym/s",
+            "image": "GOES-N-GVAR.jpg",
+            "description": "800 m/px VIS + 4x 4 km/px IR crop of the indian ocean every 15 minutes. Full disk transmitted at 02:45Z and every 3 hours onwards. ",
+            "data": []
+        },
+        {
+            "name": "CDA telemetry",
+            "status": "a",
+            "frequency": "1694 MHz",
+            "polarization": "Linear",
+            "symbolrate": "40 ksym/s",
+            "image": "GOES-N-CDA.jpg",
+            "description": "Satellite telemetry, still transmitted.",
+            "data": []
+        },
+        {
+            "name": "IMAGER SD",
+            "status": "d",
+            "frequency": "1676 MHz",
+            "polarization": "Linear",
+            "symbolrate": "2.62 Msym/s",
+            "image": "TODO",
+            "description": "Raw IMAGER instrument downlink. Functionally identical to GVAR as of right now.",
+            "data": []
+        },
+        {
+            "name": "Sounder SD",
+            "status": "d",
+            "frequency": "1676 MHz",
+            "polarization": "Linear",
+            "symbolrate": "40 ksym/s",
+            "image": "TODO",
+            "description": "Transmitted on the same frequency as IMAGER SD, contains the raw SOUNDER instrument data. Given that the SOUNDER instrument is currently disabled, this downlink is empty.",
+            "data": []
+        },
+        {
+            "name": "LRIT",
+            "status": "d",
+            "frequency": "1691 MHz",
+            "polarization": "Linear",
+            "symbolrate": "293 ksym/s",
+            "image": "TODO",
+            "description": "Unused downlink. Only transmits weak filler weak filler.",
+            "data": []
+        },
+        {
+            "name": "MDL",
+            "status": "d",
+            "frequency": "1681.5 MHz",
+            "polarization": "Linear",
+            "symbolrate": "200 ksym/s",
+            "image": "TODO",
+            "description": "Unused downlink.",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "GOES-16",
+    "norad": "41866",
+    "agency": "NOAA",
+    "start": "19-11-2016",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "HRIT",
+            "status": "d",
+            "frequency": "1694.1 MHz",
+            "polarization": "linear",
+            "symbolrate": "927 ksym/s",
+            "image": "TODO",
+            "description": "GOES 16 FD: 1x VIS + 6x IR at 2 km/px every 30 minutes, 1x VIS + 2x IR mesoscale every 15 minutes, other operational GOES 1x IR at 4 km/px every hour, Himawari 1x VIS + 2x IR at 4 km/px every hour, Meteosat: 1x IR at 15 km/px every hour, Miscallenous EMWIN",
+            "data": []
+        },
+        {
+            "name": "GRB",
+            "status": "d",
+            "frequency": "1681.6 MHz",
+            "polarization": "RHCP+LHCP",
+            "symbolrate": "8.67 Msym/s",
+            "image": "GOES-R-GRB.jpg",
+            "description": "Half the data is transmitted over RHCP, half over LHCP. LHCP contains ABI channels 2,7,8,10,14,15,16 while RHCP contains ABI chanels 1,3,4,5,6,9,11,12,13, GOES lightning mapper, SUVI imagery, SEM data. All channels transmitted in the LHCP broadcast (besides 10 and 16) are transmitted in HRIT as well, making RHCP much more interesting to receive",
+            "data": [
+                {
+                    "name": "(RHCP) Full-disk RGB 135",
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/ABI/FULLDISK/20220728T131152Z/ABI_FULLDISK_RGB135_20220728T131152Z.png",
+                    "preview": ""
+                },
+                {
+                    "name": "(RHCP) CONUS RGB 135",
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/ABI/CONUS/20220727T234457Z/ABI_CONUS_RGB135_20220727T234457Z.png",
+                    "preview": ""
+                },
+                {
+                    "name": "(RHCP) Mesoscale RGB 135",
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/ABI/MESO1/20220727T234049Z/ABI_MESO1_RGB135_20220727T234049Z.png",
+                    "preview": ""
+                },
+                {
+                    "name": "(RHCP) 171 angstrom SUVI",
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/SUVI/Fe171/SUVI_Fe171_20220727T234355Z.png",
+                    "preview": ""
+                },
+                {
+                    "name": "(RHCP) 304 angstrom SUVI",
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/SUVI/Fe304/SUVI_Fe304_20220727T234053Z.png",
+                    "preview": ""
+                }
+            ]
+        },
+        {
+            "name": "CDA telemetry",
+            "status": "a",
+            "frequency": "1693 MHz",
+            "polarization": "Linear",
+            "symbolrate": "40 ksym/s",
+            "image": "TODO",
+            "description": "Telemetry broadcast, can be used to verify setup functionality",
+            "data": []
+        },
+        {
+            "name": "Raw downlink",
+            "status": "d",
+            "frequency": "8220 MHz",
+            "polarization": "???",
+            "symbolrate": "60 Msym/s",
+            "image": "TODO",
+            "description": "Beamed to Wallops",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "GOES-17",
+    "norad": "43226",
+    "agency": "NOAA",
+    "start": "01-03-2018",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "HRIT",
+            "status": "d",
+            "frequency": "1694.1 MHz",
+            "polarization": "linear",
+            "symbolrate": "927 ksym/s",
+            "image": "TODO",
+            "description": "GOES 17 FD: 1x VIS + 6x IR at 2 km/px every 30 minutes, 1x VIS + 2x IR mesoscale every 15 minutes, other operational GOES 1x IR at 4 km/px every hour, Himawari 1x VIS + 2x IR at 4 km/px every hour, Meteosat: 1x IR at 15 km/px every hour, Miscallenous EMWIN",
+            "data": []
+        },
+        {
+            "name": "GRB",
+            "status": "d",
+            "frequency": "1681.6 MHz",
+            "polarization": "RHCP+LHCP",
+            "symbolrate": "8.67 Msym/s",
+            "image": "GOES-R-GRB.jpg",
+            "description": "Half the data is transmitted over RHCP, half over LHCP. LHCP contains ABI channels 2,7,8,10,14,15,16 while RHCP contains ABI chanels 1,3,4,5,6,9,11,12,13, GOES lightning mapper, SUVI imagery, SEM data. All channels transmitted in the LHCP broadcast (besides 10 and 16) are transmitted in HRIT as well, making RHCP much more interesting to receive",
+            "data": [
+                {
+                    "name": "(RHCP) Full-disk RGB 135",
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/ABI/FULLDISK/20220728T131152Z/ABI_FULLDISK_RGB135_20220728T131152Z.png",
+                    "preview": ""
+                },
+                {
+                    "name": "(RHCP) CONUS RGB 135",
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/ABI/CONUS/20220727T234457Z/ABI_CONUS_RGB135_20220727T234457Z.png",
+                    "preview": ""
+                },
+                {
+                    "name": "(RHCP) Mesoscale RGB 135",
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/ABI/MESO1/20220727T234049Z/ABI_MESO1_RGB135_20220727T234049Z.png",
+                    "preview": ""
+                },
+                {
+                    "name": "(RHCP) 171 angstrom SUVI",
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/SUVI/Fe171/SUVI_Fe171_20220727T234355Z.png",
+                    "preview": ""
+                },
+                {
+                    "name": "(RHCP) 304 angstrom SUVI",
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/SUVI/Fe304/SUVI_Fe304_20220727T234053Z.png",
+                    "preview": ""
+                }
+            ]
+        },
+        {
+            "name": "CDA telemetry",
+            "status": "a",
+            "frequency": "1693 MHz",
+            "polarization": "Linear",
+            "symbolrate": "40 ksym/s",
+            "image": "TODO",
+            "description": "Telemetry broadcast, can be used to verify setup functionality",
+            "data": []
+        },
+        {
+            "name": "Raw downlink",
+            "status": "d",
+            "frequency": "8220 MHz",
+            "polarization": "???",
+            "symbolrate": "60 Msym/s",
+            "image": "TODO",
+            "description": "Beamed to Wallops",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "GOES-18",
+    "norad": "51850",
+    "agency": "NOAA",
+    "start": "01-03-2022",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "HRIT",
+            "status": "a",
+            "frequency": "1694.1 MHz",
+            "polarization": "linear",
+            "symbolrate": "927 ksym/s",
+            "image": "TODO",
+            "description": "GOES 18 FD: 1x VIS + 6x IR at 2 km/px every 30 minutes, 1x VIS + 2x IR mesoscale every 15 minutes, other operational GOES 1x IR at 4 km/px every hour, Himawari 1x VIS + 2x IR at 4 km/px every hour, Meteosat: 1x IR at 15 km/px every hour, Miscallenous EMWIN",
+            "data": []
+        },
+        {
+            "name": "GRB",
+            "status": "a",
+            "frequency": "1681.6 MHz",
+            "polarization": "RHCP+LHCP",
+            "symbolrate": "8.67 Msym/s",
+            "image": "GOES-R-GRB.jpg",
+            "description": "Half the data is transmitted over RHCP, half over LHCP. LHCP contains ABI channels 2,7,8,10,14,15,16 while RHCP contains ABI chanels 1,3,4,5,6,9,11,12,13, GOES lightning mapper, SUVI imagery, SEM data. All channels transmitted in the LHCP broadcast (besides 10 and 16) are transmitted in HRIT as well, making RHCP much more interesting to receive",
+            "data": [
+                {
+                    "name": "(RHCP) Full-disk RGB 135",
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/ABI/FULLDISK/20220728T131152Z/ABI_FULLDISK_RGB135_20220728T131152Z.png",
+                    "preview": ""
+                },
+                {
+                    "name": "(RHCP) CONUS RGB 135",
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/ABI/CONUS/20220727T234457Z/ABI_CONUS_RGB135_20220727T234457Z.png",
+                    "preview": ""
+                },
+                {
+                    "name": "(RHCP) Mesoscale RGB 135",
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/ABI/MESO1/20220727T234049Z/ABI_MESO1_RGB135_20220727T234049Z.png",
+                    "preview": ""
+                },
+                {
+                    "name": "(RHCP) 171 angstrom SUVI",
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/SUVI/Fe171/SUVI_Fe171_20220727T234355Z.png",
+                    "preview": ""
+                },
+                {
+                    "name": "(RHCP) 304 angstrom SUVI",
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/SUVI/Fe304/SUVI_Fe304_20220727T234053Z.png",
+                    "preview": ""
+                }
+            ]
+        },
+        {
+            "name": "CDA telemetry",
+            "status": "a",
+            "frequency": "1693 MHz",
+            "polarization": "Linear",
+            "symbolrate": "40 ksym/s",
+            "image": "TODO",
+            "description": "Telemetry broadcast, can be used to verify setup functionality",
+            "data": []
+        },
+        {
+            "name": "Raw downlink",
+            "status": "a",
+            "frequency": "8220 MHz",
+            "polarization": "???",
+            "symbolrate": "60 Msym/s",
+            "image": "TODO",
+            "description": "Beamed to Wallops",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "GOES-19",
+    "norad": "60133",
+    "agency": "NOAA",
+    "start": "25-06-2024",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "HRIT",
+            "status": "a",
+            "frequency": "1694.1 MHz",
+            "polarization": "linear",
+            "symbolrate": "927 ksym/s",
+            "image": "TODO",
+            "description": "GOES 19 FD: 1x VIS + 6x IR at 2 km/px every 30 minutes, 1x VIS + 2x IR mesoscale every 15 minutes, other operational GOES 1x IR at 4 km/px every hour, Himawari 1x VIS + 2x IR at 4 km/px every hour, Meteosat: 1x IR at 15 km/px every hour, Miscallenous EMWIN",
+            "data": []
+        },
+        {
+            "name": "GRB",
+            "status": "a",
+            "frequency": "1681.6 MHz",
+            "polarization": "RHCP+LHCP",
+            "symbolrate": "8.67 Msym/s",
+            "image": "GOES-R-GRB.jpg",
+            "description": "Half the data is transmitted over RHCP, half over LHCP. LHCP contains ABI channels 2,7,8,10,14,15,16 while RHCP contains ABI chanels 1,3,4,5,6,9,11,12,13, GOES lightning mapper, SUVI imagery, SEM data. All channels transmitted in the LHCP broadcast (besides 10 and 16) are transmitted in HRIT as well, making RHCP much more interesting to receive",
+            "data": [
+                {
+                    "name": "(RHCP) Full-disk RGB 135",
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/ABI/FULLDISK/20220728T131152Z/ABI_FULLDISK_RGB135_20220728T131152Z.png",
+                    "preview": ""
+                },
+                {
+                    "name": "(RHCP) CONUS RGB 135",
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/ABI/CONUS/20220727T234457Z/ABI_CONUS_RGB135_20220727T234457Z.png",
+                    "preview": ""
+                },
+                {
+                    "name": "(RHCP) Mesoscale RGB 135",
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/ABI/MESO1/20220727T234049Z/ABI_MESO1_RGB135_20220727T234049Z.png",
+                    "preview": ""
+                },
+                {
+                    "name": "(RHCP) 171 angstrom SUVI",
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/SUVI/Fe171/SUVI_Fe171_20220727T234355Z.png",
+                    "preview": ""
+                },
+                {
+                    "name": "(RHCP) 304 angstrom SUVI",
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/GOES-R/GRB/GOES-16/2022-07-27_23-37_goes-grb_Aang23/SUVI/Fe304/SUVI_Fe304_20220727T234053Z.png",
+                    "preview": ""
+                }
+            ]
+        },
+        {
+            "name": "CDA telemetry",
+            "status": "a",
+            "frequency": "1693 MHz",
+            "polarization": "Linear",
+            "symbolrate": "40 ksym/s",
+            "image": "TODO",
+            "description": "Telemetry broadcast, can be used to verify setup functionality",
+            "data": []
+        },
+        {
+            "name": "Raw downlink",
+            "status": "a",
+            "frequency": "8220 MHz",
+            "polarization": "???",
+            "symbolrate": "60 Msym/s",
+            "image": "TODO",
+            "description": "Beamed to Wallops",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "GRACE-FO 1",
+    "norad": "43476",
+    "agency": "NASA + DLR",
+    "start": "22-05-2018",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "Dump",
+            "status": "u",
+            "frequency": "2211 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "Dumps to Svalbard",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "GRACE-FO 2",
+    "norad": "43477",
+    "agency": "NASA + DLR",
+    "start": "22-05-2018",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "Dump",
+            "status": "u",
+            "frequency": "2211 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "Dumps to Svalbard. Possibly inactive",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Gazelle (OTB-3, Argos-4)",
+    "norad": "54023",
+    "agency": "GA-EMS",
+    "start": "07-10-2022",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "ARGOS",
+            "status": "a",
+            "frequency": "1703 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "1 Msym/s",
+            "image": "TODO",
+            "description": "Commonly spotted in L-band, as it is active globally.",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Hinode",
+    "norad": "29479",
+    "agency": "JAXA",
+    "start": "22-11-2006",
+    "end": "",
+    "description": "After a failed X-band transmitter, this satellite broadcasts all of its instruments over the S-band downlink to [several groundstations](https://a-centauri.com/data/media/images/s-band-guide/hinode_gs.png) as often as possible",
+    "signals": [
+        {
+            "name": "S-band dumps",
+            "status": "a",
+            "frequency": "2256.22 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "262 ksym/s",
+            "image": "TODO",
+            "description": "TODO",
+            "data": []
+        },
+        {
+            "name": "Telemetry",
+            "status": "a",
+            "frequency": "2256.22 MHz",
+            "polarization": "rhcp",
+            "symbolrate": "65.6 ksym/s",
+            "image": "TODO",
+            "description": "Active whenever the satellite isn't dumping data",
+            "data": []
+        },
+        {
+            "name": "X-band dumps",
+            "status": "i",
+            "frequency": "8460.81 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "Transmitter failed",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "INTEGRAL",
+    "norad": "27540",
+    "agency": "ESA",
+    "start": "17-10-2002",
+    "end": "28-02-2025",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "Dump",
+            "status": "u",
+            "frequency": "2215 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "TODO",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "IRIS",
+    "norad": "39197",
+    "agency": "NASA",
+    "start": "28-06-2013",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "S-band dump",
+            "status": "u",
+            "frequency": "2220.8 MHz",
+            "polarization": "???",
+            "symbolrate": "512 ksym/s",
+            "image": "TODO",
+            "description": "TODO",
+            "data": []
+        },
+        {
+            "name": "X-band dump",
+            "status": "u",
+            "frequency": "8483 MHz",
+            "polarization": "???",
+            "symbolrate": "7.5 Msym/s",
+            "image": "TODO",
+            "description": "TODO",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Jason-3",
+    "norad": "41240",
+    "agency": "EUMETSAT + NASA",
+    "start": "17-01-2016",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "Dump",
+            "status": "a",
+            "frequency": "2215.92 MHz",
+            "polarization": "LHCP",
+            "symbolrate": "838 ksym/s",
+            "image": "TODO",
+            "description": "TODO",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Landsat 8",
+    "norad": "39084",
+    "agency": "NASA + USGS",
+    "start": "11-02-2013",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "X-band data",
+            "status": "a",
+            "frequency": "8200.5 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "220.4 Msym/s",
+            "image": "TODO",
+            "description": "Direct broadcast when in range of ground stations (no specific list is available, but most of the world is covered). Disabled over the sea.",
+            "data": []
+        },
+        {
+            "name": "S-band dump",
+            "status": "a",
+            "frequency": "2282.3 MHz",
+            "polarization": "???",
+            "symbolrate": "1.067 Msym/s",
+            "image": "TODO",
+            "description": "Dumps to Kiruna and Svalbard",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Landsat 9",
+    "norad": "49260",
+    "agency": "NASA + USGS",
+    "start": "27-09-2021",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "X-band data",
+            "status": "a",
+            "frequency": "8200.5 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "220.4 Msym/s",
+            "image": "TODO",
+            "description": "Direct broadcast when in range of ground stations (no specific list is available, but most of the world is covered). Disabled over the sea.",
+            "data": []
+        },
+        {
+            "name": "S-band dump",
+            "status": "a",
+            "frequency": "2282.3 MHz",
+            "polarization": "???",
+            "symbolrate": "1.067 Msym/s",
+            "image": "TODO",
+            "description": "Dumps to Kiruna and Svalbard",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "MATS",
+    "norad": "54227",
+    "agency": "OHB Sweden",
+    "start": "04-11-2022",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "Dumps",
+            "status": "a",
+            "frequency": "2214 MHz",
+            "polarization": "???",
+            "symbolrate": "1.562 MHz",
+            "image": "TODO",
+            "description": "Dumps to Kiruna",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "MetOp-B",
+    "norad": "38771",
+    "agency": "EUMETSAT",
+    "start": "17-09-2012",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "AHRPT",
+            "status": "a",
+            "frequency": "1701.3 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "2.33 Msym/s",
+            "image": "Metop-AHRPT.jpg",
+            "description": "Full resolution DB imagery from all instruments. Suffers from intermittent modulator issues causing a distorted constellation and lower SNR than MetOp-C.",
+            "data": []
+        },
+        {
+            "name": "X-band dump",
+            "status": "a",
+            "frequency": "7800 Mhz",
+            "polarization": "RHCP",
+            "symbolrate": "35 Msym/s",
+            "image": "TODO",
+            "description": "In essence just faster AHRPT, transmits full-orbit imagery from all instruments. Non-beamed dumps to Svalbard.",
+            "data": []
+        },
+        {
+            "name": "Telemetry",
+            "status": "a",
+            "frequency": "2230 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "Telemetry broadcast.",
+            "data": []
+        },
+        {
+            "name": "LRPT",
+            "status": "d",
+            "frequency": "137.1/.9 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "72 ksym/s",
+            "image": "TODO",
+            "description": "Inactive due to interference with HIRS. Even though the HIRS instrument has failed, the broadcast remains off.",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "MetOp-C",
+    "norad": "43689",
+    "agency": "EUMETSAT",
+    "start": "07-11-2018",
+    "end": "",
+    "description": "MHS instrument has striping present on TODO",
+    "signals": [
+        {
+            "name": "AHRPT",
+            "status": "a",
+            "frequency": "1701.3 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "2.33 Msym/s",
+            "image": "Metop-AHRPT.jpg",
+            "description": "Full resolution DB imagery from all instruments.",
+            "data": []
+        },
+        {
+            "name": "X-band dump",
+            "status": "a",
+            "frequency": "7800 Mhz",
+            "polarization": "RHCP",
+            "symbolrate": "35 Msym/s",
+            "image": "TODO",
+            "description": "In essence just faster AHRPT, transmits full-orbit imagery from all instruments. Non-beamed dumps to Svalbard.",
+            "data": []
+        },
+        {
+            "name": "Telemetry",
+            "status": "a",
+            "frequency": "2230 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "Telemetry broadcast.",
+            "data": []
+        },
+        {
+            "name": "LRPT",
+            "status": "d",
+            "frequency": "137.1/.9 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "72 ksym/s",
+            "image": "TODO",
+            "description": "Inactive due to interference with HIRS. Even though the HIRS instrument has failed, the broadcast remains off.",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Meteor-M N\u00b02-2",
+    "norad": "44387",
+    "agency": "Roscosmos",
+    "start": "05-07-2019",
+    "end": "",
+    "description": "LRPT was only active for a few months after launch due to a micrometeorite strike in 12-2019. This caused a leak of thermal transfer gas rendering LRPT inoperable. Satellite was moved to storage mode on 07-2024 due to orbital proximity to Meteor-M N\u00b02-4.",
+    "signals": [
+        {
+            "name": "LRPT",
+            "status": "i",
+            "frequency": "137.1/.9 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "2x 665.4 ksym/s",
+            "image": "Meteor-LRPT.jpg",
+            "description": "3 JPEG-compressed 1 km/px channels. 3x VIS during summer, 2x VIS + 1x IR during winter. Rendered inoperable due to micrometeorite strike.",
+            "data": [
+                {
+                    "name": "221",
+                    "raw": "Meteor-LRPT.jpg",
+                    "preview": ""
+                }
+            ]
+        },
+        {
+            "name": "HRPT",
+            "status": "d",
+            "frequency": "1700 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "2x 665.4 ksym/s",
+            "image": "/Meteor-HRPT.jpg",
+            "description": "Full resolution 6x MSU-MR channels at 1 km/px, MTVZA",
+            "data": [
+                {
+                    "name": "Natural color",
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/Meteor-M/msu_mr_2024-11-09_13-23-58Z_Natural%20Color.png",
+                    "preview": ""
+                },
+                {
+                    "name": "221",
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/Meteor-M/msu_mr_2024-11-09_13-23-58Z_AVHRR%20221%20False%20Color.png",
+                    "preview": ""
+                },
+                {
+                    "name": "Day microphysics",
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/Meteor-M/msu_mr_2024-11-09_13-23-58Z_Day%20Microphysics.png",
+                    "preview": ""
+                }
+            ]
+        },
+        {
+            "name": "Telemetry",
+            "status": "a",
+            "frequency": "3405.235 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "32 ksym/s",
+            "image": "",
+            "description": "Telemetry broadcast, might be seen locking onto a groundstation (drifting). Currently not supported.",
+            "data": []
+        },
+        {
+            "name": "MTVZA dump",
+            "status": "d",
+            "frequency": "8128 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "15.36 Msym/s",
+            "image": "",
+            "description": "MTVZA data from several orbits. Non-beamed dumps to Moscow, Novosibirsk, Khabrovsk. Narrow BPSK.",
+            "data": []
+        },
+        {
+            "name": "IKFS dump",
+            "status": "d",
+            "frequency": "??? MHz",
+            "polarization": "???",
+            "symbolrate": "15.36 Msym/s",
+            "image": "",
+            "description": "Dumps from the IKFS instrument, not received yet - unconfirmed. Non-beamed dumps to Khabrovsk. Narrow QPSK.",
+            "data": []
+        },
+        {
+            "name": "KMSS DB",
+            "status": "d",
+            "frequency": "8128/8320 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "61.4 Msym/s",
+            "image": "",
+            "description": "Direct broadcast from the KMSS instrument, active over Russia, Europe, possibly the Carribean and Brazil as well (unconfirmed). Wide BPSK.",
+            "data": []
+        },
+        {
+            "name": "Main Dump",
+            "status": "d",
+            "frequency": "8320 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "61.4 Msym/s",
+            "image": "",
+            "description": "KMSS/MSU-MR/Severjanin-M + MeteoSAR instrument data, only KMSS supported as of right now. Non-beamed dumps to Moscow, Novosibirsk, Khabrovsk. Wide QPSK.",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Meteor-M N\u00b02-3",
+    "norad": "57166",
+    "agency": "Roscosmos",
+    "start": "27-06-2023",
+    "end": "",
+    "description": "VHF antenna didn't deploy properly due to extended storage. Wide X-band transmitter has failed. LRPT JPEG compressor has minor issues from time to time causing pixelated imagery, the satellite has a watchdog that restarts it after a few orbits.",
+    "signals": [
+        {
+            "name": "LRPT",
+            "status": "a",
+            "frequency": "137.1/.9 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "2x 665.4 ksym/s",
+            "image": "Meteor-LRPT.jpg",
+            "description": "3 JPEG-compressed 1 km/px channels. 3x VIS during summer, 2x VIS + 1x IR during winter",
+            "data": [
+                {
+                    "name": "221",
+                    "raw": "Meteor-LRPT.jpg",
+                    "preview": ""
+                }
+            ]
+        },
+        {
+            "name": "HRPT",
+            "status": "a",
+            "frequency": "1700 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "2x 665.4 ksym/s",
+            "image": "/Meteor-HRPT.jpg",
+            "description": "Full resolution 6x MSU-MR channels at 1 km/px, MTVZA",
+            "data": [
+                {
+                    "name": "Natural color",
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/Meteor-M/msu_mr_2024-11-09_13-23-58Z_Natural%20Color.png",
+                    "preview": ""
+                },
+                {
+                    "name": "221",
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/Meteor-M/msu_mr_2024-11-09_13-23-58Z_AVHRR%20221%20False%20Color.png",
+                    "preview": ""
+                },
+                {
+                    "name": "Day microphysics",
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/Meteor-M/msu_mr_2024-11-09_13-23-58Z_Day%20Microphysics.png",
+                    "preview": ""
+                }
+            ]
+        },
+        {
+            "name": "Telemetry",
+            "status": "a",
+            "frequency": "3405.235 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "32 ksym/s",
+            "image": "",
+            "description": "Telemetry broadcast, might be seen locking onto a groundstation (drifting). Currently not supported.",
+            "data": []
+        },
+        {
+            "name": "MTVZA dump",
+            "status": "a",
+            "frequency": "8128 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "15.36 Msym/s",
+            "image": "",
+            "description": "MTVZA data from several orbits. Non-beamed dumps to Moscow, Novosibirsk, Khabrovsk. Narrow BPSK.",
+            "data": []
+        },
+        {
+            "name": "IKFS dump",
+            "status": "u",
+            "frequency": "??? MHz",
+            "polarization": "???",
+            "symbolrate": "15.36 Msym/s",
+            "image": "",
+            "description": "Dumps from the IKFS instrument, not received yet - unconfirmed. Non-beamed dumps to Khabrovsk. Narrow QPSK.",
+            "data": []
+        },
+        {
+            "name": "KMSS DB",
+            "status": "i",
+            "frequency": "8128/8320 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "61.4 Msym/s",
+            "image": "",
+            "description": "Direct broadcast from the KMSS instrument, active over Russia, Europe, possibly the Carribean and Brazil as well (unconfirmed). Wide BPSK.",
+            "data": []
+        },
+        {
+            "name": "Main Dump",
+            "status": "i",
+            "frequency": "8320 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "61.4 Msym/s",
+            "image": "",
+            "description": "KMSS/MSU-MR/Severjanin-M + MeteoSAR instrument data, only KMSS supported as of right now. Non-beamed dumps to Moscow, Novosibirsk, Khabrovsk. Wide QPSK.",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Meteor-M N\u00b02-4",
+    "norad": "59051",
+    "agency": "Roscosmos",
+    "start": "29-02-2024",
+    "end": "",
+    "description": "First fully operational Meteor-M satellite. LRPT JPEG compressor has minor issues from time to time causing pixelated imagery, the satellite has a watchdog that restarts it after a few orbits.",
+    "signals": [
+        {
+            "name": "LRPT",
+            "status": "a",
+            "frequency": "137.1/.9 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "72/80 ksym/s",
+            "image": "Meteor-LRPT.jpg",
+            "description": "3 JPEG-compressed 1 km/px channels. 3x VIS during summer, 2x VIS + 1x IR during winter. 72k mode used normally, 80k only just after launch for testing.",
+            "data": [
+                {
+                    "name": "221",
+                    "raw": "Meteor-LRPT.jpg",
+                    "preview": ""
+                }
+            ]
+        },
+        {
+            "name": "HRPT",
+            "status": "a",
+            "frequency": "1700 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "2x 665.4 ksym/s",
+            "image": "/Meteor-HRPT.jpg",
+            "description": "Full resolution 6x MSU-MR channels at 1 km/px, MTVZA",
+            "data": [
+                {
+                    "name": "Natural color",
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/Meteor-M/msu_mr_2024-11-09_13-23-58Z_Natural%20Color.png",
+                    "preview": ""
+                },
+                {
+                    "name": "221",
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/Meteor-M/msu_mr_2024-11-09_13-23-58Z_AVHRR%20221%20False%20Color.png",
+                    "preview": ""
+                },
+                {
+                    "name": "Day microphysics",
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/Meteor-M/msu_mr_2024-11-09_13-23-58Z_Day%20Microphysics.png",
+                    "preview": ""
+                }
+            ]
+        },
+        {
+            "name": "Telemetry",
+            "status": "a",
+            "frequency": "3405.235 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "32 ksym/s",
+            "image": "",
+            "description": "Telemetry broadcast, might be seen locking onto a groundstation (drifting). Currently not supported.",
+            "data": []
+        },
+        {
+            "name": "MTVZA dump",
+            "status": "a",
+            "frequency": "8128 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "15.36 Msym/s",
+            "image": "",
+            "description": "MTVZA data from several orbits. Non-beamed dumps to Moscow, Novosibirsk, Khabrovsk. Narrow BPSK.",
+            "data": []
+        },
+        {
+            "name": "IKFS dump",
+            "status": "u",
+            "frequency": "??? MHz",
+            "polarization": "???",
+            "symbolrate": "15.36 Msym/s",
+            "image": "",
+            "description": "Dumps from the IKFS instrument, not received yet - unconfirmed. Non-beamed dumps to Khabrovsk. Narrow QPSK.",
+            "data": []
+        },
+        {
+            "name": "KMSS DB",
+            "status": "a",
+            "frequency": "8128/8320 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "61.4 Msym/s",
+            "image": "",
+            "description": "Direct broadcast from the KMSS instrument, active over Russia, Europe, possibly the Carribean and Brazil as well (unconfirmed). Wide BPSK.",
+            "data": []
+        },
+        {
+            "name": "Main Dump",
+            "status": "a",
+            "frequency": "8320 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "61.4 Msym/s",
+            "image": "",
+            "description": "KMSS/MSU-MR/Severjanin-M + MeteoSAR instrument data, only KMSS supported as of right now. Non-beamed dumps to Moscow, Novosibirsk, Khabrovsk. Wide QPSK.",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Meteosat-10 (MSG-3)",
+    "norad": "38552",
+    "agency": "EUMETSAT",
+    "start": "05-06-2012",
+    "end": "",
+    "description": "Currently positioned at 0\u00b0.",
+    "signals": [
+        {
+            "name": "PGS Raw data",
+            "status": "a",
+            "frequency": "1686.83 MHz",
+            "polarization": "Linear",
+            "symbolrate": "3.75 msym/s",
+            "image": "MSG-raw.jpg",
+            "description": "Contains all raw SEVIRI channels - 1x panchromatic at 1.6 km/px, 3x VIS and 9x IR all at 4.8 km/px. New image every 15 minutes in standard FD scanning mode, every 5 minutes in RSS mode.",
+            "data": []
+        },
+        {
+            "name": "xRIT",
+            "status": "d",
+            "frequency": "1691/1695.15 MHz",
+            "polarization": "Linear",
+            "symbolrate": "-",
+            "image": "",
+            "description": "Not used in favour of the EumetCast service.",
+            "data": []
+        },
+        {
+            "name": "DCP",
+            "status": "a",
+            "frequency": "1675.281 MHz",
+            "polarization": "Linear",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "DCP data. Not supported due to lack of documentation.",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Meteosat-11 (MSG-4)",
+    "norad": "40732",
+    "agency": "EUMETSAT",
+    "start": "15-07-2015",
+    "end": "",
+    "description": "Currently positioned at 9.5\u00b0E.",
+    "signals": [
+        {
+            "name": "PGS Raw data",
+            "status": "a",
+            "frequency": "1686.83 MHz",
+            "polarization": "Linear",
+            "symbolrate": "3.75 msym/s",
+            "image": "MSG-raw.jpg",
+            "description": "Contains all raw SEVIRI channels - 1x panchromatic at 1.6 km/px, 3x VIS and 9x IR all at 4.8 km/px. New image every 15 minutes in standard FD scanning mode, every 5 minutes in RSS mode.",
+            "data": []
+        },
+        {
+            "name": "xRIT",
+            "status": "d",
+            "frequency": "1691/1695.15 MHz",
+            "polarization": "Linear",
+            "symbolrate": "-",
+            "image": "",
+            "description": "Not used in favour of the EumetCast service.",
+            "data": []
+        },
+        {
+            "name": "DCP",
+            "status": "a",
+            "frequency": "1675.281 MHz",
+            "polarization": "Linear",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "DCP data. Not supported due to lack of documentation.",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Meteosat-9 (MSG-2)",
+    "norad": "28912",
+    "agency": "EUMETSAT",
+    "start": "21-12-2005",
+    "end": "",
+    "description": "Currently positioned at 45.5\u00b0E. High inclination due to low propellant.",
+    "signals": [
+        {
+            "name": "PGS Raw data",
+            "status": "a",
+            "frequency": "1686.83 MHz",
+            "polarization": "Linear",
+            "symbolrate": "3.75 msym/s",
+            "image": "MSG-raw.jpg",
+            "description": "Contains all raw SEVIRI channels - 1x panchromatic at 1.6 km/px, 3x VIS and 9x IR all at 4.8 km/px. New image every 15 minutes in standard FD scanning mode, every 5 minutes in RSS mode. Meteosat-9 operates in RSS mode (?)",
+            "data": []
+        },
+        {
+            "name": "xRIT",
+            "status": "d",
+            "frequency": "1691/1695.15 MHz",
+            "polarization": "Linear",
+            "symbolrate": "-",
+            "image": "",
+            "description": "Not used in favour of the EumetCast service.",
+            "data": []
+        },
+        {
+            "name": "DCP",
+            "status": "a",
+            "frequency": "1675.281 MHz",
+            "polarization": "Linear",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "DCP data. Not supported due to lack of documentation.",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "NOAA 15",
+    "norad": "25338",
+    "agency": "NOAA",
+    "start": "13-05-1998",
+    "end": "19-08-2025",
+    "description": "This was the longest living NOAA POES satellite until being shut down due to political reasons. Decommissioning took two tries, as the satellite rebooted a few orbits after its first one. It only used a damaged emergency antenna for L-band due to the others interfering with the AMSU instrument, this made the transmission strength very weak. AVHRR came close to stalling on several occasions, but always recovered.",
+    "signals": [
+        {
+            "name": "APT",
+            "status": "i",
+            "frequency": "137.62 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "N/A",
+            "image": "/POES-APT.jpg",
+            "description": "2x 4 km/px images, during day 1x IR + 1x VIS and 2x IR during night.",
+            "data": [
+                {
+                    "name": "HVC",
+                    "raw": "https://blog.cpt-dingus.cc/assets/images/Radio/APT-Sample-image.png",
+                    "preview": ""
+                },
+                {
+                    "name": "Raw image",
+                    "raw": "https://blog.cpt-dingus.cc/assets/images/Radio/APT-Sample-image.png",
+                    "preview": ""
+                }
+            ]
+        },
+        {
+            "name": "HRPT",
+            "status": "i",
+            "frequency": "1702.5/2247.5 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "2x 665.4 ksym/s",
+            "image": "/POES-HRPT.jpg",
+            "description": "Live full resolution operational imagery from all instruments",
+            "data": [
+                {
+                    "name": "NOAA Natural Color",
+                    "raw": "https://blog.cpt-dingus.cc/assets/images/Sat-reception-journey/Best-HRPT-yet.png",
+                    "preview": ""
+                }
+            ]
+        },
+        {
+            "name": "GAC",
+            "status": "i",
+            "frequency": "2247.5 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "2.6616 Msym/s",
+            "image": "https://blog.cpt-dingus.cc/assets/images/Radio/GOES-GVAR.jpg",
+            "description": "Full orbit dumps of all instruments, AVHRR only at 4 km/px. Dumped to Svalbard on every pass",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "NOAA 18",
+    "norad": "28654",
+    "agency": "NOAA",
+    "start": "20-05-2005",
+    "end": "06-06-2025",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "APT",
+            "status": "i",
+            "frequency": "137.9125 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "N/A",
+            "image": "/POES-APT.jpg",
+            "description": "2x 4 km/px images, 1x IR + 1x VIS. Normally should be 2x IR during night, but a configuration error made the satellite transmit a VIS channel instead.",
+            "data": [
+                {
+                    "name": "HVC",
+                    "raw": "https://blog.cpt-dingus.cc/assets/images/Radio/APT-Sample-image.png",
+                    "preview": ""
+                }
+            ]
+        },
+        {
+            "name": "HRPT",
+            "status": "i",
+            "frequency": "1707/2247.5 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "2x 665.4 ksym/s",
+            "image": "/POES-HRPT.jpg",
+            "description": "Live full resolution operational imagery from all instruments",
+            "data": [
+                {
+                    "name": "NOAA Natural Color",
+                    "raw": "https://blog.cpt-dingus.cc/assets/images/Sat-reception-journey/Best-HRPT-yet.png",
+                    "preview": ""
+                }
+            ]
+        },
+        {
+            "name": "GAC",
+            "status": "i",
+            "frequency": "2247.5 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "2.6616 Msym/s",
+            "image": "https://blog.cpt-dingus.cc/assets/images/Radio/GOES-GVAR.jpg",
+            "description": "Full orbit dumps of all instruments, AVHRR only at 4 km/px. Dumped to Svalbard on every pass",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "NOAA 19",
+    "norad": "33591",
+    "agency": "NOAA",
+    "start": "06-02-2009",
+    "end": "13-08-2025",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "APT",
+            "status": "i",
+            "frequency": "137.1 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "N/A",
+            "image": "/POES-APT.jpg",
+            "description": "2x 4 km/px images, 1x IR + 1x VIS during day, 2x IR during night.",
+            "data": [
+                {
+                    "name": "HVC",
+                    "raw": "https://blog.cpt-dingus.cc/assets/images/Radio/APT-Sample-image.png",
+                    "preview": ""
+                }
+            ]
+        },
+        {
+            "name": "HRPT",
+            "status": "i",
+            "frequency": "1698/2247.5 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "2x 665.4 ksym/s",
+            "image": "/POES-HRPT.jpg",
+            "description": "Live full resolution operational imagery from all instruments",
+            "data": [
+                {
+                    "name": "NOAA Natural Color",
+                    "raw": "https://blog.cpt-dingus.cc/assets/images/Sat-reception-journey/Best-HRPT-yet.png",
+                    "preview": ""
+                }
+            ]
+        },
+        {
+            "name": "GAC",
+            "status": "i",
+            "frequency": "2247.5 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "2.6616 Msym/s",
+            "image": "https://blog.cpt-dingus.cc/assets/images/Radio/GOES-GVAR.jpg",
+            "description": "Full orbit dumps of all instruments, AVHRR only at 4 km/px. Dumped to Svalbard on every pass",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "NOAA 20 (JPSS-1)",
+    "norad": "43013",
+    "agency": "NOAA",
+    "start": "18-11-2017",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "HRD",
+            "status": "a",
+            "frequency": "7812 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "15 Msym/s",
+            "image": "TODO",
+            "description": "Full resolution DB from all instruments. Has a strong null at certain elevations when the satellite is East from your receiving position.",
+            "data": []
+        },
+        {
+            "name": "Ka-band dumps",
+            "status": "a",
+            "frequency": "26703.4 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "TODO",
+            "data": []
+        },
+        {
+            "name": "Telemetry",
+            "status": "a",
+            "frequency": "2247.5 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "???",
+            "image": "JPSS-1-tlm.jpg",
+            "description": "Global telemetry downlink. The spikes present on the FFT are a part of the signal.",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "NOAA 21 (JPSS-2)",
+    "norad": "54234",
+    "agency": "NOAA",
+    "start": "10-11-2022",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "HRD",
+            "status": "a",
+            "frequency": "7812 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "15 Msym/s",
+            "image": "TODO",
+            "description": "Full resolution DB from all instruments. Has a weaker null than JPSS-1, improved FEC helps mitigate it further.",
+            "data": []
+        },
+        {
+            "name": "Ka-band dumps",
+            "status": "a",
+            "frequency": "26703.4 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "TODO",
+            "data": []
+        },
+        {
+            "name": "Telemetry",
+            "status": "a",
+            "frequency": "2247.5 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "1.6 Msym/s",
+            "image": "JPSS-2-tlm.jpg",
+            "description": "Global telemetry downlink. DC spike on the right side of the image is not part of the signal.",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Oceansat-2",
+    "norad": "35931",
+    "agency": "ISRO",
+    "start": "23-09-2009",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "S-band DB",
+            "status": "a",
+            "frequency": "2245 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "TODO",
+            "data": []
+        },
+        {
+            "name": "Dumps",
+            "status": "i",
+            "frequency": "8212.5 MHz",
+            "polarization": "???",
+            "symbolrate": "22.226 MHz",
+            "image": "TODO",
+            "description": "TODO",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Oceansat-3 (EOS-6)",
+    "norad": "54361",
+    "agency": "ISRO",
+    "start": "26-11-2022",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "X-band dumps",
+            "status": "a",
+            "frequency": "8275 MHz",
+            "polarization": "???",
+            "symbolrate": "80 MSym/s",
+            "image": "TODO",
+            "description": "Dumps to Svalbard and unknown groundstation in India",
+            "data": []
+        },
+        {
+            "name": "S-band dumps",
+            "status": "a",
+            "frequency": "2250 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "Dumps to Svalbard and unknown groundstation in India",
+            "data": []
+        },
+        {
+            "name": "ARGOS",
+            "status": "a",
+            "frequency": "1703 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "1 Msym/s",
+            "image": "TODO",
+            "description": "Commonly spotted in L-band, as it is active globally.",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "PAZ",
+    "norad": "43215",
+    "agency": "Hisdesat",
+    "start": "22-12-2018",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "X-band dump",
+            "status": "u",
+            "frequency": "8150 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "Dumps to Spain",
+            "data": []
+        },
+        {
+            "name": "S-band dump",
+            "status": "u",
+            "frequency": "2285 MHz",
+            "polarization": "???",
+            "symbolrate": "???\u0148",
+            "image": "TODO",
+            "description": "Dumps to Kiruna",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "PRETTY",
+    "norad": "58023",
+    "agency": "ESA",
+    "start": "09-10-2023",
+    "end": "10-2024",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "VHF",
+            "status": "u",
+            "frequency": "137.78 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "PRETTY_VHF.jpg",
+            "description": "Signal is on the right hand side of the FFT image.",
+            "data": []
+        },
+        {
+            "name": "S-band dumps",
+            "status": "u",
+            "frequency": "2244 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "PRETTY_S-band.jpg",
+            "description": "Dumps to Graz [AT]",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "PRISMA",
+    "norad": "44072",
+    "agency": "ASI",
+    "start": "22-03-2019",
+    "end": "",
+    "description": "Encrypted on all downlinks",
+    "signals": [
+        {
+            "name": "X-band 1",
+            "status": "a",
+            "frequency": "8120 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "Encrypted dumps to Matera",
+            "data": []
+        },
+                {
+            "name": "X-band 2",
+            "status": "a",
+            "frequency": "8320 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "Encrypted dumps to Matera",
+            "data": []
+        },
+        {
+            "name": "S-band",
+            "status": "a",
+            "frequency": "2283.5 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "Encrypted dumps to Matera",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Proba-1",
+    "norad": "26958",
+    "agency": "ESA",
+    "start": "22-10-2001",
+    "end": "",
+    "description": "Satellite is only enabled for testing, normally does not transmit any imagery. The satellite suffered some memory issues making CHRIS imagery appear corrupted.",
+    "signals": [
+        {
+            "name": "Dumps",
+            "status": "a",
+            "frequency": "2235 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "2 Msym/s",
+            "image": "TODO",
+            "description": "Dumps to Redu [BE]",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Proba-2",
+    "norad": "36037",
+    "agency": "ESA",
+    "start": "02-11-2009",
+    "end": "",
+    "description": "This satelltie performs sun imaging using its SWAP instrument. Dumps imagery on every pass.",
+    "signals": [
+        {
+            "name": "Dumps",
+            "status": "a",
+            "frequency": "2235 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "2 Msym/s",
+            "image": "Proba-2.jpg",
+            "description": "Dumps on every pass to Redu [BE]",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Proba-V",
+    "norad": "39159",
+    "agency": "ESA",
+    "start": "07-05-2013",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "X-band dumps",
+            "status": "a",
+            "frequency": "8090 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "35 msym/s",
+            "image": "TODO",
+            "description": "Dumps to Kiruna. Mission was suspended due to insufficient light caused by orbital drift, but it has resumed.",
+            "data": []
+        },
+        {
+            "name": "S-band dumps",
+            "status": "a",
+            "frequency": "2235 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "1.919 Msym/s",
+            "image": "Proba-V_S-band.jpg",
+            "description": "Contains Vegetation instrument moon calibration every once in a while.",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Proba-VCC (PVCC)",
+    "norad": "58025",
+    "agency": "ESA",
+    "start": "09-10-2023",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "X-band dumps",
+            "status": "a",
+            "frequency": "8175.5 MHz",
+            "polarization": "???",
+            "symbolrate": "50 Msym/s",
+            "image": "TODO",
+            "description": "TODO",
+            "data": []
+        },
+        {
+            "name": "S-band dumps",
+            "status": "a",
+            "frequency": "2221 Mhz",
+            "polarization": "???",
+            "symbolrate": "2 Msym/s",
+            "image": "TODO",
+            "description": "TODO",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "SMAP",
+    "norad": "40376",
+    "agency": "NASA",
+    "start": "31-12-2015",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "X-band",
+            "status": "u",
+            "frequency": "8180 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "TODO",
+            "data": []
+        },
+        {
+            "name": "S-band dumps",
+            "status": "u",
+            "frequency": "2247.3 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "TODO",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "SMOS",
+    "norad": "36036",
+    "agency": "esa",
+    "start": "02-11-2009",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "X-band",
+            "status": "u",
+            "frequency": "8150 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "TODO",
+            "data": []
+        },
+        {
+            "name": "S-band",
+            "status": "u",
+            "frequency": "??? MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "todo",
+            "description": "TODO",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "SWOT",
+    "norad": "54754",
+    "agency": "NASA",
+    "start": "16-12-2022",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "X-band dumps",
+            "status": "a",
+            "frequency": "8205 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "Dumps to Svalbard",
+            "data": []
+        },
+        {
+            "name": "S-band dumps",
+            "status": "a",
+            "frequency": "2282.4 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "???",
+            "description": "Dumps to Svalbard [NOR], Inuvik [CAN], Hartebeesthoek [ZA], Kourou [FRG] and Kerguelen [FRA]",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Saral",
+    "norad": "39086",
+    "agency": "ISRO + CNES",
+    "start": "25-02-2013",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "X-band dumps",
+            "status": "a",
+            "frequency": "8212.5 MHz",
+            "polarization": "???",
+            "symbolrate": "16 Msym/s",
+            "image": "TODO",
+            "description": "TODO",
+            "data": []
+        },
+        {
+            "name": "S-band dumps",
+            "status": "a",
+            "frequency": "2245 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "TODO",
+            "data": []
+        },
+        {
+            "name": "ARGOS",
+            "status": "a",
+            "frequency": "1698.4 mhz",
+            "polarization": "RHCP",
+            "symbolrate": "400 ksym/s",
+            "image": "TODO",
+            "description": "Commonly spotted in L-band, as it is active globally.",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "SciSat-1",
+    "norad": "27858",
+    "agency": "CSA",
+    "start": "13-08-2003",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "Dumps",
+            "status": "a",
+            "frequency": "2232 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "2 Mysm/s",
+            "image": "TODO",
+            "description": "Dumps to Kiruna [SWE], Quebec [CAN] and other groundstations.",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Sentinel-6",
+    "norad": "46984",
+    "agency": "EUMETSAT + NASA",
+    "start": "21-11-2020",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "Dumps",
+            "status": "a",
+            "frequency": "8090 MHz",
+            "polarization": "???",
+            "symbolrate": "75 Msym/s",
+            "image": "TODO",
+            "description": "TODO",
+            "data": []
+        },
+        {
+            "name": "Telemetry",
+            "status": "a",
+            "frequency": "2256.75 Mhz",
+            "polarization": "???",
+            "symbolrate": "500 ksym/s",
+            "image": "TODO",
+            "description": "TODO",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Stereo-A",
+    "norad": "29510",
+    "agency": "NASA",
+    "start": "26-10-2006",
+    "end": "",
+    "description": "Stereo-A (Ahead) is currently in a heliocentric orbit around the sun with its sister satellite, Stereo-B (Behind), performs imaging of the Corona as well as SEM monitoring. Launched with its sister satellite, Stereo-B (Behind) ",
+    "signals": [
+        {
+            "name": "Low rate",
+            "status": "a",
+            "frequency": "8443.52 MHz",
+            "polarization": "???",
+            "symbolrate": "3800 sym/s",
+            "image": "Stereo-LR.jpg",
+            "description": "TODO",
+            "data": []
+        },
+        {
+            "name": "High rate",
+            "status": "a",
+            "frequency": "8443.52 MHz",
+            "polarization": "???",
+            "symbolrate": "1.44 Msym/s",
+            "image": "TODO",
+            "description": "TODO",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Stereo-B",
+    "norad": "29511",
+    "agency": "NASA",
+    "start": "26-10-2006",
+    "end": "01-10-2014",
+    "description": "Stereo-B (Behind) is in a heliocentric orbit around the sun with its sister satellite, Stereo-A (Ahead). It was used for sun imaging and SEM. A planned test of the spacecraft's automation just before the satellite passed behind the sun failed on 01-10-2014, causing the satellite to spin too quickly for the reaction wheels to correct it, resulting in a loss of communication with the spacecraft. After 22 months, on 21-08-2016, communications were restored and recovery attempts were performed through to September. On 23-09-2016, the carrier wave stopped being detected. It is suspected a frozen thruster valve came loose, increasing the spin rate even more. All subsequent attempts to find the satellite have failed.",
+    "signals": [
+        {
+            "name": "Low rate",
+            "status": "i",
+            "frequency": "8443.52 MHz",
+            "polarization": "???",
+            "symbolrate": "3800 sym/s",
+            "image": "Stereo-LR.jpg",
+            "description": "TODO",
+            "data": []
+        },
+        {
+            "name": "High rate",
+            "status": "i",
+            "frequency": "8443.52 MHz",
+            "polarization": "???",
+            "symbolrate": "1.44 Msym/s",
+            "image": "TODO",
+            "description": "TODO",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Suomi NPP",
+    "norad": "37849",
+    "agency": "NOAA",
+    "start": "28-10-2011",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "HRD",
+            "status": "a",
+            "frequency": "7812 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "15 Msym/s",
+            "image": "TODO",
+            "description": "Full resolution DB from all instruments. Has a strong null at certain elevations when the satellite is West from your receiving position.",
+            "data": []
+        },
+        {
+            "name": "Dumps",
+            "status": "a",
+            "frequency": "8212.5 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "TODO, dumps to Svalbard",
+            "data": []
+        },
+        {
+            "name": "TDRS dumps",
+            "status": "a",
+            "frequency": "26703.4 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "TODO",
+            "data": []
+        },
+        {
+            "name": "Telemetry",
+            "status": "a",
+            "frequency": "2247.5 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "Global telemetry downlink.",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Swarm-A",
+    "norad": "39452",
+    "agency": "ESA",
+    "start": "22-11-2013",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "Dumps",
+            "status": "a",
+            "frequency": "2249 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "todo",
+            "description": "TODO",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Swarm-B",
+    "norad": "39451",
+    "agency": "ESA",
+    "start": "22-11-2013",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "Dumps",
+            "status": "a",
+            "frequency": "2249 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "todo",
+            "description": "TODO",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Swarm-C",
+    "norad": "39453",
+    "agency": "ESA",
+    "start": "22-11-2013",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "Dumps",
+            "status": "a",
+            "frequency": "2249 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "todo",
+            "description": "TODO",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "TUBIN",
+    "norad": "48900",
+    "agency": "TU Berlin",
+    "start": "30-06-2021",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "X-band dumps",
+            "status": "a",
+            "frequency": "8392.5 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "Dumps to Berlin and Svalbard",
+            "data": []
+        },
+        {
+            "name": "S-band 1",
+            "status": "a",
+            "frequency": "2263 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "Dumps to Berlin",
+            "data": []
+        },
+        {
+            "name": "S-band 1",
+            "status": "a",
+            "frequency": "2263 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "Dumps to Berlin",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Terra",
+    "norad": "25994",
+    "agency": "NASA",
+    "start": "18-12-1999",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "Ka-band TDRS dumps",
+            "status": "a",
+            "frequency": "~15000 Mhz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "Tightly beamed",
+            "data": []
+        },
+        {
+            "name": "X-band TDRS dumps",
+            "status": "a",
+            "frequency": "8212.5 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "Dumps to TDRS groundstations",
+            "data": []
+        },
+        {
+            "name": "X-band DB",
+            "status": "d",
+            "frequency": "8212.5 MHz",
+            "polarization": "???",
+            "symbolrate": "13.125 Msym/s",
+            "image": "TODO",
+            "description": "DB disaled after power supply issues",
+            "data": []
+        },
+        {
+            "name": "Telemetry",
+            "status": "a",
+            "frequency": "2287.5 MHz",
+            "polarization": "???",
+            "symbolrate": "???",
+            "image": "TODO",
+            "description": "TODO",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Yunhai 3",
+    "norad": "54235",
+    "agency": "NSMC",
+    "start": "11-11-2022",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "L-band DB",
+            "status": "a",
+            "frequency": "1704 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "4 Msym/s",
+            "image": "TODO",
+            "description": "Encrypted, commonly spotted in L band as it is enabled globally",
+            "data": []
+        }
+    ]
+}
+]
