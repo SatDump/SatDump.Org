@@ -25,7 +25,7 @@ Getting started with SatDump is easy. We organised these guides to help you unde
 * [S-band satellites](https://www.a-centauri.com/articoli/the-definitive-s-band-satellite-guide)
 
 ### Advanced
-* [X-band satellites](https://www.a-centauri.com/articoli/an-x-band-primer)
+* [X-band satellites](https://www.a-centauri.com/articoli/an-x-band-prime)
 
 ### Automation
 * [Automated weather satellite receiving station (Windows)](https://www.a-centauri.com/articoli/automating-satellite-reception-with-satdump)
