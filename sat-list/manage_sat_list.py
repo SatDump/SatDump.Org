@@ -364,7 +364,7 @@ def build_satellite() -> Satellite:
 
         # Handling for signal status
         current_signal["status"] = get_input(
-            "What's the status of this signal? [A]ctive/[I]noperational (permanently off)/[D]isabled (operational but off)/[U]nknown",
+            "What's the status of this signal? [A]ctive/[I]noperative (permanently off)/[D]isabled (operational but off)/[U]nknown",
             options=["a", "i", "d", "u"],
         )
 

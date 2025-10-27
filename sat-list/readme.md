@@ -21,7 +21,7 @@ The structure of satellites is as follows:
     "signals": [
         {
             "name": "Name of signal",
-            "status": "Activity status: [a]ctive/[i]noperational/[d]isabled/[u]nknown",
+            "status": "Activity status: [a]ctive/[i]noperative/[d]isabled/[u]nknown",
             "frequency": "Center frequency of signal",
             "polarization": "Signal downlink polarization",
             "symbolrate": "Symbol rate of signal",

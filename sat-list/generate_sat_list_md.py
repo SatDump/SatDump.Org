@@ -21,13 +21,13 @@ th,td {
 )
 
 OUTPUT_FILE.write(
-    """This site contains all satellites currently decodable by SatDump, including descriptions of each of their signals. 
+    """This site contains all satellites currently decodable by SatDump, including descriptions of each of their downlinks. 
 
 Credits for sample data/FFT images: Meti, Lego11, Aang23, Seler1500, R1chae
 
 Every signal will have a colored marker next to the name depicting its last known status:
 - 🟢 Active
-- 🔴 Failed/Inoperational
+- 🔴 Failed/Inoperative
 - 🔵 Operational but disabled
 - 🟡 Unknown
 
