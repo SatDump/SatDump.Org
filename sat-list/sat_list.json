@@ -2742,7 +2742,7 @@
             "polarization": "RHCP",
             "symbolrate": "N/A",
             "image": "/POES-APT.jpg",
-            "description": "2x 4 km/px images, during day 1x IR + 1x VIS and 2x IR during night.",
+            "description": "2x 4 km/px images, during day 1x IR + 1x VIS and 2x IR during night. FFT pic is from NOAA 19",
             "data": [
                 {
                     "name": "HVC",
@@ -2762,8 +2762,8 @@
             "frequency": "137.35 MHz",
             "polarization": "Linear",
             "symbolrate": "8320 sym/s",
-            "image": "TODO",
-            "description": "SEM, HIRS, Telemetry",
+            "image": "POES-DSB.jpg",
+            "description": "SEM, HIRS, Telemetry data.",
             "data": []
         },
         {
@@ -2809,7 +2809,7 @@
             "polarization": "RHCP",
             "symbolrate": "N/A",
             "image": "/POES-APT.jpg",
-            "description": "2x 4 km/px images, 1x IR + 1x VIS. Normally should be 2x IR during night, but a configuration error made the satellite transmit a VIS channel instead.",
+            "description": "2x 4 km/px images, 1x IR + 1x VIS. Normally should be 2x IR during night, but a configuration error made the satellite transmit a VIS channel instead. FFT pic is from NOAA 19",
             "data": [
                 {
                     "name": "HVC",
@@ -2824,8 +2824,8 @@
             "frequency": "137.35 MHz",
             "polarization": "Linear",
             "symbolrate": "8320 sym/s",
-            "image": "TODO",
-            "description": "SEM, HIRS, Telemetry",
+            "image": "POES-DSB.jpg",
+            "description": "SEM, HIRS, Telemetry data. FFT pic is from NOAA 15",
             "data": []
         },
         {
@@ -2870,7 +2870,7 @@
             "frequency": "137.1 MHz",
             "polarization": "RHCP",
             "symbolrate": "N/A",
-            "image": "/POES-APT.jpg",
+            "image": "POES-APT.jpg",
             "description": "2x 4 km/px images, 1x IR + 1x VIS during day, 2x IR during night.",
             "data": [
                 {
@@ -2886,8 +2886,8 @@
             "frequency": "137.77 MHz",
             "polarization": "Linear",
             "symbolrate": "8320 sym/s",
-            "image": "TODO",
-            "description": "SEM, HIRS, Telemetry",
+            "image": "POES-DSB.jpg",
+            "description": "SEM, HIRS, Telemetry data. FFT pic is from NOAA 15",
             "data": []
         },
         {
