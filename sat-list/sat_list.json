@@ -424,8 +424,8 @@
     "norad": "40390",
     "agency": "NOAA",
     "start": "11-02-2015",
-    "end": "15-07-2025?",
-    "description": "Satellite stopped transmitting, is presumed to have failed.",
+    "end": "",
+    "description": "Satellite stopped transmitting twice becuase of software issues, the first time being 27-06-2019 through 03-2020 and the second time being 15-07-2025 through 10-2025",
     "signals": [
         {
             "name": "High rate link",
@@ -434,7 +434,7 @@
             "polarization": "RHCP",
             "symbolrate": "276 ksym/s",
             "image": "TODO",
-            "description": "Transmission stopped due to a \"serious software glitch\" on 15-07-2025. Used to transmit SEM data as well as EPIC instrument imagery",
+            "description": "Transmits SEM data as well as EPIC instrument imagery",
             "data": []
         },
         {
@@ -1615,7 +1615,7 @@
             "description": "Unused downlink.",
             "data": []
         },
-       {
+        {
             "name": "S-band telemetry",
             "status": "u",
             "frequency": "2209.086 MHz",
