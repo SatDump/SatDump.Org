@@ -521,9 +521,9 @@
             "name": "S-band telemetry",
             "status": "u",
             "frequency": "2209.086 MHz",
-            "polarization": "Linear",
-            "symbolrate": "40 ksym/s",
-            "image": "GOES-N-CDA.jpg",
+            "polarization": "???",
+            "symbolrate": "4 ksym/s (?)",
+            "image": "TODO",
             "description": "Telemetry carrier.",
             "data": []
         }
@@ -601,9 +601,9 @@
             "name": "S-band telemetry",
             "status": "a",
             "frequency": "2209.086 MHz",
-            "polarization": "Linear",
-            "symbolrate": "40 ksym/s",
-            "image": "GOES-N-CDA.jpg",
+            "polarization": "???",
+            "symbolrate": "4 ksym/s (?)",
+            "image": "TODO",
             "description": "Telemetry carrier.",
             "data": []
         }
@@ -1613,6 +1613,16 @@
             "symbolrate": "200 ksym/s",
             "image": "TODO",
             "description": "Unused downlink.",
+            "data": []
+        },
+       {
+            "name": "S-band telemetry",
+            "status": "u",
+            "frequency": "2209.086 MHz",
+            "polarization": "???",
+            "symbolrate": "4 ksym/s (?)",
+            "image": "TODO",
+            "description": "Telemetry carrier.",
             "data": []
         }
     ]
