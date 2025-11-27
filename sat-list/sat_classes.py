@@ -1,10 +1,10 @@
 import json
 
 statuses = {
-    "a": "🟢 ",  # Active
-    "i": "🔴 ",  # Inoperational (permanently off)
-    "d": "🔵 ",  # Disabled (operational but off)
-    "u": "🟡 ",  # Unknown
+    "a": '<b title="Active">🟢</b>',  # Active
+    "i": '<b title="Inoperational">🔴</b>',  # Inoperational (permanently off)
+    "d": '<b title="Operational but disabled">🔵</b>',  # Disabled (operational but off)
+    "u": '<b title="Unknown">🟡</b>',  # Unknown
 }
 
 
