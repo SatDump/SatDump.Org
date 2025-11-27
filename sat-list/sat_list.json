@@ -50,12 +50,32 @@
     ]
 },
 {
+    "name": "Arctic Weather Satellite",
+    "norad": "60543",
+    "agency": "esa",
+    "start": "16-08-2024",
+    "end": "",
+    "description": "Microwave imaging satellite acting as a prototype of the EPS-STERNA constellation.",
+    "signals": [
+        {
+            "name": "db + dump",
+            "status": "a",
+            "frequency": "1707 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "1.785 Msym/s",
+            "image": "TODO",
+            "description": "Global unencrypted DB, dumps to Redu/Kiruna/Svalbard. Contains the MWR instrument (microwave imager). Dumps contain full orbit data. Signal usually suffers from significant fading when facing away from you at lower elevations.",
+            "data": []
+        }
+    ]
+},
+{
     "name": "Arktika-M N\u00b01",
     "norad": "47719",
     "agency": "Roscosmos",
     "start": "28-02-2021",
     "end": "",
-    "description": "Same satellite bus as Elektro ([Навигатор](https://ru.wikipedia.org/wiki/%D0%9D%D0%B0%D0%B2%D0%B8%D0%B3%D0%B0%D1%82%D0%BE%D1%80_(%D1%81%D0%BF%D1%83%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D0%B0%D1%8F_%D0%BF%D0%BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%D0%BC%D0%B0))) shot into a Molniya orbit to perform high resolution Arctic region imaging.",
+    "description": "Same satellite bus as Elektro ([\u041d\u0430\u0432\u0438\u0433\u0430\u0442\u043e\u0440](https://ru.wikipedia.org/wiki/%D0%9D%D0%B0%D0%B2%D0%B8%D0%B3%D0%B0%D1%82%D0%BE%D1%80_(%D1%81%D0%BF%D1%83%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D0%B0%D1%8F_%D0%BF%D0%BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%D0%BC%D0%B0))) shot into a Molniya orbit to perform high resolution Arctic region imaging.",
     "signals": [
         {
             "name": "RDAS",
@@ -105,7 +125,7 @@
     "agency": "Roscosmos",
     "start": "16-12-2023",
     "end": "",
-    "description": "Same satellite bus as Elektro ([Навигатор](https://ru.wikipedia.org/wiki/%D0%9D%D0%B0%D0%B2%D0%B8%D0%B3%D0%B0%D1%82%D0%BE%D1%80_(%D1%81%D0%BF%D1%83%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D0%B0%D1%8F_%D0%BF%D0%BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%D0%BC%D0%B0))) shot into a Molniya orbit to perform high resolution Arctic region imaging.",
+    "description": "Same satellite bus as Elektro ([\u041d\u0430\u0432\u0438\u0433\u0430\u0442\u043e\u0440](https://ru.wikipedia.org/wiki/%D0%9D%D0%B0%D0%B2%D0%B8%D0%B3%D0%B0%D1%82%D0%BE%D1%80_(%D1%81%D0%BF%D1%83%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D0%B0%D1%8F_%D0%BF%D0%BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%D0%BC%D0%B0))) shot into a Molniya orbit to perform high resolution Arctic region imaging.",
     "signals": [
         {
             "name": "RDAS",
@@ -2894,7 +2914,7 @@
             "description": "Encrypted dumps to Matera",
             "data": []
         },
-                {
+        {
             "name": "X-band 2",
             "status": "a",
             "frequency": "8320 MHz",
@@ -3452,6 +3472,26 @@
             "symbolrate": "???",
             "image": "TODO",
             "description": "TODO",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "WSF-M",
+    "norad": "59481",
+    "agency": "USSF",
+    "start": "11-04-2024",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "DB",
+            "status": "a",
+            "frequency": "2252.5 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "400 kSym/s",
+            "image": "TODO",
+            "description": "Encrypted everywhere except the South pole, Arctic Ocean, and over mainland US.",
             "data": []
         }
     ]
