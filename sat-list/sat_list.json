@@ -1047,7 +1047,7 @@
             "frequency": "7860 MHz",
             "polarization": "RHCP",
             "symbolrate": "38.4 Msym/s",
-            "image": "FY3E_AHRPT.jpg",
+            "image": "Fengyun-3E_AHRPT.jpg",
             "description": "Full resolution DB from all instruments",
             "data": []
         },
@@ -1105,7 +1105,7 @@
             "name": "AHRPT",
             "status": "a",
             "frequency": "7790 MHz",
-            "polarization": "FY3G-AHRPT.jpg",
+            "polarization": "Fengyun-3G_AHRPT.jpg",
             "symbolrate": "6 Msym/s",
             "image": "TODO",
             "description": "Full resolution DB from all instruments. Quite strong due to low symbol rate and low orbital height.",
