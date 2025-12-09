@@ -9,10 +9,10 @@
     "signals": [
         {
             "name": "DB",
-            "status": "u",
+            "status": "a",
             "frequency": "1703 MHz",
-            "polarization": "???",
-            "symbolrate": "???",
+            "polarization": "RHCP",
+            "symbolrate": "400 ksym/s",
             "image": "TODO",
             "description": "TODO",
             "data": []
@@ -101,7 +101,7 @@
             "name": "DCP",
             "status": "a",
             "frequency": "1697.5 MHz",
-            "polarization": "Linear",
+            "polarization": "RHCP",
             "symbolrate": "",
             "image": "Arktika-DCP.jpg",
             "description": "Contains DCP data, currently unsupported due to unknown modulation.",
@@ -151,7 +151,7 @@
             "name": "DCP",
             "status": "a",
             "frequency": "1697.5 MHz",
-            "polarization": "Linear",
+            "polarization": "RHCP",
             "symbolrate": "??? ksym/s",
             "image": "Arktika-DCP.jpg",
             "description": "Contains DCP data, currently unsupported due to unknown modulation.",
@@ -269,21 +269,21 @@
     "signals": [
         {
             "name": "X-band",
-            "status": "u",
+            "status": "i",
             "frequency": "8330 MHz",
-            "polarization": "???",
+            "polarization": "RHCP",
             "symbolrate": "???",
-            "image": "TODO",
+            "image": "-",
             "description": "TODO",
             "data": []
         },
         {
             "name": "S-band",
-            "status": "u",
+            "status": "i",
             "frequency": "2262.5 MHz",
-            "polarization": "???",
-            "symbolrate": "???",
-            "image": "TODO",
+            "polarization": "RHCP",
+            "symbolrate": "0.839 ksym/s",
+            "image": "-",
             "description": "TODO",
             "data": []
         }
@@ -301,8 +301,8 @@
             "name": "X-band",
             "status": "a",
             "frequency": "8304 MHz",
-            "polarization": "???",
-            "symbolrate": "???",
+            "polarization": "RHCP",
+            "symbolrate": "30 Msym/s",
             "image": "TODO",
             "description": "Dumps to Kiruna and China",
             "data": []
@@ -311,7 +311,7 @@
             "name": "S-band",
             "status": "a",
             "frequency": "2262.5 MHz",
-            "polarization": "???",
+            "polarization": "RHCP",
             "symbolrate": "???",
             "image": "TODO",
             "description": "TODO",
@@ -332,7 +332,7 @@
             "status": "u",
             "frequency": "2208.5 MHz",
             "polarization": "???",
-            "symbolrate": "???",
+            "symbolrate": "1.142 Msym/s",
             "image": "",
             "description": "",
             "data": []
@@ -378,21 +378,21 @@
     "description": "TODO",
     "signals": [
         {
-            "name": "DB",
+            "name": "Dumps",
             "status": "u",
-            "frequency": "2221.5 MHz",
-            "polarization": "???",
-            "symbolrate": "???",
+            "frequency": "8100 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "60 Msym/s",
             "image": "TODO",
             "description": "TODO",
             "data": []
         },
         {
-            "name": "Dumps",
+            "name": "Telemetry",
             "status": "u",
-            "frequency": "??? MHz",
-            "polarization": "???",
-            "symbolrate": "60 Msym/s",
+            "frequency": "2221.5 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "???",
             "image": "TODO",
             "description": "TODO",
             "data": []
@@ -444,27 +444,27 @@
     "norad": "40390",
     "agency": "NOAA",
     "start": "11-02-2015",
-    "end": "15-07-2025?",
-    "description": "Satellite stopped transmitting, is presumed to have failed.",
+    "end": "",
+    "description": "Satellite stopped transmitting twice becuase of software issues, the first time being 27-06-2019 through 03-2020 and the second time being 15-07-2025 through 10-2025",
     "signals": [
         {
             "name": "High rate link",
-            "status": "u",
+            "status": "a",
             "frequency": "2215 MHz",
-            "polarization": "???",
+            "polarization": "RHCP",
             "symbolrate": "276 ksym/s",
             "image": "TODO",
-            "description": "Transmission stopped due to a \"serious software glitch\" on 15-07-2025. Used to transmit SEM data as well as EPIC instrument imagery",
+            "description": "Transmits SEM data as well as EPIC instrument imagery",
             "data": []
         },
         {
-            "name": "Telemetry link",
-            "status": "u",
+            "name": "Low rate link",
+            "status": "a",
             "frequency": "2215 MHz",
-            "polarization": "???",
+            "polarization": "RHCP",
             "symbolrate": "40 ksym/s",
             "image": "DSCOVR-TLM.jpg",
-            "description": "Telemetry downlink.",
+            "description": "Telemetry and some science data.",
             "data": []
         }
     ]
@@ -536,6 +536,16 @@
             "image": "TODO",
             "description": "Unused downlink.",
             "data": []
+        },
+        {
+            "name": "S-band telemetry",
+            "status": "u",
+            "frequency": "2209.086 MHz",
+            "polarization": "???",
+            "symbolrate": "4 ksym/s (?)",
+            "image": "TODO",
+            "description": "Telemetry carrier.",
+            "data": []
         }
     ]
 },
@@ -589,12 +599,12 @@
         },
         {
             "name": "LRIT",
-            "status": "a",
+            "status": "d",
             "frequency": "1691 MHz",
             "polarization": "Linear",
             "symbolrate": "293 ksym/s",
             "image": "TODO",
-            "description": "Unused downlink. Only transmits weak filler weak filler.",
+            "description": "Unused downlink. Transmitter noise floor is visible.",
             "data": []
         },
         {
@@ -605,6 +615,16 @@
             "symbolrate": "200 ksym/s",
             "image": "TODO",
             "description": "Unused downlink.",
+            "data": []
+        },
+        {
+            "name": "S-band telemetry",
+            "status": "a",
+            "frequency": "2209.086 MHz",
+            "polarization": "???",
+            "symbolrate": "4 ksym/s (?)",
+            "image": "TODO",
+            "description": "Telemetry carrier.",
             "data": []
         }
     ]
@@ -663,7 +683,7 @@
             "name": "DCP",
             "status": "a",
             "frequency": "1697 MHz",
-            "polarization": "Linear",
+            "polarization": "RHCP",
             "symbolrate": "",
             "image": "Elektro-DCP.jpg",
             "description": "Contains DCP data, currently unsupported due to unknown modulation.",
@@ -745,7 +765,7 @@
             "name": "DCP",
             "status": "a",
             "frequency": "1697 MHz",
-            "polarization": "Linear",
+            "polarization": "RHCP",
             "symbolrate": "???",
             "image": "Elektro-DCP.jpg",
             "description": "Contains DCP data, currently unsupported due to unknown modulation.",
@@ -827,7 +847,7 @@
             "name": "DCP",
             "status": "a",
             "frequency": "1697 MHz",
-            "polarization": "Linear",
+            "polarization": "RHCP",
             "symbolrate": "???",
             "image": "Elektro-DCP.jpg",
             "description": "Contains DCP data, currently unsupported due to unknown modulation.",
@@ -864,7 +884,7 @@
     "description": "Spin-stabilized geostationary satellite. Has a high inclination due to low propellant, is positioned at 99.5\u00b0E",
     "signals": [
         {
-            "name": "S-VISSR (HRIT)",
+            "name": "S-VISSR",
             "status": "a",
             "frequency": "1687.5 MHz",
             "polarization": "Linear",
@@ -894,9 +914,19 @@
             "status": "a",
             "frequency": "1681.6 MHz",
             "polarization": "Linear",
-            "symbolrate": "20 Msym/s?",
+            "symbolrate": "7 Msym/s",
             "image": "TODO",
             "description": "Raw S-VISSR sensor downlink, transmitted right next to the 1687.5 MHz downlink. Line is transmitted in real time, groundstation processes it and *stretches* it (The S in S-VISSR), then uplinks it to the satellite so it can be downlinked at a lower symbol rate over the 1687.5 MHz transmission. Not supported due to the lack of sample data",
+            "data": []
+        },
+        {
+            "name": "Telemetry",
+            "status": "i",
+            "frequency": "1702.5 MHz",
+            "polarization": "Linear",
+            "symbolrate": "??? ksym/s",
+            "image": "TODO",
+            "description": "Always active telemetry downlink.",
             "data": []
         }
     ]
@@ -910,7 +940,7 @@
     "description": "Last spin-stabilized geostationary FengYun-2 satellite. Positioned at 79\u00b0E",
     "signals": [
         {
-            "name": "S-VISSR (HRIT)",
+            "name": "S-VISSR",
             "status": "a",
             "frequency": "1687.5 MHz",
             "polarization": "Linear",
@@ -940,9 +970,19 @@
             "status": "a",
             "frequency": "1681.6 MHz",
             "polarization": "Linear",
-            "symbolrate": "20 Msym/s?",
+            "symbolrate": "7 Msym/s",
             "image": "TODO",
             "description": "Raw S-VISSR sensor downlink, transmitted right next to the 1687.5 MHz downlink. Line is transmitted in real time, groundstation processes it and *stretches* it (The S in S-VISSR), then uplinks it to the satellite so it can be downlinked at a lower symbol rate over the 1687.5 MHz transmission. Not supported due to the lack of sample data",
+            "data": []
+        },
+        {
+            "name": "Telemetry",
+            "status": "i",
+            "frequency": "1702.5 MHz",
+            "polarization": "Linear",
+            "symbolrate": "??? ksym/s",
+            "image": "TODO",
+            "description": "Always active telemetry downlink.",
             "data": []
         }
     ]
@@ -969,7 +1009,7 @@
             "name": "MPT",
             "status": "i",
             "frequency": "7775 MHz",
-            "polarization": "???",
+            "polarization": "RHCP",
             "symbolrate": "18.7 Msym/s",
             "image": "",
             "description": "",
@@ -979,7 +1019,7 @@
             "name": "DPT",
             "status": "i",
             "frequency": "8145.95 Msym/s",
-            "polarization": "???",
+            "polarization": "RHCP",
             "symbolrate": "62 Msym/s",
             "image": "",
             "description": "Delayed Picture Transmisison - full orbit instrument dump",
@@ -995,10 +1035,122 @@
             "name": "Telemetry",
             "status": "i",
             "frequency": "22XX MHz",
-            "polarization": "???",
-            "symbolrate": "???",
+            "polarization": "LHCP",
+            "symbolrate": "4096 sym/s",
+            "image": "TODO",
+            "description": "Telemetry downlink",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "FengYun 3B",
+    "norad": "37214",
+    "agency": "NSMC",
+    "start": "04-11-2010",
+    "end": "2021",
+    "description": "Prototype FengYun 3 satellite, true color L-band",
+    "signals": [
+        {
+            "name": "AHRPT",
+            "status": "i",
+            "frequency": "1704.5 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "2.8 Msym/s",
+            "image": "FengYun-3abc-AHRPT.jpg",
+            "description": "Full resolution DB imagery from all instruments",
+            "data": []
+        },
+        {
+            "name": "MPT",
+            "status": "i",
+            "frequency": "7775 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "18.7 Msym/s",
             "image": "",
             "description": "",
+            "data": []
+        },
+        {
+            "name": "DPT",
+            "status": "i",
+            "frequency": "8145.95 Msym/s",
+            "polarization": "RHCP",
+            "symbolrate": "62 Msym/s",
+            "image": "",
+            "description": "Delayed Picture Transmisison - full orbit instrument dump",
+            "data": [
+                {
+                    "name": "",
+                    "raw": "",
+                    "preview": ""
+                }
+            ]
+        },
+        {
+            "name": "Telemetry",
+            "status": "i",
+            "frequency": "22XX MHz",
+            "polarization": "LHCP",
+            "symbolrate": "4096 sym/s",
+            "image": "TODO",
+            "description": "Telemetry downlink",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "FengYun 3C",
+    "norad": "39260",
+    "agency": "NSMC",
+    "start": "23-09-2013",
+    "end": "11-2024",
+    "description": "True color L-band",
+    "signals": [
+        {
+            "name": "AHRPT",
+            "status": "i",
+            "frequency": "1704.5 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "2.6 Msym/s",
+            "image": "FengYun-3abc-AHRPT.jpg",
+            "description": "Full resolution DB imagery from all instruments",
+            "data": []
+        },
+        {
+            "name": "MPT",
+            "status": "i",
+            "frequency": "??? MHz",
+            "polarization": "LHCP",
+            "symbolrate": "18.7 Msym/s",
+            "image": "",
+            "description": "",
+            "data": []
+        },
+        {
+            "name": "DPT",
+            "status": "i",
+            "frequency": "8145.95 Msym/s",
+            "polarization": "RHCP",
+            "symbolrate": "62 Msym/s",
+            "image": "",
+            "description": "Delayed Picture Transmisison - full orbit instrument dump",
+            "data": [
+                {
+                    "name": "",
+                    "raw": "",
+                    "preview": ""
+                }
+            ]
+        },
+        {
+            "name": "Telemetry",
+            "status": "i",
+            "frequency": "22XX MHz",
+            "polarization": "LHCP",
+            "symbolrate": "4096 sym/s",
+            "image": "TODO",
+            "description": "Telemetry downlink",
             "data": []
         }
     ]
@@ -1030,6 +1182,16 @@
             "image": "TODO",
             "description": "Delayed Picture Transmission - Full orbit data dump. Non-beamed dumps to Kiruna, Chinese groundstations",
             "data": []
+        },
+        {
+            "name": "Telemetry",
+            "status": "i",
+            "frequency": "22XX MHz",
+            "polarization": "LHCP",
+            "symbolrate": "4096 sym/s",
+            "image": "TODO",
+            "description": "Telemetry downlink",
+            "data": []
         }
     ]
 },
@@ -1060,6 +1222,16 @@
             "image": "TODO",
             "description": "Delayed Picture Transmission - Full orbit data dump. Non-beamed dumps to Kiruna, Chinese groundstations",
             "data": []
+        },
+        {
+            "name": "Telemetry",
+            "status": "i",
+            "frequency": "22XX MHz",
+            "polarization": "LHCP",
+            "symbolrate": "8192 sym/s",
+            "image": "TODO",
+            "description": "Telemetry downlink",
+            "data": []
         }
     ]
 },
@@ -1089,6 +1261,16 @@
             "symbolrate": "225 Msym/s",
             "image": "TODO",
             "description": "Delayed Picture Transmission - Full orbit data dump. Non-beamed dumps to Kiruna, Chinese groundstations",
+            "data": []
+        },
+        {
+            "name": "Telemetry",
+            "status": "i",
+            "frequency": "22XX MHz",
+            "polarization": "LHCP",
+            "symbolrate": "8192 sym/s",
+            "image": "TODO",
+            "description": "Telemetry downlink",
             "data": []
         }
     ]
@@ -1150,6 +1332,16 @@
             "image": "TODO",
             "description": "Delayed Picture Transmission - Full orbit data dump. Non-beamed dumps to Kiruna, Chinese groundstations",
             "data": []
+        },
+        {
+            "name": "Telemetry",
+            "status": "i",
+            "frequency": "22XX MHz",
+            "polarization": "LHCP",
+            "symbolrate": "8192 sym/s",
+            "image": "TODO",
+            "description": "Telemetry downlink",
+            "data": []
         }
     ]
 },
@@ -1178,7 +1370,7 @@
             "polarization": "Linear",
             "symbolrate": "1 Msym/s",
             "image": "TODO",
-            "description": "Encrypted, transmits a clear IR image every 30 minutes (?)",
+            "description": "TODO",
             "data": []
         }
     ]
@@ -1196,7 +1388,7 @@
             "status": "u",
             "frequency": "1697 MHz",
             "polarization": "Linear",
-            "symbolrate": "90 ksym/s",
+            "symbolrate": "120 ksym/s",
             "image": "TODO",
             "description": "Encrypted, clear imagery every hour (?). Low bit depth, imagery looks crunchy",
             "data": []
@@ -1208,7 +1400,7 @@
             "polarization": "Linear",
             "symbolrate": "1 Msym/s",
             "image": "TODO",
-            "description": "Encrypted, transmits a clear IR image every 30 minutes (?)",
+            "description": "TODO",
             "data": []
         }
     ]
@@ -1222,7 +1414,7 @@
     "description": "TODO",
     "signals": [
         {
-            "name": "s-band dump",
+            "name": "S-band dump",
             "status": "u",
             "frequency": "2215 MHz",
             "polarization": "???",
@@ -1255,7 +1447,7 @@
             "name": "S-band dump",
             "status": "u",
             "frequency": "2220 MHz",
-            "polarization": "???",
+            "polarization": "RHCP",
             "symbolrate": "???",
             "image": "TODO",
             "description": "Dumps to Kiruna.",
@@ -1265,7 +1457,7 @@
             "name": "X-band dump",
             "status": "u",
             "frequency": "8105 MHz",
-            "polarization": "???",
+            "polarization": "RHCP",
             "symbolrate": "69.416 Msym/s",
             "image": "TODO",
             "description": "Dumps to Svalbard.",
@@ -1285,7 +1477,7 @@
             "name": "S-band dump",
             "status": "u",
             "frequency": "2220 MHz",
-            "polarization": "???",
+            "polarization": "RHCP",
             "symbolrate": "???",
             "image": "TODO",
             "description": "Dumps to Kiruna.",
@@ -1295,7 +1487,7 @@
             "name": "X-band dump",
             "status": "u",
             "frequency": "8245 MHz",
-            "polarization": "???",
+            "polarization": "RHCP",
             "symbolrate": "10 Msym/s",
             "image": "TODO",
             "description": "Dumps to Svalbard.",
@@ -1349,7 +1541,7 @@
             "frequency": "8070 MHz",
             "polarization": "LHCP",
             "symbolrate": "15.63 Msym/s",
-            "image": "TODO",
+            "image": "GK2A-UHRIT.jpg",
             "description": "Contains all AMI channels at a full resolution - as high as 0.5 km/px with VI006",
             "data": []
         },
@@ -1430,7 +1622,7 @@
             "polarization": "Linear",
             "symbolrate": "293 ksym/s",
             "image": "TODO",
-            "description": "Unused downlink. Only transmits weak filler weak filler.",
+            "description": "Unused downlink.",
             "data": []
         },
         {
@@ -1441,6 +1633,16 @@
             "symbolrate": "200 ksym/s",
             "image": "TODO",
             "description": "Unused downlink.",
+            "data": []
+        },
+        {
+            "name": "S-band telemetry",
+            "status": "u",
+            "frequency": "2209.086 MHz",
+            "polarization": "???",
+            "symbolrate": "4 ksym/s (?)",
+            "image": "TODO",
+            "description": "Telemetry carrier.",
             "data": []
         }
     ]
@@ -1761,8 +1963,8 @@
             "name": "Dump",
             "status": "u",
             "frequency": "2211 MHz",
-            "polarization": "???",
-            "symbolrate": "???",
+            "polarization": "RHCP",
+            "symbolrate": "1.5 Msym/s",
             "image": "TODO",
             "description": "Dumps to Svalbard",
             "data": []
@@ -1781,8 +1983,8 @@
             "name": "Dump",
             "status": "u",
             "frequency": "2211 MHz",
-            "polarization": "???",
-            "symbolrate": "???",
+            "polarization": "RHCP",
+            "symbolrate": "1.5 Msym/s",
             "image": "TODO",
             "description": "Dumps to Svalbard. Possibly inactive",
             "data": []
@@ -1823,7 +2025,7 @@
             "frequency": "2256.22 MHz",
             "polarization": "RHCP",
             "symbolrate": "262 ksym/s",
-            "image": "TODO",
+            "image": "Hinode-S-dump.jpg",
             "description": "TODO",
             "data": []
         },
@@ -1831,7 +2033,7 @@
             "name": "Telemetry",
             "status": "a",
             "frequency": "2256.22 MHz",
-            "polarization": "rhcp",
+            "polarization": "RHCP",
             "symbolrate": "65.6 ksym/s",
             "image": "TODO",
             "description": "Active whenever the satellite isn't dumping data",
@@ -1841,9 +2043,9 @@
             "name": "X-band dumps",
             "status": "i",
             "frequency": "8460.81 MHz",
-            "polarization": "???",
-            "symbolrate": "???",
-            "image": "TODO",
+            "polarization": "-",
+            "symbolrate": "-",
+            "image": "-",
             "description": "Transmitter failed",
             "data": []
         }
@@ -1881,7 +2083,7 @@
             "name": "S-band dump",
             "status": "u",
             "frequency": "2220.8 MHz",
-            "polarization": "???",
+            "polarization": "RHCP",
             "symbolrate": "512 ksym/s",
             "image": "TODO",
             "description": "TODO",
@@ -1891,7 +2093,7 @@
             "name": "X-band dump",
             "status": "u",
             "frequency": "8483 MHz",
-            "polarization": "???",
+            "polarization": "RHCP",
             "symbolrate": "7.5 Msym/s",
             "image": "TODO",
             "description": "TODO",
@@ -1931,7 +2133,7 @@
             "name": "X-band data",
             "status": "a",
             "frequency": "8200.5 MHz",
-            "polarization": "RHCP",
+            "polarization": "LHCP",
             "symbolrate": "220.4 Msym/s",
             "image": "TODO",
             "description": "Direct broadcast when in range of ground stations (no specific list is available, but most of the world is covered). Disabled over the sea.",
@@ -1941,7 +2143,7 @@
             "name": "S-band dump",
             "status": "a",
             "frequency": "2282.3 MHz",
-            "polarization": "???",
+            "polarization": "LHCP",
             "symbolrate": "1.067 Msym/s",
             "image": "TODO",
             "description": "Dumps to Kiruna and Svalbard",
@@ -1961,7 +2163,7 @@
             "name": "X-band data",
             "status": "a",
             "frequency": "8200.5 MHz",
-            "polarization": "RHCP",
+            "polarization": "LHCP",
             "symbolrate": "220.4 Msym/s",
             "image": "TODO",
             "description": "Direct broadcast when in range of ground stations (no specific list is available, but most of the world is covered). Disabled over the sea.",
@@ -1971,7 +2173,7 @@
             "name": "S-band dump",
             "status": "a",
             "frequency": "2282.3 MHz",
-            "polarization": "???",
+            "polarization": "LHCP",
             "symbolrate": "1.067 Msym/s",
             "image": "TODO",
             "description": "Dumps to Kiruna and Svalbard",
@@ -1991,7 +2193,7 @@
             "name": "Dumps",
             "status": "a",
             "frequency": "2214 MHz",
-            "polarization": "???",
+            "polarization": "RHCP",
             "symbolrate": "1.562 MHz",
             "image": "TODO",
             "description": "Dumps to Kiruna",
@@ -2040,7 +2242,7 @@
         {
             "name": "LRPT",
             "status": "d",
-            "frequency": "137.1/.9 MHz",
+            "frequency": "137.1/.9125 MHz",
             "polarization": "RHCP",
             "symbolrate": "72 ksym/s",
             "image": "",
@@ -2090,7 +2292,7 @@
         {
             "name": "LRPT",
             "status": "d",
-            "frequency": "137.1/.9 MHz",
+            "frequency": "137.1/.9125 MHz",
             "polarization": "RHCP",
             "symbolrate": "72 ksym/s",
             "image": "",
@@ -2173,7 +2375,7 @@
             "name": "IKFS dump",
             "status": "d",
             "frequency": "??? MHz",
-            "polarization": "???",
+            "polarization": "RHCP",
             "symbolrate": "15.36 Msym/s",
             "image": "",
             "description": "Dumps from the IKFS instrument, not received yet - unconfirmed. Non-beamed dumps to Khabrovsk. Narrow QPSK.",
@@ -2184,7 +2386,7 @@
             "status": "d",
             "frequency": "8128/8320 MHz",
             "polarization": "RHCP",
-            "symbolrate": "61.4 Msym/s",
+            "symbolrate": "61.44 Msym/s",
             "image": "",
             "description": "Direct broadcast from the KMSS instrument, active over Russia, Europe, possibly the Carribean and Brazil as well (unconfirmed). Wide BPSK.",
             "data": []
@@ -2194,7 +2396,7 @@
             "status": "d",
             "frequency": "8320 MHz",
             "polarization": "RHCP",
-            "symbolrate": "61.4 Msym/s",
+            "symbolrate": "61.44 Msym/s",
             "image": "",
             "description": "KMSS/MSU-MR/Severjanin-M + MeteoSAR instrument data, only KMSS supported as of right now. Non-beamed dumps to Moscow, Novosibirsk, Khabrovsk. Wide QPSK.",
             "data": []
@@ -2207,7 +2409,7 @@
     "agency": "Roscosmos",
     "start": "27-06-2023",
     "end": "",
-    "description": "VHF antenna didn't deploy properly due to extended storage. Wide X-band transmitter has failed. LRPT JPEG compressor has minor issues from time to time causing pixelated imagery, the satellite has a watchdog that restarts it after a few orbits.",
+    "description": "VHF antenna didn't deploy properly due to extended storage. Wide X-band transmitter isn't used. LRPT JPEG compressor has minor issues from time to time causing pixelated imagery, the satellite has a watchdog that restarts it after a few orbits.",
     "signals": [
         {
             "name": "LRPT",
@@ -2275,7 +2477,7 @@
             "name": "IKFS dump",
             "status": "u",
             "frequency": "??? MHz",
-            "polarization": "???",
+            "polarization": "RHCP",
             "symbolrate": "15.36 Msym/s",
             "image": "",
             "description": "Dumps from the IKFS instrument, not received yet - unconfirmed. Non-beamed dumps to Khabrovsk. Narrow QPSK.",
@@ -2286,8 +2488,8 @@
             "status": "i",
             "frequency": "8128/8320 MHz",
             "polarization": "RHCP",
-            "symbolrate": "61.4 Msym/s",
-            "image": "",
+            "symbolrate": "61.44 Msym/s",
+            "image": "TODO",
             "description": "Direct broadcast from the KMSS instrument, active over Russia, Europe, possibly the Carribean and Brazil as well (unconfirmed). Wide BPSK.",
             "data": []
         },
@@ -2296,8 +2498,8 @@
             "status": "i",
             "frequency": "8320 MHz",
             "polarization": "RHCP",
-            "symbolrate": "61.4 Msym/s",
-            "image": "",
+            "symbolrate": "61.44 Msym/s",
+            "image": "TODO",
             "description": "KMSS/MSU-MR/Severjanin-M + MeteoSAR instrument data, only KMSS supported as of right now. Non-beamed dumps to Moscow, Novosibirsk, Khabrovsk. Wide QPSK.",
             "data": []
         }
@@ -2377,7 +2579,7 @@
             "name": "IKFS dump",
             "status": "u",
             "frequency": "??? MHz",
-            "polarization": "???",
+            "polarization": "RHCP",
             "symbolrate": "15.36 Msym/s",
             "image": "",
             "description": "Dumps from the IKFS instrument, not received yet - unconfirmed. Non-beamed dumps to Khabrovsk. Narrow QPSK.",
@@ -2388,7 +2590,7 @@
             "status": "a",
             "frequency": "8128/8320 MHz",
             "polarization": "RHCP",
-            "symbolrate": "61.4 Msym/s",
+            "symbolrate": "61.44 Msym/s",
             "image": "",
             "description": "Direct broadcast from the KMSS instrument, active over Russia, Europe, possibly the Carribean and Brazil as well (unconfirmed). Wide BPSK.",
             "data": []
@@ -2398,7 +2600,7 @@
             "status": "a",
             "frequency": "8320 MHz",
             "polarization": "RHCP",
-            "symbolrate": "61.4 Msym/s",
+            "symbolrate": "61.44 Msym/s",
             "image": "",
             "description": "KMSS/MSU-MR/Severjanin-M + MeteoSAR instrument data, only KMSS supported as of right now. Non-beamed dumps to Moscow, Novosibirsk, Khabrovsk. Wide QPSK.",
             "data": []
@@ -2442,6 +2644,16 @@
             "image": "TODO",
             "description": "DCP data. Not supported due to lack of documentation.",
             "data": []
+        },
+        {
+            "name": "Telemetry",
+            "status": "a",
+            "frequency": "2247.5 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "-",
+            "image": "TODO",
+            "description": "Telemetry.",
+            "data": []
         }
     ]
 },
@@ -2481,6 +2693,16 @@
             "symbolrate": "???",
             "image": "TODO",
             "description": "DCP data. Not supported due to lack of documentation.",
+            "data": []
+        },
+        {
+            "name": "Telemetry",
+            "status": "a",
+            "frequency": "2248.5 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "-",
+            "image": "TODO",
+            "description": "Telemetry.",
             "data": []
         }
     ]
@@ -2522,6 +2744,16 @@
             "image": "TODO",
             "description": "DCP data. Not supported due to lack of documentation.",
             "data": []
+        },
+        {
+            "name": "Telemetry",
+            "status": "a",
+            "frequency": "2245.5 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "-",
+            "image": "TODO",
+            "description": "Telemetry.",
+            "data": []
         }
     ]
 },
@@ -2540,7 +2772,7 @@
             "polarization": "RHCP",
             "symbolrate": "N/A",
             "image": "/POES-APT.jpg",
-            "description": "2x 4 km/px images, during day 1x IR + 1x VIS and 2x IR during night.",
+            "description": "2x 4 km/px images, during day 1x IR + 1x VIS and 2x IR during night. FFT pic is from NOAA 19",
             "data": [
                 {
                     "name": "HVC",
@@ -2553,6 +2785,16 @@
                     "preview": ""
                 }
             ]
+        },
+        {
+            "name": "DSB",
+            "status": "i",
+            "frequency": "137.35 MHz",
+            "polarization": "Linear",
+            "symbolrate": "8320 sym/s",
+            "image": "POES-DSB.jpg",
+            "description": "SEM, HIRS, Telemetry data.",
+            "data": []
         },
         {
             "name": "HRPT",
@@ -2597,7 +2839,7 @@
             "polarization": "RHCP",
             "symbolrate": "N/A",
             "image": "/POES-APT.jpg",
-            "description": "2x 4 km/px images, 1x IR + 1x VIS. Normally should be 2x IR during night, but a configuration error made the satellite transmit a VIS channel instead.",
+            "description": "2x 4 km/px images, 1x IR + 1x VIS. Normally should be 2x IR during night, but a configuration error made the satellite transmit a VIS channel instead. FFT pic is from NOAA 19",
             "data": [
                 {
                     "name": "HVC",
@@ -2605,6 +2847,16 @@
                     "preview": ""
                 }
             ]
+        },
+        {
+            "name": "DSB",
+            "status": "i",
+            "frequency": "137.35 MHz",
+            "polarization": "Linear",
+            "symbolrate": "8320 sym/s",
+            "image": "POES-DSB.jpg",
+            "description": "SEM, HIRS, Telemetry data. FFT pic is from NOAA 15",
+            "data": []
         },
         {
             "name": "HRPT",
@@ -2648,7 +2900,7 @@
             "frequency": "137.1 MHz",
             "polarization": "RHCP",
             "symbolrate": "N/A",
-            "image": "/POES-APT.jpg",
+            "image": "POES-APT.jpg",
             "description": "2x 4 km/px images, 1x IR + 1x VIS during day, 2x IR during night.",
             "data": [
                 {
@@ -2657,6 +2909,16 @@
                     "preview": ""
                 }
             ]
+        },
+        {
+            "name": "DSB",
+            "status": "i",
+            "frequency": "137.77 MHz",
+            "polarization": "Linear",
+            "symbolrate": "8320 sym/s",
+            "image": "POES-DSB.jpg",
+            "description": "SEM, HIRS, Telemetry data. FFT pic is from NOAA 15",
+            "data": []
         },
         {
             "name": "HRPT",
@@ -2708,7 +2970,7 @@
             "name": "Ka-band dumps",
             "status": "a",
             "frequency": "26703.4 MHz",
-            "polarization": "???",
+            "polarization": "RHCP",
             "symbolrate": "???",
             "image": "TODO",
             "description": "TODO",
@@ -2748,7 +3010,7 @@
             "name": "Ka-band dumps",
             "status": "a",
             "frequency": "26703.4 MHz",
-            "polarization": "???",
+            "polarization": "RHCP",
             "symbolrate": "???",
             "image": "TODO",
             "description": "TODO",
@@ -2775,21 +3037,21 @@
     "description": "TODO",
     "signals": [
         {
-            "name": "S-band DB",
-            "status": "a",
-            "frequency": "2245 MHz",
-            "polarization": "???",
-            "symbolrate": "???",
+            "name": "Dumps",
+            "status": "i",
+            "frequency": "8212.5 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "22.226 MHz",
             "image": "TODO",
             "description": "TODO",
             "data": []
         },
         {
-            "name": "Dumps",
-            "status": "i",
-            "frequency": "8212.5 MHz",
-            "polarization": "???",
-            "symbolrate": "22.226 MHz",
+            "name": "Telemetry",
+            "status": "a",
+            "frequency": "2245 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "???",
             "image": "TODO",
             "description": "TODO",
             "data": []
@@ -2805,20 +3067,20 @@
     "description": "TODO",
     "signals": [
         {
-            "name": "X-band dumps",
+            "name": "Dumps",
             "status": "a",
             "frequency": "8275 MHz",
-            "polarization": "???",
+            "polarization": "RHCP",
             "symbolrate": "80 MSym/s",
             "image": "TODO",
             "description": "Dumps to Svalbard and unknown groundstation in India",
             "data": []
         },
         {
-            "name": "S-band dumps",
+            "name": "Telemetry",
             "status": "a",
             "frequency": "2250 MHz",
-            "polarization": "???",
+            "polarization": "RHCP",
             "symbolrate": "???",
             "image": "TODO",
             "description": "Dumps to Svalbard and unknown groundstation in India",
@@ -2848,7 +3110,7 @@
             "name": "X-band dump",
             "status": "u",
             "frequency": "8150 MHz",
-            "polarization": "???",
+            "polarization": "RHCP",
             "symbolrate": "???",
             "image": "TODO",
             "description": "Dumps to Spain",
@@ -2858,7 +3120,7 @@
             "name": "S-band dump",
             "status": "u",
             "frequency": "2285 MHz",
-            "polarization": "???",
+            "polarization": "RHCP",
             "symbolrate": "???\u0148",
             "image": "TODO",
             "description": "Dumps to Kiruna",
@@ -2876,22 +3138,22 @@
     "signals": [
         {
             "name": "VHF",
-            "status": "u",
+            "status": "a",
             "frequency": "137.78 MHz",
-            "polarization": "???",
+            "polarization": "RHCP",
             "symbolrate": "???",
             "image": "PRETTY_VHF.jpg",
             "description": "Signal is on the right hand side of the FFT image.",
             "data": []
         },
         {
-            "name": "S-band dumps",
+            "name": "S-band SSH",
             "status": "u",
             "frequency": "2244 MHz",
-            "polarization": "???",
+            "polarization": "RHCP",
             "symbolrate": "???",
             "image": "PRETTY_S-band.jpg",
-            "description": "Dumps to Graz [AT]",
+            "description": "Dumps to Graz [AT].",
             "data": []
         }
     ]
@@ -2908,8 +3170,8 @@
             "name": "X-band 1",
             "status": "a",
             "frequency": "8120 MHz",
-            "polarization": "???",
-            "symbolrate": "???",
+            "polarization": "RHCP",
+            "symbolrate": "77.5 Msym/s",
             "image": "TODO",
             "description": "Encrypted dumps to Matera",
             "data": []
@@ -2918,8 +3180,8 @@
             "name": "X-band 2",
             "status": "a",
             "frequency": "8320 MHz",
-            "polarization": "???",
-            "symbolrate": "???",
+            "polarization": "RHCP",
+            "symbolrate": "77.5 Msym/s",
             "image": "TODO",
             "description": "Encrypted dumps to Matera",
             "data": []
@@ -2928,7 +3190,7 @@
             "name": "S-band",
             "status": "a",
             "frequency": "2283.5 MHz",
-            "polarization": "???",
+            "polarization": "RHCP",
             "symbolrate": "???",
             "image": "TODO",
             "description": "Encrypted dumps to Matera",
@@ -2986,7 +3248,7 @@
     "signals": [
         {
             "name": "X-band dumps",
-            "status": "a",
+            "status": "u",
             "frequency": "8090 MHz",
             "polarization": "RHCP",
             "symbolrate": "35 msym/s",
@@ -3018,7 +3280,7 @@
             "name": "X-band dumps",
             "status": "a",
             "frequency": "8175.5 MHz",
-            "polarization": "???",
+            "polarization": "RHCP",
             "symbolrate": "50 Msym/s",
             "image": "TODO",
             "description": "TODO",
@@ -3028,7 +3290,7 @@
             "name": "S-band dumps",
             "status": "a",
             "frequency": "2221 Mhz",
-            "polarization": "???",
+            "polarization": "RHCP",
             "symbolrate": "2 Msym/s",
             "image": "TODO",
             "description": "TODO",
@@ -3046,7 +3308,7 @@
     "signals": [
         {
             "name": "X-band",
-            "status": "u",
+            "status": "a",
             "frequency": "8180 MHz",
             "polarization": "???",
             "symbolrate": "???",
@@ -3056,12 +3318,12 @@
         },
         {
             "name": "S-band dumps",
-            "status": "u",
+            "status": "a",
             "frequency": "2247.3 MHz",
             "polarization": "???",
-            "symbolrate": "???",
+            "symbolrate": "590 ksym/s",
             "image": "TODO",
-            "description": "TODO",
+            "description": "Dumps to Svalbard",
             "data": []
         }
     ]
@@ -3069,7 +3331,7 @@
 {
     "name": "SMOS",
     "norad": "36036",
-    "agency": "esa",
+    "agency": "ESA",
     "start": "02-11-2009",
     "end": "",
     "description": "TODO",
@@ -3078,19 +3340,19 @@
             "name": "X-band",
             "status": "u",
             "frequency": "8150 MHz",
-            "polarization": "???",
-            "symbolrate": "???",
+            "polarization": "LHCP",
+            "symbolrate": "9 Msym/s",
             "image": "TODO",
-            "description": "TODO",
+            "description": "Transmits microwave sounder imagery",
             "data": []
         },
         {
             "name": "S-band",
             "status": "u",
             "frequency": "??? MHz",
-            "polarization": "???",
-            "symbolrate": "???",
-            "image": "todo",
+            "polarization": "RHCP",
+            "symbolrate": "838878 ksym/s",
+            "image": "TODO",
             "description": "TODO",
             "data": []
         }
@@ -3138,10 +3400,10 @@
             "name": "X-band dumps",
             "status": "a",
             "frequency": "8212.5 MHz",
-            "polarization": "???",
+            "polarization": "RHCP",
             "symbolrate": "16 Msym/s",
             "image": "TODO",
-            "description": "TODO",
+            "description": "Dumps to Kiruna",
             "data": []
         },
         {
@@ -3151,7 +3413,7 @@
             "polarization": "???",
             "symbolrate": "???",
             "image": "TODO",
-            "description": "TODO",
+            "description": "Dumps to Kiruna",
             "data": []
         },
         {
@@ -3198,7 +3460,7 @@
             "name": "Dumps",
             "status": "a",
             "frequency": "8090 MHz",
-            "polarization": "???",
+            "polarization": "RHCP",
             "symbolrate": "75 Msym/s",
             "image": "TODO",
             "description": "TODO",
@@ -3208,7 +3470,7 @@
             "name": "Telemetry",
             "status": "a",
             "frequency": "2256.75 Mhz",
-            "polarization": "???",
+            "polarization": "RHCP",
             "symbolrate": "500 ksym/s",
             "image": "TODO",
             "description": "TODO",
@@ -3228,7 +3490,7 @@
             "name": "Low rate",
             "status": "a",
             "frequency": "8443.52 MHz",
-            "polarization": "???",
+            "polarization": "RHCP",
             "symbolrate": "3800 sym/s",
             "image": "Stereo-LR.jpg",
             "description": "TODO",
@@ -3238,7 +3500,7 @@
             "name": "High rate",
             "status": "a",
             "frequency": "8443.52 MHz",
-            "polarization": "???",
+            "polarization": "RHCP",
             "symbolrate": "1.44 Msym/s",
             "image": "TODO",
             "description": "TODO",
@@ -3258,7 +3520,7 @@
             "name": "Low rate",
             "status": "i",
             "frequency": "8443.52 MHz",
-            "polarization": "???",
+            "polarization": "RHCP",
             "symbolrate": "3800 sym/s",
             "image": "Stereo-LR.jpg",
             "description": "TODO",
@@ -3268,7 +3530,7 @@
             "name": "High rate",
             "status": "i",
             "frequency": "8443.52 MHz",
-            "polarization": "???",
+            "polarization": "RHCP",
             "symbolrate": "1.44 Msym/s",
             "image": "TODO",
             "description": "TODO",
@@ -3298,20 +3560,10 @@
             "name": "Dumps",
             "status": "a",
             "frequency": "8212.5 MHz",
-            "polarization": "???",
+            "polarization": "RHCP",
             "symbolrate": "???",
             "image": "TODO",
             "description": "TODO, dumps to Svalbard",
-            "data": []
-        },
-        {
-            "name": "TDRS dumps",
-            "status": "a",
-            "frequency": "26703.4 MHz",
-            "polarization": "???",
-            "symbolrate": "???",
-            "image": "TODO",
-            "description": "TODO",
             "data": []
         },
         {
@@ -3398,8 +3650,8 @@
             "name": "X-band dumps",
             "status": "a",
             "frequency": "8392.5 MHz",
-            "polarization": "???",
-            "symbolrate": "???",
+            "polarization": "RHCP",
+            "symbolrate": "12.3 Msym/s",
             "image": "TODO",
             "description": "Dumps to Berlin and Svalbard",
             "data": []
@@ -3408,17 +3660,17 @@
             "name": "S-band 1",
             "status": "a",
             "frequency": "2263 MHz",
-            "polarization": "???",
+            "polarization": "RHCP",
             "symbolrate": "???",
             "image": "TODO",
             "description": "Dumps to Berlin",
             "data": []
         },
         {
-            "name": "S-band 1",
+            "name": "S-band 2",
             "status": "a",
             "frequency": "2263 MHz",
-            "polarization": "???",
+            "polarization": "RHCP",
             "symbolrate": "???",
             "image": "TODO",
             "description": "Dumps to Berlin",
@@ -3438,71 +3690,101 @@
             "name": "Ka-band TDRS dumps",
             "status": "a",
             "frequency": "~15000 Mhz",
-            "polarization": "???",
+            "polarization": "RHCP",
             "symbolrate": "???",
             "image": "TODO",
             "description": "Tightly beamed",
             "data": []
         },
         {
-            "name": "X-band TDRS dumps",
-            "status": "a",
-            "frequency": "8212.5 MHz",
-            "polarization": "???",
-            "symbolrate": "???",
-            "image": "TODO",
-            "description": "Dumps to TDRS groundstations",
-            "data": []
-        },
-        {
-            "name": "X-band DB",
+            "name": "X-band",
             "status": "d",
             "frequency": "8212.5 MHz",
-            "polarization": "???",
-            "symbolrate": "13.125 Msym/s",
+            "polarization": "RHCP",
+            "symbolrate": "13.125 (*2) Msym/s",
             "image": "TODO",
-            "description": "DB disaled after power supply issues",
+            "description": "X-band disabled due to power issues, QPSK subconstellation contained other instrument data at 26,25 Msym/s",
             "data": []
         },
         {
             "name": "Telemetry",
             "status": "a",
             "frequency": "2287.5 MHz",
-            "polarization": "???",
+            "polarization": "RHCP",
             "symbolrate": "???",
             "image": "TODO",
-            "description": "TODO",
+            "description": "Primarily to TDRS",
             "data": []
         }
     ]
 },
 {
-    "name": "WSF-M",
-    "norad": "59481",
-    "agency": "USSF",
-    "start": "11-04-2024",
+    "name": "Yunhai 1-01",
+    "norad": "41857",
+    "agency": "NSMC",
+    "start": "11-11-2016",
     "end": "",
-    "description": "TODO",
+    "description": "Encrypted military satellite",
     "signals": [
         {
-            "name": "DB",
+            "name": "L-band DB",
             "status": "a",
-            "frequency": "2252.5 MHz",
+            "frequency": "1704 MHz",
             "polarization": "RHCP",
-            "symbolrate": "400 kSym/s",
+            "symbolrate": "4 Msym/s",
             "image": "TODO",
-            "description": "Encrypted everywhere except the South pole, Arctic Ocean, and over mainland US.",
+            "description": "Encrypted, commonly spotted in L band as it is enabled globally",
             "data": []
         }
     ]
 },
 {
-    "name": "Yunhai 3",
-    "norad": "54235",
+    "name": "Yunhai 1-02",
+    "norad": "44547",
     "agency": "NSMC",
-    "start": "11-11-2022",
+    "start": "25-09-2019",
     "end": "",
-    "description": "TODO",
+    "description": "Encrypted military satellite",
+    "signals": [
+        {
+            "name": "L-band DB",
+            "status": "a",
+            "frequency": "1704 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "4 Msym/s",
+            "image": "TODO",
+            "description": "Encrypted, commonly spotted in L band as it is enabled globally",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Yunhai 1-03",
+    "norad": "53877",
+    "agency": "NSMC",
+    "start": "21-09-2022",
+    "end": "",
+    "description": "Encrypted military satellite",
+    "signals": [
+        {
+            "name": "L-band DB",
+            "status": "a",
+            "frequency": "1704 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "4 Msym/s",
+            "image": "TODO",
+            "description": "Encrypted, commonly spotted in L band as it is enabled globally",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Yunhai 1-04",
+    "norad": "58073",
+    "agency": "NSMC",
+    "start": "15-10-2023",
+    "end": "",
+    "description": "Encrypted military satellite",
     "signals": [
         {
             "name": "L-band DB",
