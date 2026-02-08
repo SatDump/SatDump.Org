@@ -50,6 +50,26 @@
     ]
 },
 {
+    "name": "Arctic Weather Satellite",
+    "norad": "60543",
+    "agency": "esa",
+    "start": "16-08-2024",
+    "end": "",
+    "description": "Microwave imaging satellite acting as a prototype of the EPS-STERNA constellation.",
+    "signals": [
+        {
+            "name": "db + dump",
+            "status": "a",
+            "frequency": "1707 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "1.785 Msym/s",
+            "image": "TODO",
+            "description": "Global unencrypted DB, dumps to Redu/Kiruna/Svalbard. Contains the MWR instrument (microwave imager). Dumps contain full orbit data. Signal usually suffers from significant fading when facing away from you at lower elevations.",
+            "data": []
+        }
+    ]
+},
+{
     "name": "Arktika-M N\u00b01",
     "norad": "47719",
     "agency": "Roscosmos",
@@ -63,8 +83,8 @@
             "frequency": "7865 MHz",
             "polarization": "RHCP",
             "symbolrate": "30.72 Msym/s",
-            "image": "TODO",
-            "description": "Full resolution MSU-GS imagery. Transmitted near apogee.",
+            "image": "Arktika-RDAS.jpg",
+            "description": "Full resolution MSU-GS imagery. New image every 15 minutes, very strong carrier when idle. Transmitted near apogee (circa above 36000 km).",
             "data": []
         },
         {
@@ -113,8 +133,8 @@
             "frequency": "7865 MHz",
             "polarization": "RHCP",
             "symbolrate": "30.72 Msym/s",
-            "image": "TODO",
-            "description": "Full resolution MSU-GS imagery. Transmitted near apogee.",
+            "image": "Arktika-RDAS.jpg",
+            "description": "Full resolution MSU-GS imagery. New image every 15 minutes, very strong carrier when idle. Transmitted near apogee (circa above 36000 km).",
             "data": []
         },
         {
@@ -675,8 +695,8 @@
             "frequency": "7500 MHz",
             "polarization": "LHCP",
             "symbolrate": "30.72 Msym/s",
-            "image": "",
-            "description": "Raw MSU-GS data downlink. New image every 30 minutes due to power supply issues. Beamed to Moscow.",
+            "image": "Elektro-RDAS.jpg",
+            "description": "Raw MSU-GS data downlink. New image every 30 minutes due to power supply issues, very strong carrier when idle. Beamed to Moscow.",
             "data": []
         },
         {
@@ -757,8 +777,8 @@
             "frequency": "7500 MHz",
             "polarization": "RHCP",
             "symbolrate": "30.72 Msym/s",
-            "image": "",
-            "description": "Raw MSU-GS data downlink. New image every 15 minutes. Beamed to Moscow.",
+            "image": "Elektro-RDAS.jpg",
+            "description": "Raw MSU-GS data downlink. New image every 15 minutes, very strong carrier when idle. Beamed to Moscow.",
             "data": []
         },
         {
@@ -839,8 +859,8 @@
             "frequency": "7500 MHz",
             "polarization": "LHCP",
             "symbolrate": "30.72 Msym/s",
-            "image": "",
-            "description": "Raw MSU-GS data downlink. New image every 15 minutes. Beamed to Vladivostok.",
+            "image": "Elektro-RDAS.jpg",
+            "description": "Raw MSU-GS data downlink. New image every 15 minutes, very strong carrier when idle. Beamed to Vladivostok.",
             "data": []
         },
         {
@@ -1189,7 +1209,7 @@
             "frequency": "7860 MHz",
             "polarization": "RHCP",
             "symbolrate": "38.4 Msym/s",
-            "image": "TODO",
+            "image": "Fengyun-3E_AHRPT.jpg",
             "description": "Full resolution DB from all instruments",
             "data": []
         },
@@ -1267,7 +1287,7 @@
             "name": "AHRPT",
             "status": "a",
             "frequency": "7790 MHz",
-            "polarization": "RHCP",
+            "polarization": "Fengyun-3G_AHRPT.jpg",
             "symbolrate": "6 Msym/s",
             "image": "TODO",
             "description": "Full resolution DB from all instruments. Quite strong due to low symbol rate and low orbital height.",
@@ -2205,7 +2225,7 @@
             "frequency": "7800 Mhz",
             "polarization": "RHCP",
             "symbolrate": "35 Msym/s",
-            "image": "TODO",
+            "image": "Metop-X-dump.jpg",
             "description": "In essence just faster AHRPT, transmits full-orbit imagery from all instruments. Non-beamed dumps to Svalbard.",
             "data": []
         },
@@ -2225,7 +2245,7 @@
             "frequency": "137.1/.9125 MHz",
             "polarization": "RHCP",
             "symbolrate": "72 ksym/s",
-            "image": "TODO",
+            "image": "",
             "description": "Inactive due to interference with HIRS. Even though the HIRS instrument has failed, the broadcast remains off.",
             "data": []
         }
@@ -2255,7 +2275,7 @@
             "frequency": "7800 Mhz",
             "polarization": "RHCP",
             "symbolrate": "35 Msym/s",
-            "image": "TODO",
+            "image": "Metop-X-dump.jpg",
             "description": "In essence just faster AHRPT, transmits full-orbit imagery from all instruments. Non-beamed dumps to Svalbard.",
             "data": []
         },
@@ -2275,7 +2295,7 @@
             "frequency": "137.1/.9125 MHz",
             "polarization": "RHCP",
             "symbolrate": "72 ksym/s",
-            "image": "TODO",
+            "image": "",
             "description": "Inactive due to interference with HIRS. Even though the HIRS instrument has failed, the broadcast remains off.",
             "data": []
         }
@@ -3032,7 +3052,7 @@
             "frequency": "7812 MHz",
             "polarization": "RHCP",
             "symbolrate": "15 Msym/s",
-            "image": "TODO",
+            "image": "JPSS-2_HRD.jpg",
             "description": "Full resolution DB from all instruments. Has a weaker null than JPSS-1, improved FEC helps mitigate it further.",
             "data": []
         },
@@ -3582,8 +3602,8 @@
             "frequency": "7812 MHz",
             "polarization": "RHCP",
             "symbolrate": "15 Msym/s",
-            "image": "TODO",
-            "description": "Full resolution DB from all instruments. Has a strong null at certain elevations when the satellite is West from your receiving position.",
+            "image": "NPP-HRD.jpg",
+            "description": "Full resolution DB from all instruments. Has a strong null at certain elevations when the satellite is West from your receiving position. Spike on the left is not a part of the signal.",
             "data": []
         },
         {
