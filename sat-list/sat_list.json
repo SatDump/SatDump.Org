@@ -1261,7 +1261,7 @@
     "agency": "NSMC",
     "start": "16-04-2023",
     "end": "",
-    "description": "TODO",
+    "description": "Satellite often has to reboost due to its low altitude, when this happens the broadcasts are disabled.",
     "signals": [
         {
             "name": "AHRPT",
@@ -2277,6 +2277,56 @@
             "symbolrate": "72 ksym/s",
             "image": "TODO",
             "description": "Inactive due to interference with HIRS. Even though the HIRS instrument has failed, the broadcast remains off.",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "MetOp-SG A1",
+    "norad": "65159",
+    "agency": "ESA",
+    "start": "13-08-2025",
+    "end": "",
+    "description": "TODO",
+    "signals": [
+        {
+            "name": "DDB",
+            "status": "a",
+            "frequency": "7825 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "93.3 Msps",
+            "image": "TODO",
+            "description": "TODO",
+            "data": []
+        },
+        {
+            "name": "Ka-band 1",
+            "status": "a",
+            "frequency": "26295 MHz",
+            "polarization": "TODO",
+            "symbolrate": "TODO",
+            "image": "TODO",
+            "description": "TODO: Verify",
+            "data": []
+        },
+        {
+            "name": "Ka-band 2",
+            "status": "a",
+            "frequency": "26700 MHz",
+            "polarization": "TODO",
+            "symbolrate": "TODO",
+            "image": "TODO",
+            "description": "TODO: Verify",
+            "data": []
+        },
+        {
+            "name": "Telemetry",
+            "status": "a",
+            "frequency": "2231.6 MHz",
+            "polarization": "TODO",
+            "symbolrate": "TODO",
+            "image": "TODO",
+            "description": "TODO",
             "data": []
         }
     ]
@@ -3382,7 +3432,7 @@
             "frequency": "8212.5 MHz",
             "polarization": "RHCP",
             "symbolrate": "16 Msym/s",
-            "image": "TODO",
+            "image": "Saral.jpg",
             "description": "Dumps to Kiruna",
             "data": []
         },
