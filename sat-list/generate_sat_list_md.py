@@ -20,10 +20,13 @@ th,td {
 """
 )
 
-OUTPUT_FILE.write(
-    """This site contains all satellites currently decodable by SatDump, including descriptions of each of their downlinks. 
+# Credits are separated so this file can be unchanged for the most part
+credits = open("credits.txt", "r").read()
 
-Credits for sample data/FFT images: Meti, Lego11, Aang23, Seler1500, R1chae, plugger_lockett, Henerius OH8CYV, Digitelektro
+OUTPUT_FILE.write(
+    f"""This site contains all satellites currently decodable by SatDump, including descriptions of each of their downlinks. 
+
+Credits for sample data/FFT images: {credits}
 
 Every signal will have a colored marker next to the name depicting its last known status:
 - 🟢 Active
