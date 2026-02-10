@@ -3,6 +3,7 @@ This directory contains everything related to the management of the public-facin
 - `sat_list.json` This file contains the actual satellite information.
 - `sat_classes.py` This contains the classes used to store & read the satellites.
 - `generate_sat_list_md.py` This generated the actual public facing markdown file, is ran using the `gen_script.sh` script at the root level of this repo.
+- `credits.txt` - This is where credits for sample data and FFT images are stored. It is done to allow generate_sat_list.py to be static for the most part.
 
 For internal management:
 - `colors.py` This provides simple color functions for nicer printing for the other modules.
