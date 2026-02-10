@@ -2868,7 +2868,7 @@
             "frequency": "2247.5 MHz",
             "polarization": "RHCP",
             "symbolrate": "2.6616 Msym/s",
-            "image": "https://blog.cpt-dingus.cc/assets/images/Radio/GOES-GVAR.jpg",
+            "image": "POES-GAC.jpg",
             "description": "Full orbit dumps of all instruments, AVHRR only at 4 km/px. Dumped to Svalbard on every pass",
             "data": []
         }
@@ -2930,7 +2930,7 @@
             "frequency": "2247.5 MHz",
             "polarization": "RHCP",
             "symbolrate": "2.6616 Msym/s",
-            "image": "https://blog.cpt-dingus.cc/assets/images/Radio/GOES-GVAR.jpg",
+            "image": "POES-GAC.jpg",
             "description": "Full orbit dumps of all instruments, AVHRR only at 4 km/px. Dumped to Svalbard on every pass",
             "data": []
         }
@@ -2992,7 +2992,7 @@
             "frequency": "2247.5 MHz",
             "polarization": "RHCP",
             "symbolrate": "2.6616 Msym/s",
-            "image": "https://blog.cpt-dingus.cc/assets/images/Radio/GOES-GVAR.jpg",
+            "image": "POES-GAC.jpg",
             "description": "Full orbit dumps of all instruments, AVHRR only at 4 km/px. Dumped to Svalbard on every pass",
             "data": []
         }
