@@ -3693,12 +3693,12 @@
     "norad": "48900",
     "agency": "TU Berlin",
     "start": "30-06-2021",
-    "end": "",
-    "description": "TODO",
+    "end": "16-12-2025",
+    "description": "Tubin was a satellite known for its capability to track objects on the ground while orbitting, reentered in December 2025.",
     "signals": [
         {
             "name": "X-band dumps",
-            "status": "a",
+            "status": "i",
             "frequency": "8392.5 MHz",
             "polarization": "RHCP",
             "symbolrate": "12.3 Msym/s",
@@ -3708,7 +3708,7 @@
         },
         {
             "name": "S-band 1",
-            "status": "a",
+            "status": "i",
             "frequency": "2263 MHz",
             "polarization": "RHCP",
             "symbolrate": "???",
@@ -3718,7 +3718,7 @@
         },
         {
             "name": "S-band 2",
-            "status": "a",
+            "status": "i",
             "frequency": "2263 MHz",
             "polarization": "RHCP",
             "symbolrate": "???",
