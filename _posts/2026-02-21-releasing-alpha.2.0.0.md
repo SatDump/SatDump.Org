@@ -25,28 +25,39 @@ TODO
 
 As with many previous SatDump releases, this one also brings many more satellites to the portfolio!
 
-### Kanopus-Vulkan (Kanopus-V-2, -3, -4, -5 and Kanopus-V-IK)
+### Kanopus-Vulkan (Канопус-Вулкан) (Kanopus-V-2, -3, -4, -5 and Kanopus-V-IK)
 
-Kanopus-Vulkan satellites are dedicated to high-resolution remote sensing. They form a constellation composed of six 500km orbit satellites, of which five of those are operational, including the lone Kanopus-V-IK (where the *IK* stands for *Infra-Krasnyy*, infrared) and all are now supported by SatDump thanks to a months-long process of reverse engineering by Aang (with a bit of help by Andrew and lego11).
+Kanopus-Vulkan satellites are dedicated to high-resolution remote sensing. They form a constellation composed of six 500km orbit satellites, of which five of those are operational, including the lone Kanopus-V-IK (where the *IK* stands for *Инфра-Краснии*, infrared) and all are now supported by SatDump thanks to a months-long process of reverse engineering by Aang (with a bit of help by Andrew and lego11).
 
 These satellites currently provide the best imagery (in terms of resolution) available for general reception by amateurs, at 2.5 meters per pixel with the PSS instrument providing panchromatic (black and white) imagery; there is also support for MSS (a four-channel multispectral radiometer) that can output true-color imagery at 12 meters per pixel.
 
 All of the Kanopus-V satellites do both dumps from memory (generally over Moscow, Khabrovsk or Irkutsk, similar to Meteor-M) as well as direct broadcast over most of Eastern and Central Europe (possibly elsewhere too, such as Antarctica). As with most other Russian satellites, the Kanopus series transmits on the X band at 61.44 Msym/s QPSK, on either 8128 or 8320 MHz.
 
+![Kanopus-V PSS](/assets/release_200alpha/pss.png)
+*Kanopus-V PSS*
+
 ### Metop-SG
 
 Europe's latest weather satellite, Metop-SG-A1 has also been added to SatDump for reception. The METimage, 3MI, MWS and Sentinel 5 instruments are supported. 3MI and Sentinel 5's support is very experimental for the moment, while METimage and MWS output fully compatible products with new enhancements added by lego11 (although they are not calibrated yet). 
 
-The imagery obtained from 3MI is quite interesting as shown by this clip created by Nate:
+The imagery obtained from 3MI is quite interesting as shown by this clip created by Nate @saito720 using data from Drew @plugger_lockett:
+
+![Metop-SG 3MI](/assets/release_200alpha/metop-sg_3mi.webp)
 
 Unfortunately, the large bandwidth of the signal means that receptions with the BladeRF are not really possible at an acceptable quality level, if at all.
 An SDR with a wider bandwidth capability, such as the RFNM or Spectran, is required for good results.
+
+![Metop-SG METimage](/assets/release_200alpha/metimage.jpeg)
+*Metop-SG-A1 METimage by @UngerKonrad*
 
 ### FengYun-3H
 
 While surely less impressive than Kanopus or 3MI imagery, the latest addition to the Chinese weather satellite constellation has also earned its spot in the list of supported satellites in SatDump. The satellite itself is almost identical to FengYun-3F and will eventually replace FengYun-3D in the early afternoon orbit.
 
-### SeaWiFS
+![FengYun-3H MERSI-3](/assets/release_200alpha/202512081211_OBJECT_A_TRUE_COLOR2.jpg)
+*FengYun-3H MERSI-III by lego11*
+
+### SeaWiFS (OrbView-2 SeaStar)
 
 This satellite is unfortunately no longer active, however over its lifespan it collected a large quantity of true color imagery that is widely used in the scientific community, for example to track algae bloom events and land use changes over historical periods.
 
@@ -58,6 +69,9 @@ Thanks to excellent work and dedication by Meti, SatDump now fully supports load
 ### FengYun-2 calibration
 
 Thanks to Meti's good work and some suggestions by lego11, FengYun-2 satellites are now totally calibrated! This, together with the earlier corrector patches also by Meti that make it possible to decode acceptable images at low SNR, greatly improves the usefulness and potential of the S-VISSR broadcast from this satellite series.
+
+![FengYun-2H S-VISSR](/assets/release_200alpha/fy2h.png)
+*FengYun-2H S-VISSR calibrated imagery (Cloud Top IR) from @Meti's automated station «Vadim»*
 
 ### RDAS improvements
 
@@ -96,6 +110,9 @@ New file types and data types were added to the First Party Support in SatDump, 
 ### New BitView
 
 A new and improved BitView (binary file analysis tool) was added in SatDump by Aang. In addition to most of the features found in software such as Hobbits, SatDump's BitView is optimized for use with satellites and includes tools such as a deframer, dediff and deinterleaver, CCSDS VCID splitter and more. Despite this, lego11 has successfully managed to reverse engineer the proprietary file format for *a train simulator* with it, of all things!
+
+![bitview](/assets/release_200alpha/bitview.png)
+*The BitView's VCID splitter feature operating on FengYun-3D*
 
 ### RTL-SDR PLL locking fix
 
