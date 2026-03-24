@@ -21,7 +21,7 @@ th,td {
 )
 
 # Credits are separated so this file can be unchanged for the most part
-credits = open("credits.txt", "r").read()
+credits = open("../sat-list/credits.txt", "r").read()
 
 OUTPUT_FILE.write(
     f"""This site contains all satellites currently decodable by SatDump, including descriptions of each of their downlinks. 
