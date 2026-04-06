@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "First 2.0.0 Alpha Releases"
-date:   2026-02-26 14:55:55 +0200
+date:   2026-06-26 14:55:55 +0200
 tags:   release
 authors: [Aang23, lego11]
 ---
