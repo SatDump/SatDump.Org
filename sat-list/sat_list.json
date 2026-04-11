@@ -414,7 +414,7 @@
             "polarization": "RHCP",
             "symbolrate": "1.024 MSym/s",
             "image": "DMSP-RTD.jpg",
-            "description": "Encrypted everywhere except the South pole, Arctic Ocean, and over mainland US. Contains two OLS channels as well as the SSMIS sounder. Pictured is the signal switching from an encrypted transmission to the unencrypted one.",
+            "description": "Encrypted everywhere except the South pole, Arctic Ocean, and over mainland US. Contains two OLS channels as well as the SSMIS sounder. Pictured is the signal switching from the encrypted transmission to the unencrypted one.",
             "data": []
         }
     ]
@@ -434,7 +434,7 @@
             "polarization": "RHCP",
             "symbolrate": "1.024 MSym/s",
             "image": "DMSP-RTD.jpg",
-            "description": "Encrypted everywhere except the South pole, Arctic Ocean, and over mainland US. Contains two OLS channels as well as the SSMIS sounder. Pictured is the signal switching from an encrypted transmission to the unencrypted one.",
+            "description": "Encrypted everywhere except the South pole, Arctic Ocean, and over mainland US. Contains two OLS channels as well as the SSMIS sounder. Pictured is the signal switching from the encrypted transmission to the unencrypted one.",
             "data": []
         }
     ]
