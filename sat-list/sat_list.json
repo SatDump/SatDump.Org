@@ -1780,7 +1780,7 @@
         {
             "name": "GRB",
             "status": "d",
-            "frequency": "1681.6 MHz",
+            "frequency": "1686.6 MHz",
             "polarization": "RHCP+LHCP",
             "symbolrate": "8.67 Msym/s",
             "image": "GOES-R-GRB.jpg",
@@ -1866,7 +1866,7 @@
         {
             "name": "GRB",
             "status": "d",
-            "frequency": "1681.6 MHz",
+            "frequency": "1686.6 MHz",
             "polarization": "RHCP+LHCP",
             "symbolrate": "8.67 Msym/s",
             "image": "GOES-R-GRB.jpg",
@@ -1952,7 +1952,7 @@
         {
             "name": "GRB",
             "status": "a",
-            "frequency": "1681.6 MHz",
+            "frequency": "1686.6 MHz",
             "polarization": "RHCP+LHCP",
             "symbolrate": "8.67 Msym/s",
             "image": "GOES-R-GRB.jpg",
@@ -2038,7 +2038,7 @@
         {
             "name": "GRB",
             "status": "a",
-            "frequency": "1681.6 MHz",
+            "frequency": "1686.6 MHz",
             "polarization": "RHCP+LHCP",
             "symbolrate": "8.67 Msym/s",
             "image": "GOES-R-GRB.jpg",
