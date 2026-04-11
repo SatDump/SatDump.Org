@@ -726,7 +726,7 @@
             "polarization": "RHCP",
             "symbolrate": "294 ksym/s",
             "image": "Elektro-LRIT.jpg",
-            "description": "Disabled because of L5 commissining.",
+            "description": "Disabled because of L5 commissioning.",
             "data": [
                 {
                     "name": "Natural color",
@@ -742,7 +742,7 @@
             "polarization": "RHCP",
             "symbolrate": "1.15 Msym/s",
             "image": "Elektro-HRIT.jpg",
-            "description": "Contains telemetry and SEM data. Data decoding currently unsupported due to lack of documentation.",
+            "description": "Disabled because of L5 commissioning.",
             "data": [
                 {
                     "name": "Natural Color",
@@ -758,7 +758,7 @@
             "polarization": "RHCP",
             "symbolrate": "5 ksym/s",
             "image": "Elektro-GGAK.jpg",
-            "description": "Disabled because of L5 commissining.",
+            "description": "Contains telemetry and SEM data. Data decoding currently unsupported due to lack of documentation. Disabled because of L5 commissioning.",
             "data": []
         },
         {
@@ -768,7 +768,7 @@
             "polarization": "RHCP",
             "symbolrate": "???",
             "image": "Elektro-DCP.jpg",
-            "description": "Disabled because of L5 commissining.",
+            "description": "Disabled because of L5 commissioning.",
             "data": []
         },
         {
