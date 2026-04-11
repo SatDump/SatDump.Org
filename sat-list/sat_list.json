@@ -3598,7 +3598,7 @@
             "frequency": "8212.5 MHz",
             "polarization": "RHCP",
             "symbolrate": "16 Msym/s",
-            "image": "Saral.jpg",
+            "image": "TODO",
             "description": "Dumps to Kiruna",
             "data": []
         },
@@ -3608,7 +3608,7 @@
             "frequency": "2245 MHz",
             "polarization": "???",
             "symbolrate": "???",
-            "image": "TODO",
+            "image": "Saral.jpg",
             "description": "Dumps to Kiruna",
             "data": []
         },
