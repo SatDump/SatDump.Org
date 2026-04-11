@@ -2178,7 +2178,7 @@
             "polarization": "RHCP",
             "symbolrate": "262 ksym/s",
             "image": "Hinode-S-dump.jpg",
-            "description": "Active whenever in range of [its groundstations](https://a-centauri.com/data/media/images/s-band-guide/hinode_gs.png), contains operational data. Multiple receptions might have to be chained together to receive a full dataset.",
+            "description": "Active whenever in range of <a href="https://a-centauri.com/data/media/images/s-band-guide/hinode_gs.png>its groundstations</a>, contains operational data. Multiple receptions might have to be chained together to receive a full dataset.",
             "data": []
         },
         {
@@ -2466,7 +2466,7 @@
             "status": "a",
             "frequency": "7825 MHz",
             "polarization": "RHCP",
-            "symbolrate": "93.3 Msps",
+            "symbolrate": "93.3 Msym/s",
             "image": "TODO",
             "description": "Direct broadcast from all instruments",
             "data": []
@@ -3026,7 +3026,7 @@
     "agency": "NOAA",
     "start": "20-05-2005",
     "end": "06-06-2025",
-    "description": "Second-to-last satellite of the POES constellation, reliably delivered data until June of 2025 where an S-band TPX issue occured, leading to the satellite's promptl decommissioning.",
+    "description": "Second-to-last satellite of the POES constellation, reliably delivered data until June of 2025 where an S-band TPX issue occured, leading to the satellite's prompt decommissioning.",
     "signals": [
         {
             "name": "APT",
@@ -3345,7 +3345,7 @@
         {
             "name": "S-band SSH",
             "status": "u",
-            "frequency": "2244 MHz",
+            "frequency": "2250 MHz",
             "polarization": "RHCP",
             "symbolrate": "???",
             "image": "PRETTY_S-band.jpg",
