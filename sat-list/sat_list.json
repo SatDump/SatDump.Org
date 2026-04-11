@@ -3680,7 +3680,7 @@
     "agency": "NASA",
     "start": "26-10-2006",
     "end": "",
-    "description": "Stereo-A (Ahead) is currently in a heliocentric orbit around the sun with its sister satellite, Stereo-B (Behind), performs imaging of the Corona as well as SEM monitoring. Launched with its sister satellite, Stereo-B (Behind) ",
+    "description": "Stereo-A (Ahead) is currently in a heliocentric orbit around the sun, performs imaging of the Corona as well as SEM monitoring. Launched with its sister satellite, Stereo-B (Behind).",
     "signals": [
         {
             "name": "Low rate",
@@ -3710,7 +3710,7 @@
     "agency": "NASA",
     "start": "26-10-2006",
     "end": "01-10-2014",
-    "description": "Stereo-B (Behind) is in a heliocentric orbit around the sun with its sister satellite, Stereo-A (Ahead). It was used for sun imaging and SEM. A planned test of the spacecraft's automation just before the satellite passed behind the sun failed on 01-10-2014, causing the satellite to spin too quickly for the reaction wheels to correct it, resulting in a loss of communication with the spacecraft. After 22 months, on 21-08-2016, communications were restored and recovery attempts were performed through to September. On 23-09-2016, the carrier wave stopped being detected. It is suspected a frozen thruster valve came loose, increasing the spin rate even more. All subsequent attempts to find the satellite have failed.",
+    "description": "Stereo-B (Behind) is in a heliocentric orbit around the sun with its sister satellite, Stereo-A (Ahead). It was used for sun imaging and SEM monitoring. A planned test of the spacecraft's automation just before the satellite passed behind the sun failed on 01-10-2014, causing the satellite to spin too quickly for the reaction wheels to correct it, resulting in a loss of communication with the spacecraft. After 22 months, on 21-08-2016, communications were restored and recovery attempts were performed through to September. On 23-09-2016, the carrier wave stopped being detected. It is suspected a frozen thruster valve came loose, increasing the spin rate even more. All subsequent attempts to find the satellite have failed.",
     "signals": [
         {
             "name": "Low rate",
