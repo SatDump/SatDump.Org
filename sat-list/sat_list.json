@@ -64,7 +64,7 @@
             "polarization": "RHCP",
             "symbolrate": "1.785 Msym/s",
             "image": "AWS-PFM.jpg",
-            "description": "Global unencrypted DB, dumps to Redu/Kiruna/Svalbard. Contains the MWR instrument (microwave imager). Dumps contain full orbit data. Signal usually suffers from significant fading when facing away from you at lower elevations. Pictured is the DB mode.",
+            "description": "Global unencrypted DB, dumps to Redu/Kiruna/Svalbard. Contains the MWR instrument (microwave imager). Dumps contain full orbit data. Signal usually suffers from significant fading when facing away from you at lower elevations. Pictured is the DB mode, dump mode has the same bandwidth but with much less filler.",
             "data": []
         }
     ]
@@ -251,9 +251,9 @@
             "name": "Dump",
             "status": "a",
             "frequency": "2234.4 MHz",
-            "polarization": "???",
-            "symbolrate": "???",
-            "image": "TODO",
+            "polarization": "RHCP",
+            "symbolrate": "64 Ksym/s?",
+            "image": "BritePL.jpg",
             "description": "TODO",
             "data": []
         }
@@ -414,7 +414,7 @@
             "polarization": "RHCP",
             "symbolrate": "1.024 MSym/s",
             "image": "DMSP-RTD.jpg",
-            "description": "Encrypted everywhere except the South pole, Arctic Ocean, and over mainland US. Contains two OLS channels as well as the SSMIS sounder.",
+            "description": "Encrypted everywhere except the South pole, Arctic Ocean, and over mainland US. Contains two OLS channels as well as the SSMIS sounder. Pictured is the signal switching from an encrypted transmission to the unencrypted one.",
             "data": []
         }
     ]
@@ -434,7 +434,7 @@
             "polarization": "RHCP",
             "symbolrate": "1.024 MSym/s",
             "image": "DMSP-RTD.jpg",
-            "description": "Encrypted everywhere except the South pole, Arctic Ocean, and over mainland US. Contains two OLS channels as well as the SSMIS sounder.",
+            "description": "Encrypted everywhere except the South pole, Arctic Ocean, and over mainland US. Contains two OLS channels as well as the SSMIS sounder. Pictured is the signal switching from an encrypted transmission to the unencrypted one.",
             "data": []
         }
     ]
@@ -635,7 +635,7 @@
     "agency": "Roscosmos",
     "start": "11-12-2015",
     "end": "",
-    "description": "Currently positioned at the 14.5\u00b0W slot. MSU-GS has several inoperational channels, the satellite has suffered a power supply failure making it unable to transmit xRIT. It has developed a high inclination due to the lack of propellant. Undergoes periodic yaw flips which significantly alter signal strength.",
+    "description": "Currently positioned at the 14.5\u00b0W slot. MSU-GS has several inoperative channels, the satellite has suffered a power supply failure making it unable to transmit xRIT. It has developed a high inclination due to the lack of propellant. Undergoes periodic yaw flips which significantly alter signal strength.",
     "signals": [
         {
             "name": "LRIT",
@@ -703,7 +703,7 @@
             "name": "Telemetry",
             "status": "a",
             "frequency": "3405.703 MHz",
-            "polarization": "???",
+            "polarization": "RHCP",
             "symbolrate": "32 ksym/s",
             "image": "",
             "description": "Satellite telemetry",
@@ -785,7 +785,7 @@
             "name": "Telemetry",
             "status": "a",
             "frequency": "3405.703 MHz",
-            "polarization": "???",
+            "polarization": "RHCP",
             "symbolrate": "32 ksym/s",
             "image": "",
             "description": "Satellite telemetry",
@@ -867,7 +867,7 @@
             "name": "Telemetry",
             "status": "a",
             "frequency": "3405.703 MHz",
-            "polarization": "???",
+            "polarization": "RHCP",
             "symbolrate": "32 ksym/s",
             "image": "",
             "description": "Satellite telemetry",
@@ -949,7 +949,7 @@
             "name": "Telemetry",
             "status": "a",
             "frequency": "3405.703 MHz",
-            "polarization": "???",
+            "polarization": "RHCP",
             "symbolrate": "32 ksym/s",
             "image": "",
             "description": "Satellite telemetry",
@@ -1243,7 +1243,7 @@
     "agency": "NSMC",
     "start": "14-11-2017",
     "end": "",
-    "description": "Low-earth-orbiting operational satellite with an ECT of 14:00 local time.",
+    "description": "Low-earth-orbiting operational satellite with an ECT of 14:00 local time (asecending).",
     "signals": [
         {
             "name": "AHRPT",
@@ -1251,7 +1251,7 @@
             "frequency": "7820 MHz",
             "polarization": "RHCP",
             "symbolrate": "30 Msym/s",
-            "image": "Fengyun-3D_AHPRT.jpg",
+            "image": "Fengyun-3D_AHRPT.jpg",
             "description": "Full resolution DB from all instruments",
             "data": []
         },
@@ -1262,7 +1262,7 @@
             "polarization": "RHCP",
             "symbolrate": "150 Msym/s",
             "image": "TODO",
-            "description": "Delayed Picture Transmission - Full orbit data dump. Non-beamed dumps to Kiruna, Chinese groundstations",
+            "description": "Delayed Picture Transmission - Full orbit data dump. Omnidirectional dumps to Kiruna, Chinese groundstations",
             "data": []
         },
         {
@@ -1283,7 +1283,7 @@
     "agency": "NSMC",
     "start": "04-07-2021",
     "end": "",
-    "description": "Low-earth-orbiting operational satellite with an ECT of 05:40 local time (descending). This satellite's payload is made for terminator imaging in addition to sun imaging with its XEUVI instrument.",
+    "description": "Low-earth-orbiting operational satellite with an ECT of 05:40 local time (descending). This satellite's payload is designed for terminator imaging in addition to sun imaging with its XEUVI instrument. The unique orbit allows for very low angles of illumination, allowing measurement of not usually observable atmospheric characteristics.",
     "signals": [
         {
             "name": "AHRPT",
@@ -1302,7 +1302,7 @@
             "polarization": "RHCP",
             "symbolrate": "225 Msym/s",
             "image": "TODO",
-            "description": "Delayed Picture Transmission - Full orbit data dump. Non-beamed dumps to Kiruna, Chinese groundstations",
+            "description": "Delayed Picture Transmission - Full orbit data dump. Omnidirectional dumps to Kiruna, Chinese groundstations",
             "data": []
         },
         {
@@ -1323,7 +1323,7 @@
     "agency": "NSMC",
     "start": "03-08-2023",
     "end": "",
-    "description": "Low-earth-orbiting operational satellite with an ECT of 10:00 local time (descending). The scanning wheel on the MWRI-2 instrument is stuck, rendering the instrument inoperational.",
+    "description": "Low-earth-orbiting operational satellite with an ECT of 10:00 local time (descending). The MWRI-2 instrument is damaged, with the dish presumed to be stuck. This has rendered the instrument inoperative.",
     "signals": [
         {
             "name": "AHRPT",
@@ -1342,7 +1342,7 @@
             "polarization": "RHCP",
             "symbolrate": "225 Msym/s",
             "image": "TODO",
-            "description": "Delayed Picture Transmission - Full orbit data dump. Non-beamed dumps to Kiruna, Chinese groundstations",
+            "description": "Delayed Picture Transmission - Full orbit data dump. Omnidirectional dumps to Kiruna, Chinese groundstations",
             "data": []
         },
         {
@@ -1363,7 +1363,7 @@
     "agency": "NSMC",
     "start": "16-04-2023",
     "end": "",
-    "description": "Currently the only satellite from the Fengyun 3 series to be flown in a drifting orbit rather than a polar one. This makes the satellites often have to reboost due to its low altitude. When this happens the broadcasts are disabled. The payload is designed for rainfall measurement.",
+    "description": "Currently the only satellite from the Fengyun 3 series to be flown in a drifting orbit rather than a polar one. The low altitude means that the satellite has to be periodically reboosted due to atmospheric drag. When this happens the broadcasts are disabled. The instrumentation is designed for rainfall measurement. The MWRI-RM is disabled for unknown reasons, with a possibility of it having failed.",
     "signals": [
         {
             "name": "AHRPT",
@@ -1382,7 +1382,7 @@
             "polarization": "???",
             "symbolrate": "225 Msym/s",
             "image": "TODO",
-            "description": "Delayed Picture Transmission - Full orbit data dump. Non-beamed dumps to Chinese groundstations",
+            "description": "Delayed Picture Transmission - Full orbit data dump. Omnidirectional dumps to Chinese groundstations",
             "data": []
         }
     ]
@@ -1393,7 +1393,7 @@
     "agency": "NSMC",
     "start": "26-09-2025",
     "end": "",
-    "description": "Low-earth-orbiting operational satellite with an ECT of 14:00 local time",
+    "description": "Low-earth-orbiting operational satellite with an ECT of 14:00 local time (ascending)",
     "signals": [
         {
             "name": "AHRPT",
@@ -1412,7 +1412,7 @@
             "polarization": "???",
             "symbolrate": "225 Msym/s",
             "image": "TODO",
-            "description": "Delayed Picture Transmission - Full orbit data dump. Non-beamed dumps to Kiruna, Chinese groundstations",
+            "description": "Delayed Picture Transmission - Full orbit data dump. Omnidirectional dumps to Kiruna, Chinese groundstations",
             "data": []
         },
         {
@@ -1773,7 +1773,7 @@
             "frequency": "1694.1 MHz",
             "polarization": "linear",
             "symbolrate": "927 ksym/s",
-            "image": "TODO",
+            "image": "GOES-R-HRIT.jpg",
             "description": "GOES 16 FD: 1x VIS + 6x IR at 2 km/px every 30 minutes, 1x VIS + 2x IR mesoscale every 15 minutes, other operational GOES 1x IR at 4 km/px every hour, Himawari 1x VIS + 2x IR at 4 km/px every hour, Meteosat: 1x IR at 15 km/px every hour, Miscallenous EMWIN",
             "data": []
         },
@@ -1819,8 +1819,18 @@
             "frequency": "1693 MHz",
             "polarization": "Linear",
             "symbolrate": "40 ksym/s",
-            "image": "TODO",
+            "image": "GOES-R-CDA.jpg",
             "description": "Telemetry broadcast, can be used to verify setup functionality",
+            "data": []
+        },
+        {
+            "name": "DCP",
+            "status": "d",
+            "frequency": "1680 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "N/A",
+            "image": "GOES-R-DCP.jpg",
+            "description": "DCP data from terrestrial uplink stations.",
             "data": []
         },
         {
@@ -1849,7 +1859,7 @@
             "frequency": "1694.1 MHz",
             "polarization": "linear",
             "symbolrate": "927 ksym/s",
-            "image": "TODO",
+            "image": "GOES-R-HRIT.jpg",
             "description": "GOES 17 FD: 1x VIS + 6x IR at 2 km/px every 30 minutes, 1x VIS + 2x IR mesoscale every 15 minutes, other operational GOES 1x IR at 4 km/px every hour, Himawari 1x VIS + 2x IR at 4 km/px every hour, Meteosat: 1x IR at 15 km/px every hour, Miscallenous EMWIN",
             "data": []
         },
@@ -1895,8 +1905,18 @@
             "frequency": "1693 MHz",
             "polarization": "Linear",
             "symbolrate": "40 ksym/s",
-            "image": "TODO",
+            "image": "GOES-R-CDA.jpg",
             "description": "Telemetry broadcast, can be used to verify setup functionality",
+            "data": []
+        },
+        {
+            "name": "DCP",
+            "status": "d",
+            "frequency": "1680 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "N/A",
+            "image": "GOES-R-DCP.jpg",
+            "description": "DCP data from terrestrial uplink stations.",
             "data": []
         },
         {
@@ -1925,7 +1945,7 @@
             "frequency": "1694.1 MHz",
             "polarization": "linear",
             "symbolrate": "927 ksym/s",
-            "image": "TODO",
+            "image": "GOES-R-HRIT.jpg",
             "description": "GOES 18 FD: 1x VIS + 6x IR at 2 km/px every 30 minutes, 1x VIS + 2x IR mesoscale every 15 minutes, other operational GOES 1x IR at 4 km/px every hour, Himawari 1x VIS + 2x IR at 4 km/px every hour, Meteosat: 1x IR at 15 km/px every hour, Miscallenous EMWIN",
             "data": []
         },
@@ -1971,8 +1991,18 @@
             "frequency": "1693 MHz",
             "polarization": "Linear",
             "symbolrate": "40 ksym/s",
-            "image": "TODO",
+            "image": "GOES-R-CDA.jpg",
             "description": "Telemetry broadcast, can be used to verify setup functionality",
+            "data": []
+        },
+        {
+            "name": "DCP",
+            "status": "a",
+            "frequency": "1680 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "N/A",
+            "image": "GOES-R-DCP.jpg",
+            "description": "DCP data from terrestrial uplink stations.",
             "data": []
         },
         {
@@ -2001,7 +2031,7 @@
             "frequency": "1694.1 MHz",
             "polarization": "linear",
             "symbolrate": "927 ksym/s",
-            "image": "TODO",
+            "image": "GOES-R-HRIT.jpg",
             "description": "GOES 19 FD: 1x VIS + 6x IR at 2 km/px every 30 minutes, 1x VIS + 2x IR mesoscale every 15 minutes, other operational GOES 1x IR at 4 km/px every hour, Himawari 1x VIS + 2x IR at 4 km/px every hour, Meteosat: 1x IR at 15 km/px every hour, Miscallenous EMWIN",
             "data": []
         },
@@ -2047,8 +2077,18 @@
             "frequency": "1693 MHz",
             "polarization": "Linear",
             "symbolrate": "40 ksym/s",
-            "image": "TODO",
+            "image": "GOES-R-CDA.jpg",
             "description": "Telemetry broadcast, can be used to verify setup functionality",
+            "data": []
+        },
+        {
+            "name": "DCP",
+            "status": "a",
+            "frequency": "1680 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "N/A",
+            "image": "GOES-R-DCP.jpg",
+            "description": "DCP data from terrestrial uplink stations.",
             "data": []
         },
         {
@@ -2117,7 +2157,7 @@
             "frequency": "1703 MHz",
             "polarization": "RHCP",
             "symbolrate": "1 Msym/s",
-            "image": "TODO",
+            "image": "Gazelle.jpg",
             "description": "Commonly spotted in L-band, as it is active globally.",
             "data": []
         }
@@ -2129,7 +2169,7 @@
     "agency": "JAXA",
     "start": "22-11-2006",
     "end": "",
-    "description": "After its X-band transmitter failing, this satellite broadcasts all of its instruments over the S-band downlink to [several groundstations](https://a-centauri.com/data/media/images/s-band-guide/hinode_gs.png) as often as possible",
+    "description": "After its X-band transmitter failed, this satellite broadcasts all of its instruments over the S-band downlink to [several groundstations](https://a-centauri.com/data/media/images/s-band-guide/hinode_gs.png) as often as possible",
     "signals": [
         {
             "name": "S-band dumps",
@@ -2197,7 +2237,7 @@
             "frequency": "2220.8 MHz",
             "polarization": "RHCP",
             "symbolrate": "512 ksym/s",
-            "image": "TODO",
+            "image": "IRIS-S.jpg",
             "description": "TODO",
             "data": []
         },
@@ -2338,7 +2378,7 @@
             "polarization": "RHCP",
             "symbolrate": "35 Msym/s",
             "image": "Metop-X-dump.jpg",
-            "description": "In essence just faster AHRPT, transmits full-orbit imagery from all instruments. Non-beamed dumps to Svalbard.",
+            "description": "In essence just faster AHRPT, transmits full-orbit imagery from all instruments. Omnidirectional dumps to Svalbard.",
             "data": []
         },
         {
@@ -2388,7 +2428,7 @@
             "polarization": "RHCP",
             "symbolrate": "35 Msym/s",
             "image": "Metop-X-dump.jpg",
-            "description": "In essence just faster AHRPT, transmits full-orbit imagery from all instruments. Non-beamed dumps to Svalbard.",
+            "description": "In essence just faster AHRPT, transmits full-orbit imagery from all instruments. Omnidirectional dumps to Svalbard.",
             "data": []
         },
         {
@@ -2524,7 +2564,7 @@
             "polarization": "RHCP",
             "symbolrate": "15.36 Msym/s",
             "image": "Meteor-MTVZA-dump.jpg",
-            "description": "MTVZA data from several orbits. Non-beamed dumps to Moscow, Novosibirsk, Khabrovsk. Narrow BPSK.",
+            "description": "MTVZA data from several orbits. Omnidirectional dumps to Moscow, Novosibirsk, Khabrovsk. Narrow BPSK.",
             "data": []
         },
         {
@@ -2534,7 +2574,7 @@
             "polarization": "RHCP",
             "symbolrate": "15.36 Msym/s",
             "image": "",
-            "description": "Dumps from the IKFS instrument, not received yet - unconfirmed. Non-beamed dumps to Khabrovsk. Narrow QPSK.",
+            "description": "Dumps from the IKFS instrument, not received yet - unconfirmed. Omnidirectional dumps to Khabrovsk. Narrow QPSK.",
             "data": []
         },
         {
@@ -2554,7 +2594,7 @@
             "polarization": "RHCP",
             "symbolrate": "61.44 Msym/s",
             "image": "",
-            "description": "KMSS/MSU-MR/Severjanin-M + MeteoSAR instrument data, only KMSS supported as of right now. Non-beamed dumps to Moscow, Novosibirsk, Khabrovsk. Wide QPSK.",
+            "description": "KMSS/MSU-MR/Severjanin-M + MeteoSAR instrument data, only KMSS supported as of right now. Omnidirectional dumps to Moscow, Novosibirsk, Khabrovsk. Wide QPSK.",
             "data": []
         }
     ]
@@ -2626,7 +2666,7 @@
             "polarization": "RHCP",
             "symbolrate": "15.36 Msym/s",
             "image": "Meteor-MTVZA-dump.jpg",
-            "description": "MTVZA data from several orbits. Non-beamed dumps to Moscow, Novosibirsk, Khabrovsk. Narrow BPSK.",
+            "description": "MTVZA data from several orbits. Omnidirectional dumps to Moscow, Novosibirsk, Khabrovsk. Narrow BPSK.",
             "data": []
         },
         {
@@ -2636,7 +2676,7 @@
             "polarization": "RHCP",
             "symbolrate": "15.36 Msym/s",
             "image": "",
-            "description": "Dumps from the IKFS instrument, not received yet - unconfirmed. Non-beamed dumps to Khabrovsk. Narrow QPSK.",
+            "description": "Dumps from the IKFS instrument, not received yet - unconfirmed. Omnidirectional dumps to Khabrovsk. Narrow QPSK.",
             "data": []
         },
         {
@@ -2656,7 +2696,7 @@
             "polarization": "RHCP",
             "symbolrate": "61.44 Msym/s",
             "image": "TODO",
-            "description": "KMSS/MSU-MR/Severjanin-M + MeteoSAR instrument data, only KMSS supported as of right now. Non-beamed dumps to Moscow, Novosibirsk, Khabrovsk. Wide QPSK.",
+            "description": "KMSS/MSU-MR/Severjanin-M + MeteoSAR instrument data, only KMSS supported as of right now. Omnidirectional dumps to Moscow, Novosibirsk, Khabrovsk. Wide QPSK.",
             "data": []
         }
     ]
@@ -2728,7 +2768,7 @@
             "polarization": "RHCP",
             "symbolrate": "15.36 Msym/s",
             "image": "Meteor-MTVZA-dump.jpg",
-            "description": "MTVZA data from several orbits. Non-beamed dumps to Moscow, Novosibirsk, Khabrovsk. Narrow BPSK.",
+            "description": "MTVZA data from several orbits. Omnidirectional dumps to Moscow, Novosibirsk, Khabrovsk. Narrow BPSK.",
             "data": []
         },
         {
@@ -2738,7 +2778,7 @@
             "polarization": "RHCP",
             "symbolrate": "15.36 Msym/s",
             "image": "",
-            "description": "Dumps from the IKFS instrument, not received yet - unconfirmed. Non-beamed dumps to Khabrovsk. Narrow QPSK.",
+            "description": "Dumps from the IKFS instrument, not received yet - unconfirmed. Omnidirectional dumps to Khabrovsk. Narrow QPSK.",
             "data": []
         },
         {
@@ -2758,7 +2798,7 @@
             "polarization": "RHCP",
             "symbolrate": "61.44 Msym/s",
             "image": "",
-            "description": "KMSS/MSU-MR/Severjanin-M + MeteoSAR instrument data, only KMSS supported as of right now. Non-beamed dumps to Moscow, Novosibirsk, Khabrovsk. Wide QPSK.",
+            "description": "KMSS/MSU-MR/Severjanin-M + MeteoSAR instrument data, only KMSS supported as of right now. Omnidirectional dumps to Moscow, Novosibirsk, Khabrovsk. Wide QPSK.",
             "data": []
         }
     ]
@@ -2986,7 +3026,7 @@
     "agency": "NOAA",
     "start": "20-05-2005",
     "end": "06-06-2025",
-    "description": "Second-to-last satellite of the POES constellation, reliably delivered data until June of 2025 where an S-band TPX issue occured, leading to the satellite's promptly decommissioning.",
+    "description": "Second-to-last satellite of the POES constellation, reliably delivered data until June of 2025 where an S-band TPX issue occured, leading to the satellite's promptl decommissioning.",
     "signals": [
         {
             "name": "APT",
@@ -3048,7 +3088,7 @@
     "agency": "NOAA",
     "start": "06-02-2009",
     "end": "13-08-2025",
-    "description": "Last satellite of the POES constellation, reliably delivered data until August of 2025 where NOAA claims a battery issue occured, leading to the satellite's promptly decommissioning.",
+    "description": "Last satellite of the POES constellation, reliably delivered data until August of 2025 when NOAA claimed a battery issue occured, leading to the satellite's prompt decommissioning.",
     "signals": [
         {
             "name": "APT",
@@ -3110,7 +3150,7 @@
     "agency": "NOAA",
     "start": "18-11-2017",
     "end": "",
-    "description": "Low-earth-orbiting operational satellite with an ECT of 13:25 local time. VIIRS instrument has a couple of dead detectors presenting as lines in certain composites.",
+    "description": "Low-earth-orbiting operational satellite with an ECT of 13:25 local time (ascending). VIIRS instrument has a couple of dead detectors presenting as lines in certain composites.",
     "signals": [
         {
             "name": "HRD",
@@ -3119,7 +3159,7 @@
             "polarization": "RHCP",
             "symbolrate": "15 Msym/s",
             "image": "JPSS-1_HRD.jpg",
-            "description": "Full resolution DB from all instruments. Has a strong null at certain elevations when the satellite is East from your receiving position.",
+            "description": "Full resolution DB from all instruments. Has nulls everywhere except, most prominent when East from your reception spot. They are least present when passing West from you at a 30°-50° elevation.",
             "data": []
         },
         {
@@ -3150,7 +3190,7 @@
     "agency": "NOAA",
     "start": "10-11-2022",
     "end": "",
-    "description": "Low-earth-orbiting operational satellite with an ECT of 13:25 local time.",
+    "description": "Low-earth-orbiting operational satellite with an ECT of 13:25 local time (ascending).",
     "signals": [
         {
             "name": "HRD",
@@ -3400,7 +3440,7 @@
     "agency": "ESA",
     "start": "07-05-2013",
     "end": "",
-    "description": "TODO",
+    "description": "Mission was suspended due to insufficient light caused by orbital drift, but it has since drifted back to a more suitable ECT allowing the mission to resume soon.",
     "signals": [
         {
             "name": "X-band dumps",
@@ -3709,7 +3749,7 @@
             "polarization": "RHCP",
             "symbolrate": "15 Msym/s",
             "image": "NPP-HRD.jpg",
-            "description": "Full resolution DB from all instruments. Has a strong null at certain elevations when the satellite is West from your receiving position. Null presents itself as slow fading. Spike on the left is not a part of the signal.",
+            "description": "Full resolution DB from all instruments. Has nulls everywhere except, most prominent when West from your reception spot. They are least present when passing East from you at a 30°-50° elevation. Null presents itself as slow fading. Spike on the left is not a part of the signal.",
             "data": []
         },
         {
@@ -3809,7 +3849,7 @@
             "polarization": "RHCP",
             "symbolrate": "12.3 Msym/s",
             "image": "TODO",
-            "description": "Dumps to Berlin and Svalbard",
+            "description": "Dumped to Berlin and Svalbard",
             "data": []
         },
         {
@@ -3819,7 +3859,7 @@
             "polarization": "RHCP",
             "symbolrate": "1.2 Msym/s",
             "image": "Tubin-S.jpg",
-            "description": "Dumps to Berlin. Left hand bump on the FFT image.",
+            "description": "Dumped to Berlin. Left hand bump on the FFT image.",
             "data": []
         },
         {
@@ -3829,7 +3869,7 @@
             "polarization": "RHCP",
             "symbolrate": "1.2 Msym/s",
             "image": "Tubin-S.jpg",
-            "description": "Dumps to Berlin. Right hand bump on the FFT image.",
+            "description": "Dumped to Berlin. Right hand bump on the FFT image.",
             "data": []
         }
     ]
