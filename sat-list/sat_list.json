@@ -1661,9 +1661,9 @@
             "name": "Raw data",
             "status": "a",
             "frequency": "8300 MHz",
-            "polarization": "GK2A-Raw.jpg",
+            "polarization": "RHCP",
             "symbolrate": "65 Msym/s",
-            "image": "TODO",
+            "image": "GK2A-Raw.jpg",
             "description": "Possibly beamed, raw sensor downlink.",
             "data": []
         },
