@@ -3159,7 +3159,7 @@
             "polarization": "RHCP",
             "symbolrate": "15 Msym/s",
             "image": "JPSS-1_HRD.jpg",
-            "description": "Full resolution DB from all instruments. Has nulls everywhere except, most prominent when East from your reception spot. They are least present when passing West from you at a 30°-50° elevation.",
+            "description": "Full resolution DB from all instruments. Has nulls everywhere except, most present when East from your reception position. They are least present when passing West from you at a 30°-50° elevation.",
             "data": []
         },
         {
@@ -3317,7 +3317,7 @@
             "status": "u",
             "frequency": "2285 MHz",
             "polarization": "RHCP",
-            "symbolrate": "???\u0148",
+            "symbolrate": "???",
             "image": "TODO",
             "description": "Dumps to Kiruna",
             "data": []
@@ -3547,7 +3547,7 @@
             "status": "u",
             "frequency": "??? MHz",
             "polarization": "RHCP",
-            "symbolrate": "838878 ksym/s",
+            "symbolrate": "838.878 ksym/s",
             "image": "TODO",
             "description": "TODO",
             "data": []
