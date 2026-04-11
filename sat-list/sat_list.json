@@ -175,7 +175,7 @@
     "agency": "NASA",
     "start": "05-06-2004",
     "end": "",
-    "description": "Performs atmosphere & ozone monitoring",
+    "description": "NASA EOS satellite designed to perform atmosphere & ozone monitoring",
     "signals": [
         {
             "name": "X-band",
