@@ -1664,7 +1664,7 @@
             "polarization": "RHCP",
             "symbolrate": "65 Msym/s",
             "image": "GK2A-Raw.jpg",
-            "description": "Possibly beamed, raw sensor downlink.",
+            "description": "Omnidirectional raw sensor downlink.",
             "data": []
         },
         {
