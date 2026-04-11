@@ -25,7 +25,7 @@
     "agency": "NASA",
     "start": "04-05-2002",
     "end": "",
-    "description": "TODO",
+    "description": "NASA EOS satellite, operational but pending decommissining in August because of a lack of fuel the spacecraft needs to maintain its altitude. A refuelling mission was planned but cancelled due to budget cuts.",
     "signals": [
         {
             "name": "X-band",
@@ -52,19 +52,19 @@
 {
     "name": "Arctic Weather Satellite",
     "norad": "60543",
-    "agency": "esa",
+    "agency": "ESA",
     "start": "16-08-2024",
     "end": "",
     "description": "Microwave imaging satellite acting as a prototype of the EPS-STERNA constellation.",
     "signals": [
         {
-            "name": "db + dump",
+            "name": "DB + Dump",
             "status": "a",
             "frequency": "1707 MHz",
             "polarization": "RHCP",
             "symbolrate": "1.785 Msym/s",
-            "image": "TODO",
-            "description": "Global unencrypted DB, dumps to Redu/Kiruna/Svalbard. Contains the MWR instrument (microwave imager). Dumps contain full orbit data. Signal usually suffers from significant fading when facing away from you at lower elevations.",
+            "image": "AWS-PFM.jpg",
+            "description": "Global unencrypted DB, dumps to Redu/Kiruna/Svalbard. Contains the MWR instrument (microwave imager). Dumps contain full orbit data. Signal usually suffers from significant fading when facing away from you at lower elevations. Pictured is the DB mode.",
             "data": []
         }
     ]
@@ -413,7 +413,7 @@
             "frequency": "2252.5 MHz",
             "polarization": "RHCP",
             "symbolrate": "1.024 MSym/s",
-            "image": "TODO",
+            "image": "DMSP-RTD.jpg",
             "description": "Encrypted everywhere except the South pole, Arctic Ocean, and over mainland US. Contains two OLS channels as well as the SSMIS sounder.",
             "data": []
         }
@@ -433,7 +433,7 @@
             "frequency": "2252.5 MHz",
             "polarization": "RHCP",
             "symbolrate": "1.024 MSym/s",
-            "image": "TODO",
+            "image": "DMSP-RTD.jpg",
             "description": "Encrypted everywhere except the South pole, Arctic Ocean, and over mainland US. Contains two OLS channels as well as the SSMIS sounder.",
             "data": []
         }
@@ -717,7 +717,89 @@
     "agency": "Roscosmos",
     "start": "24-12-2019",
     "end": "",
-    "description": "Currently positioned at the 76\u00b0E slot. MSU-GS has a degraded channel 4, broken channel 10.",
+    "description": "Currently positioned at the 76\u00b0E slot. MSU-GS has a degraded channel 4, broken channel 10. Satellite transmissions are paused pending Elektro-L5 commissioning. Once finished, L3 is expected to replace L2.",
+    "signals": [
+        {
+            "name": "LRIT",
+            "status": "d",
+            "frequency": "1691 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "294 ksym/s",
+            "image": "Elektro-LRIT.jpg",
+            "description": "Disabled because of L5 commissining.",
+            "data": [
+                {
+                    "name": "Natural color",
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/Elektro/LRIT/Elektro-L3/2024-02-28_09-41_elektro-lrit_Meti/IMAGES/L3_NC_20240228T093000Z.png",
+                    "preview": ""
+                }
+            ]
+        },
+        {
+            "name": "HRIT",
+            "status": "d",
+            "frequency": "1691 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "1.15 Msym/s",
+            "image": "Elektro-HRIT.jpg",
+            "description": "Contains telemetry and SEM data. Data decoding currently unsupported due to lack of documentation.",
+            "data": [
+                {
+                    "name": "Natural Color",
+                    "raw": "https://sat-archive.cpt-dingus.cc/L-band/Elektro/HRIT/Elektro-L3/2024-11-09_09-00_elektro-hrit_Meti/msu_gs_Natural%20Color.png",
+                    "preview": ""
+                }
+            ]
+        },
+        {
+            "name": "GGAK",
+            "status": "d",
+            "frequency": "1693 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "5 ksym/s",
+            "image": "Elektro-GGAK.jpg",
+            "description": "Disabled because of L5 commissining.",
+            "data": []
+        },
+        {
+            "name": "DCP",
+            "status": "d",
+            "frequency": "1697 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "???",
+            "image": "Elektro-DCP.jpg",
+            "description": "Disabled because of L5 commissining.",
+            "data": []
+        },
+        {
+            "name": "RDAS",
+            "status": "d",
+            "frequency": "7500 MHz",
+            "polarization": "RHCP",
+            "symbolrate": "30.72 Msym/s",
+            "image": "Elektro-RDAS.jpg",
+            "description": "Disabled because of L5 commissining.",
+            "data": []
+        },
+        {
+            "name": "Telemetry",
+            "status": "a",
+            "frequency": "3405.703 MHz",
+            "polarization": "???",
+            "symbolrate": "32 ksym/s",
+            "image": "",
+            "description": "Satellite telemetry",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "Elektro-L N\u00b04",
+    "norad": "55506",
+    "agency": "Roscosmos",
+    "start": "02-05-2023",
+    "end": "",
+    "description": "Currently positioned at the 165.75\u00b0E slot.",
     "signals": [
         {
             "name": "LRIT",
@@ -726,7 +808,7 @@
             "polarization": "RHCP",
             "symbolrate": "294 ksym/s",
             "image": "Elektro-LRIT.jpg",
-            "description": "Transmitted every 00:42 UTC and every 3 hours onwards. 06:42 and 18:42 UTC are seasonal timeslots not persent during winter months. Contains 3x VIS channels, 1x Water vapour (degraded), 1x Long-wave infrared.",
+            "description": "Transmitted every 00:42 UTC and every 3 hours onwards. 06:42 and 18:42 UTC are seasonal timeslots not persent during winter months. Channels are broadcasted seemingly at random, broadcasts are often skipped. Transmission abruptly shuts down after 15 minutes.",
             "data": [
                 {
                     "name": "Natural color",
@@ -775,10 +857,10 @@
             "name": "RDAS",
             "status": "a",
             "frequency": "7500 MHz",
-            "polarization": "RHCP",
+            "polarization": "LHCP",
             "symbolrate": "30.72 Msym/s",
             "image": "Elektro-RDAS.jpg",
-            "description": "Raw MSU-GS data downlink. New image every 15 minutes, very strong carrier when idle. Beamed to Moscow.",
+            "description": "Raw MSU-GS data downlink. New image every 15 minutes, very strong carrier when idle. Beamed to Vladivostok.",
             "data": []
         },
         {
@@ -794,12 +876,12 @@
     ]
 },
 {
-    "name": "Elektro-L N\u00b04",
-    "norad": "55506",
+    "name": "Elektro-L N\u00b05",
+    "norad": "67756",
     "agency": "Roscosmos",
-    "start": "02-05-2023",
+    "start": "02-12-2026",
     "end": "",
-    "description": "Currently positioned at the 165.75\u00b0E slot.",
+    "description": "Newest Elektro satellite from Roscosmos, currently commissioning at 76°E. Transmissions from the satellite are still sporadic.",
     "signals": [
         {
             "name": "LRIT",
@@ -808,7 +890,7 @@
             "polarization": "RHCP",
             "symbolrate": "294 ksym/s",
             "image": "Elektro-LRIT.jpg",
-            "description": "Transmitted every 00:42 UTC and every 3 hours onwards. 06:42 and 18:42 UTC are seasonal timeslots not persent during winter months. Channels are broadcasted seemingly at random, broadcasts are often skipped. Transmission abruptly shuts down after 15 minutes.",
+            "description": "Transmitted sporadically around 08:00Z, potential timeslots are X:12Z and every 15 minutes onwards.",
             "data": [
                 {
                     "name": "Natural color",
@@ -824,7 +906,7 @@
             "polarization": "RHCP",
             "symbolrate": "1.15 Msym/s",
             "image": "Elektro-HRIT.jpg",
-            "description": "Transmitted every 00:12 UTC and every 3 hours onwards. 06:12 and 18:12 UTC are seasonal timeslots not persent during winter months. Contains all MSU-GS channels.",
+            "description": "Transmitted sporadically around 08:00Z, potential timeslots are X:12Z and every 15 minutes onwards.",
             "data": [
                 {
                     "name": "Natural Color",
@@ -993,7 +1075,7 @@
     "agency": "NSMC",
     "start": "27-05-2008",
     "end": "05-01-2015",
-    "description": "Prototype FengYun 3 satellite, true color L-band",
+    "description": "Prototype FengYun 3 satellite, transmitted true color on L-band",
     "signals": [
         {
             "name": "AHRPT",
@@ -1049,7 +1131,7 @@
     "agency": "NSMC",
     "start": "04-11-2010",
     "end": "2021",
-    "description": "Prototype FengYun 3 satellite, true color L-band",
+    "description": "Prototype FengYun 3 satellite, transmitted true color on L-band",
     "signals": [
         {
             "name": "AHRPT",
@@ -1105,7 +1187,7 @@
     "agency": "NSMC",
     "start": "23-09-2013",
     "end": "11-2024",
-    "description": "True color L-band",
+    "description": "Last operational Fengyun 3 satellite that transmitted true color L-band.",
     "signals": [
         {
             "name": "AHRPT",
@@ -1161,7 +1243,7 @@
     "agency": "NSMC",
     "start": "14-11-2017",
     "end": "",
-    "description": "TODO",
+    "description": "Low-earth-orbiting operational satellite with an ECT of 14:00 local time.",
     "signals": [
         {
             "name": "AHRPT",
@@ -1169,7 +1251,7 @@
             "frequency": "7820 MHz",
             "polarization": "RHCP",
             "symbolrate": "30 Msym/s",
-            "image": "TODO",
+            "image": "Fengyun-3D_AHPRT.jpg",
             "description": "Full resolution DB from all instruments",
             "data": []
         },
@@ -1185,11 +1267,11 @@
         },
         {
             "name": "Telemetry",
-            "status": "i",
+            "status": "a",
             "frequency": "22XX MHz",
             "polarization": "LHCP",
             "symbolrate": "4096 sym/s",
-            "image": "TODO",
+            "image": "Fengyun-3D_TLM.jpg",
             "description": "Telemetry downlink",
             "data": []
         }
@@ -1201,7 +1283,7 @@
     "agency": "NSMC",
     "start": "04-07-2021",
     "end": "",
-    "description": "TODO",
+    "description": "Low-earth-orbiting operational satellite with an ECT of 05:40 local time (descending). This satellite's payload is made for terminator imaging in addition to sun imaging with its XEUVI instrument.",
     "signals": [
         {
             "name": "AHRPT",
@@ -1241,7 +1323,7 @@
     "agency": "NSMC",
     "start": "03-08-2023",
     "end": "",
-    "description": "TODO",
+    "description": "Low-earth-orbiting operational satellite with an ECT of 10:00 local time (descending). The scanning wheel on the MWRI-2 instrument is stuck, rendering the instrument inoperational.",
     "signals": [
         {
             "name": "AHRPT",
@@ -1281,7 +1363,7 @@
     "agency": "NSMC",
     "start": "16-04-2023",
     "end": "",
-    "description": "Satellite often has to reboost due to its low altitude, when this happens the broadcasts are disabled.",
+    "description": "Currently the only satellite from the Fengyun 3 series to be flown in a drifting orbit rather than a polar one. This makes the satellites often have to reboost due to its low altitude. When this happens the broadcasts are disabled. The payload is designed for rainfall measurement.",
     "signals": [
         {
             "name": "AHRPT",
@@ -1311,7 +1393,7 @@
     "agency": "NSMC",
     "start": "26-09-2025",
     "end": "",
-    "description": "TODO",
+    "description": "Low-earth-orbiting operational satellite with an ECT of 14:00 local time",
     "signals": [
         {
             "name": "AHRPT",
@@ -1319,7 +1401,7 @@
             "frequency": "7860 MHz",
             "polarization": "LHCP",
             "symbolrate": "38.4 Msym/s",
-            "image": "TODO",
+            "image": "Fengyun-3H_AHRPT.jpg",
             "description": "Full resolution DB from all instruments",
             "data": []
         },
@@ -1351,7 +1433,7 @@
     "agency": "NSMC",
     "start": "10-12-2016",
     "end": "",
-    "description": "TODO",
+    "description": "Geostationary satellite, primarily used for testing the Fengyun 4 bus. Currently positioned at 123.5°E",
     "signals": [
         {
             "name": "LRIT",
@@ -1381,7 +1463,37 @@
     "agency": "NSMC",
     "start": "02-06-2021",
     "end": "",
-    "description": "TODO",
+    "description": "Geostationary satellite, currently operational at 105°E",
+    "signals": [
+        {
+            "name": "LRIT",
+            "status": "u",
+            "frequency": "1697 MHz",
+            "polarization": "Linear",
+            "symbolrate": "120 ksym/s",
+            "image": "TODO",
+            "description": "Encrypted, clear imagery every hour (?). Low bit depth, imagery looks crunchy",
+            "data": []
+        },
+        {
+            "name": "HRIT",
+            "status": "u",
+            "frequency": "1681 MHz",
+            "polarization": "Linear",
+            "symbolrate": "1 Msym/s",
+            "image": "TODO",
+            "description": "TODO",
+            "data": []
+        }
+    ]
+},
+{
+    "name": "FengYun 4C",
+    "norad": "67246",
+    "agency": "NSMC",
+    "start": "26-12-2026",
+    "end": "",
+    "description": "Geostationary satellite, currently undergoing commissioning at 133°E",
     "signals": [
         {
             "name": "LRIT",
@@ -1501,7 +1613,7 @@
     "agency": "KARI",
     "start": "04-12-2018",
     "end": "",
-    "description": "TODO",
+    "description": "Geostationary satellite currently positioned at 128.2°E. Unlike its sister satellite, 2B, it does full-disk Earth imaging.",
     "signals": [
         {
             "name": "LRIT",
@@ -1509,7 +1621,7 @@
             "frequency": "1692.14 MHz",
             "polarization": "Linear",
             "symbolrate": "128 ksym/s",
-            "image": "TODO",
+            "image": "GK2A-LRIT.jpg",
             "description": "Very strong, 1x 4 km/px IR as well as miscallenous data every 10 minutes",
             "data": [
                 {
@@ -1549,7 +1661,7 @@
             "name": "Raw data",
             "status": "a",
             "frequency": "8300 MHz",
-            "polarization": "RHCP",
+            "polarization": "GK2A-Raw.jpg",
             "symbolrate": "65 Msym/s",
             "image": "TODO",
             "description": "Possibly beamed, raw sensor downlink.",
@@ -1729,7 +1841,7 @@
     "agency": "NOAA",
     "start": "01-03-2018",
     "end": "",
-    "description": "TODO",
+    "description": "Geostationary satellite of the GOES-R series, currently positioned at 104.7°W acting as a backup. The satellite's ABI instrument had cooling issues, degrading the quality of infrared channels.",
     "signals": [
         {
             "name": "HRIT",
@@ -1805,7 +1917,7 @@
     "agency": "NOAA",
     "start": "01-03-2022",
     "end": "",
-    "description": "TODO",
+    "description": "Geostationary satellite of the GOES-R series, currently positioned at 137°W operating as Goes-West.",
     "signals": [
         {
             "name": "HRIT",
@@ -1881,7 +1993,7 @@
     "agency": "NOAA",
     "start": "25-06-2024",
     "end": "",
-    "description": "TODO",
+    "description": "Last geostationary satellite of the GOES-R series, currently positioned at 75.2°W operating as Goes-East.",
     "signals": [
         {
             "name": "HRIT",
@@ -2017,7 +2129,7 @@
     "agency": "JAXA",
     "start": "22-11-2006",
     "end": "",
-    "description": "After a failed X-band transmitter, this satellite broadcasts all of its instruments over the S-band downlink to [several groundstations](https://a-centauri.com/data/media/images/s-band-guide/hinode_gs.png) as often as possible",
+    "description": "After its X-band transmitter failing, this satellite broadcasts all of its instruments over the S-band downlink to [several groundstations](https://a-centauri.com/data/media/images/s-band-guide/hinode_gs.png) as often as possible",
     "signals": [
         {
             "name": "S-band dumps",
@@ -2026,7 +2138,7 @@
             "polarization": "RHCP",
             "symbolrate": "262 ksym/s",
             "image": "Hinode-S-dump.jpg",
-            "description": "TODO",
+            "description": "Active whenever in range of [its groundstations](https://a-centauri.com/data/media/images/s-band-guide/hinode_gs.png), contains operational data. Multiple receptions might have to be chained together to receive a full dataset.",
             "data": []
         },
         {
@@ -2046,7 +2158,7 @@
             "polarization": "-",
             "symbolrate": "-",
             "image": "-",
-            "description": "Transmitter failed",
+            "description": "Failed transmitter",
             "data": []
         }
     ]
@@ -2207,7 +2319,7 @@
     "agency": "EUMETSAT",
     "start": "17-09-2012",
     "end": "",
-    "description": "TODO",
+    "description": "Low-earth-orbiting operational satellite with an ECT of 09:00 local time (descending). QPSK modulator has experienced a few issues leading to receptions having degraded SNR.",
     "signals": [
         {
             "name": "AHRPT",
@@ -2257,7 +2369,7 @@
     "agency": "EUMETSAT",
     "start": "07-11-2018",
     "end": "",
-    "description": "MHS instrument has striping present on TODO",
+    "description": "Low-earth-orbiting operational satellite with an ECT of 09:31 local time (descending). MHS instrument has striping present on a few channels.",
     "signals": [
         {
             "name": "AHRPT",
@@ -2307,7 +2419,7 @@
     "agency": "ESA",
     "start": "13-08-2025",
     "end": "",
-    "description": "TODO",
+    "description": "Latest satellite launched by ESA, built to replace the Metop-FG (first-generation) series.",
     "signals": [
         {
             "name": "DDB",
@@ -2316,7 +2428,7 @@
             "polarization": "RHCP",
             "symbolrate": "93.3 Msps",
             "image": "TODO",
-            "description": "TODO",
+            "description": "Direct broadcast from all instruments",
             "data": []
         },
         {
@@ -2367,13 +2479,7 @@
             "symbolrate": "2x 665.4 ksym/s",
             "image": "Meteor-LRPT.jpg",
             "description": "3 JPEG-compressed 1 km/px channels. 3x VIS during summer, 2x VIS + 1x IR during winter. Rendered inoperable due to micrometeorite strike.",
-            "data": [
-                {
-                    "name": "221",
-                    "raw": "Meteor-LRPT.jpg",
-                    "preview": ""
-                }
-            ]
+            "data": []
         },
         {
             "name": "HRPT",
@@ -2381,7 +2487,7 @@
             "frequency": "1700 MHz",
             "polarization": "RHCP",
             "symbolrate": "2x 665.4 ksym/s",
-            "image": "/Meteor-HRPT.jpg",
+            "image": "Meteor-HRPT.jpg",
             "description": "Full resolution 6x MSU-MR channels at 1 km/px, MTVZA",
             "data": [
                 {
@@ -2417,7 +2523,7 @@
             "frequency": "8128 MHz",
             "polarization": "RHCP",
             "symbolrate": "15.36 Msym/s",
-            "image": "",
+            "image": "Meteor-MTVZA-dump.jpg",
             "description": "MTVZA data from several orbits. Non-beamed dumps to Moscow, Novosibirsk, Khabrovsk. Narrow BPSK.",
             "data": []
         },
@@ -2483,7 +2589,7 @@
             "frequency": "1700 MHz",
             "polarization": "RHCP",
             "symbolrate": "2x 665.4 ksym/s",
-            "image": "/Meteor-HRPT.jpg",
+            "image": "Meteor-HRPT.jpg",
             "description": "Full resolution 6x MSU-MR channels at 1 km/px, MTVZA",
             "data": [
                 {
@@ -2519,7 +2625,7 @@
             "frequency": "8128 MHz",
             "polarization": "RHCP",
             "symbolrate": "15.36 Msym/s",
-            "image": "",
+            "image": "Meteor-MTVZA-dump.jpg",
             "description": "MTVZA data from several orbits. Non-beamed dumps to Moscow, Novosibirsk, Khabrovsk. Narrow BPSK.",
             "data": []
         },
@@ -2585,7 +2691,7 @@
             "frequency": "1700 MHz",
             "polarization": "RHCP",
             "symbolrate": "2x 665.4 ksym/s",
-            "image": "/Meteor-HRPT.jpg",
+            "image": "Meteor-HRPT.jpg",
             "description": "Full resolution 6x MSU-MR channels at 1 km/px, MTVZA",
             "data": [
                 {
@@ -2621,7 +2727,7 @@
             "frequency": "8128 MHz",
             "polarization": "RHCP",
             "symbolrate": "15.36 Msym/s",
-            "image": "",
+            "image": "Meteor-MTVZA-dump.jpg",
             "description": "MTVZA data from several orbits. Non-beamed dumps to Moscow, Novosibirsk, Khabrovsk. Narrow BPSK.",
             "data": []
         },
@@ -2821,7 +2927,7 @@
             "frequency": "137.62 MHz",
             "polarization": "RHCP",
             "symbolrate": "N/A",
-            "image": "/POES-APT.jpg",
+            "image": "POES-APT.jpg",
             "description": "2x 4 km/px images, during day 1x IR + 1x VIS and 2x IR during night. FFT pic is from NOAA 19",
             "data": [
                 {
@@ -2852,7 +2958,7 @@
             "frequency": "1702.5/2247.5 MHz",
             "polarization": "RHCP",
             "symbolrate": "2x 665.4 ksym/s",
-            "image": "/POES-HRPT.jpg",
+            "image": "POES-HRPT.jpg",
             "description": "Live full resolution operational imagery from all instruments",
             "data": [
                 {
@@ -2880,7 +2986,7 @@
     "agency": "NOAA",
     "start": "20-05-2005",
     "end": "06-06-2025",
-    "description": "TODO",
+    "description": "Second-to-last satellite of the POES constellation, reliably delivered data until June of 2025 where an S-band TPX issue occured, leading to the satellite's promptly decommissioning.",
     "signals": [
         {
             "name": "APT",
@@ -2888,7 +2994,7 @@
             "frequency": "137.9125 MHz",
             "polarization": "RHCP",
             "symbolrate": "N/A",
-            "image": "/POES-APT.jpg",
+            "image": "POES-APT.jpg",
             "description": "2x 4 km/px images, 1x IR + 1x VIS. Normally should be 2x IR during night, but a configuration error made the satellite transmit a VIS channel instead. FFT pic is from NOAA 19",
             "data": [
                 {
@@ -2914,7 +3020,7 @@
             "frequency": "1707/2247.5 MHz",
             "polarization": "RHCP",
             "symbolrate": "2x 665.4 ksym/s",
-            "image": "/POES-HRPT.jpg",
+            "image": "POES-HRPT.jpg",
             "description": "Live full resolution operational imagery from all instruments",
             "data": [
                 {
@@ -2942,7 +3048,7 @@
     "agency": "NOAA",
     "start": "06-02-2009",
     "end": "13-08-2025",
-    "description": "TODO",
+    "description": "Last satellite of the POES constellation, reliably delivered data until August of 2025 where NOAA claims a battery issue occured, leading to the satellite's promptly decommissioning.",
     "signals": [
         {
             "name": "APT",
@@ -2976,7 +3082,7 @@
             "frequency": "1698/2247.5 MHz",
             "polarization": "RHCP",
             "symbolrate": "2x 665.4 ksym/s",
-            "image": "/POES-HRPT.jpg",
+            "image": "POES-HRPT.jpg",
             "description": "Live full resolution operational imagery from all instruments",
             "data": [
                 {
@@ -3004,7 +3110,7 @@
     "agency": "NOAA",
     "start": "18-11-2017",
     "end": "",
-    "description": "TODO",
+    "description": "Low-earth-orbiting operational satellite with an ECT of 13:25 local time. VIIRS instrument has a couple of dead detectors presenting as lines in certain composites.",
     "signals": [
         {
             "name": "HRD",
@@ -3012,7 +3118,7 @@
             "frequency": "7812 MHz",
             "polarization": "RHCP",
             "symbolrate": "15 Msym/s",
-            "image": "TODO",
+            "image": "JPSS-1_HRD.jpg",
             "description": "Full resolution DB from all instruments. Has a strong null at certain elevations when the satellite is East from your receiving position.",
             "data": []
         },
@@ -3044,7 +3150,7 @@
     "agency": "NOAA",
     "start": "10-11-2022",
     "end": "",
-    "description": "TODO",
+    "description": "Low-earth-orbiting operational satellite with an ECT of 13:25 local time.",
     "signals": [
         {
             "name": "HRD",
@@ -3313,7 +3419,7 @@
             "polarization": "RHCP",
             "symbolrate": "1.919 Msym/s",
             "image": "Proba-V_S-band.jpg",
-            "description": "Contains Vegetation instrument moon calibration every once in a while.",
+            "description": "Contains Vegetation instrument imagery, including moon calibration every once in a while.",
             "data": []
         }
     ]
@@ -3594,7 +3700,7 @@
     "agency": "NOAA",
     "start": "28-10-2011",
     "end": "",
-    "description": "TODO",
+    "description": "Prototype satellite of the cancelled NPOESS series. Flown to validate the planned instrumentation, long outlived its design life of 5 years. The satellite ocassionally experiences issues with its clock, making imagery transmit with erroneous dates.",
     "signals": [
         {
             "name": "HRD",
@@ -3603,7 +3709,7 @@
             "polarization": "RHCP",
             "symbolrate": "15 Msym/s",
             "image": "NPP-HRD.jpg",
-            "description": "Full resolution DB from all instruments. Has a strong null at certain elevations when the satellite is West from your receiving position. Spike on the left is not a part of the signal.",
+            "description": "Full resolution DB from all instruments. Has a strong null at certain elevations when the satellite is West from your receiving position. Null presents itself as slow fading. Spike on the left is not a part of the signal.",
             "data": []
         },
         {
@@ -3711,19 +3817,19 @@
             "status": "i",
             "frequency": "2263 MHz",
             "polarization": "RHCP",
-            "symbolrate": "???",
-            "image": "TODO",
-            "description": "Dumps to Berlin",
+            "symbolrate": "1.2 Msym/s",
+            "image": "Tubin-S.jpg",
+            "description": "Dumps to Berlin. Left hand bump on the FFT image.",
             "data": []
         },
         {
             "name": "S-band 2",
             "status": "i",
-            "frequency": "2263 MHz",
+            "frequency": "2266 MHz",
             "polarization": "RHCP",
-            "symbolrate": "???",
-            "image": "TODO",
-            "description": "Dumps to Berlin",
+            "symbolrate": "1.2 Msym/s",
+            "image": "Tubin-S.jpg",
+            "description": "Dumps to Berlin. Right hand bump on the FFT image.",
             "data": []
         }
     ]
@@ -3734,7 +3840,7 @@
     "agency": "NASA",
     "start": "18-12-1999",
     "end": "",
-    "description": "TODO",
+    "description": "NASA EOS satellite, DB transmissions stopped because of power supply issues.",
     "signals": [
         {
             "name": "Ka-band TDRS dumps",
