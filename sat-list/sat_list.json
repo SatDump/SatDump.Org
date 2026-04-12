@@ -2387,7 +2387,7 @@
             "frequency": "2230 MHz",
             "polarization": "RHCP",
             "symbolrate": "???",
-            "image": "TODO",
+            "image": "MetopFG-TLM.jpg",
             "description": "Telemetry broadcast.",
             "data": []
         },
@@ -2437,7 +2437,7 @@
             "frequency": "2230 MHz",
             "polarization": "RHCP",
             "symbolrate": "???",
-            "image": "TODO",
+            "image": "MetopFG-TLM.jpg",
             "description": "Telemetry broadcast.",
             "data": []
         },
