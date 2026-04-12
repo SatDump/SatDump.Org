@@ -1044,7 +1044,7 @@
             "polarization": "Linear",
             "symbolrate": "??? ksym/s",
             "image": "TODO",
-            "description": "Transmitted every hour at XX:48 except 05:48Z and every 6 hours onwards. Does not transmit any imagery, is only filler throughout.",
+            "description": "Transmitted every 3 hours starting at 00:48 except 05:48Z. Does not transmit any imagery, is only the transmitter's test pattern.",
             "data": []
         },
         {
