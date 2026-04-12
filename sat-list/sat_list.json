@@ -1348,10 +1348,10 @@
         {
             "name": "Telemetry",
             "status": "i",
-            "frequency": "22XX MHz",
+            "frequency": "2252.9 MHz",
             "polarization": "LHCP",
             "symbolrate": "8192 sym/s",
-            "image": "TODO",
+            "image": "Fengyun-3E_TLM.jps",
             "description": "Telemetry downlink",
             "data": []
         }
