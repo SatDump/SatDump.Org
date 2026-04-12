@@ -1307,11 +1307,11 @@
         },
         {
             "name": "Telemetry",
-            "status": "i",
-            "frequency": "22XX MHz",
+            "status": "a",
+            "frequency": "2252.9 MHz",
             "polarization": "LHCP",
             "symbolrate": "8192 sym/s",
-            "image": "TODO",
+             "image": "Fengyun-3E_TLM.jpg",
             "description": "Telemetry downlink",
             "data": []
         }
@@ -1347,11 +1347,11 @@
         },
         {
             "name": "Telemetry",
-            "status": "i",
-            "frequency": "2252.9 MHz",
+            "status": "a",
+            "frequency": "???",
             "polarization": "LHCP",
             "symbolrate": "8192 sym/s",
-            "image": "Fengyun-3E_TLM.jps",
+            "image": "TODO",
             "description": "Telemetry downlink",
             "data": []
         }
@@ -1417,7 +1417,7 @@
         },
         {
             "name": "Telemetry",
-            "status": "i",
+            "status": "a",
             "frequency": "22XX MHz",
             "polarization": "LHCP",
             "symbolrate": "8192 sym/s",
