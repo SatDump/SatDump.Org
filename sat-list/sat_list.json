@@ -252,9 +252,9 @@
             "status": "a",
             "frequency": "2234.4 MHz",
             "polarization": "RHCP",
-            "symbolrate": "64 Ksym/s?",
+            "symbolrate": "???",
             "image": "BritePL.jpg",
-            "description": "TODO",
+            "description": "Pictured is the signal switching from a wide to a narrow transmission",
             "data": []
         }
     ]
