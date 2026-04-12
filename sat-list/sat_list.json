@@ -2178,7 +2178,7 @@
             "polarization": "RHCP",
             "symbolrate": "262 ksym/s",
             "image": "Hinode-S-dump.jpg",
-            "description": "Active whenever in range of <a href="https://a-centauri.com/data/media/images/s-band-guide/hinode_gs.png>its groundstations</a>, contains operational data. Multiple receptions might have to be chained together to receive a full dataset.",
+            "description": "Active whenever in range of <a href=\"https://a-centauri.com/data/media/images/s-band-guide/hinode_gs.png\">its groundstations</a>, contains operational data. Multiple receptions might have to be chained together to receive a full dataset.",
             "data": []
         },
         {
