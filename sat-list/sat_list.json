@@ -997,7 +997,7 @@
             "frequency": "1681.6 MHz",
             "polarization": "Linear",
             "symbolrate": "7 Msym/s",
-            "image": "Fengyun-2-CDAS.jpg",
+            "image": "FengYun-2-CDAS.jpg",
             "description": "Raw S-VISSR sensor downlink, transmitted right next to the 1687.5 MHz downlink. Line is transmitted in real time, groundstation processes it and *stretches* it (The S in S-VISSR), then uplinks it to the satellite so it can be downlinked at a lower symbol rate over the 1687.5 MHz transmission. See how the transmission lines up with the gaps of S-VISSR on the FFT picture. Not supported due to the lack of sample data.",
             "data": []
         },
@@ -1053,7 +1053,7 @@
             "frequency": "1681.6 MHz",
             "polarization": "Linear",
             "symbolrate": "7 Msym/s",
-            "image": "TODO",
+            "image": "FengYun-2-CDAS.jpg",
             "description": "Raw S-VISSR sensor downlink, transmitted right next to the 1687.5 MHz downlink. Line is transmitted in real time, groundstation processes it and *stretches* it (The S in S-VISSR), then uplinks it to the satellite so it can be downlinked at a lower symbol rate over the 1687.5 MHz transmission. See how the transmission lines up with the gaps of S-VISSR on the FFT picture. Not supported due to the lack of sample data.",
             "data": []
         },
