@@ -44,7 +44,7 @@ OUTPUT_FILE.write("_Currently maintained by: Meti_\n\n")
 
 failed_generations = 0
 
-for sat_raw in sorted(json.load(SAT_LIST), key=lambda x: x.get("name", "")):
+for sat_raw in sorted(json.load(SAT_LIST), key=lambda x: x.get("name", "").lower()):
 
     try:
         sat = Satellite(**sat_raw)
