@@ -1003,11 +1003,11 @@
         },
         {
             "name": "Telemetry",
-            "status": "i",
+            "status": "a",
             "frequency": "1702.5 MHz",
             "polarization": "Linear",
-            "symbolrate": "??? ksym/s",
-            "image": "TODO",
+            "symbolrate": "N/A (analogue)",
+            "image": "Fengyun-2-TLM.jpg",
             "description": "Always active telemetry downlink.",
             "data": []
         }
@@ -1059,11 +1059,11 @@
         },
         {
             "name": "Telemetry",
-            "status": "i",
+            "status": "a",
             "frequency": "1702.5 MHz",
             "polarization": "Linear",
-            "symbolrate": "??? ksym/s",
-            "image": "TODO",
+            "symbolrate": "N/A (analogue)",
+            "image": "Fengyun-2-TLM.jpg",
             "description": "Always active telemetry downlink.",
             "data": []
         }
