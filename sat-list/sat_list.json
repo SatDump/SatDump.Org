@@ -3638,7 +3638,7 @@
             "frequency": "2245 MHz",
             "polarization": "???",
             "symbolrate": "???",
-            "image": "Saral.jpg",
+            "image": "TODO",
             "description": "Dumps to Kiruna",
             "data": []
         },
@@ -3648,7 +3648,7 @@
             "frequency": "1698.4 mhz",
             "polarization": "RHCP",
             "symbolrate": "400 ksym/s",
-            "image": "TODO",
+            "image": "Saral.jpg",
             "description": "Commonly spotted in L-band, as it is active globally.",
             "data": []
         }
