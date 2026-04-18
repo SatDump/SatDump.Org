@@ -1331,7 +1331,7 @@
             "frequency": "7790 MHz",
             "polarization": "LHCP",
             "symbolrate": "38.4 Msym/s",
-            "image": "TODO",
+            "image": "Fengyun-3F_AHRPT.jpg",
             "description": "Full resolution DB from all instruments",
             "data": []
         },
@@ -1348,11 +1348,11 @@
         {
             "name": "Telemetry",
             "status": "a",
-            "frequency": "???",
+            "frequency": "2264.5 MHz",
             "polarization": "LHCP",
             "symbolrate": "8192 sym/s",
-            "image": "TODO",
-            "description": "Telemetry downlink",
+            "image": "Fengyun-3F_TLM.jpg",
+            "description": "Telemetry downlink.",
             "data": []
         }
     ]
@@ -2467,7 +2467,7 @@
             "frequency": "7825 MHz",
             "polarization": "RHCP",
             "symbolrate": "93.3 Msym/s",
-            "image": "TODO",
+            "image": "MetopSG-DDB.jpg",
             "description": "Direct broadcast from all instruments",
             "data": []
         },
