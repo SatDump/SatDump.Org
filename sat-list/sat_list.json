@@ -1454,6 +1454,16 @@
             "image": "TODO",
             "description": "TODO",
             "data": []
+        },
+        {
+            "name": "Raw data",
+            "status": "a",
+            "frequency": "7500 MHz",
+            "polarization": "RHCP+LHCP",
+            "symbolrate": "100 Msym/s",
+            "image": "TODO",
+            "description": "The source for this information is WMO Oscar, might be incorrect.",
+            "data": []
         }
     ]
 },
@@ -1484,6 +1494,16 @@
             "image": "TODO",
             "description": "TODO",
             "data": []
+        },
+        {
+            "name": "Raw data",
+            "status": "a",
+            "frequency": "7500 MHz",
+            "polarization": "RHCP+LHCP",
+            "symbolrate": "100 Msym/s",
+            "image": "TODO",
+            "description": "The source for this information is WMO Oscar, might be incorrect.",
+            "data": []
         }
     ]
 },
@@ -1513,6 +1533,16 @@
             "symbolrate": "1 Msym/s",
             "image": "TODO",
             "description": "TODO",
+            "data": []
+        },
+        {
+            "name": "Raw data",
+            "status": "a",
+            "frequency": "7500 MHz",
+            "polarization": "RHCP+LHCP",
+            "symbolrate": "100 Msym/s",
+            "image": "TODO",
+            "description": "The source for this information is WMO Oscar, might be incorrect.",
             "data": []
         }
     ]
