@@ -1063,7 +1063,7 @@
             "frequency": "1702.5 MHz",
             "polarization": "Linear",
             "symbolrate": "N/A (analogue)",
-            "image": "Fengyun-2-TLM.jpg",
+            "image": "FengYun-2-TLM.jpg",
             "description": "Always active telemetry downlink.",
             "data": []
         }
