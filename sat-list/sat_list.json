@@ -987,7 +987,7 @@
             "frequency": "1690.5 MHz",
             "polarization": "Linear",
             "symbolrate": "??? ksym/s",
-            "image": "TODO",
+            "image": "FengYun-2-LRIT.jpg",
             "description": "Unused downlink.",
             "data": []
         },
@@ -1043,8 +1043,8 @@
             "frequency": "1690.5 MHz",
             "polarization": "Linear",
             "symbolrate": "??? ksym/s",
-            "image": "TODO",
-            "description": "Transmitted every 3 hours starting at 00:48 except 05:48Z. Does not transmit any imagery, is only the transmitter's test pattern.",
+            "image": "FengYun-2-LRIT.jpg",
+            "description": "Transmitted every 3 hours starting at 00:48. Does not transmit any imagery, is only the transmitter's test pattern. Transmits a fairly strong carrier before and after.",
             "data": []
         },
         {
@@ -1377,7 +1377,7 @@
         },
         {
             "name": "DPT (Dump)",
-            "status": "u",
+            "status": "a",
             "frequency": "??? MHz",
             "polarization": "???",
             "symbolrate": "225 Msym/s",
@@ -1407,7 +1407,7 @@
         },
         {
             "name": "DPT (Dump)",
-            "status": "u",
+            "status": "a",
             "frequency": "8212.5 MHz",
             "polarization": "???",
             "symbolrate": "225 Msym/s",
@@ -1418,10 +1418,10 @@
         {
             "name": "Telemetry",
             "status": "a",
-            "frequency": "22XX MHz",
+            "frequency": "2252.9 MHz",
             "polarization": "LHCP",
             "symbolrate": "8192 sym/s",
-            "image": "TODO",
+            "image": "Fengyun-3H_TLM.jpg",
             "description": "Telemetry downlink",
             "data": []
         }
@@ -2525,10 +2525,10 @@
             "name": "Telemetry",
             "status": "a",
             "frequency": "2231.6 MHz",
-            "polarization": "TODO",
+            "polarization": "RHCP",
             "symbolrate": "TODO",
-            "image": "TODO",
-            "description": "TODO",
+            "image": "MetopSG-TLM.jpg",
+            "description": "Telemetry broadcast.",
             "data": []
         }
     ]
@@ -3698,8 +3698,8 @@
             "frequency": "2256.75 Mhz",
             "polarization": "RHCP",
             "symbolrate": "500 ksym/s",
-            "image": "TODO",
-            "description": "TODO",
+            "image": "Sentinel-6-TLM.jpg",
+            "description": "Telemetry broadcast.",
             "data": []
         }
     ]
