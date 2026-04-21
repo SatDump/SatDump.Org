@@ -1441,7 +1441,7 @@
             "frequency": "1697 MHz",
             "polarization": "Linear",
             "symbolrate": "90 ksym/s",
-            "image": "TODO",
+            "image": "FengYun-4-LRIT.jpg",
             "description": "Encrypted, clear imagery every hour (?). Low bit depth, imagery looks crunchy",
             "data": []
         },
@@ -1481,7 +1481,7 @@
             "frequency": "1697 MHz",
             "polarization": "Linear",
             "symbolrate": "120 ksym/s",
-            "image": "TODO",
+            "image": "FengYun-4-LRIT.jpg",
             "description": "Encrypted, clear imagery every hour (?). Low bit depth, imagery looks crunchy",
             "data": []
         },
@@ -1517,17 +1517,17 @@
     "signals": [
         {
             "name": "LRIT",
-            "status": "u",
+            "status": "a",
             "frequency": "1697 MHz",
             "polarization": "Linear",
             "symbolrate": "120 ksym/s",
-            "image": "TODO",
+            "image": "FengYun-4-LRIT.jpg",
             "description": "Encrypted, clear imagery every hour (?). Low bit depth, imagery looks crunchy",
             "data": []
         },
         {
             "name": "HRIT",
-            "status": "u",
+            "status": "a",
             "frequency": "1681 MHz",
             "polarization": "Linear",
             "symbolrate": "1 Msym/s",
