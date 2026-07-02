@@ -3189,7 +3189,7 @@
             "polarization": "RHCP",
             "symbolrate": "15 Msym/s",
             "image": "JPSS-1_HRD.jpg",
-            "description": "Full resolution DB from all instruments. Has nulls everywhere except, most present when East from your reception position. They are least present when passing West from you at a 30°-50° elevation.",
+            "description": "Full resolution DB from all instruments. Antenna has several nulls, most present when East from your reception position. They are least present when passing West from you at a 30°-50° elevation.",
             "data": []
         },
         {
@@ -3779,7 +3779,7 @@
             "polarization": "RHCP",
             "symbolrate": "15 Msym/s",
             "image": "NPP-HRD.jpg",
-            "description": "Full resolution DB from all instruments. Has nulls everywhere except, most prominent when West from your reception spot. They are least present when passing East from you at a 30°-50° elevation. Null presents itself as slow fading. Spike on the left is not a part of the signal.",
+            "description": "Full resolution DB from all instruments. Antenna has several nulls, most prominent when West from your reception spot. They are least present when passing East from you at a 30°-50° elevation. Null presents itself as slow fading. Spike on the left is not a part of the signal.",
             "data": []
         },
         {
