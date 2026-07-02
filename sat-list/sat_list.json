@@ -676,7 +676,7 @@
             "polarization": "RHCP",
             "symbolrate": "5 ksym/s",
             "image": "Elektro-GGAK.jpg",
-            "description": "Contains telemetry and SEM data. Data decoding currently unsupported due to lack of documentation.",
+            "description": "Contains data from the SEM instrumentation. Data decoding currently unsupported due to lack of documentation.",
             "data": []
         },
         {
@@ -696,7 +696,7 @@
             "polarization": "LHCP",
             "symbolrate": "30.72 Msym/s",
             "image": "Elektro-RDAS.jpg",
-            "description": "Raw MSU-GS data downlink. New image every 30 minutes due to power supply issues, very strong carrier when idle. Beamed to Moscow.",
+            "description": "Raw MSU-GS data downlink. New imagery every 30 minutes (not 15 because of a PSU failure), with the transmission taking around 7 minutes to finish a full set of images. Very strong carrier when idle. Beamed to Moscow.",
             "data": []
         },
         {
@@ -721,12 +721,12 @@
     "signals": [
         {
             "name": "LRIT",
-            "status": "d",
+            "status": "a",
             "frequency": "1691 MHz",
             "polarization": "RHCP",
             "symbolrate": "294 ksym/s",
             "image": "Elektro-LRIT.jpg",
-            "description": "Disabled because of L5 commissioning.",
+            "description": "Transmits channels 1, 2, 3, 4, 9 at a reduced resolution (4 km/px) every 3 hours at 00:42Z and onwards. 06:42Z and 18:42Z are seasonal timeslots.",
             "data": [
                 {
                     "name": "Natural color",
@@ -737,12 +737,12 @@
         },
         {
             "name": "HRIT",
-            "status": "d",
+            "status": "a",
             "frequency": "1691 MHz",
             "polarization": "RHCP",
             "symbolrate": "1.15 Msym/s",
             "image": "Elektro-HRIT.jpg",
-            "description": "Disabled because of L5 commissioning.",
+            "description": "Transmits all channels at a reduced resolution (4 km/px) every 3 hours at 00:12Z and onwards. 06:12Z and 18:12Z are seasonal timeslots.",
             "data": [
                 {
                     "name": "Natural Color",
@@ -753,32 +753,32 @@
         },
         {
             "name": "GGAK",
-            "status": "d",
+            "status": "a",
             "frequency": "1693 MHz",
             "polarization": "RHCP",
             "symbolrate": "5 ksym/s",
             "image": "Elektro-GGAK.jpg",
-            "description": "Contains telemetry and SEM data. Data decoding currently unsupported due to lack of documentation. Disabled because of L5 commissioning.",
+            "description": "Contains data from the SEM instrumentation. Data decoding currently unsupported due to lack of documentation.",
             "data": []
         },
         {
             "name": "DCP",
-            "status": "d",
+            "status": "a",
             "frequency": "1697 MHz",
             "polarization": "RHCP",
             "symbolrate": "???",
             "image": "Elektro-DCP.jpg",
-            "description": "Disabled because of L5 commissioning.",
+            "description": "Contains DCP data, currently unsupported due to unknown modulation.",
             "data": []
         },
         {
             "name": "RDAS",
-            "status": "d",
+            "status": "a",
             "frequency": "7500 MHz",
             "polarization": "RHCP",
             "symbolrate": "30.72 Msym/s",
             "image": "Elektro-RDAS.jpg",
-            "description": "Disabled because of L5 commissining.",
+            "description": "Raw MSU-GS data downlink. New imagery every 15 minutes, with the transmission taking around 7 minutes to finish a full set of images. Very strong carrier when idle. Beamed to Moscow.",
             "data": []
         },
         {
@@ -808,7 +808,7 @@
             "polarization": "RHCP",
             "symbolrate": "294 ksym/s",
             "image": "Elektro-LRIT.jpg",
-            "description": "Transmitted every 00:42 UTC and every 3 hours onwards. 06:42 and 18:42 UTC are seasonal timeslots not persent during winter months. Channels are broadcasted seemingly at random, broadcasts are often skipped. Transmission abruptly shuts down after 15 minutes.",
+            "description": "Transmits seemingly random channels at a reduced resolution (4 km/px) every 00:42 UTC and every 3 hours onwards. 06:42 and 18:42 UTC are seasonal timeslots not persent during winter months. Channels are broadcasted seemingly at random, broadcasts are often skipped. Transmission abruptly shuts down after 15 minutes.",
             "data": [
                 {
                     "name": "Natural color",
@@ -824,7 +824,7 @@
             "polarization": "RHCP",
             "symbolrate": "1.15 Msym/s",
             "image": "Elektro-HRIT.jpg",
-            "description": "Transmitted every 00:12 UTC and every 3 hours onwards. 06:12 and 18:12 UTC are seasonal timeslots not persent during winter months. Contains all MSU-GS channels.",
+            "description": "Transmits all channels at a reduced resolution (4 km/px) every 00:12 UTC and every 3 hours onwards. 06:12 and 18:12 UTC are seasonal timeslots not persent during winter months.",
             "data": [
                 {
                     "name": "Natural Color",
@@ -840,7 +840,7 @@
             "polarization": "RHCP",
             "symbolrate": "5 ksym/s",
             "image": "Elektro-GGAK.jpg",
-            "description": "Contains telemetry and SEM data. Data decoding currently unsupported due to lack of documentation.",
+            "description": "Contains data from the SEM instrumentation. Data decoding currently unsupported due to lack of documentation.",
             "data": []
         },
         {
@@ -860,7 +860,7 @@
             "polarization": "LHCP",
             "symbolrate": "30.72 Msym/s",
             "image": "Elektro-RDAS.jpg",
-            "description": "Raw MSU-GS data downlink. New image every 15 minutes, very strong carrier when idle. Beamed to Vladivostok.",
+            "description": "Raw MSU-GS data downlink. New imagery every 15 minutes, with the transmission taking around 7 minutes to finish a full set of images. Very strong carrier when idle. Beamed to Vladivostok.",
             "data": []
         },
         {
@@ -885,12 +885,12 @@
     "signals": [
         {
             "name": "LRIT",
-            "status": "a",
+            "status": "d",
             "frequency": "1691 MHz",
             "polarization": "RHCP",
             "symbolrate": "294 ksym/s",
             "image": "Elektro-LRIT.jpg",
-            "description": "Transmitted sporadically around 08:00Z, potential timeslots are X:12Z and every 15 minutes onwards.",
+            "description": "Off for commissioning.",
             "data": [
                 {
                     "name": "Natural color",
@@ -901,12 +901,12 @@
         },
         {
             "name": "HRIT",
-            "status": "a",
+            "status": "d",
             "frequency": "1691 MHz",
             "polarization": "RHCP",
             "symbolrate": "1.15 Msym/s",
             "image": "Elektro-HRIT.jpg",
-            "description": "Transmitted sporadically around 08:00Z, potential timeslots are X:12Z and every 15 minutes onwards.",
+            "description": "Off for commissioning.",
             "data": [
                 {
                     "name": "Natural Color",
@@ -917,32 +917,32 @@
         },
         {
             "name": "GGAK",
-            "status": "a",
+            "status": "d",
             "frequency": "1693 MHz",
             "polarization": "RHCP",
             "symbolrate": "5 ksym/s",
             "image": "Elektro-GGAK.jpg",
-            "description": "Contains telemetry and SEM data. Data decoding currently unsupported due to lack of documentation.",
+            "description": "Off for commissioning.",
             "data": []
         },
         {
             "name": "DCP",
-            "status": "a",
+            "status": "d",
             "frequency": "1697 MHz",
             "polarization": "RHCP",
             "symbolrate": "???",
             "image": "Elektro-DCP.jpg",
-            "description": "Contains DCP data, currently unsupported due to unknown modulation.",
+            "description": "Off for commissioning.",
             "data": []
         },
         {
             "name": "RDAS",
-            "status": "a",
+            "status": "d",
             "frequency": "7500 MHz",
             "polarization": "LHCP",
             "symbolrate": "30.72 Msym/s",
             "image": "Elektro-RDAS.jpg",
-            "description": "Raw MSU-GS data downlink. New image every 15 minutes, very strong carrier when idle. Beamed to Vladivostok.",
+            "description": "Off for commissioning.",
             "data": []
         },
         {
@@ -959,7 +959,7 @@
 },
 {
     "name": "FengYun 2G",
-    "norad": "40367",
+    "norad": "43491",
     "agency": "NSMC",
     "start": "05-06-2018",
     "end": "",
