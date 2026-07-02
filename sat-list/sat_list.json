@@ -835,22 +835,22 @@
         },
         {
             "name": "GGAK",
-            "status": "a",
+            "status": "u",
             "frequency": "1693 MHz",
             "polarization": "RHCP",
             "symbolrate": "5 ksym/s",
             "image": "Elektro-GGAK.jpg",
-            "description": "Contains data from the SEM instrumentation. Data decoding currently unsupported due to lack of documentation.",
+            "description": "Contains data from the SEM instrumentation. Data decoding currently unsupported due to lack of documentation. Possibly being transmitted by L5.",
             "data": []
         },
         {
             "name": "DCP",
-            "status": "a",
+            "status": "u",
             "frequency": "1697 MHz",
             "polarization": "RHCP",
             "symbolrate": "???",
             "image": "Elektro-DCP.jpg",
-            "description": "Contains DCP data, currently unsupported due to unknown modulation.",
+            "description": "Contains DCP data, currently unsupported due to unknown modulation. Possibly being transmitted by L5.",
             "data": []
         },
         {
@@ -917,22 +917,22 @@
         },
         {
             "name": "GGAK",
-            "status": "d",
+            "status": "u",
             "frequency": "1693 MHz",
             "polarization": "RHCP",
             "symbolrate": "5 ksym/s",
             "image": "Elektro-GGAK.jpg",
-            "description": "Off for commissioning.",
+            "description": "Off for commissioning. Possibly transmitting instead of L3.",
             "data": []
         },
         {
             "name": "DCP",
-            "status": "d",
+            "status": "u",
             "frequency": "1697 MHz",
             "polarization": "RHCP",
             "symbolrate": "???",
             "image": "Elektro-DCP.jpg",
-            "description": "Off for commissioning.",
+            "description": "Off for commissioning. Possibly transmitting instead of L3.",
             "data": []
         },
         {
